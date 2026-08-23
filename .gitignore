@@ -1,0 +1,25 @@
+# Build artifacts
+**/bin/
+**/obj/
+__pycache__/
+*.pyc
+
+# Python venv
+.venv/
+venv/
+
+# Game files (copyright)
+output/
+backup/
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
