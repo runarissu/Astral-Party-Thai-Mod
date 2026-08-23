@@ -8,6 +8,10 @@
   <strong>ม็อดแปลภาษาไทยสำหรับ Astral Party (星穹派对)</strong>
 </p>
 
+<p align="center">
+  รองรับเวอร์ชั่น <strong>V3.2.0.1</strong> (INT)
+</p>
+
 ---
 
 ## วิธีติดตั้ง
