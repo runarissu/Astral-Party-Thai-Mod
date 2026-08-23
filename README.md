@@ -10,14 +10,6 @@
 
 ---
 
-## เกี่ยวกับม็อดนี้
-
-เป็นม็อดที่เพิ่มภาษาไทยให้กับเกม Astral Party บน Steam (เวอร์ชั่น INT) ตอนทำติดปัญหาอยู่ 3 อย่างใหญ่ๆ:
-
-- Unity DynamicFont doesn't support GPOS for Thai → baked tone mark positions directly into the font
-- Tone marks (่ ้ ๊ ๋) overlap upper vowels (ี ื) → raised by 277 units
-- Localization lookup causes UI lag → pre-parsed static cache embedded in DLL
-
 ## วิธีติดตั้ง
 
 ### ข้อกำหนด
