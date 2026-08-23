@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cover.jpg" alt="Astral Party" width="480">
+  <img src="assets/hero.jpg" alt="Astral Party" width="640">
 </p>
 
 <h1 align="center">Astral Party Thai Mod</h1>
