@@ -1,6 +1,12 @@
-# Astral Party Thai Mod
+<p align="center">
+  <img src="assets/cover.jpg" alt="Astral Party" width="480">
+</p>
 
-ม็อดแปลภาษาไทยสำหรับ Astral Party (星穹派对)
+<h1 align="center">Astral Party Thai Mod</h1>
+
+<p align="center">
+  <strong>ม็อดแปลภาษาไทยสำหรับ Astral Party (星穹派对)</strong>
+</p>
 
 ---
 
