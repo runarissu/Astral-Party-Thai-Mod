@@ -30,9 +30,9 @@
 
 ม็อดนี้แก้ไข 2 ระบบหลัก:
 
-**Font Redirection** — redirects all font requests to "Prompt Thai Stacked", a DynamicFont with corrected tone mark positions, bypassing Unity's lack of GPOS support for Thai
+**Font Redirection** — เปลี่ยนเส้นทางการขอ font ทั้งหมดไปยัง "Prompt Thai Stacked" ซึ่งเป็น DynamicFont ที่แก้ตำแหน่งวรรณยุกต์แล้ว เพื่อหลีกเลี่ยงปัญหา Unity ที่ไม่รองรับ GPOS สำหรับภาษาไทย
 
-**Translation Cache** — patches all 61 `GetLocal()` methods to read Thai translations from a TSV file via pre-parsed static cache. First call parses and caches into arrays; subsequent calls do a linear search through a small array (~20-50 entries) with zero string allocation
+**Translation Cache** — แพตช์เมธอด `GetLocal()` ทั้ง 61 ตัว ให้อ่านคำแปลจากไฟล์ TSV ผ่าน cache แบบ pre-parsed ครั้งแรกที่เรียกจะ parse และ cache ไว้ใน array การเรียกครั้งต่อไปจะค้นหาจาก array เล็กๆ (~20-50 entries) โดยไม่มีการ allocate string เพิ่ม
 
 ## วิธีถอนการติดตั้ง
 
