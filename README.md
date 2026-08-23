@@ -1,12 +1,6 @@
-<p align="center">
-  <img src="assets/cover.jpg" alt="Astral Party" width="480">
-</p>
+# Astral Party Thai Mod
 
-<h1 align="center">Astral Party Thai Mod</h1>
-
-<p align="center">
-  <strong>ม็อดแปลภาษาไทยสำหรับ Astral Party (星穹派对)</strong>
-</p>
+ม็อดแปลภาษาไทยสำหรับ Astral Party (星穹派对)
 
 ---
 
@@ -39,10 +33,9 @@
 1. **ลบ font**: Control Panel → Fonts → `Prompt Thai Stacked` → Delete
 2. **กู้คืนไฟล์เกม**: Steam → คลิกขวาเกม → Properties → Local Files → Verify integrity of game files
 
-## โครงสร้างไฟล์
+## โครงสร้างไฟล์ใน Release
 
 ```
-release/
 ├── install.bat              # One-click installer
 ├── install.ps1              # Installer script
 ├── fonts/
