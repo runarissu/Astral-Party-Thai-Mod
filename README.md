@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  รองรับเวอร์ชั่น <strong>V3.2.0.1</strong> (INT)
+  รองรับเวอร์ชั่น <strong>V3.2.0.1</strong> (INT) · Mod v1.1.0
 </p>
 
 <p align="center">
@@ -36,31 +36,43 @@
 4. กด **Yes** เมื่อ Windows ถาม UAC
 5. เปิดเกม
 
+## มีอะไรใหม่ใน v1.1.0
+
+- **DynamicFont rendering path** — non-TMP fonts ใช้ Prompt (OS font) ผ่าน DynamicFont แทน TMP fallback เดิม แก้ปัญหา outline หนาดำที่เคยเกิด
+- **Char-based pair adjustments** — ทั้ง TMPFont และ DynamicFont ใช้ char-based lookup แทน glyphIndex หลีกเลี่ยง IL2CPP stripping
+- **Dual pair adjustment data** — `pair_adjustments.bin` สำหรับ TMPFont + `pair_adjustments_prompt.bin` สำหรับ DynamicFont (yOffsets scaled)
+- **8 TMP font bundles** — รวมใน release แล้ว ติดตั้งอัตโนมัติ
+
 ## วิธีการทำงาน
 
-ม็อดนี้แก้ไข 2 ระบบหลัก:
+ม็อดนี้แก้ไข 4 ระบบหลัก:
 
-**Font Redirection** — เปลี่ยนเส้นทางการขอ font ทั้งหมดไปยัง "Prompt Thai Stacked" ซึ่งเป็น DynamicFont ที่แก้ตำแหน่งวรรณยุกต์แล้ว เพื่อหลีกเลี่ยงปัญหา Unity ที่ไม่รองรับ GPOS สำหรับภาษาไทย
+**Font Redirection** — font names ที่ลงท้ายด้วย `_TMP` คงไว้โหลด Thai TMP bundle ผ่าน Addressables ส่วน font names อื่น redirect ไป `"Prompt"` (OS font) เพื่อสร้าง DynamicFont ผ่าน `Font.CreateDynamicFontFromOSFont`
 
-**Translation Cache** — แพตช์เมธอด `GetLocal()` ทั้ง 61 ตัว ให้อ่านคำแปลจากไฟล์ TSV ผ่าน cache แบบ pre-parsed ครั้งแรกที่เรียกจะ parse และ cache ไว้ใน array การเรียกครั้งต่อไปจะค้นหาจาก array เล็กๆ (~20-50 entries) โดยไม่มีการ allocate string เพิ่ม
+**TMP Font Bundles** — clone Unity-built Static TMP_FontAsset (family Prompt) ออกเป็น 8 bundles สำหรับ 8 fonts ของเกม แต่ละ bundle มี pre-baked SDF atlas + glyph-pair adjustments
+
+**Pair Adjustments** — embed 34 pair adjustment records เป็น static arrays ในทั้ง TMPFont และ DynamicFont ใช้ char-based linear search ปรับตำแหน่งวรรณยุกต์/สระลอยให้ถูกต้อง
+
+**Translation Cache** — แพตช์เมธอด `GetLocal()` ทั้ง 61 ตัว ให้อ่านคำแปลจาก `clean_thai.tsv` ผ่าน cache แบบ pre-parsed
 
 ## วิธีถอนการติดตั้ง
 
-1. **ลบ font**: Control Panel → Fonts → `Prompt Thai Stacked` → Delete
+1. **ลบ font**: Control Panel → Fonts → `Prompt Regular` → Delete
 2. **กู้คืนไฟล์เกม**: Steam → คลิกขวาเกม → Properties → Local Files → Verify integrity of game files
 
 ## โครงสร้างไฟล์ใน Release
 
 ```
 ├── install.bat              # One-click installer
-├── install.ps1              # Installer script
+├── install.ps1              # Installer script (v1.1.0)
 ├── fonts/
-│   └── Prompt-Thai-Stacked.ttf
+│   └── Prompt-Regular.ttf   # Thai font (OS font for DynamicFont)
 ├── data/
-│   └── thai_tab.tsv         # Translation table
+│   └── clean_thai.tsv       # Translation table
 └── bundles/
-    ├── hotupdate_dll/       # Patched DLL (font + cache)
-    └── localization/        # Thai localization bundle
+    ├── hotupdate_dll/       # Patched DLL (font redirect + cache + pair adjustments)
+    ├── localization/        # Thai localization bundle
+    └── tmp_fonts/           # 8 Thai TMP font bundles
 ```
 
 ## Disclaimer

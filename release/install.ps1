@@ -1,4 +1,4 @@
-# Astral Party Thai Mod - One-Click Installer
+# Astral Party Thai Mod v1.1.0 - One-Click Installer
 # Usage: Double-click install.bat
 
 $ErrorActionPreference = "Stop"
@@ -14,15 +14,15 @@ if (-not $isAdmin) {
 
 Write-Host ""
 Write-Host "  ==========================================" -ForegroundColor Cyan
-Write-Host "   Astral Party Thai Mod - Installer" -ForegroundColor Cyan
+Write-Host "   Astral Party Thai Mod v1.1.0 - Installer" -ForegroundColor Cyan
 Write-Host "  ==========================================" -ForegroundColor Cyan
 Write-Host ""
 
-# --- Detect game path ---
+# --- Detect game paths ---
 $localLow = Join-Path $env:USERPROFILE "AppData\LocalLow\feimo\AstralParty_INT"
 $gameCache = Join-Path $localLow "com.unity.addressables\AssetBundles"
 
-Write-Host "[1/4] Checking game installation..." -ForegroundColor Yellow
+Write-Host "[1/5] Checking game installation..." -ForegroundColor Yellow
 if (-not (Test-Path $gameCache)) {
     Write-Host "  ERROR: Game data not found." -ForegroundColor Red
     Write-Host "  Make sure Astral Party is installed and has been run at least once." -ForegroundColor Red
@@ -30,11 +30,36 @@ if (-not (Test-Path $gameCache)) {
 }
 Write-Host "  OK" -ForegroundColor Green
 
-# --- Install font ---
+# Find game install dir (for TMP font bundles)
+function Find-GameDir {
+    $steamRoots = @()
+    foreach ($envName in @("PROGRAMFILES(X86)", "PROGRAMFILES")) {
+        $p = (Get-Content "env:$envName" -ErrorAction SilentlyContinue)
+        if ($p) { $steamRoots += "$p\Steam" }
+    }
+    $steamRoots += @("D:\Steam", "E:\Steam", "F:\Steam", "G:\Steam", "D:\SteamLibrary", "E:\SteamLibrary")
+    $commons = @()
+    foreach ($s in $steamRoots) {
+        if (Test-Path "$s\steamapps\libraryfolders.vdf") {
+            Get-Content "$s\steamapps\libraryfolders.vdf" | ForEach-Object {
+                if ($_ -match '"path"\s+"([^"]+)"') { $commons += ($matches[1] -replace '\\\\', '\') + "\steamapps\common" }
+            }
+        }
+        $commons += "$s\steamapps\common"
+    }
+    foreach ($c in $commons) {
+        if (Test-Path "$c\Astral Party\8vJXnINT") { return "$c\Astral Party" }
+    }
+    return $null
+}
+
+$gameDir = Find-GameDir
+
+# --- [2/5] Install font ---
 Write-Host ""
-Write-Host "[2/4] Installing Thai font..." -ForegroundColor Yellow
-$fontFile = Join-Path $scriptDir "fonts\Prompt-Thai-Stacked.ttf"
-$fontDest = Join-Path $env:WINDIR "Fonts\Prompt-Thai-Stacked.ttf"
+Write-Host "[2/5] Installing Thai font (Prompt-Regular)..." -ForegroundColor Yellow
+$fontFile = Join-Path $scriptDir "fonts\Prompt-Regular.ttf"
+$fontDest = Join-Path $env:WINDIR "Fonts\Prompt-Regular.ttf"
 
 if (-not (Test-Path $fontFile)) {
     Write-Host "  ERROR: Font file missing" -ForegroundColor Red
@@ -45,15 +70,15 @@ if (Test-Path $fontDest) {
     Write-Host "  Already installed, skipping" -ForegroundColor DarkGray
 } else {
     Copy-Item $fontFile $fontDest -Force
-    New-ItemProperty "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Fonts" -Name "Prompt Thai Stacked (TrueType)" -Value "Prompt-Thai-Stacked.ttf" -Force | Out-Null
-    Write-Host "  Done" -ForegroundColor Green
+    New-ItemProperty "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Fonts" -Name "Prompt Regular (TrueType)" -Value "Prompt-Regular.ttf" -Force | Out-Null
+    Write-Host "  Done (font family: Prompt)" -ForegroundColor Green
 }
 
-# --- Install TSV ---
+# --- [3/5] Install TSV ---
 Write-Host ""
-Write-Host "[3/4] Installing translation data..." -ForegroundColor Yellow
-$tsvFile = Join-Path $scriptDir "data\thai_tab.tsv"
-$tsvDest = Join-Path $localLow "thai_tab.tsv"
+Write-Host "[3/5] Installing translation data..." -ForegroundColor Yellow
+$tsvFile = Join-Path $scriptDir "data\clean_thai.tsv"
+$tsvDest = Join-Path $localLow "clean_thai.tsv"
 
 if (-not (Test-Path $tsvFile)) {
     Write-Host "  ERROR: Translation file missing" -ForegroundColor Red
@@ -63,11 +88,11 @@ if (-not (Test-Path $tsvFile)) {
 Copy-Item $tsvFile $tsvDest -Force
 Write-Host "  Done" -ForegroundColor Green
 
-# --- Install bundles ---
+# --- [4/5] Install modded bundles (DLL + localization) ---
 Write-Host ""
-Write-Host "[4/4] Installing modded game bundles..." -ForegroundColor Yellow
+Write-Host "[4/5] Installing modded game bundles..." -ForegroundColor Yellow
 
-# DLL bundle (hotupdate) - font redirect + translation cache
+# DLL bundle (hotupdate) - font redirect + translation cache + pair adjustments
 $dllBundleSrc = Join-Path $scriptDir "bundles\hotupdate_dll\__data"
 $dllBundleDst = Join-Path $gameCache "57a198703b66364d5420d39c0d251747\0b399499735aedaf7407a6231d28b0d8\__data"
 
@@ -91,6 +116,38 @@ if (Test-Path $locBundleSrc) {
     Write-Host "  Localization bundle: Done" -ForegroundColor Green
 } else {
     Write-Host "  ERROR: Localization bundle missing" -ForegroundColor Red
+}
+
+# --- [5/5] Install TMP font bundles ---
+Write-Host ""
+Write-Host "[5/5] Installing Thai TMP font bundles (8 fonts)..." -ForegroundColor Yellow
+
+$tmpFontsSrc = Join-Path $scriptDir "bundles\tmp_fonts"
+
+if (-not (Test-Path $tmpFontsSrc)) {
+    Write-Host "  ERROR: TMP font bundles folder missing" -ForegroundColor Red
+} elseif (-not $gameDir) {
+    Write-Host "  WARNING: Could not locate Astral Party install dir." -ForegroundColor Red
+    Write-Host "  TMP font bundles skipped. Non-TMP fonts will still use Prompt OS font." -ForegroundColor Yellow
+} else {
+    $aaDir = "$gameDir\8vJXnINT\AstralParty_INT_Data\StreamingAssets\aa\StandaloneWindows64"
+    if (-not (Test-Path $aaDir)) {
+        Write-Host "  WARNING: StreamingAssets/aa/StandaloneWindows64 not found in: $gameDir" -ForegroundColor Red
+    } else {
+        $fontBundles = Get-ChildItem $tmpFontsSrc -Filter "font_tmp_assets_*.bundle"
+        $installed = 0
+        foreach ($b in $fontBundles) {
+            $bundleDst = "$aaDir\$($b.Name)"
+            $backup = "$bundleDst.original.bak"
+            # Backup original on first install
+            if (-not (Test-Path $backup) -and (Test-Path $bundleDst)) {
+                Copy-Item $bundleDst $backup -Force
+            }
+            Copy-Item $b.FullName $bundleDst -Force
+            $installed++
+        }
+        Write-Host "  Installed $installed TMP font bundles" -ForegroundColor Green
+    }
 }
 
 # --- Done ---
