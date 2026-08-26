@@ -1,0 +1,114 @@
+name: Update views badge
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-views-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update traffic data and badge
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.TRAFFIC_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const branch = 'traffic-data';
+            const dataPath = 'traffic.json';
+            const badgePath = 'views.svg';
+
+            const repository = await github.rest.repos.get({ owner, repo });
+            try {
+              await github.rest.git.getRef({ owner, repo, ref: `heads/${branch}` });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+
+              const defaultRef = await github.rest.git.getRef({
+                owner,
+                repo,
+                ref: `heads/${repository.data.default_branch}`
+              });
+              await github.rest.git.createRef({
+                owner,
+                repo,
+                ref: `refs/heads/${branch}`,
+                sha: defaultRef.data.object.sha
+              });
+            }
+
+            async function getFile(path) {
+              try {
+                const response = await github.rest.repos.getContent({
+                  owner,
+                  repo,
+                  path,
+                  ref: branch
+                });
+                if (Array.isArray(response.data)) {
+                  throw new Error(`${path} is a directory`);
+                }
+                return response.data;
+              } catch (error) {
+                if (error.status === 404) return null;
+                throw error;
+              }
+            }
+
+            const existingData = await getFile(dataPath);
+            const trafficData = existingData
+              ? JSON.parse(Buffer.from(existingData.content, 'base64').toString('utf8'))
+              : { daily: {} };
+            const daily = trafficData.daily ?? {};
+
+            const traffic = await github.rest.repos.getViews({
+              owner,
+              repo,
+              per: 'day'
+            });
+
+            for (const view of traffic.data.views ?? []) {
+              daily[view.timestamp.slice(0, 10)] = view.count;
+            }
+
+            const totalViews = Object.values(daily).reduce((total, count) => total + count, 0);
+            const generatedAt = new Date().toISOString();
+            const updatedData = JSON.stringify({ generatedAt, daily }, null, 2) + '\n';
+            const value = totalViews.toLocaleString('en-US');
+            const labelWidth = 58;
+            const valueWidth = Math.max(48, value.length * 8 + 16);
+            const width = labelWidth + valueWidth;
+            const badge = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="20" role="img" aria-label="views: ${value}"><title>views: ${value}</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="${width}" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="${labelWidth}" height="20" fill="#555"/><rect x="${labelWidth}" width="${valueWidth}" height="20" fill="#007ec6"/><rect width="${width}" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11"><text x="${labelWidth / 2}" y="15" fill="#010101" fill-opacity=".3">views</text><text x="${labelWidth / 2}" y="14">views</text><text x="${labelWidth + valueWidth / 2}" y="15" fill="#010101" fill-opacity=".3">${value}</text><text x="${labelWidth + valueWidth / 2}" y="14">${value}</text></g></svg>`;
+
+            async function updateFile(path, content, message, sha) {
+              return github.rest.repos.createOrUpdateFileContents({
+                owner,
+                repo,
+                path,
+                branch,
+                message,
+                content: Buffer.from(content, 'utf8').toString('base64'),
+                sha: sha ?? undefined
+              });
+            }
+
+            await updateFile(
+              dataPath,
+              updatedData,
+              'chore: update repository traffic data',
+              existingData?.sha
+            );
+
+            const existingBadge = await getFile(badgePath);
+            await updateFile(
+              badgePath,
+              badge,
+              'chore: update views badge',
+              existingBadge?.sha
+            );
+
+            core.info(`Updated views badge with ${value} total views.`);

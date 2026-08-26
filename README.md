@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img alt="Views" src="https://img.shields.io/endpoint?url=https://hits.seeyoufarm.com/api/count/incr&count_bg=%2379C83D&title_bg=%23555555&icon=eye&icon_color=%23E7E7E7&title=views&edge_flat=false">
+  <a href="https://github.com/runarissu/Astral-Party-Thai-Mod/graphs/traffic"><img alt="Repository views" src="https://raw.githubusercontent.com/runarissu/Astral-Party-Thai-Mod/traffic-data/views.svg"></a>
   <img alt="Downloads" src="https://img.shields.io/github/downloads/runarissu/Astral-Party-Thai-Mod/total?color=blue&label=downloads">
   <img alt="Latest Release Downloads" src="https://img.shields.io/github/downloads/runarissu/Astral-Party-Thai-Mod/latest/total?color=success&label=latest%20release">
 </p>
