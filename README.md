@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  รองรับเวอร์ชั่น <strong>V3.2.0.1</strong> (INT) · Mod v1.1.0
+  รองรับเวอร์ชั่น <strong>V3.2.0</strong> hot patch (INT) · Mod v1.2.0
 </p>
 
 <p align="center">
@@ -28,20 +28,36 @@
 - เคยเปิดเกมอย่างน้อย 1 ครั้ง
 - Windows 10/11
 
-### ขั้นตอน
+### ขั้นตอนการติดตั้ง
 
 1. ดาวน์โหลด ZIP จากหน้า [Releases](../../releases)
-2. แตกไฟล์
-3. ดับเบิ้ลคลิก `install.bat`
-4. กด **Yes** เมื่อ Windows ถาม UAC
-5. เปิดเกม
+2. แตกไฟล์ ZIP ไปยังโฟลเดอร์ใดก็ได้
+3. คลิกขวา `install.bat` → เลือก **"Run as administrator"**
+4. กด **Yes** เมื่อ Windows ถาม UAC (User Account Control)
+5. รอจนกว่าจะเห็นข้อความ **"Installation Complete!"** บนหน้าจอ
+6. ปิดหน้าต่าง installer แล้วเปิดเกมได้เลย
 
-## มีอะไรใหม่ใน v1.1.0
+> **หมายเหตุ**: หากติดตั้งม็อดเวอร์ชั่นเก่าแล้ว สามารถติดตั้งทับได้เลย installer จะสำรองไฟล์เดิมเป็น `.original_font` และ `.original.bak` อัตโนมัติ
 
-- **DynamicFont rendering path** — non-TMP fonts ใช้ Prompt (OS font) ผ่าน DynamicFont แทน TMP fallback เดิม แก้ปัญหา outline หนาดำที่เคยเกิด
-- **Char-based pair adjustments** — ทั้ง TMPFont และ DynamicFont ใช้ char-based lookup แทน glyphIndex หลีกเลี่ยง IL2CPP stripping
-- **Dual pair adjustment data** — `pair_adjustments.bin` สำหรับ TMPFont + `pair_adjustments_prompt.bin` สำหรับ DynamicFont (yOffsets scaled)
-- **8 TMP font bundles** — รวมใน release แล้ว ติดตั้งอัตโนมัติ
+### ขั้นตอนที่ installer ทำอัตโนมัติ
+
+| Step | งาน | รายละเอียด |
+|------|-----|-----------|
+| 1/6 | ตรวจสอบเกม | เช็คว่าเกมติดตั้งแล้วและมี cache อยู่ |
+| 2/6 | ติดตั้งฟอนต์ | ติดตั้ง `Prompt-Regular.ttf` ลง Windows Fonts |
+| 3/6 | ติดตั้งคำแปล | คัดลอก `clean_thai.tsv` ไปยัง LocalLow |
+| 4/6 | ติดตั้ง DLL + Localization | แพตช์ DLL bundle (font redirect + cache) และ Thai XML |
+| 5/6 | Inject Thai fonts ใน cache | แทนที่ CDN-delivered font bundles ด้วย Thai clones |
+| 6/6 | ติดตั้ง TMP font bundles | วาง Thai TMP fonts ใน StreamingAssets |
+
+## มีอะไรใหม่ใน v1.2.0
+
+- **รองรับเกม V3.2.0 hot patch** — อัปเดตตามเกมที่เปลี่ยน DLL (GetLocal count 61 → 63) และฟอนต์ผ่าน CDN
+- **แปลเพิ่ม 60+ entry ใหม่** — ระบบ Guild, แผนที่ใหม่ (Heatwave Shores), Relic ใหม่
+- **แปล XML strings เพิ่ม 57 รายการ** — ครอบคลุม UI และข้อความระบบใหม่
+- **Glossary อัปเดต 110 คำ** — เพิ่มคำศัพท์ใหม่และปรับความสม่ำเสมอ
+- **CDN font injection** — รองรับการโหลดฟอนต์ผ่าน CDN ของเกมใหม่ (TMP font cache replacement)
+- **ปรับปรุงความสม่ำเสมอ** — ทบทวนคำแปลทั้ง 7,724 รายการ ปรับ trait descriptions 70 รายการ และ voice lines 33 ตัวละคร
 
 ## วิธีการทำงาน
 
@@ -49,30 +65,32 @@
 
 **Font Redirection** — font names ที่ลงท้ายด้วย `_TMP` คงไว้โหลด Thai TMP bundle ผ่าน Addressables ส่วน font names อื่น redirect ไป `"Prompt"` (OS font) เพื่อสร้าง DynamicFont ผ่าน `Font.CreateDynamicFontFromOSFont`
 
-**TMP Font Bundles** — clone Unity-built Static TMP_FontAsset (family Prompt) ออกเป็น 8 bundles สำหรับ 8 fonts ของเกม แต่ละ bundle มี pre-baked SDF atlas + glyph-pair adjustments
+**TMP Font Bundles** — clone Unity-built Static TMP_FontAsset (family Prompt) ออกเป็น 12 bundles สำหรับ fonts ของเกม แต่ละ bundle มี pre-baked SDF atlas + glyph-pair adjustments
 
-**Pair Adjustments** — embed 34 pair adjustment records เป็น static arrays ในทั้ง TMPFont และ DynamicFont ใช้ char-based linear search ปรับตำแหน่งวรรณยุกต์/สระลอยให้ถูกต้อง
+**Pair Adjustments** — embed pair adjustment records เป็น static arrays ในทั้ง TMPFont และ DynamicFont ใช้ char-based linear search ปรับตำแหน่งวรรณยุกต์/สระลอยให้ถูกต้อง
 
-**Translation Cache** — แพตช์เมธอด `GetLocal()` ทั้ง 61 ตัว ให้อ่านคำแปลจาก `clean_thai.tsv` ผ่าน cache แบบ pre-parsed
+**Translation Cache** — แพตช์เมธอด `GetLocal()` ทั้ง 63 ตัว ให้อ่านคำแปลจาก `clean_thai.tsv` ผ่าน cache แบบ pre-parsed
 
 ## วิธีถอนการติดตั้ง
 
 1. **ลบ font**: Control Panel → Fonts → `Prompt Regular` → Delete
 2. **กู้คืนไฟล์เกม**: Steam → คลิกขวาเกม → Properties → Local Files → Verify integrity of game files
+3. **ลบ cache ม็อด** (ถ้ามี): ลบโฟลเดอร์ `AppData\LocalLow\feimo\AstralParty_INT\com.unity.addressables\AssetBundles` แล้วเปิดเกมใหม่เพื่อดาวน์โหลด cache ใหม่จากเซิร์ฟเวอร์
 
 ## โครงสร้างไฟล์ใน Release
 
 ```
-├── install.bat              # One-click installer
-├── install.ps1              # Installer script (v1.1.0)
+├── install.bat              # One-click installer (Run as admin)
+├── install.ps1              # Installer script (v1.2.0)
 ├── fonts/
 │   └── Prompt-Regular.ttf   # Thai font (OS font for DynamicFont)
 ├── data/
-│   └── clean_thai.tsv       # Translation table
+│   └── clean_thai.tsv       # Translation table (7,724 entries)
 └── bundles/
     ├── hotupdate_dll/       # Patched DLL (font redirect + cache + pair adjustments)
-    ├── localization/        # Thai localization bundle
-    └── tmp_fonts/           # 8 Thai TMP font bundles
+    ├── localization/        # Thai localization bundle (XML)
+    ├── font_cache/          # Thai font cache replacements (CDN injection)
+    └── tmp_fonts/           # 12 Thai TMP font bundles
 ```
 
 ## Disclaimer
