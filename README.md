@@ -65,7 +65,7 @@
 
 **Font Redirection** — font names ที่ลงท้ายด้วย `_TMP` คงไว้โหลด Thai TMP bundle ผ่าน Addressables ส่วน font names อื่น redirect ไป `"Prompt"` (OS font) เพื่อสร้าง DynamicFont ผ่าน `Font.CreateDynamicFontFromOSFont`
 
-**TMP Font Bundles** — clone Unity-built Static TMP_FontAsset (family Prompt) ออกเป็น 12 bundles สำหรับ fonts ของเกม แต่ละ bundle มี pre-baked SDF atlas + glyph-pair adjustments
+**TMP Font Bundles** — clone Unity-built Static TMP_FontAsset (family Prompt) ออกเป็น 13 bundles สำหรับ fonts ของเกม แต่ละ bundle มี pre-baked SDF atlas + glyph-pair adjustments
 
 **Pair Adjustments** — embed pair adjustment records เป็น static arrays ในทั้ง TMPFont และ DynamicFont ใช้ char-based linear search ปรับตำแหน่งวรรณยุกต์/สระลอยให้ถูกต้อง
 
@@ -90,7 +90,7 @@
     ├── hotupdate_dll/       # Patched DLL (font redirect + cache + pair adjustments)
     ├── localization/        # Thai localization bundle (XML)
     ├── font_cache/          # Thai font cache replacements (CDN injection)
-    └── tmp_fonts/           # 12 Thai TMP font bundles
+    └── tmp_fonts/           # 13 Thai TMP font bundles
 ```
 
 ## Disclaimer
