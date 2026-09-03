@@ -1,4 +1,4 @@
-# Astral Party Thai Mod v1.1.0 - One-Click Installer
+# Astral Party Thai Mod v1.2.0 - One-Click Installer
 # Usage: Double-click install.bat
 
 $ErrorActionPreference = "Stop"
@@ -14,7 +14,7 @@ if (-not $isAdmin) {
 
 Write-Host ""
 Write-Host "  ==========================================" -ForegroundColor Cyan
-Write-Host "   Astral Party Thai Mod v1.1.0 - Installer" -ForegroundColor Cyan
+Write-Host "   Astral Party Thai Mod v1.2.0 - Installer" -ForegroundColor Cyan
 Write-Host "  ==========================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -22,7 +22,7 @@ Write-Host ""
 $localLow = Join-Path $env:USERPROFILE "AppData\LocalLow\feimo\AstralParty_INT"
 $gameCache = Join-Path $localLow "com.unity.addressables\AssetBundles"
 
-Write-Host "[1/5] Checking game installation..." -ForegroundColor Yellow
+Write-Host "[1/6] Checking game installation..." -ForegroundColor Yellow
 if (-not (Test-Path $gameCache)) {
     Write-Host "  ERROR: Game data not found." -ForegroundColor Red
     Write-Host "  Make sure Astral Party is installed and has been run at least once." -ForegroundColor Red
@@ -55,9 +55,9 @@ function Find-GameDir {
 
 $gameDir = Find-GameDir
 
-# --- [2/5] Install font ---
+# --- [2/6] Install font ---
 Write-Host ""
-Write-Host "[2/5] Installing Thai font (Prompt-Regular)..." -ForegroundColor Yellow
+Write-Host "[2/6] Installing Thai font (Prompt-Regular)..." -ForegroundColor Yellow
 $fontFile = Join-Path $scriptDir "fonts\Prompt-Regular.ttf"
 $fontDest = Join-Path $env:WINDIR "Fonts\Prompt-Regular.ttf"
 
@@ -74,9 +74,9 @@ if (Test-Path $fontDest) {
     Write-Host "  Done (font family: Prompt)" -ForegroundColor Green
 }
 
-# --- [3/5] Install TSV ---
+# --- [3/6] Install TSV ---
 Write-Host ""
-Write-Host "[3/5] Installing translation data..." -ForegroundColor Yellow
+Write-Host "[3/6] Installing translation data..." -ForegroundColor Yellow
 $tsvFile = Join-Path $scriptDir "data\clean_thai.tsv"
 $tsvDest = Join-Path $localLow "clean_thai.tsv"
 
@@ -88,39 +88,79 @@ if (-not (Test-Path $tsvFile)) {
 Copy-Item $tsvFile $tsvDest -Force
 Write-Host "  Done" -ForegroundColor Green
 
-# --- [4/5] Install modded bundles (DLL + localization) ---
+# --- [4/6] Install modded bundles (DLL + localization) ---
 Write-Host ""
-Write-Host "[4/5] Installing modded game bundles..." -ForegroundColor Yellow
+Write-Host "[4/6] Installing modded game bundles..." -ForegroundColor Yellow
 
 # DLL bundle (hotupdate) - font redirect + translation cache + pair adjustments
-$dllBundleSrc = Join-Path $scriptDir "bundles\hotupdate_dll\__data"
-$dllBundleDst = Join-Path $gameCache "57a198703b66364d5420d39c0d251747\0b399499735aedaf7407a6231d28b0d8\__data"
-
-if (Test-Path $dllBundleSrc) {
-    $dllDstDir = Split-Path -Parent $dllBundleDst
-    if (-not (Test-Path $dllDstDir)) { New-Item -ItemType Directory -Path $dllDstDir -Force | Out-Null }
-    Copy-Item $dllBundleSrc $dllBundleDst -Force
-    Write-Host "  DLL bundle: Done" -ForegroundColor Green
+# Install to ALL known cache paths (the game may use either after updates)
+$dllPaths = @(
+    "57a198703b66364d5420d39c0d251747\ff3e9df1d11d8ce42fbc742247cefac2",
+    "57a198703b66364d5420d39c0d251747\0b399499735aedaf7407a6231d28b0d8"
+)
+$dllInstalled = 0
+foreach ($relPath in $dllPaths) {
+    $dllBundleSrc = Join-Path $scriptDir "bundles\hotupdate_dll\$relPath\__data"
+    $dllBundleDst = Join-Path $gameCache "$relPath\__data"
+    if (Test-Path $dllBundleSrc) {
+        $dllDstDir = Split-Path -Parent $dllBundleDst
+        if (-not (Test-Path $dllDstDir)) { New-Item -ItemType Directory -Path $dllDstDir -Force | Out-Null }
+        Copy-Item $dllBundleSrc $dllBundleDst -Force
+        $dllInstalled++
+    }
+}
+if ($dllInstalled -gt 0) {
+    Write-Host "  DLL bundle: Done ($dllInstalled paths)" -ForegroundColor Green
 } else {
     Write-Host "  ERROR: DLL bundle missing" -ForegroundColor Red
 }
 
-# Localization bundle (Thai XML)
-$locBundleSrc = Join-Path $scriptDir "bundles\localization\__data"
-$locBundleDst = Join-Path $gameCache "f138d1971657be74d0155ab4d3cae489\c46f44479ac51ea2599b923ef9727291\__data"
-
-if (Test-Path $locBundleSrc) {
+# Localization bundle (Thai XML) - install to all available paths
+$locBundleSrc = Join-Path $scriptDir "bundles\localization"
+$locFiles = Get-ChildItem $locBundleSrc -Recurse -Filter "__data" -ErrorAction SilentlyContinue
+$locInstalled = 0
+foreach ($f in $locFiles) {
+    $relPath = $f.FullName.Substring($locBundleSrc.Length + 1)
+    $locBundleDst = Join-Path $gameCache $relPath
     $locDstDir = Split-Path -Parent $locBundleDst
     if (-not (Test-Path $locDstDir)) { New-Item -ItemType Directory -Path $locDstDir -Force | Out-Null }
-    Copy-Item $locBundleSrc $locBundleDst -Force
-    Write-Host "  Localization bundle: Done" -ForegroundColor Green
+    Copy-Item $f.FullName $locBundleDst -Force
+    $locInstalled++
+}
+if ($locInstalled -gt 0) {
+    Write-Host "  Localization bundle: Done ($locInstalled paths)" -ForegroundColor Green
 } else {
     Write-Host "  ERROR: Localization bundle missing" -ForegroundColor Red
 }
 
-# --- [5/5] Install TMP font bundles ---
+# --- [5/6] Inject Thai fonts into Addressables cache ---
+# The game update moved 5 TMP fonts to CDN delivery (contentupdate_* bundles).
+# We pre-place our Thai font clones in the cache so the game loads them
+# instead of downloading the originals.
 Write-Host ""
-Write-Host "[5/5] Installing Thai TMP font bundles (8 fonts)..." -ForegroundColor Yellow
+Write-Host "[5/6] Injecting Thai fonts into Addressables cache..." -ForegroundColor Yellow
+
+$fontCacheSrc = Join-Path $scriptDir "bundles\font_cache"
+$fontCacheFiles = Get-ChildItem $fontCacheSrc -Recurse -Filter "__data" -ErrorAction SilentlyContinue
+$fontCacheInstalled = 0
+foreach ($f in $fontCacheFiles) {
+    $relPath = $f.FullName.Substring($fontCacheSrc.Length + 1)
+    $dst = Join-Path $gameCache $relPath
+    $dstDir = Split-Path -Parent $dst
+    if (-not (Test-Path $dstDir)) { New-Item -ItemType Directory -Path $dstDir -Force | Out-Null }
+    # Backup original on first install
+    $origBackup = Join-Path $dstDir "__data.original_font"
+    if (-not (Test-Path $origBackup) -and (Test-Path $dst)) {
+        Copy-Item $dst $origBackup -Force
+    }
+    Copy-Item $f.FullName $dst -Force
+    $fontCacheInstalled++
+}
+Write-Host "  Injected $fontCacheInstalled Thai font cache entries" -ForegroundColor Green
+
+# --- [5/6] Install TMP font bundles ---
+Write-Host ""
+Write-Host "[6/6] Installing Thai TMP font bundles..." -ForegroundColor Yellow
 
 $tmpFontsSrc = Join-Path $scriptDir "bundles\tmp_fonts"
 

@@ -1,10 +1,10 @@
 @echo off
-:: Check if running as admin
 net session >nul 2>&1
-if %errorLevel% neq 0 (
-    echo Requesting administrator privileges...
-    powershell -Command "Start-Process cmd -ArgumentList '/c %~dpnx0' -Verb RunAs"
-    exit /b
+if %errorlevel% neq 0 (
+    echo This installer requires Administrator privileges.
+    echo Right-click and select "Run as administrator".
+    pause
+    exit /b 1
 )
 powershell -ExecutionPolicy Bypass -File "%~dp0install.ps1"
 pause
