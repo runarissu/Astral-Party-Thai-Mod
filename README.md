@@ -20,6 +20,29 @@
 
 ---
 
+## ตัวอย่างภาพในเกม
+
+<table>
+  <tr>
+    <td><img src="assets/2026-09-05_00-45-42.jpg" width="480"></td>
+    <td><img src="assets/2026-09-05_00-46-07.png" width="480"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/2026-09-05_00-46-53.png" width="480"></td>
+    <td><img src="assets/2026-09-05_00-47-35.png" width="480"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/2026-09-05_00-48-32.png" width="480"></td>
+    <td><img src="assets/2026-09-05_00-48-44.png" width="480"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/2026-09-05_00-49-57.jpg" width="480"></td>
+    <td><img src="assets/2026-09-05_00-50-49.jpg" width="480"></td>
+  </tr>
+</table>
+
+---
+
 ## วิธีติดตั้ง
 
 ### ข้อกำหนด
