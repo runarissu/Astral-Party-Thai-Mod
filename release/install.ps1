@@ -1,4 +1,4 @@
-# Astral Party Thai Mod v1.2.0 - One-Click Installer
+# Astral Party Thai Mod v1.3.0 - One-Click Installer
 # Usage: Double-click install.bat
 
 $ErrorActionPreference = "Stop"
@@ -14,7 +14,7 @@ if (-not $isAdmin) {
 
 Write-Host ""
 Write-Host "  ==========================================" -ForegroundColor Cyan
-Write-Host "   Astral Party Thai Mod v1.2.0 - Installer" -ForegroundColor Cyan
+Write-Host "   Astral Party Thai Mod v1.3.0 - Installer" -ForegroundColor Cyan
 Write-Host "  ==========================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -93,11 +93,18 @@ Write-Host ""
 Write-Host "[4/6] Installing modded game bundles..." -ForegroundColor Yellow
 
 # DLL bundle (hotupdate) - font redirect + translation cache + pair adjustments
-# Install to ALL known cache paths (the game may use either after updates)
-$dllPaths = @(
-    "57a198703b66364d5420d39c0d251747\ff3e9df1d11d8ce42fbc742247cefac2",
-    "57a198703b66364d5420d39c0d251747\0b399499735aedaf7407a6231d28b0d8"
-)
+# Read cache paths from manifest (supports game updates that change cache paths)
+$dllManifest = Join-Path $scriptDir "bundles\hotupdate_dll\_cache_paths.txt"
+if (Test-Path $dllManifest) {
+    $dllPaths = Get-Content $dllManifest | Where-Object { $_.Trim() } | ForEach-Object { $_.Trim() }
+} else {
+    # Fallback to known paths
+    $dllPaths = @(
+        "57a198703b66364d5420d39c0d251747\5574058c33a393c58a2d30108a7b0572",
+        "57a198703b66364d5420d39c0d251747\ff3e9df1d11d8ce42fbc742247cefac2",
+        "57a198703b66364d5420d39c0d251747\0b399499735aedaf7407a6231d28b0d8"
+    )
+}
 $dllInstalled = 0
 foreach ($relPath in $dllPaths) {
     $dllBundleSrc = Join-Path $scriptDir "bundles\hotupdate_dll\$relPath\__data"

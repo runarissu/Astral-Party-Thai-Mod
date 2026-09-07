@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  รองรับเวอร์ชั่น <strong>V3.2.0</strong> hot patch (INT) · Mod v1.2.0
+  รองรับเวอร์ชั่น <strong>V3.2.0</strong> hot patch (INT) · Mod v1.3.0
 </p>
 
 <p align="center">
@@ -73,6 +73,13 @@
 | 5/6 | Inject Thai fonts ใน cache | แทนที่ CDN-delivered font bundles ด้วย Thai clones |
 | 6/6 | ติดตั้ง TMP font bundles | วาง Thai TMP fonts ใน StreamingAssets |
 
+## มีอะไรใหม่ใน v1.3.0
+
+- **รองรับเกมอัปเดต 2026-09-07** — เกมปรับ balance มอนสเตอร์ (Jelly Wizard 1 → 2 ตัวใน STRMapEvent)
+- **อัปเดต DLL cache path ใหม่** — เกมเปลี่ยน hotupdate DLL cache path จาก 2 paths เป็น 1 path ใหม่
+- **Installer ใช้ dynamic cache paths** — อ่านจาก manifest แทน hardcoded paths รองรับ game update ในอนาคต
+- **คำแปลเดิมครบทั้งหมด** — 7,724 entries เท่าเดิม แก้เฉพาะ 2 entries ที่เกมเปลี่ยน
+
 ## มีอะไรใหม่ใน v1.2.0
 
 - **รองรับเกม V3.2.0 hot patch** — อัปเดตตามเกมที่เปลี่ยน DLL (GetLocal count 61 → 63) และฟอนต์ผ่าน CDN
@@ -104,7 +111,7 @@
 
 ```
 ├── install.bat              # One-click installer (Run as admin)
-├── install.ps1              # Installer script (v1.2.0)
+├── install.ps1              # Installer script (v1.3.0)
 ├── fonts/
 │   └── Prompt-Regular.ttf   # Thai font (OS font for DynamicFont)
 ├── data/

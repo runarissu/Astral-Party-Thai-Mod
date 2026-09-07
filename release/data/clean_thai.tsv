@@ -102,7 +102,7 @@ STRAchieveLocalConfigure	172200	ฮีโร่จักรกล
 STRAchieveLocalConfigure	172300	ฮู้เฟิงสุ่ย
 STRAchieveLocalConfigure	172400	เซียนมิคามิ
 STRAchieveLocalConfigure	172500	ช่างปืน
-STRAchieveLocalConfigure	172600	เจียวแห่งหนองน้ำ
+STRAchieveLocalConfigure	172600	Jiao แห่งหนองน้ำ
 STRAchieveLocalConfigure	172700	แอปเปิ้ลพิษ
 STRAchieveLocalConfigure	172800	กองกำลังเหนือธรรมชาติ
 STRAchieveLocalConfigure	172900	ตัวอ่อนอะบิส
@@ -449,7 +449,7 @@ STRActivityLocalConfigure	6062811	งานรื่นเริงซัมเ�
 STRActivityLocalConfigure	6073010	7 วันแห่งของขวัญ
 STRActivityLocalConfigure	6999801	ดาวประสงค์เรืองรอง
 STRActivityLocalConfigure	6081300	เสบียงของ Amy
-STRActivityLocalConfigure	6100100	ของขวัญวันหยุด
+STRActivityLocalConfigure	6100100	สวัสดิการวันหยุด
 STRActivityLocalConfigure	6100102	ความคืบหน้าปัจจุบัน ({0}/{1})
 STRActivityLocalConfigure	6100103	ใบที่ {0}
 STRActivityLocalConfigure	6090300	Magical Girl Night
@@ -1615,7 +1615,7 @@ STRCharacterLocalConfigure	1221	ฮีโร่จักรกล์
 STRCharacterLocalConfigure	1231	เซียนฮวงจุ้ย
 STRCharacterLocalConfigure	1241	ปูชนียบุคคลแห่งมิคามิ
 STRCharacterLocalConfigure	1251	ช่างปืน
-STRCharacterLocalConfigure	1261	เจียวแห่งหนองน้ำ
+STRCharacterLocalConfigure	1261	Jiao แห่งหนองน้ำ
 STRCharacterLocalConfigure	1271	แอปเปิ้ลพิษ
 STRCharacterLocalConfigure	1281	กองกำลังเหนือธรรมชาติ
 STRCharacterLocalConfigure	1291	ตัวอ่อนอะบิส
@@ -2536,7 +2536,7 @@ STRGachaLocalConfigure	20251031	ช่างปืน
 STRGachaLocalConfigure	20251121	ทางแพร่งแห่งโชคชะตา
 STRGachaLocalConfigure	20251122	แฟลชเที่ยงคืน-Star luka
 STRGachaLocalConfigure	20251123	ทางแพร่งพรหมลิขิต [size=25]รีรัน[/size]
-STRGachaLocalConfigure	20251205	เจียวแห่งหนองน้ำ
+STRGachaLocalConfigure	20251205	Jiao แห่งหนองน้ำ
 STRGachaLocalConfigure	20251207	รถม้ามนุษย์
 STRGachaLocalConfigure	20269999	สำหรับมือใหม่เท่านั้น
 STRGachaLocalConfigure	999	ทุก 10 ครั้งในกองนี้ใช้ คาสเซ็ต Gacha 8 ใบ สูงสุด 60 ครั้ง\nการสุ่มจะได้ จิ๊กซอว์ดวงดาว สามารถแลกเป็นตัวละครที่เลือกได้ การันตีอย่างน้อย 1 ไอเทมระดับสีม่วงขึ้นไปใน 10 ครั้งการสุ่มติดต่อกัน การันตีอย่างน้อย 1 ตัวละครใน 40 ครั้งการสุ่มติดต่อกัน หลังสุ่ม 60 ครั้ง สามารถเลือก 1 ตัวละครจากรายการที่กำหนดได้ กองนี้จะเปิดให้ใช้งานจนกว่าจะรับตัวละครที่เลือกจากความคืบหน้า 60 ครั้งด้วยตนเอง หลังจากนั้นกองนี้จะหายไป\nอัตราที่แสดงด้านล่างจะปัดเศษเป็นทศนิยม 2 ตำแหน่ง
@@ -3093,7 +3093,7 @@ STRItemLocalConfigure	72023	ลูกเต๋าเกมตู้ A
 STRItemLocalConfigure	72024	ลูกเต๋าเกมตู้ B
 STRItemLocalConfigure	72025	ลูกเต๋ามอนสเตอร์
 STRItemLocalConfigure	72026	ลูกเต๋านักสืบประหลาด
-STRItemLocalConfigure	72027	ลูกเต๋า
+STRItemLocalConfigure	72027	ลูกเต๋าโปรเกมเมอร์
 STRItemLocalConfigure	72028	ลูกเต๋าสาวนักขาย
 STRItemLocalConfigure	72029	ลูกเต๋าหุ่นยนต์เก็บขยะ
 STRItemLocalConfigure	72030	ลูกเต๋าสาวสไลม์
@@ -4880,8 +4880,8 @@ STRMapEventLocalConfigure	321111	เกิดโจรสลัดฉลาม�
 STRMapEventLocalConfigure	321121	เกิดโจรสลัดฉลามจักรกล 1 ตัว และแกนกลางจักรกล 1 ตัว
 STRMapEventLocalConfigure	321211	ผู้คุมใหญ่ปรากฏตัว พร้อมเกิดผู้เฝ้ายาม 1 ตัว และกาน้ำชาเวทมนตร์ 3 ใบ
 STRMapEventLocalConfigure	321221	เกิดกาน้ำชาผู้บาป 3 ใบ และโจรตำนาน 1 ตัว มอนสเตอร์ทุกตัวได้ ATK +1 และ DEF +1
-STRMapEventLocalConfigure	321231	เกิดผู้เฝ้ายาม 1 ตัว พ่อมดเจลลี่ 1 ตัว และโจรตำนาน 1 ตัว
-STRMapEventLocalConfigure	321241	เกิดผู้เฝ้ายาม 1 ตัว และพ่อมดเจลลี่ 1 ตัว มอนสเตอร์ทุกตัวได้ ATK +1 และ DEF +1
+STRMapEventLocalConfigure	321231	เกิดผู้เฝ้ายาม 1 ตัว พ่อมดเจลลี่ 2 ตัว และโจรตำนาน 1 ตัว
+STRMapEventLocalConfigure	321241	เกิดผู้เฝ้ายาม 1 ตัว และพ่อมดเจลลี่ 2 ตัว มอนสเตอร์ทุกตัวได้ ATK +1 และ DEF +1
 STRMapEventLocalConfigure	330011	สุ่มเกิดโจรสลัดชั้นสูง 1 ตัว และฉลามโจรสลัด 2 ตัวบนแผนที่
 STRMapEventLocalConfigure	330021	สุ่มเกิดโจรสลัดชั้นสูง 1 ตัวบนแผนที่
 STRMapEventLocalConfigure	340031	ทุกๆ รอบ จะสุ่มเกิดขโมย 1 ตัว
