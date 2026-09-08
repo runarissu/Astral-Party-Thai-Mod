@@ -1,4 +1,4 @@
-# Astral Party Thai Mod v1.3.0 - One-Click Installer
+# Astral Party Thai Mod v1.3.1 - One-Click Installer
 # Usage: Double-click install.bat
 
 $ErrorActionPreference = "Stop"
@@ -14,7 +14,7 @@ if (-not $isAdmin) {
 
 Write-Host ""
 Write-Host "  ==========================================" -ForegroundColor Cyan
-Write-Host "   Astral Party Thai Mod v1.3.0 - Installer" -ForegroundColor Cyan
+Write-Host "   Astral Party Thai Mod v1.3.1 - Installer" -ForegroundColor Cyan
 Write-Host "  ==========================================" -ForegroundColor Cyan
 Write-Host ""
 

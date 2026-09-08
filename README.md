@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  รองรับเวอร์ชั่น <strong>V3.2.0</strong> hot patch (INT) · Mod v1.3.0
+  รองรับเวอร์ชั่น <strong>V3.2.0</strong> hot patch (INT) · Mod v1.3.1
 </p>
 
 <p align="center">
@@ -73,6 +73,13 @@
 | 5/6 | Inject Thai fonts ใน cache | แทนที่ CDN-delivered font bundles ด้วย Thai clones |
 | 6/6 | ติดตั้ง TMP font bundles | วาง Thai TMP fonts ใน StreamingAssets |
 
+## มีอะไรใหม่ใน v1.3.1
+
+- **ปรับปรุงคำแปลทั้งหมด** — รีวิวและแก้คำแปลใน STR batch ทั้ง 39 ไฟล์ (7,723 entries) เน้นความเป็นธรรมชาติ ความหมายตรงกับต้นฉบับ และบริบทเกม
+- **ซ่อมคำแปลที่ผิดบริบท** — แก้คำแปลที่ผิดความหมายหรือไม่เป็นธรรมชาติในหลายจุด เช่น บทช่วยสอน คำอธิบายมอนสเตอร์ และคำอธิบายเอฟเฟกต์
+- **ซ่อมความสม่ำเสมอของคำศัพท์** — ปรับคำศัพท์ให้ตรงกับ glossary เช่น แพ็ก, เช็กอิน, ความผูกพัน, Star Coin/Star Disc, เอฟเฟกต์
+- **คงจำนวน entries เท่าเดิม** — 7,723 entries เท่ากับ v1.3.0 ไม่มีคอนเทนต์ใหม่จากเกม
+
 ## มีอะไรใหม่ใน v1.3.0
 
 - **รองรับเกมอัปเดต 2026-09-07** — เกมปรับ balance มอนสเตอร์ (Jelly Wizard 1 → 2 ตัวใน STRMapEvent)
@@ -111,11 +118,11 @@
 
 ```
 ├── install.bat              # One-click installer (Run as admin)
-├── install.ps1              # Installer script (v1.3.0)
+├── install.ps1              # Installer script (v1.3.1)
 ├── fonts/
 │   └── Prompt-Regular.ttf   # Thai font (OS font for DynamicFont)
 ├── data/
-│   └── clean_thai.tsv       # Translation table (7,724 entries)
+│   └── clean_thai.tsv       # Translation table (7,723 entries)
 └── bundles/
     ├── hotupdate_dll/       # Patched DLL (font redirect + cache + pair adjustments)
     ├── localization/        # Thai localization bundle (XML)
