@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  รองรับเวอร์ชั่น <strong>V3.2.0</strong> hot patch (INT) · Mod v1.3.1
+  รองรับเวอร์ชั่น <strong>V3.2.0</strong> hot patch (INT) · Mod v1.3.2
 </p>
 
 <p align="center">
@@ -73,6 +73,12 @@
 | 5/6 | Inject Thai fonts ใน cache | แทนที่ CDN-delivered font bundles ด้วย Thai clones |
 | 6/6 | ติดตั้ง TMP font bundles | วาง Thai TMP fonts ใน StreamingAssets |
 
+## มีอะไรใหม่ใน v1.3.2
+
+- **แก้คำแปล UI ใน XML** — แก้คำแปล FairyGUI 14 จุด เช่น PVP→แมตช์, PVE→รีเพลย์, แพ็คกิ้ฟต์พิเศษ→แพ็กของขวัญบูสต์
+- **แก้วรรคตา fullwidth→halfwidth** — แทนที่วงเล็บและโคลอนแบบ fullwidth (（）：) ด้วย halfwidth (():) ในหลายจุด
+- **แก้คำแปล STR** — แก้ "เมาส์เต้นตึ๊ด" → "หนูเต้นตึ๊ด" ใน str_batch_03
+
 ## มีอะไรใหม่ใน v1.3.1
 
 - **ปรับปรุงคำแปลทั้งหมด** — รีวิวและแก้คำแปลใน STR batch ทั้ง 39 ไฟล์ (7,723 entries) เน้นความเป็นธรรมชาติ ความหมายตรงกับต้นฉบับ และบริบทเกม
@@ -118,7 +124,7 @@
 
 ```
 ├── install.bat              # One-click installer (Run as admin)
-├── install.ps1              # Installer script (v1.3.1)
+├── install.ps1              # Installer script (v1.3.2)
 ├── fonts/
 │   └── Prompt-Regular.ttf   # Thai font (OS font for DynamicFont)
 ├── data/
