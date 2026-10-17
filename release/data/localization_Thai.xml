@@ -1,0 +1,1549 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="lv54en7xbnngd-n25_b5tv" mz="n25">อยากให้ฉันโอน Star Coin ให้ใครดี?</string>
+  <string name="lv54en7xbnngd-n5_r94h" mz="btn_Leave">ออก</string>
+  <string name="lv54en7xbnngd-n6_r94h" mz="btn_ATM">โอน</string>
+  <string name="lv54en7xbnngd-n28_et9r" mz="n28">กรุณาเลือกผู้เล่น 1 คนเพื่อโอน</string>
+  <string name="lv54en7xbnngd-n37_bnng" mz="btn_Transfer">กลับไปที่ร้านค้า</string>
+  <string name="lv54en7xbnngd-n29_qpnt" mz="n29">ซ่อน</string>
+  <string name="lv54en7xbnngd-n30_qpnt" mz="n30">แสดง</string>
+  <string name="iepldke7x20l20-n71_mdt4" mz="btn_RefreshSkin">เปลี่ยน</string>
+  <string name="iepldke7x20l20-n23_zhzt" mz="btn_Data">สถิติ</string>
+  <string name="iepldke7x20l20-n24_zhzt" mz="btn_Battle">แมตช์</string>
+  <string name="iepldke7x20l20-n68_cisx" mz="btn_Replay">รีเพลย์</string>
+  <string name="iepldke7x20l20-n27_zhzt" mz="btn_ShowDataToggle">ไม่เปิดเผย</string>
+  <string name="iepldke7x20l20-n28_zhzt" mz="btn_ShowFightToggle">ไม่เปิดเผย</string>
+  <string name="iepldke7x20l20-n30_zhzt" mz="txt_FightCount">เกมที่เล่นทั้งหมด: {data=0}</string>
+  <string name="iepldke7x20l20-n31_zhzt" mz="txt_WinCount">ชนะทั้งหมด: {data=0}</string>
+  <string name="iepldke7x20l20-n32_zhzt" mz="txt_HeroCardCount">ตัวละครที่มี: {data=0}</string>
+  <string name="iepldke7x20l20-n33_zhzt" mz="txt_Hero">ตัวละครที่ใช้บ่อยที่สุด: {data=0}</string>
+  <string name="iepldke7x20l20-n34_zhzt" mz="txt_AdornCount">สกินที่มี: {data=0}</string>
+  <string name="iepldke7x20l20-n73_g04j" mz="txt_SkinCount">สกินที่มี: {data=0}</string>
+  <string name="iepldke7zhztc-n18_zhzt" mz="n18">แสดงผล</string>
+  <string name="iepldke7zhzta-n21_gd4d" mz="n21">ว่าง</string>
+  <string name="iepldke7zhztb-n15_zhzt" mz="n15">ไม่มีความสำเร็จ</string>
+  <string name="iepldke7zhztb-n19_f3tl" mz="btn_Sure">ยืนยัน</string>
+  <string name="iepldke7rrd628-n20_rrd6" mz="title">รายงาน</string>
+  <string name="iepldke7jgmz2e-n20_rrd6" mz="title">บล็อก</string>
+  <string name="iepldke7it6m2x-n20_rrd6" mz="txt_Save">บันทึก</string>
+  <string name="iepldke7it6m2x-n28_it6m" mz="txt_Play">เล่น</string>
+  <string name="iepldke7it6m2x-n30_it6m" mz="txt_Delete">ลบ</string>
+  <string name="iepldke7it6m2x-n29_it6m" mz="txt_Saved">บันทึกแล้ว</string>
+  <string name="iepldke7it6m32-n20_rrd6" mz="title">กำลังบันทึก</string>
+  <string name="iepldke7zhzti-n23_lw7s" mz="btn_ReplaySave">บันทึก</string>
+  <string name="iepldke7zhztv-n21_mdt4" mz="n21">-ชนะ-</string>
+  <string name="iepldke7zhztv-n22_mdt4" mz="n22">-แพ้-</string>
+  <string name="iepldke7hni02-n9_f3tl" mz="btn_Sure">ยืนยัน</string>
+  <string name="iepldke77h6s24-n66_7h6s" mz="title">ยืนยัน</string>
+  <string name="vckl96ksbakuq-n22_ru20" mz="btn_TaskToggle">ภาพรวม</string>
+  <string name="vckl96ksrsc7a-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="vckl96ksrsc7a-n157_thbm" mz="n157">รับ</string>
+  <string name="vckl96ksjzxa1o-n20_jzxa" mz="n20">ขูดออก→</string>
+  <string name="vckl96ksjzxa1o-n21_jzxa" mz="n21">เสร็จสิ้น: </string>
+  <string name="vckl96ksjzxa1n-n18_tiv3" mz="n18">x</string>
+  <string name="vckl96ksjzxa1p-n17_jzxa" mz="n17">ถัดไป</string>
+  <string name="vckl96ksjzxa1g-n9_jzxa" mz="n9">ภารกิจ</string>
+  <string name="vckl96ksjzxa1g-n14_jzxa" mz="n14">ดูตัวอย่างรางวัล</string>
+  <string name="vckl96ksjzxa1g-n22_ru20" mz="btn_TaskToggle">ภาพรวม</string>
+  <string name="vckl96ksjzxa1h-n8_jzxa" mz="n8">ขูดออก</string>
+  <string name="vckl96ksjzxa1h-n22_jzxa" mz="n22">ดูตัวอย่างรางวัล</string>
+  <string name="vckl96ksot0w2n-n33_xup8" mz="n33">ผลลัพธ์</string>
+  <string name="vckl96ksot0w2n-n55_ot0w" mz="btn_Gacha_Confirm">ยืนยัน</string>
+  <string name="vckl96ksec7wgx-n85_ch0q" mz="txt_LeftName">Amakawa Souri </string>
+  <string name="vckl96ksec7wgx-n86_ch0q" mz="txt_RightName">Amakawa Mamushi </string>
+  <string name="vckl96ksec7wgx-n94_ch0q" mz="n94">ข้อมูลอัปเดตทุก 15 นาที</string>
+  <string name="vckl96ksot0w4h-n40_ot0w" mz="n40">แพ็กของขวัญบูสต์</string>
+  <string name="vckl96ksot0w2r-n15_lo03" mz="txt_Name">กาชา {time=1} ครั้ง</string>
+  <string name="vckl96ksot0w4k-n49_grcm" mz="n49">แลกเปลี่ยน</string>
+  <string name="vckl96ksot0w4k-n42_ne5m" mz="n42">x</string>
+  <string name="vckl96ksot0w4t-n33_gbr1" mz="n33">ดูตัวอย่าง</string>
+  <string name="vckl96ksot0w4i-n13_xup8" mz="btn_Gacha_Detail">รายละเอียด</string>
+  <string name="vckl96ksot0w4i-n14_xup8" mz="btn_Gacha_Recoard">ประวัติ</string>
+  <string name="vckl96ksot0w4c-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="vckl96ksot0w4c-n157_thbm" mz="n157">รับ</string>
+  <string name="vckl96ksot0w4a-n58_ot0w" mz="txt_NextTime">เปิดซีซั่นถัดไป</string>
+  <string name="vckl96ksot0w4a-n6_xup8" mz="n6">ภารกิจ</string>
+  <string name="vckl96ksot0w4a-n69_ru20" mz="btn_TaskToggle">ภาพรวม</string>
+  <string name="vckl96kso812e1-n37_ize7" mz="txt_Title">ปลดล็อก</string>
+  <string name="vckl96kso812e1-n38_ize7" mz="txt_Desc">(ทดลอง 1 ครั้ง)</string>
+  <string name="vckl96ksize7sq4y-n37_ize7" mz="txt_Title">ปลดล็อก</string>
+  <string name="vckl96ksize7sq4y-n38_ize7" mz="txt_Desc">(ทดลอง 1 ครั้ง)</string>
+  <string name="vckl96ksize7sq4x-n37_ize7" mz="txt_Title">ซื้อ</string>
+  <string name="vckl96kso812e0-n37_ize7" mz="txt_Title">ซื้อ</string>
+  <string name="vckl96ksize7sq4u-n6_at01" mz="n6"> </string>
+  <string name="vckl96ksize7sq4u-n11_at01" mz="btn_Purchase">ซื้อ</string>
+  <string name="vckl96ksize7sq4u-n10_at01" mz="btn_Light">ปลดล็อก</string>
+  <string name="vckl96kso812e2-n6_at01" mz="n6"> </string>
+  <string name="vckl96kso812e2-n11_at01" mz="btn_Purchase">ซื้อ</string>
+  <string name="vckl96kso812e2-n10_at01" mz="btn_Light">ปลดล็อก</string>
+  <string name="vckl96ksize7sq4z-n37_ize7" mz="btn_ShowSkin">ดูตัวอย่างสกิน</string>
+  <string name="vckl96ksize7sq4z-n45_ize7" mz="n45">· ด่านศึกพิเศษ · เพลงศึกพิเศษ</string>
+  <string name="vckl96kso812dz-n44_ize7" mz="n44">· ด่านศึกพิเศษ · เพลงศึกพิเศษ</string>
+  <string name="vckl96kso812dz-n50_ize7" mz="btn_ShowSkin">ดูตัวอย่างสกิน</string>
+  <string name="vckl96ksxcsllsq7p-n37_ize7" mz="txt_Title">ปลดล็อก</string>
+  <string name="vckl96ksxcsllsq7p-n38_ize7" mz="txt_Desc">(ทดลอง 1 ครั้ง)</string>
+  <string name="vckl96ksxcsllsq7n-n37_ize7" mz="txt_Title">ซื้อ</string>
+  <string name="vckl96ksxcsllsq76-n6_at01" mz="n6"> </string>
+  <string name="vckl96ksxcsllsq76-n11_at01" mz="btn_Purchase">ซื้อ</string>
+  <string name="vckl96ksxcsllsq76-n10_at01" mz="btn_Light">ปลดล็อก</string>
+  <string name="vckl96ksxcsllsq80-n37_ize7" mz="btn_ShowSkin">ดูตัวอย่างสกิน</string>
+  <string name="vckl96ksxcsllsq80-n45_ize7" mz="n45">· ด่านศึกพิเศษ · เพลงศึกพิเศษ</string>
+  <string name="vckl96ksyjnjlsq8p-n33_o812" mz="txt_Title">ปลดล็อก</string>
+  <string name="vckl96ksyjnjlsq8p-n35_o812" mz="txt_Desc">(ทดลอง 1 ครั้ง)</string>
+  <string name="vckl96ksyjnjlsq8n-n33_o812" mz="txt_Title">ซื้อ</string>
+  <string name="vckl96ksyjnjlsq88-n6_at01" mz="n6"> </string>
+  <string name="vckl96ksyjnjlsq88-n11_at01" mz="btn_Purchase">ซื้อ</string>
+  <string name="vckl96ksyjnjlsq88-n10_at01" mz="btn_Light">ปลดล็อก</string>
+  <string name="vckl96ksyjnjlsq8u-n16_o812" mz="btn_ShowSkin">ดูตัวอย่าง</string>
+  <string name="vckl96ksyjnjlsq8u-n26_o812" mz="n26">· ด่านศึกพิเศษ · เพลงศึกพิเศษ</string>
+  <string name="1pgen0em6brr0-n19_6brr" mz="txt_title">ชื่อกิจกรรม</string>
+  <string name="1pgen0em6brr0-n20_6brr" mz="txt_date">4.25~5.23</string>
+  <string name="1pgen0em6brr0-n23_6brr" mz="txt_coin">x1000</string>
+  <string name="1pgen0em6brro-n8_6brr" mz="title">รางวัลเมื่อทำสำเร็จ (7/7)</string>
+  <string name="1pgen0em6brrm-n4_6brr" mz="txt_icon">x1300</string>
+  <string name="1pgen0em6brrm-n8_6brr" mz="txt_num">ใบที่ 1</string>
+  <string name="1pgen0em6brrp-n10_6brr" mz="n10">ก่อนหน้า</string>
+  <string name="1pgen0em6brrp-n11_6brr" mz="n11">ถัดไป</string>
+  <string name="1pgen0em6brr1h-n16_6brr" mz="txt_title">รางวัลเมื่อทำสำเร็จ</string>
+  <string name="1pgen0em6brr19-n156_thbm" mz="n156">ไปทำภารกิจ</string>
+  <string name="1pgen0em6brr19-n157_thbm" mz="n157">รับรางวัล</string>
+  <string name="1pgen0em6brr19-n160_i817" mz="n160">รับแล้ว</string>
+  <string name="inpepupsk0vv0-n13_l38o" mz="txt_activityTime">เวลากิจกรรมที่เหลือ: {time=XX Days XX Hours}</string>
+  <string name="inpepupsk0vv6-n11_micc" mz="title">ไปรับเลย!</string>
+  <string name="hconmwfcy9qn7-n14_y9qn" mz="n14">ตัวละครใหม่ ใช้ได้จำกัดเวลา!</string>
+  <string name="hconmwfcy9qn8-n7_vjqj" mz="n7">รางวัลพื้นฐาน</string>
+  <string name="hconmwfcy9qn8-n8_vjqj" mz="n8">รางวัลขั้นสูง</string>
+  <string name="hconmwfcy9qn9-n1_y9qn" mz="n1">ภารกิจ</string>
+  <string name="hconmwfcy9qn3-n4_y9qn" mz="n4">ย้อนกลับ</string>
+  <string name="hconmwfcvjqj11-n43_u0xa" mz="txt_price">￥40</string>
+  <string name="hconmwfcvjqj11-n41_u0xa" mz="txt_tip">ปลดล็อกรางวัลขั้นสูง</string>
+  <string name="hconmwfcy9qnw-n3_y9qn" mz="n3">รับรางวัล</string>
+  <string name="hconmwfcy9qnw-n3_y9qn-texts_0" mz="n3">รับแล้ว</string>
+  <string name="hconmwfcy9qnw-n3_y9qn-texts_def" mz="n3">รับรางวัล</string>
+  <string name="hconmwfcy9qn5-n4_y9qn" mz="time">ปลดล็อกในอีก {time=5} ชั่วโมง</string>
+  <string name="hconmwfcy9qn5-n3_y9qn" mz="n3">แตะเพื่อเริ่ม</string>
+  <string name="hconmwfcy9qn4-n3_y9qn" mz="n3">สิทธิประโยชน์ผู้กลับมา</string>
+  <string name="hconmwfcy9qn4-n3_y9qn-texts_0" mz="n3">เช็คอิน 7 วัน</string>
+  <string name="hconmwfcy9qn4-n3_y9qn-texts_1" mz="n3">ภารกิจผู้กลับมา</string>
+  <string name="hconmwfcy9qn4-n3_y9qn-texts_2" mz="n3">ร้านค้าผู้กลับมา</string>
+  <string name="hconmwfcy9qn4-n3_y9qn-texts_def" mz="n3">สิทธิประโยชน์ผู้กลับมา</string>
+  <string name="hconmwfcy9qnf-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="hconmwfcy9qnf-n157_thbm" mz="n157">รับ</string>
+  <string name="lypih982eo8h0-n59_rae1" mz="n59">รางวัลความคืบหน้า</string>
+  <string name="lypih982lbjz15-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="lypih982lbjz15-n157_thbm" mz="n157">รับ</string>
+  <string name="lypih982lbjz15-n160_i817" mz="n160">รับแล้ว</string>
+  <string name="lypih982hdqo20-n168_thbm" mz="n168">รับ</string>
+  <string name="lypih982hdqo20-n169_thbm" mz="n169">ได้รับแล้ว</string>
+  <string name="lypih982rae11t-n169_thbm" mz="n169">รับทั้งหมด</string>
+  <string name="tnvzc173esyu4-n179_esyu" mz="n179">รับ</string>
+  <string name="tnvzc173esyu4-n181_esyu" mz="n181">รับแล้ว</string>
+  <string name="fajmeueeg85ew-n5_klg7" mz="n5">รางวัลพื้นฐาน</string>
+  <string name="fajmeueeg85ew-n6_klg7" mz="n6">รางวัลพรีเมียม</string>
+  <string name="fajmeueeg85ew-n16_m48i" mz="n16">สัญญาความคืบหน้าเลเวล</string>
+  <string name="fajmeueeg85ew-n17_m48i" mz="n17">เลเวลผู้เล่นถึงที่กำหนดแล้วรับรางวัลได้มากมาย</string>
+  <string name="fajmeueem48ix-n43_u0xa" mz="txt_price">￥20</string>
+  <string name="fajmeueem48ix-n41_u0xa" mz="txt_tip">ปลดล็อกรางวัลพรีเมียม</string>
+  <string name="fajmeueem48ix-n46_u0xa" mz="n46">คุ้มค่า</string>
+  <string name="fajmeueeklg7t-n13_klg7" mz="text_ItemLevel">Lv.1</string>
+  <string name="n4exfankjqro1e-n37_ize7" mz="txt_Title">ปลดล็อก</string>
+  <string name="n4exfankjqro1e-n38_ize7" mz="txt_Desc">(ทดลอง 1 ครั้ง)</string>
+  <string name="n4exfankjqro1c-n37_ize7" mz="txt_Title">ซื้อ</string>
+  <string name="n4exfankjqrov-n6_at01" mz="n6"> </string>
+  <string name="n4exfankjqrov-n11_at01" mz="btn_Purchase">ซื้อ</string>
+  <string name="n4exfankjqrov-n10_at01" mz="btn_Light">ปลดล็อก</string>
+  <string name="n4exfankjqro1k-n37_ize7" mz="btn_ShowSkin">ดูตัวอย่างสกิน</string>
+  <string name="n4exfankjqro1k-n45_ize7" mz="n45">· ด่านศึกพิเศษ · เพลงศึกพิเศษ</string>
+  <string name="n4exfankjqrol-n5_jqro" mz="txt_Title">ปลดล็อก</string>
+  <string name="n4exfankjqrol-n6_jqro" mz="txt_Desc">(ทดลอง 1 ครั้ง)</string>
+  <string name="n4exfankjqroj-n5_jqro" mz="txt_Title">ซื้อ</string>
+  <string name="n4exfankjqro5-n9_jqro" mz="n9"> </string>
+  <string name="n4exfankjqrom-n0_jqro" mz="btn_ShowSkin">ดูตัวอย่าง</string>
+  <string name="n4exfankjqrom-n8_jqro" mz="n8">· ด่านศึกพิเศษ · เพลงศึกพิเศษ</string>
+  <string name="wdl8l4hslwm16-n3_lwm1" mz="n3">ภารกิจ</string>
+  <string name="wdl8l4hslwm1x-n14_z52s" mz="txt_Remaining">จำกัด  {remainingNum=1} / {limitNum=1}</string>
+  <string name="wdl8l4hslwm1x-n23_z52s" mz="n23">ที่มีอยู่</string>
+  <string name="wdl8l4hslwm1x-n39_hcgi" mz="txt_soldout">หมดแล้ว!</string>
+  <string name="wdl8l4hslwm1x-n24_z52s" mz="txt_timeTip">รีเซ็ต: {day=00}ว {hour=00}ชม</string>
+  <string name="wdl8l4hslwm1o-n156_thbm" mz="n156">ไปทำภารกิจ</string>
+  <string name="wdl8l4hslwm1o-n157_thbm" mz="n157">รับรางวัล</string>
+  <string name="vvv9zaj1qa2x0-n16_qa2x" mz="n16">สัญญาชาเลนจ์ Co-op</string>
+  <string name="vvv9zaj1qa2x0-n17_qa2x" mz="n17">ผ่านด่านความยากใดก็ได้ในแต่ละแผนที่เพื่อรับรางวัล!</string>
+  <string name="vvv9zaj1u0xak-n43_u0xa" mz="txt_price">￥20</string>
+  <string name="vvv9zaj1u0xak-n41_u0xa" mz="txt_tip">ปลดล็อกรางวัลพรีเมียม</string>
+  <string name="vvv9zaj1u0xak-n46_u0xa" mz="n46">คุ้มค่า</string>
+  <string name="vvv9zaj1qa2x3-n18_u0xa" mz="txt_complete">ชาเลนจ์เสร็จสิ้น</string>
+  <string name="vvv9zaj1qa2x3-n27_u0xa" mz="txt_undone">ชาเลนจ์ยังไม่เสร็จ</string>
+  <string name="vvv9zaj1qa2x3-n27_u0xa-texts_0" mz="txt_undone">ชาเลนจ์เสร็จสิ้น</string>
+  <string name="vvv9zaj1qa2x3-n27_u0xa-texts_def" mz="txt_undone">ชาเลนจ์ยังไม่เสร็จ</string>
+  <string name="vvv9zaj1qa2x3-n31_g6lg" mz="n31">รางวัลพรีเมียม</string>
+  <string name="vvv9zaj1qa2x2-n10_qa2x" mz="txt_name">不需要翻译</string>
+  <string name="pietpp6yrr350-n1_hvc3" mz="ActivityMonthGift_Message">不需要翻译</string>
+  <string name="pietpp6yrr350-n4_hvc3" mz="ActivityMonthGift_Time">不需要翻译</string>
+  <string name="pietpp6yrr350-n21_rr35" mz="n21">不需要翻译</string>
+  <string name="pietpp6yrr35d-n2_rr35" mz="n2">รายละเอียด</string>
+  <string name="c1v285vtrp2k1e-n21_kqgj" mz="title">ย้อนกลับ</string>
+  <string name="c1v285vtpu2i19-n38_kqgj" mz="n38">x</string>
+  <string name="c1v285vtpu2im-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="c1v285vtpu2im-n157_thbm" mz="n157">รับ</string>
+  <string name="c1v285vtpu2im-n164_kqgj" mz="n164">เสร็จสิ้น</string>
+  <string name="c1v285vtpu2i1-n150_kqgj" mz="n150">--Astral Party--</string>
+  <string name="c1v285vtpu2i1-n152_kqgj" mz="n152">--Astral Party--</string>
+  <string name="c1v285vtpu2i1-n148_kqgj" mz="n148">--Astral Party--</string>
+  <string name="c1v285vtpu2i1-n82_kqgj" mz="n82">ภารกิจ</string>
+  <string name="c1v285vtpu2i1-n84_kqgj" mz="n84">ภารกิจ</string>
+  <string name="c1v285vtpu2i1-n106_kqgj" mz="n106">ดูตัวอย่างรางวัล</string>
+  <string name="c1v285vtpu2ix-n88_kqgj" mz="n88">ถ่ายทอดสด -&gt;</string>
+  <string name="c1v285vtpu2ix-n92_kqgj" mz="txt_Progress">เสร็จสิ้น
+ 
+{value=0}/{max=14}
+ 
+แตะเพื่อเข้าสู่</string>
+  <string name="c1v285vtpu2i11-n32_kqgj" mz="n32">ดูตัวอย่างรางวัล</string>
+  <string name="c1v285vtpu2i11-n78_kqgj" mz="n78">ถ่ายทอดสด</string>
+  <string name="c1v285vtpu2i11-n89_kqgj" mz="n89">--ถ่ายทอดสด--</string>
+  <string name="3tvdl51q8f672m-n9_8f67" mz="title">ไป</string>
+  <string name="3tvdl51q8f672n-n6_8f67" mz="txt_desc">ไปที่ [color=#12BDCD]TAPTAP[/color] และลงทะเบียนล่วงหน้าเพื่อรับรางวัล!</string>
+  <string name="3tvdl51qnhqm36-n14_nhqm" mz="n14">เยี่ยมชมเลย</string>
+  <string name="3tvdl51qnhqm36-n15_nhqm" mz="n15">ไปที่ Modian</string>
+  <string name="3tvdl51qnhqm35-n20_nhqm" mz="txt_Countdown">[color=#DAF3FD,#EAFFDB]{str=23:59 ที่เหลือ}[/color]</string>
+  <string name="3tvdl51qfmns3m-n13_fmns" mz="n13">不需要翻译</string>
+  <string name="3tvdl51qfmns3m-n14_fmns" mz="txt_time">不需要翻译</string>
+  <string name="3tvdl51qfmns3m-n15_k84p" mz="n15">不需要翻译</string>
+  <string name="psydn4inrr350-n53_rr35" mz="Rebate_num">不需要翻译</string>
+  <string name="psydn4inrr350-n75_ist0" mz="Rebate_num_TextType">￥</string>
+  <string name="psydn4inrr350-n59_rr35" mz="Rebate_num1">不需要翻译</string>
+  <string name="psydn4inrr350-n67_rr35" mz="n67">不需要翻译</string>
+  <string name="psydn4inrr350-n73_ist0" mz="Rebate_Time">不需要翻译</string>
+  <string name="psydn4inrr35o-n3_rr35" mz="n3">不需要翻译</string>
+  <string name="psydn4inrr35k-n2_rr35" mz="Text">รายละเอียด</string>
+  <string name="50qspitzz0ijy-n1_z0ij" mz="title">ดูตัวอย่าง</string>
+  <string name="rel5h9izuytmd-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="rel5h9izuytmd-n157_thbm" mz="n157">รับ</string>
+  <string name="rel5h9izuytm1-n22_ru20" mz="btn_TaskToggle">ภาพรวม</string>
+  <string name="rx1j3reajos31a-n4_dzvf" mz="txt_title">เฟส {level}</string>
+  <string name="rx1j3reajos31a-n11_i817" mz="txt_finalRewardName">ชื่อไอเทม ×1</string>
+  <string name="rx1j3reajos31a-n12_i817" mz="txt_rewardLevelTip">รางวัลสำหรับการผ่านเฟสนี้</string>
+  <string name="rx1j3reajos31a-n3_dzvf" mz="btn_finalReward">รับ</string>
+  <string name="rx1j3reajos31a-n15_gzhq" mz="n15">ดูรางวัลทั้งหมด</string>
+  <string name="rx1j3readzvf4-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="rx1j3readzvf4-n157_thbm" mz="n157">รับ</string>
+  <string name="rx1j3readzvf4-n160_i817" mz="n160">รับแล้ว</string>
+  <string name="n11275v8l38o1m-n1_l38o" mz="n1">ย้อนกลับ</string>
+  <string name="n11275v8jqroc-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="n11275v8jqroc-n157_thbm" mz="n157">รับ</string>
+  <string name="n11275v8jqron-n20_jzxa" mz="n20">สุ่ม Gacha ด้วยเหรียญ YoYo →</string>
+  <string name="n11275v8jqron-n21_jzxa" mz="n21">เสร็จสิ้น: </string>
+  <string name="n11275v8jqrow-n18_tiv3" mz="n18">x</string>
+  <string name="n11275v8jqro12-n17_jzxa" mz="n17">ถัดไป</string>
+  <string name="n11275v8jqro3-n9_jzxa" mz="n9">ภารกิจ</string>
+  <string name="n11275v8jqro3-n14_jzxa" mz="n14">ดูตัวอย่างรางวัล</string>
+  <string name="n11275v8jqro3-n22_ru20" mz="btn_TaskToggle">ภาพรวม</string>
+  <string name="n11275v8jqroq-n8_jzxa" mz="n8">ขูดออก</string>
+  <string name="n11275v8jqroq-n22_jzxa" mz="n22">ดูตัวอย่างรางวัล</string>
+  <string name="p8fy3he4rr3513-n3_rr35" mz="text_no">รับ</string>
+  <string name="p8fy3he4rr3513-n9_rr35" mz="text_yes">รับแล้ว</string>
+  <string name="p8fy3he4rr3513-n7_rr35" mz="txt_number">x100</string>
+  <string name="88m1yfwgv1vk15-n76_v1vk" mz="ActivityStore_btn_act">อีเวนต์</string>
+  <string name="88m1yfwgv1vk15-n77_v1vk" mz="ActivityStore_btn_str">ร้านค้า</string>
+  <string name="88m1yfwgv1vk15-n78_jhcl" mz="ActivityStore_btn_OneTask">อีเวนต์</string>
+  <string name="88m1yfwgv1vk15-n80_jhcl" mz="ActivityStore_btn_OneStore">ร้านค้า</string>
+  <string name="88m1yfwgv1vk1j-n177_v1vk" mz="n177">กำลังดำเนินการ</string>
+  <string name="88m1yfwgv1vk1j-n186_v1vk" mz="n186">รับ</string>
+  <string name="88m1yfwgv1vk16-n77_v1vk" mz="txt_NextTime">เปิดซีซั่นถัดไป</string>
+  <string name="88m1yfwgv1vk16-n81_v1vk" mz="tile_task">ภารกิจ</string>
+  <string name="88m1yfwgeusd2u-n177_v1vk" mz="n177">กำลังดำเนินการ</string>
+  <string name="88m1yfwgeusd2u-n186_v1vk" mz="n186">รับ</string>
+  <string name="begz6gfv7vwm0-n33_xup8" mz="n33">ผลลัพธ์</string>
+  <string name="begz6gfv7vwm0-n55_ot0w" mz="btn_Gacha_Confirm">ยืนยัน</string>
+  <string name="begz6gfv7vwm1c-n40_ot0w" mz="n40">แพ็กของขวัญบูสต์</string>
+  <string name="begz6gfv7vwm19-n15_lo03" mz="txt_Name">กาชา {time=1} ครั้ง</string>
+  <string name="begz6gfv7vwm1f-n49_grcm" mz="n49">แลกเปลี่ยน</string>
+  <string name="begz6gfv7vwm1f-n42_ne5m" mz="n42">x</string>
+  <string name="begz6gfv7vwm15-n33_gbr1" mz="n33">ดูตัวอย่าง</string>
+  <string name="begz6gfv7vwm13-n13_xup8" mz="btn_Gacha_Detail">รายละเอียด</string>
+  <string name="begz6gfv7vwm13-n14_xup8" mz="btn_Gacha_Recoard">ประวัติ</string>
+  <string name="begz6gfv7vwmh-n58_ot0w" mz="txt_NextTime">เปิดซีซั่นถัดไป</string>
+  <string name="begz6gfv7vwmh-n6_xup8" mz="n6">ภารกิจ</string>
+  <string name="begz6gfv7vwmh-n69_ru20" mz="btn_TaskToggle">ภาพรวม</string>
+  <string name="begz6gfvok4t1m-n157_thbm" mz="n157">รับ</string>
+  <string name="begz6gfvok4t1m-n165_8fw5" mz="n165">ไปทำภารกิจ</string>
+  <string name="begz6gfv7vwm1-n85_ch0q" mz="txt_LeftName">Amakawa Souri </string>
+  <string name="begz6gfv7vwm1-n86_ch0q" mz="txt_RightName">Amakawa Mamushi </string>
+  <string name="begz6gfv7vwm1-n94_ch0q" mz="n94">ข้อมูลอัปเดตทุก 15 นาที</string>
+  <string name="6dt5s4htqw8h0-n76_v1vk" mz="ActivityStore_btn_act">อีเวนต์</string>
+  <string name="6dt5s4htqw8h0-n77_v1vk" mz="ActivityStore_btn_str">ร้านค้า</string>
+  <string name="6dt5s4htqw8hi-n177_v1vk" mz="n177">กำลังดำเนินการ</string>
+  <string name="6dt5s4htqw8hi-n186_v1vk" mz="n186">รับ</string>
+  <string name="6dt5s4htqw8h7-n97_jhcl" mz="n97">ภารกิจ</string>
+  <string name="6dt5s4htqw8h7-n77_v1vk" mz="txt_NextTime">เปิดซีซั่นถัดไป</string>
+  <string name="6dt5s4htqw8hv-n177_v1vk" mz="n177">กำลังดำเนินการ</string>
+  <string name="6dt5s4htqw8hv-n186_v1vk" mz="n186">รับ</string>
+  <string name="zlysd2gupgzf51-n46_debj" mz="title">ย้อนกลับ</string>
+  <string name="zlysd2gupgzf4c-n69_ru20" mz="btn_TaskToggle">ภาพรวม</string>
+  <string name="k49wk9ftesyu2t-n28_q4ft" mz="n28">ซื้อ</string>
+  <string name="k49wk9ftesyu4a-n2_esyu" mz="title">ซื้อ</string>
+  <string name="k49wk9ftesyu4z-n33_gbr1" mz="n33">ดูตัวอย่าง</string>
+  <string name="k49wk9ftnqmf18-n18_fu2t" mz="n18">ซื้อเสร็จสิ้น</string>
+  <string name="k49wk9ftesyu3i-n28_q4ft" mz="n28">ซื้อ</string>
+  <string name="andqlvspec7w0-n20_ec7w" mz="txt_Tip1">[size=80]ใคร[/size] ที่เธอเลือกจะช่วย?</string>
+  <string name="andqlvspec7w0-n30_ec7w" mz="txt_Tip2">เธอเลือกที่จะช่วย [size=80]{target=Amakawa Mamushi}[/size]</string>
+  <string name="andqlvspec7w0-n32_ec7w" mz="txt_Tip3">แต่ดูเหมือนทุกคนจะมีความเห็นไม่เหมือนกัน... เราตัดสินกันด้วยลูกเต๋าได้เลย!</string>
+  <string name="andqlvspec7w0-n60_ec7w" mz="txt_Tip4">ประลองลูกเต๋า!</string>
+  <string name="andqlvspec7wz-n43_ec7w" mz="txt_Target">[color=#ff0000]! [/color][color=#ffffff]จะเป็นศัตรูกับ[/color] {target=Amakawa Mamushi}</string>
+  <string name="andqlvspec7wz-n44_ec7w" mz="n44">[color=#ff0000]! [/color]ได้รับแล้ว</string>
+  <string name="50xzye56puf30-n20_ec7w" mz="txt_Tip1">[size=80]ใคร[/size] ที่เธอเลือกจะช่วย?</string>
+  <string name="50xzye56puf30-n2_ec7w" mz="btn_SureVote">ยืนยัน</string>
+  <string name="50xzye56puf30-n30_ec7w" mz="txt_Tip2">เธอเลือกที่จะช่วย [size=80]{target=Amakawa Mamushi}[/size]</string>
+  <string name="50xzye56puf30-n32_ec7w" mz="txt_Tip3">แต่ดูเหมือนทุกคนจะมีความเห็นไม่เหมือนกัน... เราตัดสินกันด้วยลูกเต๋าได้เลย!</string>
+  <string name="50xzye56puf30-n60_ec7w" mz="txt_Tip4">ประลองลูกเต๋า!</string>
+  <string name="50xzye56puf37-n43_ec7w" mz="txt_Target">[color=#ff0000]! [/color][color=#ffffff]จะเป็นศัตรูกับ[/color] {target=Amakawa Mamushi}</string>
+  <string name="p0iy0chjl8aa0-n24_73il" mz="btn_Return">ย้อนกลับ</string>
+  <string name="p0iy0chjl8aa0-n22_qp7h" mz="btn_SortUp">ความหายาก↑</string>
+  <string name="p0iy0chjl8aa0-n31_ja01" mz="btn_SortDown">ความหายาก↓</string>
+  <string name="p0iy0chj73il5-n36_jn4e" mz="n36">ลบ: {hour=20} ชม, {day=30} วัน</string>
+  <string name="p0iy0chj73il5-n44_gd4d" mz="n44">ว่าง</string>
+  <string name="p0iy0chj73il5-n41_11biq" mz="n41">เรียกคืน</string>
+  <string name="fxejlqlfot0w91-n2_8doq" mz="txt_Title">ชิป</string>
+  <string name="fxejlqlfkqgj92-n90_kqgj" mz="txt_Desc">เงื่อนไขการชนะ</string>
+  <string name="fxejlqlfjcp5bb-n1_jcp5" mz="n1">อยู่ที่นี่เพื่อรับดาว!</string>
+  <string name="fxejlqlfh28zcr-n52_h28z" mz="n52">รอบ</string>
+  <string name="fxejlqlfh28zcs-n1_h28z" mz="txt_desc">รอบรับรางวัลถัดไปคือรอบที่ {round=03} เมื่อเริ่มรอบนั้น คุณจะได้รับ Star Coin {coin=X} และการ์ด {card=Y} ใบ</string>
+  <string name="fxejlqlfcz3799-n90_cz37" mz="n90">รอบที่เหลือ</string>
+  <string name="fxejlqlfmgj007-n69_g1i4" mz="txt_Title">คำใบ้</string>
+  <string name="fxejlqlfg1i48p-n69_g1i4" mz="txt_Title">ภารกิจ</string>
+  <string name="fxejlqlfvi802w-n51_qs18-texts_0" mz="n51">P2</string>
+  <string name="fxejlqlfvi802w-n51_qs18-texts_1" mz="n51">P3</string>
+  <string name="fxejlqlfvi802w-n51_qs18-texts_2" mz="n51">P4</string>
+  <string name="fxejlqlfvi802w-n51_qs18-texts_5" mz="n51">BOSS</string>
+  <string name="fxejlqlfvi802w-n51_qs18-texts_def" mz="n51">P1</string>
+  <string name="ssf8xg9nf7iw0-n76_jz24" mz="n76">รีเฟรชรายวัน</string>
+  <string name="ssf8xg9nf7iw0-n77_jz24" mz="n77">รีเฟรชรายสัปดาห์</string>
+  <string name="ssf8xg9nf7iw0-n62_jz24" mz="btn_battlePass">รางวัล</string>
+  <string name="ssf8xg9nf7iw0-n63_jz24" mz="btn_Task">ภารกิจ</string>
+  <string name="ssf8xg9njz241k-n54_jz24" mz="n54">อัปเกรด!</string>
+  <string name="ssf8xg9njz241k-n52_jz24" mz="txt_Count">x</string>
+  <string name="ssf8xg9nb93d29-n52_jz24" mz="txt_Count">x000</string>
+  <string name="ssf8xg9njz2414-n54_jz24" mz="txt_Level">{level=1}</string>
+  <string name="ssf8xg9nq4ft9-n33_gbr1" mz="n33">ดูตัวอย่าง</string>
+  <string name="ssf8xg9njz241v-n102_jz24" mz="n102">ดูทั้งหมด</string>
+  <string name="ssf8xg9njz2411-n28_q4ft" mz="n28">ซื้อ</string>
+  <string name="ssf8xg9njz2426-n108_lwm1" mz="txt_Desc">เอฟเฟกต์เลือกตัวละครพิเศษระหว่างเทิร์น*</string>
+  <string name="ssf8xg9njz241s-n7_jz24" mz="n7">*สกินในพาสจะเป็นสกินจำกัด 6 เดือน!</string>
+  <string name="ssf8xg9njz241d-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="ssf8xg9njz241d-n157_thbm" mz="n157">รับ</string>
+  <string name="qzmgh1v9nbg68o-n24_m7gv" mz="btn_Skill">สกิล</string>
+  <string name="qzmgh1v9nbg68o-n61_nbg6" mz="n61">PVE</string>
+  <string name="qzmgh1v9m7gv86-n23_m7gv" mz="btn_Relic">ชิป</string>
+  <string name="qzmgh1v9m7gv86-n24_m7gv" mz="btn_Skill">สกิล</string>
+  <string name="nxg5t93dkqgj0-n14_e1mn" mz="btn_Cancel">ยกเลิก</string>
+  <string name="nxg5t93dkqgj0-n15_e1mn" mz="btn_Sure">ยืนยัน</string>
+  <string name="nxg5t93dkqgj0-n36_pj0z" mz="n36">ซ่อน</string>
+  <string name="nxg5t93dkqgj0-n37_pj0z" mz="n37">แสดง</string>
+  <string name="avgradidqees29-n53_qees" mz="n53">รับรางวัล</string>
+  <string name="avgradidw0q932-n118_w0q9" mz="n118">ทั้งหมด</string>
+  <string name="avgradidqees2t-n168_q7ni" mz="txt_Round">{round=15}[size=32]รอบ[/size]</string>
+  <string name="avgradidqees2j-n9_qees" mz="n9">ดีที่สุด</string>
+  <string name="avgradidqees2q-n38_mj58" mz="n38">ยืนยัน</string>
+  <string name="avgradidch0q141-n173_ch0q" mz="n173">คะแนนฝ่าย Amakawa Mamushi เพิ่มขึ้น!</string>
+  <string name="avgradidch0q141-n173_ch0q-texts_0" mz="n173">ความนิยม Amakawa Souri เพิ่มขึ้น!</string>
+  <string name="avgradidch0q141-n173_ch0q-texts_1" mz="n173">คะแนนฝ่าย Amakawa Mamushi เพิ่มขึ้น!</string>
+  <string name="avgradidqees2o-n78_qees" mz="txt_Slot">P1.</string>
+  <string name="avgradidqees2o-n78_qees-texts_0" mz="txt_Slot">P2.</string>
+  <string name="avgradidqees2o-n78_qees-texts_1" mz="txt_Slot">P3.</string>
+  <string name="avgradidqees2o-n78_qees-texts_2" mz="txt_Slot">P4.</string>
+  <string name="avgradidqees2o-n78_qees-texts_def" mz="txt_Slot">P1.</string>
+  <string name="avgradidqees25-n48_qees" mz="txt_Achieve">[color=#FC459A,#FCB531]ซูปเปอร์สตาร์[/color]</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b" mz="n73">Guild</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_0" mz="n73">ตัวเลือก</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_1" mz="n73">คลัง</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_2" mz="n73">จดหมาย</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_3" mz="n73">คู่มือ</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_4" mz="n73">คลังภาพ</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_5" mz="n73">ประกาศ</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_6" mz="n73">เพื่อน</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_7" mz="n73">ภารกิจ</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_8" mz="n73">Guild</string>
+  <string name="ybwxnbf5qzg81d-n73_nc4b-texts_def" mz="n73">ออก</string>
+  <string name="crbpicgjhhk60-n50_ubkw" mz="bottom">เลือก</string>
+  <string name="crbpicgjhhk60-n50_ubkw-cp-btn_Sure_Only" mz="bottom">ย้อนกลับ</string>
+  <string name="crbpicgjhhk60-n50_ubkw-texts_0" mz="bottom">เลือก</string>
+  <string name="crbpicgjhhk60-n50_ubkw-texts_1" mz="bottom">รางวัล</string>
+  <string name="crbpicgjz52sm-n1_grwp" mz="title">เปิด</string>
+  <string name="crbpicgjz52st-n3_hymc" mz="title">ต่ำสุด</string>
+  <string name="crbpicgjaxwd10-n32_z52s" mz="btn_Max">สูงสุด</string>
+  <string name="crbpicgjaxwd10-n43_jn4e" mz="n43">จำนวน</string>
+  <string name="crbpicgjaxwd10-n44_jn4e" mz="txt_Num">{num=9999}</string>
+  <string name="0j78s7jyeyou0-n31_h0j4-cp-txt_Title" mz="btn_Novice">บทเรียนสอน</string>
+  <string name="0j78s7jyeyou0-n31_h0j4-cp-txt_Desc" mz="btn_Novice">ทบทวน</string>
+  <string name="0j78s7jyeyou0-n42_es7g-cp-txt_Title" mz="btn_PVE">PVE</string>
+  <string name="0j78s7jyeyou0-n42_es7g-cp-txt_Desc" mz="btn_PVE">ชาเลนจ์พื้นฐาน</string>
+  <string name="0j78s7jyeyou0-n43_es7g-cp-txt_Title" mz="btn_PVP">PVP</string>
+  <string name="0j78s7jyeyou0-n43_es7g-cp-txt_Desc" mz="btn_PVP">ชาเลนจ์พื้นฐาน</string>
+  <string name="0j78s7jyeyou0-n41_ov5l" mz="btn_CreateRoom">เริ่มเกม!</string>
+  <string name="0j78s7jyes7gy-n43_alrc" mz="n43">ความคืบหน้าเสร็จสิ้น</string>
+  <string name="0j78s7jyeyou7-n82_ayrm" mz="title">เริ่มเกม</string>
+  <string name="bi8fdi6njlir1b-n33_sjju" mz="n33">[b]แตะที่อวตารทางซ้ายเพื่อเลือกเป้าหมาย[/b]</string>
+  <string name="bi8fdi6njlir1b-n5_r94h" mz="btn_Cancel">ยกเลิก</string>
+  <string name="bi8fdi6njlir1b-n10_vp9k" mz="btn_Sure">ยืนยัน</string>
+  <string name="bi8fdi6np5xi2t-n27_fcst" mz="btn_SurePoint">ยืนยัน</string>
+  <string name="bi8fdi6np5xi2t-n38_qy40" mz="n38">เลือกผลลูกเต๋าสำหรับการเดินถัดไป</string>
+  <string name="bi8fdi6np5xi2t-n39_p5xi" mz="btn_OK">ยืนยัน</string>
+  <string name="bi8fdi6njhge2q-n3_qb3s" mz="n3">ยกเลิก</string>
+  <string name="bi8fdi6nqy4029-n3_qb3s" mz="n3">ยืนยัน</string>
+  <string name="bi8fdi6nsjju21-n3_qb3s" mz="n1">ผ่าน</string>
+  <string name="bi8fdi6nsjju21-n8_wvm9" mz="n2">ยกเลิก</string>
+  <string name="y0luzhk8x1udb-n36_mdt4" mz="n36">แชท</string>
+  <string name="y0luzhk8x1udb-n7-prompt" mz="Input_Send">[color=#CCCCCC]พิมพ์ข้อความ[/color]</string>
+  <string name="y0luzhk8x1udb-n30_eipb" mz="txt_wordLimit">{current=0}/{limit=100}</string>
+  <string name="y0luzhk8x1udb-n8" mz="btn_Send">ส่ง</string>
+  <string name="y0luzhk8ednm16-n43_ednm" mz="btn_Cancel">ยกเลิก</string>
+  <string name="y0luzhk8ednm16-n44_ednm" mz="btn_Sure">ยืนยัน</string>
+  <string name="y0luzhk8njjna-n36_ednm" mz="txt_Online">•ออนไลน์</string>
+  <string name="y0luzhk8njjna-n37_ednm" mz="txt_Offline">ออฟไลน์</string>
+  <string name="y0luzhk8sgc41d-n25_sgc4" mz="btn_Delete">ลบบทสนทนา</string>
+  <string name="335msnc1kxm52u-n6_kxm5" mz="btn_ChooseCard">ยืนยัน</string>
+  <string name="335msnc1kxm52u-n9_kxm5" mz="n9">เลือกการ์ด</string>
+  <string name="xuaw6o8jm48iv-n3_rle7" mz="title">แลกเปลี่ยนสตาร์ดิสก์</string>
+  <string name="xuaw6o8jm48iv-n7_rle7" mz="btn_Cancel">ยกเลิก</string>
+  <string name="xuaw6o8jozsk8w-n46_debj" mz="title">ย้อนกลับ</string>
+  <string name="xuaw6o8jozsk8z-n11_micc" mz="title">ยืนยัน</string>
+  <string name="xuaw6o8jnc4bac-n11_micc" mz="title">ยืนยัน</string>
+  <string name="xuaw6o8jofnra1-n46_debj" mz="title">ยืนยัน</string>
+  <string name="xuaw6o8jnc4bad-n46_debj" mz="title">ยืนยัน</string>
+  <string name="xuaw6o8jnc4baj-n46_debj" mz="title">ยืนยัน</string>
+  <string name="xuaw6o8jot0wam-n11_micc" mz="title">ยืนยัน</string>
+  <string name="xuaw6o8jo812au-n32_n9cw" mz="n32">รายละเอียด</string>
+  <string name="xuaw6o8jofnra2-n46_debj" mz="title">ย้อนกลับ</string>
+  <string name="xuaw6o8jnc4bak-n46_debj" mz="title">ย้อนกลับ</string>
+  <string name="xuaw6o8jzy9e0-n46_debj" mz="title">ย้อนกลับ</string>
+  <string name="xuaw6o8jays2s8g-n1_ays2" mz="n1">ปลดล็อกภาพวาดสำรองใหม่</string>
+  <string name="xuaw6o8jpx78j9k-n118_91ym" mz="n118">กลไก</string>
+  <string name="xuaw6o8jpx78j9k-n114_rz1o" mz="n114">ชีวประวัติ</string>
+  <string name="xuaw6o8jpj0zq45-n118_91ym" mz="n118">กลไก</string>
+  <string name="xuaw6o8jpj0zq45-n114_rz1o" mz="n114">ชีวประวัติ</string>
+  <string name="xuaw6o8jpj0zq46-n97_rigr" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="xuaw6o8jpj0zq46-n97_rigr-texts_0" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="xuaw6o8jpj0zq46-n97_rigr-texts_1" mz="txt_SkillName">สกิลแฝง: {skillName=}</string>
+  <string name="xuaw6o8jpx78j9l-n97_rigr" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="xuaw6o8jpx78j9l-n97_rigr-texts_0" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="xuaw6o8jpx78j9l-n97_rigr-texts_1" mz="txt_SkillName">สกิลแฝง: {skillName=}</string>
+  <string name="xuaw6o8jz1wk0-n77_msij" mz="n77">Lv.</string>
+  <string name="xuaw6o8jrct9q3d-n88_9e84" mz="title">UP</string>
+  <string name="m6sn3r229wy8q3a-n33_gbr1" mz="n33">ดูตัวอย่าง</string>
+  <string name="m6sn3r22ot0wbd-n92_dx3g" mz="txt_Title">วิธีได้รับ - {way=None}</string>
+  <string name="m6sn3r22px78j9h-n78_imo3" mz="btn_ReturnList">ยกเลิก</string>
+  <string name="m6sn3r22px78j9h-n79_imo3" mz="btn_CreateRoom">สร้างห้อง</string>
+  <string name="m6sn3r22px78j9j-n130_r2u9" mz="n130">MapEvent</string>
+  <string name="m6sn3r22esjw8q-n71_imo3" mz="n71">รหัสผ่าน: [size=30](ห้องจะเป็นสาธารณะหากไม่ใส่รหัสผ่าน)[/size]</string>
+  <string name="m6sn3r22esjw8q-n72_imo3-prompt" mz="txtField_PSW">[color=#999999]รหัสผ่าน 1-6 หลัก[/color]</string>
+  <string name="m6sn3r22esjw8q-n73_imo3" mz="n73">รายละเอียด: </string>
+  <string name="m6sn3r22ucnq9u-n96_ayrm" mz="txt_Content_Time">&lt;img src='ui://m6sn3r22esjw8u' width='40' height='40'/&gt;{think=}</string>
+  <string name="m6sn3r22n2xac0-n116_n2xa" mz="txt_Content">&lt;img src='ui://m6sn3r22esjw8u' width='40' height='40'/&gt;{think=}</string>
+  <string name="m6sn3r22ot0w0-n14_z52s" mz="txt_Remaining">จำกัด  {remainingNum=1} / {limitNum=1}</string>
+  <string name="m6sn3r22ot0w0-n23_z52s" mz="n23">มีแล้ว</string>
+  <string name="m6sn3r22ot0w0-n39_hcgi" mz="txt_soldout">ขายหมด!</string>
+  <string name="m6sn3r22ot0w0-n24_z52s" mz="txt_timeTip">รีเฟรช: {day=00} วัน {hour=00} ชม</string>
+  <string name="m6sn3r22ot0w0-n43_hcgi" mz="n43">x</string>
+  <string name="m6sn3r22h0atqq41-n14_z52s" mz="txt_Remaining">จำกัด  {remainingNum=1} / {limitNum=1}</string>
+  <string name="m6sn3r22h0atqq41-n23_z52s" mz="n23">มีแล้ว</string>
+  <string name="m6sn3r22h0atqq41-n39_hcgi" mz="txt_soldout">ขายหมด!</string>
+  <string name="m6sn3r22h0atqq41-n24_z52s" mz="txt_timeTip">รีเฟรช: {day=00} วัน {hour=00} ชม</string>
+  <string name="m6sn3r22h0atqq41-n43_hcgi" mz="n43">x</string>
+  <string name="m6sn3r22ot0w9-n38_hcgi" mz="txt_DiscountPercent">{discount=35}% ลด</string>
+  <string name="m6sn3r22jn4e9a-n35_jn4e" mz="n35">x</string>
+  <string name="m6sn3r22jn4e9a-n36_jn4e" mz="n36">เหลือ: {hour=20} ชม, {day=30} วัน</string>
+  <string name="m6sn3r22jn4e9a-n43_grcm" mz="n43">มีแล้ว</string>
+  <string name="m6sn3r22jz24ao-n35_jn4e" mz="txt_Symbol">x</string>
+  <string name="m6sn3r22jz24ao-n45_dvrq" mz="txt_Symbol_Replace">x</string>
+  <string name="m6sn3r22jz24ao-n42_dvrq" mz="n42">แปลง</string>
+  <string name="m6sn3r22zi0cbl-n3_8hxz" mz="title">แชท</string>
+  <string name="m6sn3r22zi0cbv-n78_ayrm" mz="btn_KickPlayer">เอาออก</string>
+  <string name="m6sn3r22zi0cbv-n80_ayrm" mz="btn_SetMaster">เปลี่ยนเจ้าของห้อง</string>
+  <string name="m6sn3r22zi0cbv-n81_lhl9" mz="btn_AccountInfo">ข้อมูล</string>
+  <string name="m6sn3r22zi0cbg-n64_bybb" mz="txt_Null">รอผู้เล่นอื่นเข้าร่วม…</string>
+  <string name="m6sn3r22zi0cbg-n82_re7u" mz="btn_Chat">แชท</string>
+  <string name="1ov1i0v9kqgjbm-n12_gd4d" mz="txt_Name">[size=40]{name=鲨鱼哥}[/size]</string>
+  <string name="1ov1i0v9kqgjbm-n16_gd4d" mz="txt_maxLife">/{maxLife=00}</string>
+  <string name="1ov1i0v9vehs95-n3_qb3s" mz="title">[b]ปล่อยมือ![/b]</string>
+  <string name="1ov1i0v9vehs92-n3_qb3s" mz="title">[b]โจมตี[/b]</string>
+  <string name="1ov1i0v9d45l9a-n88_d45l" mz="n88">มึนงง</string>
+  <string name="1ov1i0v9imo37u-n91_cz37" mz="txt_Team">ผู้พิทักษ์ของขวัญ</string>
+  <string name="trgir7dot1xw0-n2_v4mo" mz="txt_desc">เนื่องจากการละเมิดจรรยาบรรณในแมตช์ล่าสุด คะแนน Fair Play ของคุณต่ำกว่า 90 จะมีคูลดาวน์ 3 นาทีสำหรับแมตช์ถัดไป เพื่อฟื้นฟูคะแนน Fair Play ให้เล่นเกมตามปกติ</string>
+  <string name="trgir7dot1xw0-n4_v4mo" mz="btn_ok">เข้าใจแล้ว</string>
+  <string name="trgir7dot1xw0-n5_j58e" mz="txt_title">คำเตือนการละเมิด</string>
+  <string name="trgir7dot1xw0-n7_j58e" mz="txt_desc_2">เนื่องจากการละเมิดจรรยาบรรณในแมตช์ล่าสุด คะแนน Fair Play ของคุณต่ำกว่า 90 จะมีคูลดาวน์ 3 นาทีสำหรับแมตช์ถัดไป เพื่อฟื้นฟูคะแนน Fair Play ให้เล่นเกมตามปกติ</string>
+  <string name="i6k190d4axwd2-n11_axwd" mz="txt_Count">เหลือ: {count=0}</string>
+  <string name="i6k190d4axwd0-n16_esyu" mz="bottom">เลือกส่วนลด</string>
+  <string name="i6k190d4axwd0-n5_axwd" mz="txt_Price">ราคาหลังลด: {token=USD} [color=#FFCA0F]{curPrice=000}[/color] (ประหยัด [color=#FFCA0F]{Difference=00}[/color])</string>
+  <string name="i6k190d4axwd0-n3_axwd" mz="btn_Cash">ยืนยัน</string>
+  <string name="i6k190d4axwd0-n3_axwd-0" mz="btn_Cash">ยืนยัน</string>
+  <string name="893ze0z8ays2b-n2_ays2" mz="title">ชื่อ</string>
+  <string name="893ze0z8okfee-n92_dx3g" mz="txt_Title">วิธีได้รับ - {way=None}</string>
+  <string name="893ze0z8cp3s0-n16_ays2" mz="n16">วิธีได้รับ</string>
+  <string name="mve1x02cl83j1-n64_hfc0" mz="txt_content">No_Translate</string>
+  <string name="mve1x02chfc02-n8_hfc0" mz="txt_content1">1: อนุญาตให้เกมส่งการแจ้งเตือน</string>
+  <string name="mve1x02chfc02-n12_kr66" mz="txt_content2">No_Translate</string>
+  <string name="mve1x02cl83j0-n1_l83j" mz="bottom">No_Translate</string>
+  <string name="5wai1nhyl6o6at-n28_6fw5" mz="bottom">เคล็ดลับ</string>
+  <string name="5wai1nhyl6o6at-n25_7h6s" mz="txt_Page">&lt; {curIndex=4} /{maxIndex=4} &gt;</string>
+  <string name="5wai1nhyl6o66-n112_6fw5" mz="bottom">เงื่อนไขการชนะ</string>
+  <string name="5wai1nhyl6o66-n92_g8sb" mz="n92">ได้ 3 ดาวเพื่อชนะ!</string>
+  <string name="5wai1nhyl6o66-n87_g8sb" mz="n87">เมื่อผู้เล่นถึง</string>
+  <string name="5wai1nhyl6o66-n89_g8sb" mz="n89">เช็คพอยต์</string>
+  <string name="5wai1nhyl6o66-n106_md6x" mz="n106">ได้ 1 ดาวเมื่อเข้าเงื่อนไขต่อไปนี้</string>
+  <string name="5wai1nhyl6o66-n110_vehs" mz="n110">จุดเริ่มต้น</string>
+  <string name="5wai1nhyl6o66-n93_g8sb" mz="n93">เงื่อนไข:</string>
+  <string name="dl889m5qlsb446-n2_ul24" mz="title">เซ็ต 1</string>
+  <string name="dl889m5qlsb44a-n17_n4se" mz="title">เอฟเฟกต์พิเศษ (ท่าปิดฉาก)</string>
+  <string name="dl889m5qdx3g4z-n92_dx3g" mz="txt_Title">ได้รับจาก - {way=暂无}</string>
+  <string name="dl889m5qlsb44l-n94_e1vv" mz="n94">การแต่งตัวยังไม่ได้บันทึก ต้องการดำเนินการต่อหรือไม่?</string>
+  <string name="dl889m5qlsb44l-n99_o3e1" mz="btn_Cancel">ยกเลิก</string>
+  <string name="dl889m5qlsb44l-n100_o3e1" mz="btn_Sure">ยืนยัน</string>
+  <string name="dl889m5qlsb449-n19_n4se" mz="com_Slot_0">อวตาร</string>
+  <string name="dl889m5qlsb449-n20_n4se" mz="com_Slot_1">การ์ดโปรไฟล์</string>
+  <string name="dl889m5qlsb449-n21_n4se" mz="com_Slot_2">การ์ด</string>
+  <string name="dl889m5qlsb449-n22_n4se" mz="com_Slot_3">ลูกเต๋า</string>
+  <string name="dl889m5qlsb449-n23_n4se" mz="com_Slot_4">เอฟเฟกต์พิเศษ (ท่าปิดฉาก)</string>
+  <string name="dl889m5qlsb445-n73_dx3g-0" mz="list_Tab">อวตาร</string>
+  <string name="dl889m5qlsb445-n73_dx3g-1" mz="list_Tab">การ์ดโปรไฟล์</string>
+  <string name="dl889m5qlsb445-n73_dx3g-2" mz="list_Tab">การ์ด</string>
+  <string name="dl889m5qlsb445-n73_dx3g-3" mz="list_Tab">ลูกเต๋า</string>
+  <string name="dl889m5qlsb445-n73_dx3g-4" mz="list_Tab">ท่าปิดฉาก</string>
+  <string name="dl889m5qlsb445-n73_dx3g-5" mz="list_Tab">พื้นหลังธีม</string>
+  <string name="dl889m5qlsb445-n89_dx3g" mz="n89">การตั้งค่าปัจจุบัน</string>
+  <string name="dl889m5qlsb445-n41_n4se" mz="btn_Save">บันทึก</string>
+  <string name="dl889m5qlsb445-n62_dx3g" mz="btn_reset">รีเซ็ต</string>
+  <string name="8irq146hwvm91e-n3_qb3s" mz="n1">โจมตี</string>
+  <string name="8irq146hwvm91e-n8_wvm9" mz="n2">พร้อม</string>
+  <string name="8irq146hmjrua-n3_qb3s" mz="n1">พร้อม</string>
+  <string name="8irq146hmjrua-n8_wvm9" mz="n2">พร้อม</string>
+  <string name="8irq146hwvm91f-n3_qb3s" mz="n1">ตั้งรับ</string>
+  <string name="8irq146hwvm91f-n8_wvm9" mz="n2">พร้อม</string>
+  <string name="8irq146hwvm91g-n3_qb3s" mz="n1">หลบหลีก</string>
+  <string name="8irq146hwvm91g-n8_wvm9" mz="n2">พร้อม</string>
+  <string name="8irq146hwvm91g-n9_wvm9" mz="txt_Point">{sign=&gt;}{point=0}</string>
+  <string name="8irq146ht4dl2g-n4_t4dl" mz="txt_CardValue">{min=13}
+ 
+-
+ 
+{max=20}</string>
+  <string name="8irq146ht4dl2g-n1_t4dl" mz="txt_Life">{life=100}</string>
+  <string name="8irq146hwvm91a-n4_t4dl" mz="txt_CardValue">{min=13}
+ 
+-
+ 
+{max=20}</string>
+  <string name="8irq146hwvm91a-n1_t4dl" mz="txt_Life">{life=10}</string>
+  <string name="8irq146hwvm91a-n36_lmo0" mz="n36">หลบหลีกสำเร็จ!</string>
+  <string name="8irq146hwvm91a-n38_lmo0" mz="n38">หลบหลีกล้มเหลว!</string>
+  <string name="8irq146hwvm91a-n37_lmo0" mz="txt_HitValue">{hp=-10}</string>
+  <string name="8irq146hglhu4j-n86_9dfe" mz="txt_Cost">{curCost=3}/{maxCost=3}</string>
+  <string name="8irq146hmjrud-n33_qznh" mz="btn_PK">โจมตี</string>
+  <string name="8irq146hmjrud-n34_qznh" mz="btn_Leave">ปล่อยมือ!</string>
+  <string name="8irq146hmjrud-n99_freu" mz="n99">กำลังคิดการเดินถัดไป…</string>
+  <string name="8irq146hmjrud-n110_ec7w" mz="txt_Counter">โต้กลับ</string>
+  <string name="8irq146hmjrud-n111_ru20" mz="btn_ShowWin">ซ่อน</string>
+  <string name="8irq146hmjrud-n112_ru20" mz="btn_HideWin">แสดง</string>
+  <string name="8irq146hmjruc-n80_lmo0" mz="n80">ทั้งสองฝ่ายกำลังเล่นการ์ด…</string>
+  <string name="8irq146hmjruc-n82_lmo0" mz="n99">เตรียมโจมตี!</string>
+  <string name="8irq146hmjruc-n73_enlv" mz="txt_DiceTip">[size=50][color=#{color=ff0000}]{playerName=PLAYER NAME}[/color][/size]</string>
+  <string name="8irq146hmjruc-n84_lmo0" mz="n95">เตรียมตั้งรับ!</string>
+  <string name="8irq146hmjruc-n85_lmo0" mz="txt_ChoiceTip">[size=50][color=#{color=ff0000}]{playerName=PLAYER NAME}[/color][/size]</string>
+  <string name="8irq146hmjruc-n88_lmo0" mz="txt_Defend">เลือกตั้งรับ!</string>
+  <string name="8irq146hmjruc-n91_lmo0" mz="txt_Dodge">เลือกหลบหลีก!</string>
+  <string name="8irq146hmjruc-n89_lmo0" mz="txt_ChoiceResult">[size=50][color=#{color=ff0000}]{playerName=PLAYER NAME}[/color][/size]</string>
+  <string name="8irq146hmjruc-n93_lmo0" mz="txt_Failure">K.O.!</string>
+  <string name="8irq146hmjruc-n96_lmo0" mz="txt_Success">รอดชีวิต!</string>
+  <string name="8irq146hmjruc-n94_lmo0" mz="txt_ResultTip">[size=50][color=#{color=ff0000}]{playerName=PLAYER NAME}[/color][/size]</string>
+  <string name="2wec2q8z7h6s9-n28_7h6s" mz="n28">เพิ่มเพื่อน</string>
+  <string name="2wec2q8z7h6s9-n29_7h6s" mz="n29">เพิ่มเพื่อน</string>
+  <string name="2wec2q8z7h6s9-n30_7h6s" mz="n30">ล่าสุด</string>
+  <string name="2wec2q8z7h6s9-n34_7h6s" mz="n34">ตาม UID</string>
+  <string name="2wec2q8z7h6s9-n24_7h6s" mz="txt_Times"> จำกัดคำขอรายวัน {num=50} ครั้ง</string>
+  <string name="2wec2q8z7h6s9-n21_7h6s-prompt" mz="txtField_Search">[color=#999999]กรอก UID[/color]</string>
+  <string name="2wec2q8z7h6s9-n19_7h6s" mz="btn_SearchPlayer">ค้นหา</string>
+  <string name="2wec2q8z7h6s9-n11_7h6s" mz="n11">ล่าสุด</string>
+  <string name="2wec2q8z7h6s9-n12_7h6s" mz="n12">ค้นหา</string>
+  <string name="2wec2q8z7h6s9-n26_7h6s" mz="n26">ไม่พบผลลัพธ์ กรุณากรอก UID ใหม่</string>
+  <string name="2wec2q8z7h6sy-n10_7h6s" mz="n10">คำขอ</string>
+  <string name="2wec2q8z7h6sy-n11_7h6s" mz="n11">คำขอ</string>
+  <string name="2wec2q8z7h6sy-n15_7h6s" mz="txt_ShowTime">คำขอภายใน {day=7} วัน</string>
+  <string name="2wec2q8z7h6sy-n14_7h6s" mz="btn_AllRefuse">ปฏิเสธทั้งหมด</string>
+  <string name="2wec2q8z7h6sx-n37_7h6s" mz="n37">ตรวจสอบ</string>
+  <string name="2wec2q8z7h6sw-n10_7h6s" mz="n10">บล็อก</string>
+  <string name="2wec2q8z7h6sw-n11_7h6s" mz="n11">บล็อก</string>
+  <string name="2wec2q8z7h6sw-n8_7h6s" mz="txt_blackNum">[size=60]จำกัด[/size]{num=00/00}</string>
+  <string name="2wec2q8zgn3f1t-n10_7h6s" mz="title">ออนไลน์</string>
+  <string name="2wec2q8ztiv31p-n10_7h6s" mz="btn_FriendStatus">ออนไลน์</string>
+  <string name="2wec2q8ztiv31p-n10_7h6s-texts_0" mz="btn_FriendStatus">ออฟไลน์</string>
+  <string name="2wec2q8ztiv31p-n10_7h6s-texts_1" mz="btn_FriendStatus">เข้าห้อง</string>
+  <string name="2wec2q8ztiv31p-n10_7h6s-texts_def" mz="btn_FriendStatus">ออนไลน์</string>
+  <string name="2wec2q8z7h6s1n-n39_7h6s" mz="n39">ดูการแข่งขัน</string>
+  <string name="2wec2q8z7h6sf-n10_7h6s" mz="n10">เพื่อน</string>
+  <string name="2wec2q8z7h6sf-n11_7h6s" mz="n11">เพื่อน</string>
+  <string name="2wec2q8z7h6sf-n8_7h6s" mz="txt_FriendsNum">[size=60]จำกัด[/size]{num=00/00}</string>
+  <string name="2wec2q8z7h6sf-n17_nzp8" mz="com_State">สถานะ</string>
+  <string name="2wec2q8z7h6s0-n1_7h6s" mz="btn_TabFriends">เพื่อน</string>
+  <string name="2wec2q8z7h6s0-n2_7h6s" mz="btn_TabAdd">เพิ่มเพื่อน</string>
+  <string name="2wec2q8z7h6s0-n3_7h6s" mz="btn_TabApply">คำขอ</string>
+  <string name="2wec2q8z7h6s0-n4_7h6s" mz="btn_TabBlacklist">บล็อก</string>
+  <string name="fmvvkhb4u13x1b-n3_u13x" mz="n3">เล่นแมตช์ Astral Town 1 ครั้งเพื่อเข้าสู่อันดับ</string>
+  <string name="fmvvkhb4u13x1c-n58_psca" mz="n58">คะแนนสูงสุด</string>
+  <string name="fmvvkhb4u13x18-n28_u13x" mz="n28">อันดับเพื่อน</string>
+  <string name="fmvvkhb4u13x18-n36_uytm" mz="FriendClose_btn">X</string>
+  <string name="fmvvkhb4u13x18-n33_uytm" mz="n33">รีเซ็ตคะแนนรายเดือน</string>
+  <string name="j90wpcmnpl6d1w-n3_qb3s" mz="txt_Name">กาชา x10</string>
+  <string name="j90wpcmnpl6d1w-n13_vo6h" mz="n13">ครั้งแรกฟรี!</string>
+  <string name="j90wpcmnvpjm7-n3_qb3s" mz="txt_Name">กาชา x {time=1}</string>
+  <string name="j90wpcmnfs8hqq2b-n3_qb3s" mz="txt_Name">กาชา {time=1} ครั้ง</string>
+  <string name="j90wpcmng85eqq2v-n3_qb3s" mz="txt_Name">กาชา x {time=1}</string>
+  <string name="j90wpcmnfs8hqq2f-n3_qb3s" mz="txt_Name">ดูตัวอย่าง</string>
+  <string name="j90wpcmnf9snqq2x-n3_qb3s" mz="txt_Name">กาชา {time=10} ครั้ง</string>
+  <string name="j90wpcmnf9snqq2x-n17_gav0" mz="n17">ลด 20%</string>
+  <string name="j90wpcmng85eqq2w-n120_pzeu" mz="txt_review">ดูตัวอย่าง</string>
+  <string name="j90wpcmng85eqq2w-n116_pzeu" mz="txt_receive">เลือกตัวละคร</string>
+  <string name="j90wpcmng85eqq2w-n117_pzeu" mz="txt_received">เลือกตัวละคร</string>
+  <string name="j90wpcmn11biq1y-n18_qdq5" mz="n18">แลกเปลี่ยน</string>
+  <string name="j90wpcmni82zqq3a-n5_i82z" mz="n5">รับ</string>
+  <string name="j90wpcmni82zqq3c-n4_i82z" mz="num">x {count=150}</string>
+  <string name="j90wpcmnabqa1a-n52_5o9m" mz="n52">x</string>
+  <string name="j90wpcmnabqa1a-n42_ne5m" mz="n42">x</string>
+  <string name="j90wpcmnabqa1a-n49_grcm" mz="n49">แลกเปลี่ยน</string>
+  <string name="j90wpcmni82zqq3b-n3_i82z" mz="n3">&lt;แตะเพื่อดูทั้งหมด&gt;</string>
+  <string name="j90wpcmni82zqq37-n3_i82z" mz="n3">แพ็กของขวัญบูสต์</string>
+  <string name="j90wpcmnvjqjqq3l-n2_vjqj" mz="txt_UpDesc">-รีรัน-</string>
+  <string name="j90wpcmnabqa19-n62_thbm" mz="btn_Sure_Again">โชคดี!!</string>
+  <string name="j90wpcmnabqa19-n84_vlgj" mz="btn_Sure_NoAgain">โชคดี!!</string>
+  <string name="j90wpcmnabqa19-n46_vpjm" mz="btn_GachaAgain">กาชาอีกครั้ง</string>
+  <string name="j90wpcmnabqa19-n82_thbm" mz="n82">ผลกาชา</string>
+  <string name="j90wpcmnvpjmv-n51_vpjm" mz="n51">อนิเมชันไอเทม</string>
+  <string name="j90wpcmnvpjmv-n50_vpjm" mz="n50">อนิเมชันกาชา</string>
+  <string name="j90wpcmnvpjmv-n28_vpjm" mz="btn_Skip">ข้าม-&gt;</string>
+  <string name="j90wpcmn11biq21-n97_11biq" mz="txt_UpDesc">อัปเรต!</string>
+  <string name="j90wpcmnvjqjqq3m-n2_vjqj" mz="txt_UpDesc">-รีรัน-</string>
+  <string name="j90wpcmnvjqjqq3m-n4_vjqj" mz="txt_Up">อัปเรต ↑↑</string>
+  <string name="j90wpcmnvjqjqq3k-n7_vjqj" mz="btn_GachaMulti">กาชา x 10</string>
+  <string name="j90wpcmni82zqq39-n0_i82z" mz="txt_title">รับหลังกาชา [color=#FFFFFF]{count=10}[/color] ครั้ง</string>
+  <string name="j90wpcmni82zqq39-n1_i82z" mz="txt_canget">รับ</string>
+  <string name="j90wpcmnvlgj1t-n71_vlgj" mz="txt_PoolRecord">ประวัติ</string>
+  <string name="j90wpcmnvlgj1t-n76_vlgj" mz="txt_Explain">แสดงเฉพาะประวัติกาชา 40 ครั้งล่าสุดของบัญชีปัจจุบัน</string>
+  <string name="j90wpcmnvlgj1t-n87_vlgj" mz="n87">ประเภท</string>
+  <string name="j90wpcmnvlgj1t-n88_vlgj" mz="n88">ชื่อ</string>
+  <string name="j90wpcmnvlgj1t-n89_vlgj" mz="n89">จำนวน</string>
+  <string name="j90wpcmnvlgj1t-n90_vlgj" mz="n90">เวลา</string>
+  <string name="j90wpcmnfs8hqq2l-n3_fs8h" mz="n3">รับ</string>
+  <string name="j90wpcmnfs8hqq2l-n5_fs8h" mz="n5">รับแล้ว</string>
+  <string name="j90wpcmng6uw0-n26_vpjm" mz="btn_Excharge">แลกเปลี่ยน</string>
+  <string name="j90wpcmng6uw0-n25_vpjm" mz="btn_Info">รายละเอียด</string>
+  <string name="j90wpcmng6uw0-n68_vlgj" mz="btn_Record">ประวัติ</string>
+  <string name="j90wpcmng6uw0-n39_vpjm" mz="btn_GachaMulti">กาชา x 10</string>
+  <string name="j90wpcmng6uw0-n118_pzeu" mz="txt_rookieGachaCount">เหลือ [color=#90ff11]{count=4}[/color] ครั้ง</string>
+  <string name="j90wpcmng6uw0-n119_pzeu" mz="n119">★ กาชา 60 ครั้ง → เลือกตัวละคร 1 ตัว</string>
+  <string name="j90wpcmng6uw0-n120_pzeu" mz="txt_rookieGachaProcess">{curCount=20}/[color=#90ff11]{maxCount=60}[/color]</string>
+  <string name="egrtucyhot0w6-n76_vlgj" mz="txt_Explain">แสดงเฉพาะประวัติกาชา 40 ครั้งล่าสุดของบัญชีปัจจุบัน</string>
+  <string name="egrtucyhot0w6-n87_vlgj" mz="n87">ประเภท</string>
+  <string name="egrtucyhot0w6-n88_vlgj" mz="n88">ชื่อ</string>
+  <string name="egrtucyhot0w6-n89_vlgj" mz="n89">จำนวน</string>
+  <string name="egrtucyhot0w6-n90_vlgj" mz="n90">เวลา</string>
+  <string name="egrtucyhnu3za-n12_nu3z" mz="btn_SkipSkin">ข้าม</string>
+  <string name="egrtucyhot0w0-n11_r3jj" mz="bottom">ข้อมูลกาชา</string>
+  <string name="egrtucyhot0w0-n7_izsa" mz="btn_Skip">ข้าม</string>
+  <string name="q1a022ssjrp5qq38-n116_pzeu" mz="txt_receive">รับ</string>
+  <string name="q1a022ssjrp5qq38-n124_jrp5" mz="txt_uncomplet">ยังไม่เสร็จสิ้น</string>
+  <string name="q1a022ssjrp5qq38-n125_jrp5" mz="txt_progress">{curCount=20}/[color=#09f84c]{maxCount=60}[/color]</string>
+  <string name="q1a022ssjrp5qq38-n127_u9hc" mz="txt_complet">รับ</string>
+  <string name="q1a022ssm48i0-n11_jrp5" mz="n11">เลือกตัวละครแบนเนอร์มือใหม่</string>
+  <string name="d5a5wdik7wqn8-n118_91ym" mz="n118">กลไก</string>
+  <string name="d5a5wdik7wqn8-n114_rz1o" mz="n114">ชีวประวัติ</string>
+  <string name="d5a5wdikzbf7l-n97_rigr" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="d5a5wdikzbf7l-n97_rigr-texts_0" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="d5a5wdikzbf7l-n97_rigr-texts_1" mz="txt_SkillName">สกิลแฝง: {skillName=}</string>
+  <string name="d5a5wdik7wqn0-n29_ru20-0" mz="list_Labels">การ์ด</string>
+  <string name="d5a5wdik7wqn0-n29_ru20-1" mz="list_Labels">แปลน</string>
+  <string name="d5a5wdik7wqn0-n29_ru20-2" mz="list_Labels">มอนสเตอร์</string>
+  <string name="d5a5wdik7wqn0-n29_ru20-3" mz="list_Labels">ชิป</string>
+  <string name="d5a5wdik7wqn0-n29_ru20-4" mz="list_Labels">อีเวนต์</string>
+  <string name="w5bj58pzlwm12-n1_lwm1" mz="title">ย้อนกลับ</string>
+  <string name="w5bj58pzg04jk-n6_rc48" mz="title">เข้าร่วม</string>
+  <string name="w5bj58pzg04jj-n1_g04j" mz="title">รายงาน</string>
+  <string name="w5bj58pzlwm20-n2_lwm1" mz="txt_AnnouncementTitle">ประกาศ</string>
+  <string name="w5bj58pzlwm20-n4_lwm1" mz="txt_AnnouncementUpdatedMeta">แก้ไขล่าสุด: {time=2026/06/30}</string>
+  <string name="w5bj58pzlwm13-n3_lwm1-0" mz="list_GuildMainNavItems">แชท</string>
+  <string name="w5bj58pzlwm13-n3_lwm1-1" mz="list_GuildMainNavItems">สมาชิก</string>
+  <string name="w5bj58pzlwm13-n7_g04j" mz="btn_report">รายงาน</string>
+  <string name="w5bj58pzlwm13-n8_g04j" mz="btn_rule">กฎ</string>
+  <string name="w5bj58pzlwm19-n1_lwm1" mz="txt_GuildName">ชื่อ Guild: {name=XXXXXXX}</string>
+  <string name="w5bj58pzlwm19-n2_lwm1" mz="txt_GuildId">Guild ID: {id=123456789}</string>
+  <string name="w5bj58pzhtd12v-n18_qtyw" mz="n18">อยู่ในเกม</string>
+  <string name="w5bj58pzhtd12i-n11_htd1" mz="btn_Search">ค้นหา</string>
+  <string name="w5bj58pzhtd12i-n2_htd1" mz="btn_Friend">เพื่อน</string>
+  <string name="w5bj58pzhtd12i-n3_htd1" mz="btn_LastTeam">ผู้เล่นล่าสุด</string>
+  <string name="w5bj58pzhtd12i-n9_htd1" mz="btn_Invite">เชิญ</string>
+  <string name="w5bj58pzhtd12i-n13_htd1" mz="uid_input">กรุณากรอก UID</string>
+  <string name="w5bj58pzhtd12i-n14_htd1" mz="btn_search">ค้นหา</string>
+  <string name="w5bj58pzg04j10-n1_g04j" mz="memberTitle">[size=84]รายชื่อสมาชิก[/size][size=42]({num=38}/{total=150})[/size]</string>
+  <string name="w5bj58pzg04j10-n6_g04j" mz="btn_memberChange">การเปลี่ยนแปลงสมาชิก</string>
+  <string name="w5bj58pzg04j10-n7_g04j" mz="btn_invite">เชิญเข้าร่วม Guild</string>
+  <string name="w5bj58pzg04j10-n8_g04j" mz="btn_approval">ตรวจสอบคำขอเข้าร่วม</string>
+  <string name="w5bj58pzg04j17-n6_g04j" mz="active">กิจกรรมสัปดาห์นี้: {active=999}</string>
+  <string name="w5bj58pzhtd11m-n1_htd1" mz="n1">ร้านค้า Guild</string>
+  <string name="w5bj58pzhtd11l-n1_htd1" mz="n1">ภารกิจ Guild</string>
+  <string name="w5bj58pzhtd11p-n38_htd1" mz="btn_taskStatus">ไปทำภารกิจ</string>
+  <string name="w5bj58pzhtd11p-n38_htd1-texts_0" mz="btn_taskStatus">ไปทำภารกิจ</string>
+  <string name="w5bj58pzhtd11p-n38_htd1-texts_1" mz="btn_taskStatus">รับ</string>
+  <string name="w5bj58pzhtd135-n7_htd1" mz="txt_approvaTime">เวลาสมัคร: {time=2026/05/08 12:00}</string>
+  <string name="w5bj58pzhtd135-n4_htd1" mz="btn_see">ตรวจสอบ</string>
+  <string name="w5bj58pzhtd135-n5_htd1" mz="btn_refuse">ปฏิเสธ</string>
+  <string name="w5bj58pzhtd135-n6_htd1" mz="btn_agree">ยอมรับ</string>
+  <string name="w5bj58pzhtd12j-n0_htd1" mz="bottom">ตรวจสอบคำขอเข้าร่วม</string>
+  <string name="w5bj58pzhtd12j-n3_htd1" mz="n3">คำขอเข้าร่วมในช่วง 7 วันที่ผ่านมา</string>
+  <string name="w5bj58pzhtd12j-n5_htd1" mz="btn_refuseall">ปฏิเสธทั้งหมด</string>
+  <string name="w5bj58pzhtd12c-n0_htd1" mz="bottom">การเปลี่ยนแปลงสมาชิก</string>
+  <string name="w5bj58pzhtd12c-n3_htd1" mz="n3">การเปลี่ยนแปลงสมาชิกในช่วง 30 วันที่ผ่านมา (สูงสุด 300 รายการ)</string>
+  <string name="w5bj58pzhtd12b-n0_htd1" mz="bottom">ตั้งค่าสมาชิก</string>
+  <string name="w5bj58pzhtd12b-n4_htd1" mz="txt_memberJob">ตำแหน่งปัจจุบัน: {job=Elite}</string>
+  <string name="w5bj58pzhtd12b-n5_htd1" mz="txt_memberTime">เข้าสู่ระบบล่าสุด: {time=2026/05/08}</string>
+  <string name="w5bj58pzhtd12b-n6_htd1" mz="txt_memberActive">กิจกรรมสัปดาห์นี้: {num=999}</string>
+  <string name="w5bj58pzhtd12b-n7_htd1" mz="btn_memberDetail">ดูรายละเอียด</string>
+  <string name="w5bj58pzhtd12b-n9_htd1" mz="btn_expelGuild">นำออกจาก Guild</string>
+  <string name="w5bj58pzhtd12b-n8_htd1" mz="btn_exitGuild">ออกจาก Guild</string>
+  <string name="w5bj58pzhtd12a-n0_htd1" mz="bottom">ประกาศภายใน Guild</string>
+  <string name="w5bj58pzhtd12a-n3_htd1" mz="input_notice">NoTranslate</string>
+  <string name="w5bj58pzhtd12a-n4_htd1" mz="btn_notice_sure">ยืนยัน</string>
+  <string name="w5bj58pzhtd12a-n6_htd1" mz="txt_editerName">แก้ไขล่าสุดโดย: {name=名字XXXX}</string>
+  <string name="w5bj58pzhtd12a-n9_htd1" mz="n9">แก้ไขได้วันละ 3 ครั้ง</string>
+  <string name="w5bj58pzhtd129-n0_htd1" mz="bottom">การตั้งค่า Guild</string>
+  <string name="w5bj58pzhtd129-n2_htd1" mz="n2">แท็ก Guild</string>
+  <string name="w5bj58pzhtd129-n5_htd1" mz="n5">ประกาศรับสมัคร</string>
+  <string name="w5bj58pzhtd129-n6_htd1" mz="n6">เลือกได้หลายรายการ สูงสุด 5 รายการ</string>
+  <string name="w5bj58pzhtd129-n8_htd1" mz="recruit_notice">NoTranslate</string>
+  <string name="w5bj58pzhtd129-n9_htd1" mz="btn_dissolve">ยุบ Guild</string>
+  <string name="w5bj58pzhtd129-n10_htd1" mz="btn_settingsure">ยืนยัน</string>
+  <string name="w5bj58pzhtd129-n12_htd1" mz="txt_editerName">แก้ไขล่าสุด: {name=name XXXX}</string>
+  <string name="w5bj58pzhtd129-n15_htd1" mz="n15">แก้ไขได้วันละ 3 ครั้ง</string>
+  <string name="w5bj58pzg04j1i-n0_g04j" mz="tips">2026/06/01 Name xxxxx เลื่อนตำแหน่ง xxxxx เป็นรองหัวหน้า Guild</string>
+  <string name="w5bj58pzlwm11-n3_lwm1" mz="btn_Back">ย้อนกลับ</string>
+  <string name="gldisc01gd007-n7_hmn1" mz="n7">ประวัติคำขอเข้าร่วม</string>
+  <string name="gldisc01gd007-n8_hmn1" mz="n8">คำขอแต่ละรายการจะหมดอายุหลัง 7 วัน</string>
+  <string name="gldisc01rc48v-n4_y9qn" mz="n4">ย้อนกลับ</string>
+  <string name="gldisc01gd002-n9_rc48" mz="title">สร้าง Guild</string>
+  <string name="gldisc01rc4816-n6_rc48" mz="title">เข้าร่วม</string>
+  <string name="gldisc01gd009-n21_hmn1" mz="n21">ชื่อ Guild</string>
+  <string name="gldisc01gd009-n23_hmn1" mz="input_GuildName">NoTranslate</string>
+  <string name="gldisc01gd009-n26_hmn1" mz="txt_hint1">ยาวได้ไม่เกิน 20 ตัวอักษร</string>
+  <string name="gldisc01gd009-n28_hmn1" mz="txt_hint2">ไม่สามารถเปลี่ยนชื่อ Guild หลังสร้างแล้ว</string>
+  <string name="gldisc01gd009-n33_hmn1" mz="n33">แท็ก Guild</string>
+  <string name="gldisc01gd009-n35_hmn1" mz="txt_hint3">เลือกได้หลายรายการ สูงสุด 5 รายการ</string>
+  <string name="gldisc01gd009-n37_hmn1" mz="n37">ประกาศรับสมัคร</string>
+  <string name="gldisc01gd009-n39_hmn1" mz="txt_notice">NoTranslate</string>
+  <string name="gldisc01gd009-n43_hmn1" mz="n43">ค่าใช้จ่ายในการสร้าง</string>
+  <string name="gldisc01gd009-n44_hmn1" mz="btn_Confirm">ยืนยันการสร้าง</string>
+  <string name="gldisc01gd008-n10_hmn1" mz="n10">คำเชิญที่ได้รับ</string>
+  <string name="gldisc01gd008-n11_hmn1" mz="n11">คำเชิญเข้า Guild ในช่วง 7 วันที่ผ่านมา</string>
+  <string name="gldisc01gd008-n13_hmn1" mz="btn_AcceptInvite">ยอมรับ</string>
+  <string name="gldisc01gd008-n14_hmn1" mz="btn_RejectInvite">ปฏิเสธ</string>
+  <string name="gldisc01gd008-n15_hmn1" mz="btn_RejectAllInvites">ปฏิเสธทั้งหมด</string>
+  <string name="gldisc01gd014-n2_gd" mz="txt_GuildName">ชื่อ Guild {name=xxxxxxx}</string>
+  <string name="gldisc01gd014-n4_gd" mz="txt_GuildLeader">หัวหน้า: {leaderName=XXXXXXX}</string>
+  <string name="gldisc01gd014-n3_gd" mz="txt_GuildId">Guild ID: {ID=123456789}</string>
+  <string name="gldisc01gd014-n5_gd" mz="txt_GuildMemberCount">จำนวนสมาชิก: {num=999}</string>
+  <string name="gldisc01gd014-n6_gd" mz="txt_GuildActiveCount">กิจกรรมสัปดาห์ที่แล้ว: {activeNum=666}</string>
+  <string name="gldisc01gd014-n10_gd" mz="txt_GuildEditedInfo">แก้ไขล่าสุดโดย: {name=停车坐爱枫林晚} {time=2026/08/30 12:30}</string>
+  <string name="gldisc01gd016-n8_rc48" mz="txt_SectionTitle">เลือกแท็ก Guild</string>
+  <string name="gldisc01gd016-n12_rc48" mz="txtField_GuildKeyword">กรอก Guild ที่ต้องการค้นหา</string>
+  <string name="gldisc01gd016-n12_rc48-prompt" mz="txtField_GuildKeyword">[color=#aaaaaa]กรุณากรอกชื่อ Guild หรือ Guild ID เพื่อค้นหา[/color]</string>
+  <string name="gldisc01gd016-n15_hmn1" mz="btn_SearchGuild">ค้นหา</string>
+  <string name="gldisc01gd016-n18_hmn1" mz="btn_ReportGuild">รายงาน</string>
+  <string name="gldisc01gd016-n19_hmn1" mz="btn_ApplyJoinGuild">เข้าร่วม</string>
+  <string name="gldisc01gd005-n2_gd" mz="txt_GuildName">NoTranslate</string>
+  <string name="gldisc01gd005-n16_hmn1" mz="n16">ส่งคำขอแล้ว</string>
+  <string name="gldisc01gd005-n5_gd" mz="txt_GuildMember">จำนวนสมาชิก: {num=999}</string>
+  <string name="gldisc01gd005-n10_hmn1" mz="txt_GuildActiveMember">กิจกรรมสัปดาห์ที่แล้ว: {num=666}</string>
+  <string name="gldisc01gd001-n7_gd-0" mz="list_GuildSideNavItems">เข้าร่วม Guild</string>
+  <string name="gldisc01gd001-n7_gd-1" mz="list_GuildSideNavItems">ประวัติคำขอเข้าร่วม</string>
+  <string name="gldisc01gd001-n7_gd-2" mz="list_GuildSideNavItems">คำเชิญที่ได้รับ</string>
+  <string name="gldisc01gd001-n7_gd-3" mz="list_GuildSideNavItems">สร้าง Guild</string>
+  <string name="vflhnh8dorg7e-n50_j73t" mz="n50">Go Go Go</string>
+  <string name="vflhnh8dorg7e-n48_j73t" mz="n48">เดิน</string>
+  <string name="vflhnh8dqs184n-n5_qs18" mz="txt_Name">สกิล</string>
+  <string name="vflhnh8dorg71-n69_imo3" mz="txt_CardState">เล่นการ์ด {curCard=0}/{maxCard=0}</string>
+  <string name="7qkd4lqxg1lk18-n96_j0fu" mz="txt_Num">[color=#{color=ff0000}]{curNum=00}[/color]/{target=00}</string>
+  <string name="7qkd4lqxq93cq2t-n123_q93c" mz="n123">กำลังใช้</string>
+  <string name="7qkd4lqxg1lkm-n138_kp9f" mz="btn_Skill">สกิล</string>
+  <string name="7qkd4lqxg1lkm-n147_bfwl" mz="btn_Upgrade">เลเวลอัป</string>
+  <string name="7qkd4lqxg1lkm-n148_bfwl" mz="btn_Talent">ศักยภาพ</string>
+  <string name="7qkd4lqxg1lkm-n149_bfwl" mz="btn_Archive">ข้อมูล</string>
+  <string name="7qkd4lqxg1lkm-n154_jhcl" mz="txt_CollectTip">ตั้งเป็นตัวละครโปรด</string>
+  <string name="7qkd4lqxkp9fq36-n139_bfwl" mz="n139">ชาเลนจ์ Co-op</string>
+  <string name="7qkd4lqxkp9fq36-n144_bfwl" mz="n144">เปิดใช้งานศักยภาพ</string>
+  <string name="7qkd4lqxbfwlq3i-n140_bfwl" mz="n140">เลเวล</string>
+  <string name="7qkd4lqxkqgjq2f-n97_rigr" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="7qkd4lqxkqgjq2f-n97_rigr-texts_0" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="7qkd4lqxkqgjq2f-n97_rigr-texts_1" mz="txt_SkillName">สกิลแฝง: {skillName=}</string>
+  <string name="7qkd4lqxbfwlq3k-n1_bfwl" mz="title">เปิดใช้งาน</string>
+  <string name="7qkd4lqxkp9fq39-n125_bfwl" mz="txt_DescTitle">{name=Character Name}——เปิดใช้งานศักยภาพ</string>
+  <string name="7qkd4lqxkp9fq39-n120_dxtj" mz="txt_Tips">ต้องการเลเวล Co-op {lv=0} (ยังไม่บรรลุ)</string>
+  <string name="7qkd4lqxkp9fq39-n120_dxtj-texts_0" mz="txt_Tips">ต้องการเลเวล Co-op {lv=0}</string>
+  <string name="7qkd4lqxkp9fq39-n120_dxtj-texts_def" mz="txt_Tips">ต้องการเลเวล Co-op {lv=0} (ยังไม่บรรลุ)</string>
+  <string name="7qkd4lqxbfwlq3t-n96_j0fu" mz="txt_Num">[color=#{color=ff0000}]{curNum=00}[/color]/{target=00}</string>
+  <string name="7qkd4lqxbfwlq44-n1_bfwl" mz="title">เลเวลอัป</string>
+  <string name="7qkd4lqxkp9fq37-n138_kp9f" mz="btn_AutoUpgrade">เลือกอัตโนมัติ</string>
+  <string name="7qkd4lqxkp9fq37-n139_kp9f" mz="btn_CancelUpgrade">ล้างทั้งหมด</string>
+  <string name="7qkd4lqxl6o6q1t-n122_l6o6" mz="n122">สลับไอเทม</string>
+  <string name="7qkd4lqxg1lkn-n83_j0fu" mz="n83">เลเวลมิตรภาพ</string>
+  <string name="7qkd4lqxg1lkn-n79_j0fu" mz="btn_GiftTab">ของขวัญ</string>
+  <string name="7qkd4lqxg1lkn-n90_j0fu" mz="btn_OperateBreak">สร้างสายใย</string>
+  <string name="7qkd4lqxg1lkn-n53_ym7c" mz="btn_giveGift">ยืนยัน</string>
+  <string name="7qkd4lqxg1lkn-n107_rz1o" mz="txt_CurFavorValue">{color=[color=#ffffff]}{cur=1200}[/color]/{max=2000}</string>
+  <string name="7qkd4lqxg1lkn-n119_bhbh" mz="n119">รางวัล</string>
+  <string name="7qkd4lqxg1lkn-n91_j0fu" mz="btn_breakThrough">ยืนยัน</string>
+  <string name="7qkd4lqxg1lkn-n120_dxtj" mz="n120">ต้องการเลเวลมิตรภาพ 5</string>
+  <string name="7qkd4lqxot0wq28-n11_micc" mz="title">ข้อมูล</string>
+  <string name="7qkd4lqxot0wq27-n11_micc" mz="title">เลเวลอัป</string>
+  <string name="7qkd4lqxot0wq29-n137_bfwl" mz="n137">เลเวล</string>
+  <string name="7qkd4lqxot0wq2a-n6_ot0w" mz="n6">เลเวลชาเลนจ์ Co-op อัป</string>
+  <string name="7qkd4lqxot0wq2a-n10_ot0w" mz="btn_Upgrade">เลเวลอัป</string>
+  <string name="7qkd4lqxot0wq2a-n11_ot0w" mz="btn_AutoUpgrade">เลือกอัตโนมัติ</string>
+  <string name="7qkd4lqxot0wq2a-n12_ot0w" mz="btn_CancelUpgrade">ล้างทั้งหมด</string>
+  <string name="7qkd4lqxot0wq2c-n61_ot0w" mz="n61">สูงสุด</string>
+  <string name="7qkd4lqxot0wq2c-n56_ot0w" mz="txt_Cur">เลเวล {Lv=1}</string>
+  <string name="7qkd4lqxot0wq2c-n57_ot0w" mz="txt_Next">เลเวล {Lv=2}</string>
+  <string name="7qkd4lqxbfwlq3o-n61_ot0w" mz="n61">สูงสุด</string>
+  <string name="7qkd4lqxbfwlq3o-n62_l2yf" mz="txt_Cur">เลเวล {Lv=1}</string>
+  <string name="7qkd4lqxbfwlq3o-n63_l2yf" mz="txt_Next">เลเวล {Lv=2}</string>
+  <string name="7qkd4lqxq93cq2y-n4_o97f" mz="title">ยืนยัน</string>
+  <string name="7qkd4lqxg1lkb-n39_isj1" mz="txt_Trial">ทดลอง!</string>
+  <string name="7qkd4lqx11biq1h-n33_gbr1" mz="n33">ดูตัวอย่าง</string>
+  <string name="7qkd4lqxg1lk7-n200_fxdf" mz="txt_MAX">สูงสุด</string>
+  <string name="7qkd4lqxg1lk0-n51_q93c" mz="n51">อิโมจิ</string>
+  <string name="7qkd4lqxg1lk0-n25_rz1o" mz="n25">สกิน</string>
+  <string name="7qkd4lqxg1lk0-n24_rz1o" mz="btn_GiftTab">สายใย</string>
+  <string name="7qkd4lqxg1lk0-n23_rz1o" mz="n23">ข้อมูล</string>
+  <string name="7qkd4lqxg1lk0-n6_o97f" mz="btn_Detail">รายละเอียด</string>
+  <string name="7qkd4lqxg1lk0-n59_jhcl" mz="com_HeroSort">การเรียงลำดับเริ่มต้น</string>
+  <string name="u7xbdcgujz24q2q-n50_jz24" mz="n50">เลเวลพาสถัดไป</string>
+  <string name="u7xbdcgukrvoq4g-n1_krvo" mz="title">รีเซ็ต</string>
+  <string name="u7xbdcguezynq2l-n8_thbm" mz="n8">อีเวนต์</string>
+  <string name="u7xbdcguthbm1s-n39_thbm" mz="title">กระเป๋า</string>
+  <string name="u7xbdcguthbm1s-n42_grcm" mz="n42">หีบที่ยังไม่ได้ใช้!</string>
+  <string name="u7xbdcgusjg4c-n39_thbm" mz="n39">ตัวละคร</string>
+  <string name="u7xbdcgusjg4c-n40_thbm" mz="n40">ดูข้อมูลและมิตรภาพของตัวละคร</string>
+  <string name="u7xbdcgul83jq3s-n56_cdd1" mz="title">No_Translate</string>
+  <string name="u7xbdcgu11biq2e-n40_kgmo" mz="title">อีเวนต์</string>
+  <string name="u7xbdcgu11biq2e-n44_o11d-texts_0" mz="n44">UP</string>
+  <string name="u7xbdcgu11biq2e-n44_o11d-texts_1" mz="n44">SKIN</string>
+  <string name="u7xbdcgusjg4d-n43_thbm" mz="n35">ร้านค้า</string>
+  <string name="u7xbdcgusjg4d-n44_thbm" mz="n44">ซื้อตัวละครและไอเทม</string>
+  <string name="u7xbdcgusjg4b-n40_thbm" mz="n40">ปรับแต่ง</string>
+  <string name="u7xbdcgumyupq5o-n7_z6ms" mz="title">1</string>
+  <string name="u7xbdcguih3cq34-n3_ih3c" mz="txt_title">เช็คอินปีใหม่</string>
+  <string name="u7xbdcguwrrd1k-n8_thbm" mz="n8">ภารกิจ/ความสำเร็จ</string>
+  <string name="u7xbdcgukrvoq4f-n1_krvo" mz="Btn_Confirm">ยืนยัน</string>
+  <string name="u7xbdcgukrvoq4f-n2_krvo" mz="Btn_Cancel">ยกเลิก</string>
+  <string name="u7xbdcgukrvoq4f-n3_krvo" mz="Btn_Reset">รีเซ็ต</string>
+  <string name="u7xbdcgusjg4a-n33_of8v" mz="n33">เริ่มเล่น</string>
+  <string name="u7xbdcgusjg4a-n34_of8v" mz="n34">มาปาร์ตี้กัน!</string>
+  <string name="u7xbdcguq9rv0-n56_nysp" mz="btn_DouYinGroupChat">เข้าร่วมชุมชน</string>
+  <string name="u7xbdcguq9rv0-n57_nysp" mz="btn_DouYinShareReward">แชร์ &amp; รับรางวัล</string>
+  <string name="u7xbdcguq9rv0-n58_hfc0" mz="btn_DouYinSubscribeReward">No_Translate</string>
+  <string name="u7xbdcguq9rv0-n38_qdq5" mz="btn_Gacha">กาชา</string>
+  <string name="zhzrfum9dtry7-n2_dtry" mz="txt_Title">ข้อตกลงผู้ใช้</string>
+  <string name="24mdqppqmp96d-n46_debj" mz="title">ยืนยัน</string>
+  <string name="24mdqppqmp96c-n46_debj" mz="title">ย้อนกลับ</string>
+  <string name="24mdqppqns6kb-n62_r3jj" mz="bottom">เข้าสู่ระบบตรวจสอบ</string>
+  <string name="24mdqppqns6kb-n62_r3jj-cp-btn_Sure" mz="bottom">ยืนยัน</string>
+  <string name="24mdqppqns6kb-n62_r3jj-texts_0" mz="bottom">เข้าร่วมห้อง</string>
+  <string name="24mdqppqns6kb-n62_r3jj-texts_1" mz="bottom">เข้าสู่ระบบตรวจสอบ</string>
+  <string name="24mdqppqns6kb-n28_qb3s" mz="n28">รหัสผ่าน:</string>
+  <string name="24mdqppqns6kb-n53_mp96" mz="n53">บัญชี:</string>
+  <string name="24mdqppqns6kb-n57_mp96" mz="n57">รหัสผ่าน:</string>
+  <string name="24i5r2i07h6sa-n11_micc" mz="title">ยืนยัน</string>
+  <string name="24i5r2i07h6s5-n18_qtyw" mz="n18">อยู่ในเกม</string>
+  <string name="24i5r2i07h6s8-n8_7h6s" mz="btn_Join">เข้าร่วม</string>
+  <string name="24i5r2i07h6s8-n9_7h6s" mz="n9">หมดอายุ</string>
+  <string name="24i5r2i07h6s0-n28_r26s" mz="btn_LastTeam">ผู้เล่นล่าสุด</string>
+  <string name="24i5r2i07h6s0-n2_7h6s" mz="btn_Invite">เชิญ</string>
+  <string name="24i5r2i07h6s0-n15_7h6s" mz="btn_ClearInfo">ละเว้นทั้งหมด</string>
+  <string name="dc8zac77rum7c-n19_gn3o" mz="n19">[b]ยิง[/b]</string>
+  <string name="dc8zac77rum79-n19_gn3o" mz="n19">[b]ออก[/b]</string>
+  <string name="dc8zac77hmjfi-n28_tlsf" mz="n28">เลือกเป้าหมาย</string>
+  <string name="dc8zac77hmjfi-n29_tlsf" mz="btn_Leave">[b]ออก[/b]</string>
+  <string name="dc8zac77hmjfi-n37_tlsf" mz="n37">Railgun กำลังเล็งเป้าหมาย!</string>
+  <string name="dc8zac77hmjfi-n37_tlsf-texts_0" mz="n37">Railgun กำลังเล็งเป้าหมาย!</string>
+  <string name="dc8zac77hmjfi-n37_tlsf-texts_1" mz="n37">โดนเป้าหมาย?</string>
+  <string name="dc8zac77hmjfi-n37_tlsf-texts_2" mz="n37">ยิงใส่เป้าหมาย!</string>
+  <string name="dngx84d5rum70-n23_y0e5" mz="n99">กำลังเลือกโชคที่กำหนดไว้</string>
+  <string name="dngx84d5rum70-n27_y0e5" mz="n100">โชคจะตกอยู่ที่…?</string>
+  <string name="dngx84d5rum70-n24_y0e5" mz="txt_Tip">[size=40][color=#{color=ff0000}]{playerName=PLAYER NAME}[/color][/size]</string>
+  <string name="duzt7gzkp4oi6-n23_p4oi" mz="txt_AddGold">{gold=+00}</string>
+  <string name="duzt7gzkp4oi6-n27_sr9v" mz="txt_SubGold">{gold=+00}</string>
+  <string name="duzt7gzkl7ax8-n15_oenb" mz="txt_Gold">{gold=10}</string>
+  <string name="duzt7gzkrum70-n29_kxm5" mz="n29">เลือกการ์ด</string>
+  <string name="dhoi6vx2rum70-n5_r94h" mz="btn_Continue">เดิน</string>
+  <string name="d1prfn9srum78-n2_fscm" mz="n2">ทอยลูกเต๋า</string>
+  <string name="d1prfn9srum77-n2_ia4r" mz="n2">เลขคู่</string>
+  <string name="d1prfn9srum73-n2_ia4r" mz="n2">เลขคี่</string>
+  <string name="d1prfn9srum7b-n36_ia4r" mz="n36">เลขคี่</string>
+  <string name="d1prfn9srum7b-n36_ia4r-texts_0" mz="n36">เลขคู่</string>
+  <string name="d1prfn9srum7b-n36_ia4r-texts_1" mz="n36">ไม่สามารถเข้าร่วมได้</string>
+  <string name="d1prfn9srum7b-n36_ia4r-texts_def" mz="n36">เลขคี่</string>
+  <string name="d1prfn9srum70-n3_np1r" mz="txt_Prize">รางวัล  {prize=15}</string>
+  <string name="d1prfn9srum70-n15_np1r" mz="btn_Dice">ทอยลูกเต๋า</string>
+  <string name="d1prfn9srum70-n32_ia4r-texts_0" mz="n32">รอผู้เล่นอื่นเล่นการ์ด…</string>
+  <string name="d1prfn9srum70-n32_ia4r-texts_1" mz="n32">รอผู้เล่นอื่นทอยลูกเต๋า…</string>
+  <string name="d1prfn9srum70-n46_popk" mz="n46">รวม: </string>
+  <string name="d1prfn9srum70-n49_kia1-texts_1" mz="n49">(เลขคู่)</string>
+  <string name="d1prfn9srum70-n49_kia1-texts_def" mz="n49">(เลขคี่)</string>
+  <string name="daex1j06rum77-n2_fscm" mz="n2">[b]ตรวจ[/b]</string>
+  <string name="daex1j06rum74-n2_fscm" mz="n2">[b]ฉันสบายดี[/b]</string>
+  <string name="daex1j06rum70-n15_izbs" mz="n15">ไม่เป็นอะไรมาก,
+
+ฉีดยาแล้วไปได้เลย</string>
+  <string name="daex1j06rum70-n15_izbs-texts_0" mz="n15">ยังไปไม่ได้จนกว่าจะตรวจเสร็จนะ
+
+เข้าใจมั้ย?</string>
+  <string name="daex1j06rum70-n15_izbs-texts_1" mz="n15">ขอตรวจดูสักหน่อยนะ…</string>
+  <string name="daex1j06rum70-n15_izbs-texts_2" mz="n15">เธอป่วยหนักมาก!
+
+ต้องอยู่โรงพยาบาลเพื่อสังเกตอาการ!</string>
+  <string name="daex1j06rum70-n15_izbs-texts_3" mz="n15">ไม่เป็นอะไรมาก,
+
+ฉีดยาแล้วไปได้เลย</string>
+  <string name="daex1j06rum70-n15_izbs-texts_def" mz="n15">หน้าตาอึดอัดมาก,
+
+ต้องตรวจร่างกายโดยรวม!</string>
+  <string name="daex1j06rum70-n17_fscm" mz="btn_noSick">[b]ฉันสบายดี[/b]</string>
+  <string name="daex1j06rum70-n30_fscm" mz="n30">[b]ฉีดยา[/b]</string>
+  <string name="daex1j06rum70-n26_fscm" mz="n26">[b]โรงพยาบาล[/b]</string>
+  <string name="d6gnxdx1rum7i-n4_ud9x" mz="txt">เท่านี้เอง!</string>
+  <string name="d6gnxdx1rum70-n23_h0ek" mz="n23">ไม่มีผู้ชนะ! รางวัลจะสะสมต่อไป!</string>
+  <string name="d6gnxdx1rum70-n45_gukp" mz="n45">รางวัลสะสม</string>
+  <string name="b48mmxv7iorl1-n2_fscm" mz="n2">ตรวจ</string>
+  <string name="b48mmxv7iorl0-n5_iorl" mz="btn_Cancel">ออก</string>
+  <string name="b48mmxv7iorl0-n6_iorl" mz="btn_Sure">อธิษฐาน</string>
+  <string name="dkvy8z1orum7c-n19_gn3o" mz="n19">[b]ไป![/b]</string>
+  <string name="dkvy8z1orum70-n25_b5tv" mz="n25">ขอถามหน่อย เธอกำลังไล่ตามใครอยู่?</string>
+  <string name="dkvy8z1orum70-n25_b5tv-texts_0" mz="n25">บอกเป้าหมายมาเลย ไม่มีรถคันไหนรอดจากฉันหรอก</string>
+  <string name="dkvy8z1orum70-n25_b5tv-texts_1" mz="n25">บี้บี้! มือฆ่ารับจ้างพร้อมให้บริการ!</string>
+  <string name="dkvy8z1orum70-n25_b5tv-texts_2" mz="n25">คนที่เธอจะไล่ตามคือเขาใช่มั้ย?</string>
+  <string name="dkvy8z1orum70-n25_b5tv-texts_3" mz="n25">เก็บของให้เรียบร้อย!</string>
+  <string name="dkvy8z1orum70-n25_b5tv-texts_def" mz="n25">ขอถามหน่อย เธอกำลังไล่ตามใครอยู่?</string>
+  <string name="dkvy8z1orum70-n5_r94h" mz="btn_Stay">ออก</string>
+  <string name="dkvy8z1orum70-n28_et9r" mz="n28">เลือกเป้าหมาย</string>
+  <string name="dkvy8z1orum70-n29_qpnt" mz="n29">ซ่อน</string>
+  <string name="dkvy8z1orum70-n30_qpnt" mz="n30">แสดง</string>
+  <string name="avtf6i27y7ym4-n19_gn3o" mz="n19">ซื้อ</string>
+  <string name="avtf6i27y7ym4-n22_o812" mz="txt_Desc">{needGold=0}&lt;img src='ui://xuaw6o8jmmmw3x' width='45' height='45'/&gt;</string>
+  <string name="avtf6i27y7ym9-n25_b5tv" mz="n25">อยากได้ของเจ๋งๆ จากฉันเหรอ?
+
+ได้สิ แต่ต้องมีราคานะ</string>
+  <string name="avtf6i27y7ym9-n5_r94h" mz="btn_Cancel">ออก</string>
+  <string name="avtf6i27y7ym9-n29_qpnt" mz="n29">ซ่อน</string>
+  <string name="avtf6i27y7ym9-n30_qpnt" mz="n30">แสดง</string>
+  <string name="dfabevk6p4oi6-n21_p4oi" mz="txt_Gold">ได้รับ {gold=0}</string>
+  <string name="d5ngzgeuhmjfd-n16_j73t" mz="n16">ร้านค้า</string>
+  <string name="d5ngzgeurum76-n22_micc" mz="txt_Cost">-{gold=00}</string>
+  <string name="d5ngzgeurum76-n11_micc" mz="n11">ซื้อ!</string>
+  <string name="d5ngzgeurum7a-n15_micc" mz="n15">ออก</string>
+  <string name="d5ngzgeurum70-n23_rex7" mz="n23">ของ</string>
+  <string name="d5ngzgeurum70-n33_bnng" mz="btn_Transfer">โอน Star Coin</string>
+  <string name="d5ngzgeurum70-n30_irxr" mz="n30">ซ่อน</string>
+  <string name="d5ngzgeurum70-n31_irxr" mz="n31">แสดง</string>
+  <string name="fqs3emmdheyw3-n19_gn3o" mz="n19">เปิด!</string>
+  <string name="fqs3emmdheyw3-n22_o812" mz="txt_Desc">{needGold=0}&lt;img src='ui://xuaw6o8jmmmw3x' width='45' height='45'/&gt;</string>
+  <string name="fqs3emmdheyw0-n25_b5tv" mz="n25">เครื่องลูกกวาดประหลาด</string>
+  <string name="fqs3emmdheyw0-n43_heyw" mz="n43">สุ่มเพื่อรับลูกกวาดประหลาด!</string>
+  <string name="fqs3emmdheyw0-n44_heyw" mz="n44">ของ</string>
+  <string name="fqs3emmdheyw0-n5_r94h" mz="btn_Cancel">ออก</string>
+  <string name="fqs3emmdheyw0-n29_qpnt" mz="n29">ซ่อน</string>
+  <string name="fqs3emmdheyw0-n30_qpnt" mz="n30">แสดง</string>
+  <string name="bzunkg3bq6a56-n93_kel5" mz="n93">(∠・ω&lt;)⌒</string>
+  <string name="bzunkg3bq6a56-n94_kel5" mz="n94">☆</string>
+  <string name="bzunkg3bq6a56-n95_kel5" mz="n95">L</string>
+  <string name="bzunkg3bq6a56-n96_kel5" mz="n96">o</string>
+  <string name="bzunkg3bq6a56-n97_kel5" mz="n97">a</string>
+  <string name="bzunkg3bq6a56-n98_kel5" mz="n98">d</string>
+  <string name="bzunkg3bq6a56-n99_kel5" mz="n99">i</string>
+  <string name="bzunkg3bq6a56-n100_kel5" mz="n100">n</string>
+  <string name="bzunkg3bq6a56-n101_kel5" mz="n101">g</string>
+  <string name="bzunkg3bq6a56-n102_kel5" mz="n102">。</string>
+  <string name="bzunkg3bq6a56-n103_kel5" mz="n103">。</string>
+  <string name="bzunkg3bq6a56-n104_kel5" mz="n104">。</string>
+  <string name="bzunkg3bq6a56-n106_u6bm" mz="n106">Lo</string>
+  <string name="bzunkg3bq6a56-n108_u6bm" mz="n108">ad</string>
+  <string name="bzunkg3bq6a56-n109_u6bm" mz="n109">ing</string>
+  <string name="bzunkg3bq6a56-n110_u6bm" mz="n110">.</string>
+  <string name="bzunkg3bq6a56-n111_u6bm" mz="n111">.</string>
+  <string name="bzunkg3bq6a56-n112_u6bm" mz="n112">.</string>
+  <string name="tgr7xz46uspw1j-n9_x3gv" mz="n9">บัญชี</string>
+  <string name="tgr7xz46uspw1j-n30_ryjl" mz="txt_Version_01">© 2023 Shanghai Electric Cicada. All rights reserved.</string>
+  <string name="tgr7xz46uspw1j-n51_uspw" mz="btn_Logout">ออกจากระบบ</string>
+  <string name="tgr7xz46uspw1j-n56_q5xf" mz="txt_Version_02">游戏著作权人：上海电蝉网络科技有限公司 出版服务单位：华中科技大学电子音像出版社 审批文号：国新出审[2025]1975 号 
+
+著作权登记号：2025SR0346866 出版物号</string>
+  <string name="tgr7xz46somd16-n30_ryjl" mz="txt_Version_01">© 2023 Shanghai Electric Cicada. All rights reserved.</string>
+  <string name="tgr7xz46somd16-n41_65x1" mz="btn_ShowNotice">1</string>
+  <string name="tgr7xz46somd16-n42_65x1" mz="btn_CleanCache">1</string>
+  <string name="tgr7xz46somd16-n125_hfhg" mz="n125">1</string>
+  <string name="tgr7xz46somd16-n128_hfhg" mz="btn_StartGame">1</string>
+  <string name="tgr7xz46somd16-n131_w6jf" mz="btn_SwitchTransfer">1</string>
+  <string name="tgr7xz46somd16-n46_sbsb" mz="btn_Logout">ออกจากระบบ</string>
+  <string name="tgr7xz46t0k31e-n3_ayrm" mz="txt">ล้างแคช</string>
+  <string name="tgr7xz46t0k31d-n3_ayrm" mz="txt">ประกาศ</string>
+  <string name="tgr7xz465g1r0-n9_x3gv" mz="n9">บัญชี</string>
+  <string name="tgr7xz465g1r0-n30_ryjl" mz="txt_Version_01">© 2023 Shanghai Electric Cicada. All rights reserved.</string>
+  <string name="tgr7xz465g1r0-n46_sbsb" mz="btn_Quit_Mobile">ออกจากระบบ</string>
+  <string name="tgr7xz465g1r0-n47_sbsb" mz="btn_InspectionLogin">เข้าสู่ระบบตรวจสอบ</string>
+  <string name="tgr7xz465g1r0-n51_uspw" mz="btn_Logout">ออกจากระบบ</string>
+  <string name="tgr7xz465g1r0-n56_q5xf" mz="txt_Version_02">游戏著作权人：上海电蝉网络科技有限公司 出版服务单位：华中科技大学电子音像出版社 审批文号：国新出审[2025]1975 号 
+
+著作权登记号：2025SR0346866 出版物号</string>
+  <string name="tgr7xz46sbsbx-n47_dtry" mz="n47">ฉันได้อ่านและยอมรับ</string>
+  <string name="tgr7xz46sbsbx-n51_q60h" mz="n51">และ</string>
+  <string name="tgr7xz46sbsbx-n49_dtry" mz="txt_UserAgreements">"ข้อตกลงผู้ใช้"</string>
+  <string name="tgr7xz46sbsbx-n48_dtry" mz="txt_PrivacyPolicys">"นโยบายข้อมูลและความเป็นส่วนตัว"</string>
+  <string name="vxuz3wbohaf52-n3_qb3s" mz="title">ทิ้งการ์ด</string>
+  <string name="vxuz3wboorg70-n46_nbo6" mz="btn_Lose">ทิ้ง</string>
+  <string name="vxuz3wboorg70-n50_axwd" mz="btn_Cancel">ยกเลิก</string>
+  <string name="vxuz3wboorg70-n49_axwd" mz="btn_Bestow">มอบให้</string>
+  <string name="vxuz3wboorg70-n52_uzzv" mz="btn_Mix">ผสม</string>
+  <string name="vxuz3wboorg70-n48_p4oi" mz="txt_CardNum">{cur=[color=#ff0000]00[/color]}/{max=00}</string>
+  <string name="2p754tqkilj51d-n3_ilj5" mz="title">ย่อ</string>
+  <string name="2p754tqkilj51d-n3_ilj5-texts_0" mz="title">ขยายทั้งหมด</string>
+  <string name="2p754tqkilj51d-n3_ilj5-texts_1" mz="title">ขยายทั้งหมด</string>
+  <string name="2p754tqkilj51d-n3_ilj5-texts_def" mz="title">ย่อ</string>
+  <string name="2p754tqkrc482e-n4_hmn1" mz="n4">ของขวัญ</string>
+  <string name="2p754tqkilj517-n4_ilj5" mz="txt_Price">USD 0.00</string>
+  <string name="2p754tqkilj517-n7_lwm1" mz="txt_OriginalPrice">USD 0.00</string>
+  <string name="2p754tqkilj517-n6_lwm1" mz="n6">ลด 20%</string>
+  <string name="2p754tqkilj58-n1_ilj5" mz="btn_buy">ซื้อ</string>
+  <string name="2p754tqkilj519-n1_ilj5" mz="desc">การ์ดโปรไฟล์ - Hanna</string>
+  <string name="91v7tm5dthbm0-n3_abqa" mz="btn_Delete">ลบที่อ่านแล้ว</string>
+  <string name="91v7tm5dthbm0-n4_abqa" mz="btn_All">รับทั้งหมด</string>
+  <string name="91v7tm5dthbm0-n20_abqa" mz="n20">ผู้ส่ง:</string>
+  <string name="91v7tm5dthbm0-n34_s2pw" mz="n34">ไฟล์แนบ</string>
+  <string name="91v7tm5dthbm0-n8_abqa" mz="btn_Reward">รับ</string>
+  <string name="91v7tm5dthbm0-n14_abqa" mz="txt_MailNum">{cur=0}/{max=200}</string>
+  <string name="91v7tm5dthbm0-n37_s2pw" mz="n37">ไม่มี</string>
+  <string name="qxwapsemgib2x-n38_gib2" mz="n38">BOSS</string>
+  <string name="qxwapsemgib2x-n43_mpjv" mz="txt_NEW">NEW</string>
+  <string name="qxwapsemr26s1o-n82_ayrm" mz="title">เตรียมตัว</string>
+  <string name="qxwapsemr26s1o-n82_ayrm-texts_0" mz="title">ยกเลิกการเตรียมตัว</string>
+  <string name="qxwapsemr26s1o-n82_ayrm-texts_def" mz="title">เตรียมตัว</string>
+  <string name="qxwapsemd828g-n77_r26s" mz="btn_Ready">เตรียมตัว</string>
+  <string name="qxwapsemd828g-n50_jo0y" mz="btn_ExitTeam">ออก</string>
+  <string name="qxwapsemd828g-n41_jo0y" mz="btn_StartMatch">เริ่มจับคู่แมตช์</string>
+  <string name="qxwapsemd828g-n48_jo0y" mz="btn_CancelMatch">ยกเลิกจับคู่</string>
+  <string name="lrvlamcas2pw13-n16_s2pw" mz="title">จับคู่!</string>
+  <string name="lrvlamcafois2-n6_kqgj" mz="n6">ที่เลือกอยู่:</string>
+  <string name="lrvlamcaeyouc-n12_r26s" mz="n12">เล่นเดี่ยวเพื่อเรียนรู้เกม</string>
+  <string name="lrvlamcaeyouc-n13_r26s" mz="n13">โหมดเดี่ยว</string>
+  <string name="lrvlamcar26s11-n12_r26s" mz="n12">สร้างห้องเพื่อแข่งกับผู้เล่นคนอื่น</string>
+  <string name="lrvlamcar26s11-n13_r26s" mz="n13">ห้องรอ</string>
+  <string name="lrvlamcakqgju-n12_r26s" mz="n12">PVE</string>
+  <string name="lrvlamcakqgju-n13_r26s" mz="n13">ชาเลนจ์ Co-op</string>
+  <string name="lrvlamcakqgju-n14_r26s" mz="n14">ร่วมมือกับผู้เล่นอื่นเพื่อผ่านด่าน</string>
+  <string name="lrvlamcakqgju-n15_s2pw" mz="n15">จับคู่!</string>
+  <string name="lrvlamcadx5u14-n12_r26s" mz="n12">PVE</string>
+  <string name="lrvlamcadx5u14-n13_r26s" mz="n13">ชาเลนจ์ Co-op</string>
+  <string name="lrvlamcadx5u14-n14_r26s" mz="n14">ร่วมมือกับผู้เล่นอื่นเพื่อผ่านด่าน</string>
+  <string name="lrvlamcadx5u14-n15_s2pw" mz="n15">จับคู่!</string>
+  <string name="lrvlamcar26s10-n12_r26s" mz="n12">PVP</string>
+  <string name="lrvlamcar26s10-n13_r26s" mz="n13">ศึกผู้เล่น</string>
+  <string name="lrvlamcar26s10-n14_r26s" mz="n14">แข่งกับผู้เล่นคนอื่นและเอาชนะ!</string>
+  <string name="lrvlamcar26s10-n15_s2pw" mz="n15">จับคู่!</string>
+  <string name="lrvlamcadx5u15-n12_r26s" mz="n12">PVP</string>
+  <string name="lrvlamcadx5u15-n13_r26s" mz="n13">ศึกผู้เล่น</string>
+  <string name="lrvlamcadx5u15-n14_r26s" mz="n14">แข่งกับผู้เล่นคนอื่นและเอาชนะ!</string>
+  <string name="lrvlamcadx5u15-n15_s2pw" mz="n15">จับคู่!</string>
+  <string name="lrvlamcafois5-n17_kqgj" mz="n17">ห้องรอ</string>
+  <string name="lrvlamcafois5-n11_kqgj" mz="n11">สร้างห้องเพื่อแข่งกับผู้เล่นคนอื่น</string>
+  <string name="lrvlamcafois5-n12_kqgj" mz="n12">PING:</string>
+  <string name="lrvlamcarc2u19-n12_r26s" mz="n12">PVE</string>
+  <string name="lrvlamcarc2u19-n13_r26s" mz="n13">ชาเลนจ์ Co-op กีฬาสี</string>
+  <string name="lrvlamcarc2u19-n14_r26s" mz="n14">ร่วมมือกับผู้เล่นอื่นเพื่อผ่านด่าน</string>
+  <string name="lrvlamcarc2u19-n15_s2pw" mz="n15">จับคู่!</string>
+  <string name="lrvlamcakqgjs-n9_kqgj" mz="n9">โหมดชาเลนจ์ Co-op แบบใหม่!</string>
+  <string name="lrvlamcakqgjt-n9_kqgj" mz="n9">โหมดศึก 4 ผู้เล่นแบบคลาสสิก!</string>
+  <string name="6fn6dj8bq2ux0-n82_h28z" mz="txt_matchTime">[size=48]กำลังจับคู่[/size] [size=42]{time=30:08}[/size]</string>
+  <string name="6fn6dj8bq2ux0-n45_jo0y" mz="txt_estimatedTime">เวลารอโดยประมาณ {time=00: 00}</string>
+  <string name="6fn6dj8bq2ux0-n44_jo0y" mz="n44">ทีม</string>
+  <string name="aepd0gr2jo0y10-n63_jo0y" mz="btn_StartGame">เริ่มเกม</string>
+  <string name="fvoxvgwsgwbaa-n2_8mwx" mz="title">ยกเลิก</string>
+  <string name="fvoxvgwshc1o0-n18_ubkw" mz="bottom">เคล็ดลับ</string>
+  <string name="fvoxvgwshc1o0-n14_tiv3" mz="btn_DoubleStatus">ไม่แสดงอีก</string>
+  <string name="na6sy4s6kqgjj-n40_kqgj" mz="n40">[color=#EA0BE7,#7B0DE0]ซื้อ[/color]</string>
+  <string name="na6sy4s6kqgjj-n40_kqgj-texts_0" mz="n40">[color=#EA0BE7,#7B0DE0]ซื้อตัวละคร[/color]</string>
+  <string name="na6sy4s6kqgjj-n40_kqgj-texts_1" mz="n40">[color=#EA0BE7,#7B0DE0]ซื้อสกิน[/color]</string>
+  <string name="na6sy4s6kqgjk-n33_gbr1" mz="n33">ดูตัวอย่าง</string>
+  <string name="na6sy4s6kqgjk-n33_gbr1-texts_0" mz="n33">ดูตัวอย่างสกิน</string>
+  <string name="na6sy4s6kqgjk-n33_gbr1-texts_def" mz="n33">ดูตัวอย่าง</string>
+  <string name="na6sy4s6kqgji-n52_jhcl" mz="btn_GoSkinStore">ซื้อสกิน</string>
+  <string name="mc0y3plupj0z2o-n1_pj0z" mz="title">เอกสิทธิ์</string>
+  <string name="mc0y3plupj0z25-n83_pj0z" mz="btn_all">ภาพรวม</string>
+  <string name="mc0y3plupj0z25-n84_pj0z" mz="btn_monster">มอนสเตอร์</string>
+  <string name="mc0y3plupj0z25-n85_pj0z" mz="btn_relic">ชิป</string>
+  <string name="mc0y3plupj0z25-n86_pj0z" mz="btn_card">การ์ด</string>
+  <string name="mc0y3plupj0z25-n88_pj0z" mz="btn_event">อีเวนต์</string>
+  <string name="mc0y3plupj0z25-n87_pj0z" mz="btn_land">แปลน</string>
+  <string name="mc0y3plupj0z2m-n36_pj0z" mz="Btn_Exclusive">เอกสิทธิ์</string>
+  <string name="mc0y3plupj0z2m-n37_pj0z" mz="Btn_Common">ทั่วไป</string>
+  <string name="mc0y3plupj0z1m-n8_rj85" mz="Text_NoSearch">ไม่พบผลลัพธ์</string>
+  <string name="mc0y3plupj0z1m-n9_s8o9-0" mz="DropDown_Filter">ทั้งหมด</string>
+  <string name="mc0y3plupj0z1m-n9_s8o9-1" mz="DropDown_Filter">การ์ดภาพสำรอง</string>
+  <string name="mc0y3plupj0z1m-n9_s8o9-2" mz="DropDown_Filter">การ์ดภาพสำรองที่ปลดล็อกแล้ว</string>
+  <string name="mc0y3plupj0z1m-n9_s8o9-3" mz="DropDown_Filter">การ์ดเอกสิทธิ์ตัวละคร</string>
+  <string name="mc0y3plupj0z1p-n9_rj85" mz="Text_NoSearch">ไม่พบผลลัพธ์</string>
+  <string name="mc0y3plupj0z1r-n9_rj85" mz="Text_NoSearch">ไม่พบผลลัพธ์</string>
+  <string name="mc0y3plupj0z1k-n4_pj0z" mz="n4">อีเวนต์</string>
+  <string name="mc0y3plupj0z1k-n5_pj0z" mz="Text_des">ข้อมูลอีเวนต์</string>
+  <string name="mc0y3plupj0z1j-n4_pj0z" mz="n4">แปลน</string>
+  <string name="mc0y3plupj0z1j-n5_pj0z" mz="Text_des">ข้อมูลแปลนแผนที่</string>
+  <string name="mc0y3plupj0z1l-n4_pj0z" mz="n4">แผนที่</string>
+  <string name="mc0y3plupj0z1l-n5_pj0z" mz="Text_des">ข้อมูลเรียงตามแผนที่</string>
+  <string name="mc0y3plupj0z1i-n4_pj0z" mz="n4">การ์ด</string>
+  <string name="mc0y3plupj0z1i-n5_pj0z" mz="Text_des">ข้อมูลการ์ดในมือผู้เล่น</string>
+  <string name="mc0y3plupj0z1h-n4_pj0z" mz="n4">ชิป</string>
+  <string name="mc0y3plupj0z1h-n5_pj0z" mz="Text_des">ข้อมูลชิปของผู้เล่น</string>
+  <string name="bwvbo0x0dx3g3-n2_dx3g" mz="n2">กำลังโหลด</string>
+  <string name="bwvbo0x0dx3g7-n34_grcm" mz="n34">ประกาศ</string>
+  <string name="z8uldgkyqdq5b-n18_qdq5" mz="n18">แลกเปลี่ยน</string>
+  <string name="z8uldgkyqdq5a-n17_qdq5" mz="n17">ซื้อ</string>
+  <string name="z8uldgkyqdq5c-n14_z52s" mz="txt_Remaining">Limit {remainingNum=1}/{limitNum=1}</string>
+  <string name="z8uldgkyqdq5c-n23_z52s" mz="n23">มีแล้ว</string>
+  <string name="z8uldgkyqdq5c-n39_hcgi" mz="txt_soldout">ขายหมด!</string>
+  <string name="z8uldgkyqdq5c-n43_hcgi" mz="n43">x</string>
+  <string name="z8uldgkyqdq5k-n35_hcgi" mz="txt_TokenSymbol">USD</string>
+  <string name="z8uldgkyqdq5k-n38_hcgi" mz="txt_DiscountPercent">{discount=35}% OFF</string>
+  <string name="z8uldgkyqdq5k-n48_qdq5" mz="n48">รับ</string>
+  <string name="307oxfbqdx3g1q-n92_dx3g" mz="txt_Title">Obtain Via-{way=暂无}</string>
+  <string name="307oxfbquins15-n107_ubkw" mz="bottom">รายละเอียด</string>
+  <string name="307oxfbquins15-n107_ubkw-cp-btn_Sure" mz="bottom">ใช้</string>
+  <string name="307oxfbquins15-n107_ubkw-cp-btn_Cancel" mz="bottom">ยกเลิก</string>
+  <string name="307oxfbquins15-n107_ubkw-cp-btn_Sure_Only" mz="bottom">ย้อนกลับ</string>
+  <string name="307oxfbquins15-n107_ubkw-texts_0" mz="bottom">รายละเอียด</string>
+  <string name="307oxfbquins15-n107_ubkw-texts_1" mz="bottom"> ได้รับจาก</string>
+  <string name="307oxfbquins15-n55_hymc" mz="btn_Max">สูงสุด</string>
+  <string name="cu17piy4hhk60-n114_ubkw" mz="bottom">ซื้อ</string>
+  <string name="cu17piy4hhk60-n114_ubkw-texts_0" mz="bottom">ซื้อเลเวลพาส</string>
+  <string name="cu17piy4hhk60-n114_ubkw-texts_def" mz="bottom">ซื้อ</string>
+  <string name="cu17piy4hhk60-n4_d386" mz="txt_itemNum">จำนวน {curNum=9999}</string>
+  <string name="cu17piy4hhk60-n55_hymc" mz="btn_Max">สูงสุด</string>
+  <string name="cu17piy4hhk60-n69_ozsk" mz="n69">ราคาต่อหน่วย</string>
+  <string name="cu17piy4hhk60-n75_ozsk" mz="txt_DiscountPercent">{discountPercent=35}%OFF</string>
+  <string name="cu17piy4hhk60-n70_ozsk" mz="n70">ราคารวม</string>
+  <string name="cu17piy4hhk60-n97_jz24" mz="n97">ราคารวม</string>
+  <string name="c20i191crle7o-n13_rle7" mz="btn_Max">สูงสุด</string>
+  <string name="c20i191crle7o-n24_rle7" mz="btn_Purchase">สะสมพลัง</string>
+  <string name="c20i191crle7u-n74_m48i" mz="btn_Purchase">สะสมพลัง</string>
+  <string name="287pjyadwin50-n57_egku" mz="txt_Title">ยืนยันอายุ</string>
+  <string name="287pjyadwin50-n58_egku" mz="txt_Explain">1</string>
+  <string name="287pjyadwin50-n75_prr3" mz="btn_Cancel">1</string>
+  <string name="287pjyadwin50-n59_egku" mz="btn_Sure">ตกลง</string>
+  <string name="kjm6oxy2o8128-n4_bnng" mz="title">รีเฟรช</string>
+  <string name="kjm6oxy2o8128-n5_iorl" mz="txt_Count">x[size=34]{count=2}[/size]</string>
+  <string name="kjm6oxy2iorl3-n7_o812" mz="n7">กรุณาเลือกชิปต่อสู้</string>
+  <string name="kjm6oxy2iorl3-n8_o812" mz="n8">ยืนยัน</string>
+  <string name="kjm6oxy2l6o60-n5_l6o6" mz="n5">กรุณาเลือกชิปต่อสู้</string>
+  <string name="kjm6oxy2l6o60-n16_pj0z" mz="n16">ซ่อน</string>
+  <string name="kjm6oxy2l6o60-n17_pj0z" mz="n17">แสดง</string>
+  <string name="r5u0087tm1i7o-n2_csvx" mz="txt_Name">รางวัลพาสรายเดือน</string>
+  <string name="r5u0087t929s0-n61_nm0k" mz="Title">รับรางวัล</string>
+  <string name="r5u0087tvau3q-n78_kh2p" mz="n78">ไอเทมด้านล่างหมดอายุและถูกแปลงอัตโนมัติแล้ว</string>
+  <string name="mrtmoyvhgzhq0-n6_f9sn" mz="bottom">รางวัลภารกิจมือใหม่</string>
+  <string name="672kmwr2m49i0-n5_m49i" mz="n5">เลือกความยากเพื่อจับคู่เร็ว</string>
+  <string name="672kmwr2m49i0-n6_m49i" mz="btn_Sure">ยืนยัน</string>
+  <string name="l82hrmsqqzg8w-n38_mj58" mz="n38">ยืนยัน</string>
+  <string name="l82hrmsqqzg8g-n35_vagh" mz="n35">กำลังเลือก…</string>
+  <string name="l82hrmsqqzg8g-n36_vagh" mz="n36">เลือกตัวละครของเธอ!</string>
+  <string name="l82hrmsqqzg8g-n24_s6rj" mz="txt_progress">{progress=0}%</string>
+  <string name="l82hrmsqqzg8g-n46_m49i" mz="n46">PVE</string>
+  <string name="l82hrmsqkqgj1h-n8_pn6s" mz="txt_SkillName">สกิลแฝง: {skillName=}</string>
+  <string name="l82hrmsqkqgj1h-n8_pn6s-texts_0" mz="txt_SkillName">สกิลแฝง: {skillName=}</string>
+  <string name="l82hrmsqkqgj1h-n8_pn6s-texts_def" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="l82hrmsqdx5u31-n85_dx5u" mz="title">ชนะรอบชิงชนะเลิศ</string>
+  <string name="l82hrmsqdx5u31-n85_dx5u-texts_0" mz="title">ผ่านรอบคัดเลือก</string>
+  <string name="l82hrmsqdx5u31-n85_dx5u-texts_1" mz="title">ชนะรอบชิงชนะเลิศ</string>
+  <string name="l82hrmsqdx5u31-n85_dx5u-texts_def" mz="title">ผ่านรอบคัดเลือกเบื้องต้น</string>
+  <string name="l82hrmsqqzg8p-n55_vagh" mz="n55">เลือกแล้ว</string>
+  <string name="l82hrmsqm49i1c-n5_eyou" mz="txt_Trial">ทดลอง!</string>
+  <string name="l82hrmsqdx5u2n-n11_dx5u" mz="txt_content">ปลดล็อกโดยผ่านแมตช์ระดับล่างด้วยตัวละครตัวนี้</string>
+  <string name="l82hrmsqiorl1a-n55_vagh" mz="n55">เลือกแล้ว</string>
+  <string name="5rtgb50em49ij99-n153_m49i" mz="btn_QuickJoin">จับคู่เร็ว</string>
+  <string name="5rtgb50em49ij9a-n146_m49i" mz="n146">เลือกความยาก</string>
+  <string name="5rtgb50eq6fh7u-n90_m2t8" mz="n90">เต็ม</string>
+  <string name="5rtgb50eqb3s8-n34_qb3s" mz="btn_Return">ย้อนกลับ</string>
+  <string name="5rtgb50eqb3s8-n36_ojoq" mz="btn_JoinTargetRoom">เข้าร่วม</string>
+  <string name="5rtgb50eqb3s8-n48_xq4k-prompt" mz="txtField_Search">[size=20][color=#999999]กรอกรหัสห้อง[/color][/size]</string>
+  <string name="5rtgb50eqb3s8-n20_qb3s" mz="btn_Refresh">รีเฟรช</string>
+  <string name="5rtgb50eqb3s8-n21_qb3s" mz="btn_OpenCreateRoom">สร้างห้อง</string>
+  <string name="tzpop51dejjwb-n10_i01u" mz="n10">ตรวจพบการแทรกข้อมูลผิดปกติ</string>
+  <string name="tzpop51dejjwr-n21_ejjw" mz="title">ปิด</string>
+  <string name="tskjvvjlayrmx-n82_ayrm" mz="title">เตรียมตัว</string>
+  <string name="tskjvvjlayrmx-n82_ayrm-texts_0" mz="title">ยกเลิกการเตรียมตัว</string>
+  <string name="tskjvvjlayrmx-n82_ayrm-texts_def" mz="title">เตรียมตัว</string>
+  <string name="tskjvvjlp4oi0-n1_qb3s" mz="btn_Return">ปิดห้อง</string>
+  <string name="tskjvvjlp4oi0-n69_kjte" mz="btn_Leave">ออกจากห้อง</string>
+  <string name="tskjvvjlp4oi0-n2_qb3s" mz="btn_Start">เริ่ม</string>
+  <string name="tskjvvjlp4oi0-n80_ayrm" mz="btn_Ready">พร้อม</string>
+  <string name="pr2pbkngeduv1-n7_ubkw" mz="bottom">บทเรียนสอน</string>
+  <string name="pr2pbkngeduv1-n2_eduv" mz="btn_GuideLevel1">[บทเรียนสอน - พื้นฐาน]</string>
+  <string name="pr2pbkngeduv1-n3_eduv" mz="btn_GuideLevel2">[บทเรียนสอน - การต่อสู้]</string>
+  <string name="iy1joavto1n81f-n16_iy9w" mz="title">การแสดงผล</string>
+  <string name="iy1joavtl38o2a-n1_l38o" mz="title">ยังไม่ได้ตั้งค่า</string>
+  <string name="iy1joavto1n810-n1_u0xa-prompt" mz="title">[size=28][color=#999999]กรอกรหัสรับของรางวัล[/color][/size]</string>
+  <string name="iy1joavto1n8l-n0_u0xa" mz="title">มุมกล้องอิสระ</string>
+  <string name="iy1joavto1n88-n1_u0xa" mz="lable_title">อัตราเฟรม</string>
+  <string name="iy1joavtl38o2b-n1_l38o" mz="bottom">ตั้งค่าปุ่มเอง</string>
+  <string name="iy1joavtl38o2b-n2_l38o" mz="txt_BingButton">กรุณากดปุ่มที่ต้องการใช้แทน</string>
+  <string name="iy1joavtp5xi1s-n88_u0xa" mz="uid">UID:</string>
+  <string name="iy1joavtl38o29-n1_l38o-cp-lable_title" mz="n1">สกิล</string>
+  <string name="iy1joavtl38o29-n2_l38o-cp-lable_title" mz="n2">เดิน</string>
+  <string name="iy1joavtl38o29-n3_l38o-cp-lable_title" mz="n3">ทำเครื่องหมาย</string>
+  <string name="iy1joavtl38o29-n4_l38o-cp-lable_title" mz="n4">ดูเครื่องมือ</string>
+  <string name="iy1joavtl38o29-n5_l38o" mz="btn_reset">คืนค่าเริ่มต้น</string>
+  <string name="iy1joavto1n8k-n54_u0xa-cp-lable_title" mz="n54">กล้อง</string>
+  <string name="iy1joavto1n8k-n56_u0xa-cp-title" mz="com_MouseSwither">ควบคุมด้วยเมาส์</string>
+  <string name="iy1joavto1n8k-n55_u0xa-cp-title" mz="com_FreeCameraSwither">มุมกล้องอิสระ</string>
+  <string name="iy1joavto1n8k-n57_u0xa-cp-title" mz="com_KeyBoardSwither">ควบคุมด้วยคีย์บอร์ด</string>
+  <string name="iy1joavto18025-n28_o180" mz="n28">กฎคะแนน Fair Play</string>
+  <string name="iy1joavto1n8o-n60_u0xa-cp-lable_title" mz="n60">โหมดประหยัดพลังงาน</string>
+  <string name="iy1joavto1n8o-n62_u0xa" mz="n62">※เมื่อเปิดใช้งาน เกมจะใช้คุณภาพกราฟิกและอัตราเฟรมต่ำลงเพื่อลดการใช้แบตเตอรี่</string>
+  <string name="iy1joavto1n81c-n40_u0xa-cp-title" mz="com_CoverSwither">ไม่เปิดเผยตัว</string>
+  <string name="iy1joavto1n81c-n42_u0xa-cp-title" mz="com_AdultSwither">โหมดนางฟ้าบริสุทธิ์</string>
+  <string name="iy1joavto1n81c-n43_u0xa-cp-lable_title" mz="n43">ตั้งค่าผู้เล่นมือใหม่</string>
+  <string name="iy1joavto1n81c-n44_u0xa" mz="com_CardSuggestSwither">แนะนำการ์ด</string>
+  <string name="iy1joavto1n81c-n44_u0xa-cp-title" mz="com_CardSuggestSwither">แนะนำการ์ด</string>
+  <string name="iy1joavto1n81c-n45_u0xa" mz="com_RoadSuggestSwither">แนะนำเส้นทาง</string>
+  <string name="iy1joavto1n81c-n45_u0xa-cp-title" mz="com_RoadSuggestSwither">แนะนำเส้นทาง</string>
+  <string name="iy1joavto1n81c-n46_u0xa" mz="com_RelicSuggestSwither">แนะนำชิป</string>
+  <string name="iy1joavto1n81c-n46_u0xa-cp-title" mz="com_RelicSuggestSwither">แนะนำชิป</string>
+  <string name="iy1joavto1n81c-n48_hnp5" mz="com_AutoShortChatSwither">รับข้อความอัตโนมัติ</string>
+  <string name="iy1joavto1n81c-n48_hnp5-cp-title" mz="com_AutoShortChatSwither">รับข้อความอัตโนมัติ</string>
+  <string name="iy1joavto1n81c-n50_10ruo" mz="com_ActionSuggestSwither">หมดเวลากระทำการ</string>
+  <string name="iy1joavto1n81c-n50_10ruo-cp-title" mz="com_ActionSuggestSwither">แจ้งเตือนเวลา AFK</string>
+  <string name="iy1joavto1n81c-n51_l38o" mz="com_DistanceHelperSwither">ช่วยคำนวณระยะทางอัตโนมัติ</string>
+  <string name="iy1joavto1n81c-n51_l38o-cp-title" mz="com_DistanceHelperSwither">ช่วยคำนวณระยะทางอัตโนมัติ</string>
+  <string name="iy1joavto1801z-n56_o180" mz="txt_desc">Fair Play ยอดเยี่ยม</string>
+  <string name="iy1joavto1801z-n57_o180" mz="btn_check">ดูกฎคะแนน Fair Play</string>
+  <string name="iy1joavto1n87-n59_u0xa-cp-lable_title" mz="n59">ความละเอียด</string>
+  <string name="iy1joavto1n87-n60_u0xa" mz="com_Resolution">1920x1080</string>
+  <string name="iy1joavto1n87-n61_u0xa-cp-lable_title" mz="Screen_Refresh_Item">อัตราเฟรม</string>
+  <string name="iy1joavto1n87-n62_u0xa-cp-title" mz="com_vSyncCount">V-Sync</string>
+  <string name="iy1joavto1n87-n63_u0xa" mz="com_FrameRate">60 FPS</string>
+  <string name="iy1joavto1n87-n64_u0xa-cp-lable_title" mz="n64">โหมดการแสดงผล</string>
+  <string name="iy1joavto1n87-n72_s6b4" mz="com_Window">เต็มจอ</string>
+  <string name="iy1joavto1n87-n67_u0xa-cp-lable_title" mz="n67">ภาษา</string>
+  <string name="iy1joavto1n87-n68_u0xa" mz="com_Language">无需翻译</string>
+  <string name="iy1joavto1n87-n69_u0xa-cp-lable_title" mz="n69">กราฟิก</string>
+  <string name="iy1joavto1n87-n70_u0xa" mz="com_Quality">กราฟิก</string>
+  <string name="iy1joavto1n8z-n51_u0xa-cp-lable_title" mz="n51">รหัสรับของรางวัล</string>
+  <string name="iy1joavto1n8z-n54_u0xa" mz="btn_CDK">ยืนยัน</string>
+  <string name="iy1joavto1n8z-n55_u0xa-cp-lable_title" mz="n55">เงื่อนไขการให้บริการ</string>
+  <string name="iy1joavto1n8z-n56_u0xa" mz="btn_UserAgreement">ข้อตกลงผู้ใช้</string>
+  <string name="iy1joavto1n8z-n57_u0xa" mz="btn_Policy">นโยบายข้อมูลและความเป็นส่วนตัว</string>
+  <string name="iy1joavto1n8z-n59_u0xa" mz="btn_Developers">เครดิต</string>
+  <string name="iy1joavto1n8z-n60_u0xa" mz="btn_Gratitude">กิตติกรรมประกาศพิเศษ</string>
+  <string name="iy1joavto1n8z-n58_u0xa" mz="btn_AccountCenter">ตั้งค่าบัญชี</string>
+  <string name="iy1joavto1n8z-n73_sn0j" mz="btn_QuitGame">ออกจากระบบ</string>
+  <string name="iy1joavto1n8z-n77_sn0j" mz="n77">อีเมลรายงานปัญหา:</string>
+  <string name="iy1joavto1n8z-n78_sn0j" mz="txt_mail">astralpartysupport@feimogames.com</string>
+  <string name="iy1joavto1n8z-n74_sn0j" mz="btn_ContactService">ติดต่อฝ่ายสนับสนุน</string>
+  <string name="iy1joavto1n8z-n68_u0xa" mz="btn_DeleteAccount">ลบบัญชี</string>
+  <string name="iy1joavtodf71t-n54_u0xa-cp-lable_title" mz="n54">การสั่น</string>
+  <string name="iy1joavtodf71t-n56_u0xa-cp-title" mz="com_messagevibrate">สั่นเมื่อมีข้อความ</string>
+  <string name="iy1joavtodf71t-n57_u0xa-cp-title" mz="com_tipsvibrate">สั่นเมื่อมีการแจ้งเตือน</string>
+  <string name="iy1joavto1n8q-n40_u0xa-cp-lable_title" mz="n40">ระดับเสียงรวม</string>
+  <string name="iy1joavto1n8q-n42_u0xa-cp-lable_title" mz="n42">BGM</string>
+  <string name="iy1joavto1n8q-n44_u0xa-cp-lable_title" mz="n44">เอฟเฟกต์เสียง</string>
+  <string name="iy1joavto1n8q-n46_u0xa-cp-lable_title" mz="Character_Voice_Settings">พากย์เสียงตัวละคร</string>
+  <string name="iy1joavto1n8q-n48_dzvf-cp-lable_title" mz="n48">ภาษาพากย์เสียง</string>
+  <string name="iy1joavto1n8q-n49_dzvf" mz="com_VoiceLanguages">无需翻译</string>
+  <string name="iy1joavthm5n27-n16_o180" mz="txt_1">90-100: ผู้เล่นต้นแบบ ไม่มีข้อจำกัด รับรางวัลแมตช์ปกติ</string>
+  <string name="iy1joavthm5n27-n18_o180" mz="txt_2">80-89: คูลดาวน์จับคู่ 3 นาที พร้อมแจ้งเตือน รางวัลสิ้นสุดเกมรับปกติ</string>
+  <string name="iy1joavthm5n27-n19_o180" mz="txt_3">70-79: คูลดาวน์จับคู่ 15 นาที พร้อมแจ้งเตือน รางวัลสิ้นสุดเกมรับปกติ</string>
+  <string name="iy1joavthm5n27-n20_o180" mz="txt_4">60-69: คูลดาวน์จับคู่ 30 นาที พร้อมแจ้งเตือน รางวัลสิ้นสุดเกมลด 50%</string>
+  <string name="iy1joavthm5n27-n21_o180" mz="txt_5">ต่ำกว่า 60: คูลดาวน์จับคู่ 60 นาที พร้อมแจ้งเตือน ไม่ได้รับรางวัลสิ้นสุดเกม</string>
+  <string name="iy1joavthm5n27-n23_o180" mz="txt_6">◆ กฎการหักคะแนน
+
+ออกจากเกมระหว่างเลือกตัวละคร: -5 คะแนน
+
+ยอมแพ้และออกกลางคัน: -5 คะแนน
+
+ตัดการเชื่อมต่อระหว่างแมตช์และเชื่อมต่อใหม่ไม่ได้ภายใน 3 นาที: -5 คะแนน
+
+ปิดเกมระหว่างแมตช์โดยไม่เชื่อมต่อใหม่: -10 คะแนน
+
+ถูกไล่ออกจากเกมเพราะ AFK หลายครั้งระหว่างแมตช์: -10 คะแนน</string>
+  <string name="iy1joavtwh311r-n33_jzri" mz="n33">การแสดงผล</string>
+  <string name="iy1joavtwh311r-n34_jzri" mz="n34">เสียง</string>
+  <string name="iy1joavtwh311r-n35_jzri" mz="n35">ตั้งค่า</string>
+  <string name="iy1joavtwh311r-n44_efox" mz="n44">ผู้ใช้</string>
+  <string name="iy1joavtwh311r-n108_o180" mz="n108">คะแนน Fair Play</string>
+  <string name="iy1joavtwh311r-n116_l38o" mz="n116">ตั้งค่าปุ่มควบคุม</string>
+  <string name="iy1joavtwh311r-n0_jzri" mz="btn_Return">ย้อนกลับ</string>
+  <string name="h88onq8cgzvsf-n8_gzvs" mz="title">ผู้สร้าง Astral</string>
+  <string name="h88onq8cd11o0-n10_gzvs" mz="n10">ผู้ครอบครอง Astral</string>
+  <string name="h88onq8cd11o0-n11_gzvs" mz="n11">มาสเตอร์ Astral Party</string>
+  <string name="h88onq8cd11o0-n12_gzvs" mz="n12">ผู้เชี่ยวชาญ Astral Party</string>
+  <string name="h88onq8cd11o0-n13_gzvs" mz="n13">ผู้รัก Astral Party</string>
+  <string name="h88onq8cd11o0-n14_gzvs" mz="n14">มือใหม่ Astral Party</string>
+  <string name="h88onq8cd11o0-n15_gzvs" mz="n15">ผู้สนับสนุนอาสา</string>
+  <string name="zfulrgf7ofajqqd-n13_ofaj" mz="n13">ดูตัวอย่าง</string>
+  <string name="zfulrgf7ofajqqd-n14_ofaj" mz="n14">เรื่องราว</string>
+  <string name="zfulrgf7cabpqqc-n6_qdq5" mz="txt_LabelName">ดูตัวอย่างการ์ดโปรไฟล์</string>
+  <string name="zfulrgf7cabpqqc-n7_qdq5" mz="n7">ดูตัวอย่างสกิน</string>
+  <string name="zfulrgf7cabpqqc-n17_ofaj" mz="n17">ได้รับจาก</string>
+  <string name="zfulrgf7ofajqqe-n17_ofaj" mz="n17">คำอธิบายสกิน</string>
+  <string name="dqu5kxbpg9kn3-n9_q18c" mz="n9">รับ</string>
+  <string name="dqu5kxbpg9kn3-n9_q18c-texts_0" mz="n9">รับแล้ว</string>
+  <string name="dqu5kxbpg9kn3-n9_q18c-texts_def" mz="n9">รับ</string>
+  <string name="dqu5kxbpg9kn3-n12_q18c" mz="txt_number">x100</string>
+  <string name="dqu5kxbpg9kn0-n17_q18c" mz="txt_headline">สัปดาห์ดวงดาวครบรอบ 1 ปี</string>
+  <string name="dqu5kxbpg9kn0-n18_q18c" mz="txt_desc">อีเวนต์เช็คอินจำกัดเวลา</string>
+  <string name="dqu5kxbpg9kn0-n19_q18c" mz="txt_duration">2.21~3.7</string>
+  <string name="3bkg2bqqpjcy3-n3_rr35" mz="text_no">รับ</string>
+  <string name="3bkg2bqqpjcy3-n9_rr35" mz="text_yes">รับแล้ว</string>
+  <string name="3bkg2bqqpjcy3-n7_rr35" mz="txt_number">x100</string>
+  <string name="ik9iuwgyb1ak1y-n3_rr35" mz="text_no">รับรางวัล</string>
+  <string name="ik9iuwgyb1ak1y-n9_rr35" mz="text_yes">ได้รับแล้ว</string>
+  <string name="ik9iuwgyb1ak1y-n7_rr35" mz="txt_number">x100</string>
+  <string name="mi9vm3w0fo1bq3z-n80_tvj1" mz="btn_Sell">ขาย</string>
+  <string name="mi9vm3w0fo1bq3z-n84_tvj1" mz="txt_Price">+{price=0}</string>
+  <string name="mi9vm3w0fo1bq3z-n86_e7ps" mz="btn_Buy">ซื้อ</string>
+  <string name="mi9vm3w0oazx1-n48_j73t" mz="n48">เดิน</string>
+  <string name="mi9vm3w0oazx1-n65_tvj1" mz="txt_Progress">{current=1} /[size=40]{max=50}[/size]</string>
+  <string name="mi9vm3w0wcumq61-n2_wcum" mz="n2">รีเฟรช</string>
+  <string name="mi9vm3w0wcumq62-n11_tvj1" mz="n11">ซื้อ</string>
+  <string name="mi9vm3w0oai4q52-n107_dajb" mz="n107">ว่าง</string>
+  <string name="mi9vm3w0oai4q52-n108_dajb" mz="txt_SoldOutCN">ขายหมด</string>
+  <string name="mi9vm3w0oai4q52-n109_dajb" mz="txt_SoldOutEN">ขายหมด</string>
+  <string name="mi9vm3w0tvj1q7w-n140_tvj1" mz="txt_Green">{value=0}%</string>
+  <string name="mi9vm3w0tvj1q7w-n146_tvj1" mz="txt_Bule">{value=0}%</string>
+  <string name="mi9vm3w0tvj1q7w-n149_tvj1" mz="txt_Purple">{value=0}%</string>
+  <string name="mi9vm3w0tvj1q7w-n152_tvj1" mz="txt_Gold">{value=0}%</string>
+  <string name="mi9vm3w0wcumq6u-n111_me3j" mz="btn_Confirm">ยืนยัน</string>
+  <string name="mi9vm3w0tvj1q7e-n7_tvj1" mz="txt_MissionProgress">{cur=0}/[size=32]{max=0}[/size] เลเวล</string>
+  <string name="mi9vm3w0fx3oq71-n6_fx3o" mz="n6">รางวัลภารกิจ</string>
+  <string name="mi9vm3w0fx3oq72-n9_jsh0" mz="btn_Confirm">ยืนยัน</string>
+  <string name="mi9vm3w0oazx0-n132_tvj1" mz="txt_RemainingRounds">เหลือ {round=0}&lt;img src='ui://mi9vm3w0tvj1q7c' width='60' height='60'/&gt; เพื่อถึงเป้าหมาย</string>
+  <string name="r680i7z8qogv0-n39_gott" mz="btn_Continue">ทำต่อ</string>
+  <string name="r680i7z8qogv0-n40_gott" mz="btn_OpenSetting">ตั้งค่า</string>
+  <string name="r680i7z8qogv0-n83_qogv" mz="btn_Reset">เริ่มใหม่</string>
+  <string name="r680i7z8qogv0-n47_tu3p" mz="btn_LeaveRoom">ออกจากแมตช์</string>
+  <string name="r680i7z8qogv0-n41_gott" mz="btn_QuitGame">ออกจากเกม</string>
+  <string name="wwhrkd30f0pvq-n1_f0pv" mz="title">เล่นอีกครั้ง</string>
+  <string name="wwhrkd30f0pvo-n1_f0pv" mz="title">ออก</string>
+  <string name="wwhrkd30f0pvp-n1_f0pv" mz="title">อันดับ</string>
+  <string name="wwhrkd30hh8o14-n1_f0pv" mz="title">รายละเอียด</string>
+  <string name="wwhrkd30hh8o11-n8_hh8o" mz="title">名字名字名字</string>
+  <string name="wwhrkd30hh8oz-n8_hh8o" mz="title">ความคืบหน้าเลเวล</string>
+  <string name="wwhrkd30hh8oy-n2_hh8o" mz="n2">รายได้ Star Coin</string>
+  <string name="wwhrkd30hh8oy-n3_hh8o" mz="n3">สรุปคะแนน</string>
+  <string name="wwhrkd30hh8oy-n4_hh8o" mz="btn_score_1">คะแนนความคืบหน้า</string>
+  <string name="wwhrkd30hh8oy-n5_hh8o" mz="btn_score_2">คะแนน Star Coin</string>
+  <string name="wwhrkd30hh8oy-n6_hh8o" mz="btn_score_3">คะแนนสิ่งปลูกสร้าง</string>
+  <string name="wwhrkd30uytml-n5_uytm" mz="n5">สถิติใหม่</string>
+  <string name="wwhrkd30uytml-n6_uytm" mz="n6">คะแนนแมตช์</string>
+  <string name="wwhrkd30uytml-n10_uytm" mz="n10">อันดับ</string>
+  <string name="wwhrkd30uytml-n29_llhh" mz="n29">NEW</string>
+  <string name="wwhrkd30uytml-n14_uytm" mz="n14">สถิติ</string>
+  <string name="wwhrkd30uytml-n18_uytm" mz="n18">อันดับ</string>
+  <string name="wwhrkd30uytml-n35_hh8o" mz="Next_Btn">แมตช์ถัดไป</string>
+  <string name="xsairahjhh8oq9y-n15_hh8o" mz="n15">ย้อนกลับ</string>
+  <string name="xsairahjhh8oqa8-n27_hh8o" mz="title">เลเวล 3</string>
+  <string name="xsairahjhh8oqa8-n20_hh8o" mz="btn_1">เลเวล 1</string>
+  <string name="xsairahjhh8oqa8-n21_hh8o" mz="btn_2">เลเวล 2</string>
+  <string name="xsairahjhh8oqa8-n22_hh8o" mz="btn_3">เลเวล 3</string>
+  <string name="xsairahjhh8oqa8-n23_hh8o" mz="btn_4">เลเวลสูงสุด</string>
+  <string name="xsairahjti1tq94-n12_ti1t" mz="n12">คลังภาพ</string>
+  <string name="xsairahjti1tq94-n13_ti1t" mz="n13">ยกเลิก</string>
+  <string name="xsairahjti1tq94-n14_ti1t" mz="n14">ยืนยัน</string>
+  <string name="xsairahjhh8oqa9-n16_hh8o" mz="title">เลเวลสูงสุด</string>
+  <string name="xsairahjhh8oq9v-n23_hh8o" mz="n23">เร็ว ๆ นี้</string>
+  <string name="xsairahjti1tq95-n13_hh8o" mz="n13">เลือกแพ็คการ์ด</string>
+  <string name="xsairahjti1tq8o-n3_ti1t" mz="title">โชค</string>
+  <string name="xsairahjhh8oq9z-n15_hh8o" mz="title">สิ่งปลูกสร้าง</string>
+  <string name="xsairahjhh8oq96-n8_hh8o" mz="btn_relic">แท่น</string>
+  <string name="xsairahjhh8oq96-n4_hh8o" mz="n4">คลังภาพ</string>
+  <string name="xsairahjti1tq8p-n3_ti1t" mz="n3">กรุณาเลือกแพ็คการ์ดอย่างน้อย 3 แพ็ค:</string>
+  <string name="xsairahjhh8oqak-n1_f0pv" mz="title">ออก</string>
+  <string name="xsairahjpmrnq8k-n149_pmrn" mz="btn_Continue">ทำต่อ</string>
+  <string name="xsairahjpmrnq8k-n156_pmrn" mz="btn_Start">เริ่มเกม</string>
+  <string name="xsairahjpmrnq8k-n176_k4vu" mz="btn_Reset">ยอมแพ้</string>
+  <string name="xsairahjpmrnq8k-n171_hh8o" mz="btn_book">คลังภาพ</string>
+  <string name="xsairahjpmrnq8k-n151_pmrn" mz="btn_FriendRankList">อันดับ</string>
+  <string name="xsairahjpmrnq8k-n152_pmrn" mz="btn_Back">ออก</string>
+  <string name="hmljxqy1ub0x1-n33_gbr1" mz="n33">ดูตัวอย่าง</string>
+  <string name="hmljxqy1ub0x4-n18_fu2t" mz="n18">ซื้อเสร็จสิ้น</string>
+  <string name="hmljxqy1ub0x4-n29_k34r" mz="n29">ซื้อ</string>
+  <string name="hmljxqy1ub0x4-n16_ub0x" mz="n16">25% OFF</string>
+  <string name="xuxzg1y1mgsn1-n2_mgsn" mz="n2">ชาเลนจ์พื้นฐาน</string>
+  <string name="xuxzg1y1mgsn1-n4_es7g" mz="n4">รวมบทเรียนสอน</string>
+  <string name="xuxzg1y1cgxz11-n3_cgxz" mz="des_txt">สร้างเมืองของตัวเอง!</string>
+  <string name="xuxzg1y1cgxz11-n4_ua6n" mz="n4">Astral Town</string>
+  <string name="xuxzg1y1mgsn2-n2_mgsn" mz="n2">โหมดซ้อม</string>
+  <string name="xuxzg1y1mgsn2-n3_cgxz" mz="txt_Tip">แผนที่ที่มี: {mapNumb=7}</string>
+  <string name="zyd0rl0011biqv-n16_11biq" mz="txt_DiscountPercent">{discount=35}% OFF</string>
+  <string name="zyd0rl0011biq1r-n23_11biq" mz="n23">รับ</string>
+  <string name="zyd0rl0011biqy-n32_11biq" mz="txt_Day">วันที่ {day=1}</string>
+  <string name="zyd0rl0011biqy-n30_11biq" mz="txt_Name_2">เข็มอวกาศ</string>
+  <string name="zyd0rl00qw8hqq5q-n75_ekc0-cp-txt_OriginalCount" mz="btn_day1">x10</string>
+  <string name="zyd0rl00qw8hqq5q-n76_ekc0-cp-txt_OriginalCount" mz="btn_day2">x5</string>
+  <string name="zyd0rl00qw8hqq5q-n77_ekc0-cp-txt_OriginalCount" mz="btn_day3">x10</string>
+  <string name="zyd0rl00qw8hqq5q-n78_ekc0-cp-txt_OriginalCount" mz="btn_day4">x5</string>
+  <string name="zyd0rl00qw8hqq5q-n79_ekc0-cp-txt_OriginalCount" mz="btn_day5">x10</string>
+  <string name="zyd0rl00qw8hqq5q-n80_ekc0-cp-txt_OriginalCount" mz="btn_day6">x5</string>
+  <string name="zyd0rl00qw8hqq5q-n81_ekc0-cp-txt_OriginalCount" mz="btn_day7">x10</string>
+  <string name="zyd0rl0011biq20-n7_11biq" mz="txt_Time">จำกัด 1 ครั้ง</string>
+  <string name="zyd0rl00qdq5c-n47_aif6" mz="n47">โบนัสแรก+</string>
+  <string name="zyd0rl00qdq5c-n14_z52s" mz="txt_Remaining">Limit {remainingNum=1} / {limitNum=1}</string>
+  <string name="zyd0rl00qdq5c-n23_z52s" mz="n23">มีแล้ว</string>
+  <string name="zyd0rl00qdq5c-n39_hcgi" mz="txt_soldout">ขายหมด!</string>
+  <string name="zyd0rl00qdq5c-n24_z52s" mz="txt_timeTip">รีเฟรช: {day=00} วัน {hour=00} ชม</string>
+  <string name="zyd0rl00qdq5c-n43_hcgi" mz="n43">x</string>
+  <string name="zyd0rl00qdq5l-n35_hcgi" mz="txt_TokenSymbol">USD</string>
+  <string name="zyd0rl00qdq5l-n38_hcgi" mz="txt_DiscountPercent">{discount=35}% OFF</string>
+  <string name="zyd0rl00r3jjqq4t-n8_r3jj" mz="title">การ์ดโปรไฟล์</string>
+  <string name="zyd0rl00r3jjqq4g-n3_r3jj" mz="title">无需翻译</string>
+  <string name="zyd0rl00vs31qq50-n9_vs31" mz="text_itemName">无需翻译</string>
+  <string name="zyd0rl00vs31qq50-n19_vs31" mz="n19">คุ้มค่า</string>
+  <string name="zyd0rl00vs31qq50-n15_vs31" mz="txt_Remaining">Limit  {remainingNum=1} / {limitNum=1}</string>
+  <string name="zyd0rl00vs31qq50-n18_vs31" mz="txt_timeTip">รีเฟรช: {day=00} วัน {hour=00} ชม</string>
+  <string name="zyd0rl00vs31qq50-n20_vs31" mz="txt_soldout">ขายหมด!</string>
+  <string name="zyd0rl00n9cwqq2q-n32_n9cw" mz="n32">กฎ</string>
+  <string name="zyd0rl00m1i7qq24-n22_csvx" mz="n22">ต่ออายุ</string>
+  <string name="zyd0rl00m1i7qq24-n22_csvx-texts_0" mz="n22">ต่ออายุ</string>
+  <string name="zyd0rl00m1i7qq24-n22_csvx-texts_def" mz="n22">ซื้อ</string>
+  <string name="zyd0rl00m1i7qq25-n13_csvx" mz="n13"> รางวัลวันนี้รับแล้ว</string>
+  <string name="zyd0rl007h6sqq36-n16_11biq" mz="txt_DiscountPercent">{discount=35}% OFF</string>
+  <string name="zyd0rl00qdq5r-n43_qdq5" mz="txt_Remaining">Limit {remainingNum=1} / {limitNum=1}</string>
+  <string name="zyd0rl00qdq5r-n50_rpwn" mz="n50">สกินลดราคาจำกัดเวลา</string>
+  <string name="zyd0rl00qdq5r-n47_11biq" mz="txt_soldout">ขายหมด!</string>
+  <string name="zyd0rl00qdq5r-n48_11biq" mz="n48">มีแล้ว</string>
+  <string name="zyd0rl00h0atqq5b-n11_h0at" mz="title">No Translate-Ignore</string>
+  <string name="zyd0rl00r3jjqq4h-n13_r3jj" mz="txt_timeTip">No Translate-Ignore</string>
+  <string name="zyd0rl00r3jjqq4v-n13_r3jj" mz="txt_timeTip">No Translate-Ignore</string>
+  <string name="zyd0rl00qdq50-n54_o1g0" mz="btn_SpecifiedCommercialTransactions">1</string>
+  <string name="zyd0rl00qdq50-n55_o1g0" mz="btn_PaymentServicesAct">1</string>
+  <string name="s9p4q57hmyup3-n11_micc" mz="title">1</string>
+  <string name="s9p4q57hmyup8-n13_dez3" mz="title">ภารกิจมือใหม่</string>
+  <string name="s9p4q57hmyup2-n14_myup" mz="n14">1</string>
+  <string name="s9p4q57hmyup2-n15_myup" mz="txt_tip">1</string>
+  <string name="s9p4q57hmyup0-n13_myup" mz="bottom">1</string>
+  <string name="hhpzjcmzh38b4g-n11_h38b" mz="n11">กรอกรหัสเชิญ~</string>
+  <string name="hhpzjcmzh38b4g-n14_h38b" mz="btn_SureCode">ยืนยัน</string>
+  <string name="hhpzjcmzh38b4g-n15_h38b" mz="n15">กรอกรหัสเชิญเพื่อรับรางวัล</string>
+  <string name="hhpzjcmzh38b4g-n17_h38b" mz="n17">ภารกิจชวนเพื่อนผู้ใช้ใหม่</string>
+  <string name="hhpzjcmzh38b4g-n23_cif0" mz="n23">(เปิดใช้งานหลังกรอกรหัสเชิญ)</string>
+  <string name="hhpzjcmzh38b4h-n11_h38b" mz="n11">รหัสเชิญของฉัน</string>
+  <string name="hhpzjcmzh38b4h-n14_h38b" mz="btn_CopyCode">คัดลอก</string>
+  <string name="hhpzjcmzh38b4h-n15_h38b" mz="n15">รางวัลชวนเพื่อน</string>
+  <string name="hhpzjcmzl6o63u-n29_dez3" mz="n29">วัน</string>
+  <string name="hhpzjcmzl6o63v-n49_k9r7" mz="n49">ภารกิจยังไม่เปิดใช้งาน</string>
+  <string name="hhpzjcmzthbm37-n168_thbm" mz="n168">รับ</string>
+  <string name="hhpzjcmzthbm37-n169_thbm" mz="n169">รับแล้ว</string>
+  <string name="hhpzjcmzthbm2n-n13_dez3" mz="title">ภารกิจมือใหม่</string>
+  <string name="hhpzjcmzthbm2v-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+  <string name="hhpzjcmzthbm2v-n157_thbm" mz="n157">รับ</string>
+  <string name="hhpzjcmzthbm34-n152_thbm" mz="n152">ความกระตือรือร้นรายสัปดาห์</string>
+  <string name="hhpzjcmzthbm34-n147_ndgh" mz="txt_liveValue">[size=52]{cur=000}[/size]/[size=29]{max=000}[/size]</string>
+  <string name="hhpzjcmzthbm2j-n18_hetx" mz="n18">รีเฟรช: 04:00 น. ทุกวันจันทร์ UTC+8</string>
+  <string name="1jtcsp8ml8aas83-n0_103c7" mz="txt_Content">ลำดับการเคลื่อนที่เปลี่ยนแบบสุ่ม!</string>
+  <string name="1jtcsp8mine4s7t-n39_k0ar" mz="n39">ได้ดาว!</string>
+  <string name="1jtcsp8mmques86-n53_mque" mz="n53">ประกาศผลลอตเตอรี่!</string>
+  <string name="1jtcsp8mmques86-n54_mque" mz="n54">   ผู้ชนะ   ผู้ชนะ   ไก่ทอด   </string>
+  <string name="1jtcsp8mine4s7r-n23_kjte" mz="n23">สกิลแฝง</string>
+  <string name="1jtcsp8mine4s7r-n26_kjte" mz="n26">ปลดปล่อย!</string>
+  <string name="1jtcsp8mine4s7q-n11_kjte" mz="txt_RoundRewardTitle">รางวัล</string>
+  <string name="1jtcsp8mou6os82-n0_103c7" mz="txt_Content">[color=#FFB346][size=100]เธอ[/size][/color] ออกเดินทาง!</string>
+  <string name="1jtcsp8mou6os82-n0_103c7-texts_0" mz="txt_Content">[color=#FF4646][size=100]เธอ[/size][/color] ออกเดินทาง!</string>
+  <string name="1jtcsp8mou6os82-n0_103c7-texts_1" mz="txt_Content">[color=#94FF46][size=100]เธอ[/size][/color] ออกเดินทาง!</string>
+  <string name="1jtcsp8mou6os82-n0_103c7-texts_2" mz="txt_Content">[color=#4386F4][size=100]เธอ[/size][/color] ออกเดินทาง!</string>
+  <string name="1jtcsp8mou6os82-n0_103c7-texts_3" mz="txt_Content">[color=#FFB346][size=100]เธอ[/size][/color] ออกเดินทาง!</string>
+  <string name="xds9qwo0mgsn1-n4_mgsn-texts_0" mz="n4">ชาเลนจ์ Co-op</string>
+  <string name="xds9qwo0mgsn1-n4_mgsn-texts_def" mz="n4">ศึกผู้เล่น</string>
+  <string name="b96qpoz6iu43p-n1_iu43" mz="txt_0">ยินดีด้วย!</string>
+  <string name="b96qpoz6iu43p-n16_j7u8" mz="txt_1">No Translate-Ignore</string>
+  <string name="b96qpoz6iu43p-n2_iu43" mz="txt_2">No Translate-Ignore</string>
+  <string name="b96qpoz6ia9gg-n38_mj58" mz="n38">ยืนยัน</string>
+  <string name="b96qpoz6ia9ga-n55_vagh" mz="n55">เลือกแล้ว</string>
+  <string name="b96qpoz6ia9ga-n75_oy11" mz="txt_Trial">ทดลอง!</string>
+  <string name="6vzgbzmwesjwv-n38_esjw" mz="n38">ได้รับดาว [color=#FFDC92]ใหม่[/color]</string>
+  <string name="6vzgbzmwesjwv-n39_esjw" mz="txt_First">อันดับ 1</string>
+  <string name="6vzgbzmwesjwv-n40_esjw" mz="txt_Second">อันดับ 2</string>
+  <string name="6vzgbzmwesjwv-n41_esjw" mz="txt_Thirth">อันดับ 3</string>
+  <string name="6vzgbzmwesjwv-n42_esjw" mz="txt_Forth">อันดับ 4</string>
+  <string name="6vzgbzmwot0w28-n39_esjw" mz="txt_First">อันดับ 1</string>
+  <string name="6vzgbzmwot0w28-n40_esjw" mz="txt_Second">อันดับ 2</string>
+  <string name="6vzgbzmwot0w28-n41_esjw" mz="txt_Thirth">อันดับ 3</string>
+  <string name="6vzgbzmwot0w28-n42_esjw" mz="txt_Forth">อันดับ 4</string>
+  <string name="6vzgbzmwot0w28-n38_esjw" mz="n38">ได้รับดาว [color=#FFDC92]ใหม่[/color]</string>
+  <string name="sv6gwhbej6om1-n35_vagh" mz="n35">กำลังเลือก…</string>
+  <string name="sv6gwhbej6om1-n36_vagh" mz="n36">เลือกตัวละครของเธอ!</string>
+  <string name="sv6gwhbej6om1-n24_s6rj" mz="txt_progress">{progress=0}%</string>
+  <string name="sv6gwhbej6om1-n45_m49i" mz="n45">PVE</string>
+  <string name="sv6gwhbekqgjn-n8_pn6s" mz="txt_SkillName">สกิลแฝง: {skillName=}</string>
+  <string name="sv6gwhbekqgjn-n8_pn6s-texts_0" mz="txt_SkillName">สกิลแฝง: {skillName=}</string>
+  <string name="sv6gwhbekqgjn-n8_pn6s-texts_def" mz="txt_SkillName">สกิลใช้งาน: {skillName=}</string>
+  <string name="sv6gwhbej6om0-n1_j6om" mz="btn_SerachPlay">ค้นหา</string>
+  <string name="sv6gwhbej6om0-n3_j6om-prompt" mz="txtField_Search">[color=#999999]รหัสรับชม[/color]</string>
+  <string name="sv6gwhbej6om0-n11_lw40" mz="btn_Watch">รับชม</string>
+  <string name="hn2q98k6kqgjj-n40_kqgj" mz="n40">ซื้อ</string>
+  <string name="hn2q98k6kqgjk-n33_gbr1" mz="n33">ดูตัวอย่างสกิน</string>
+  <string name="hn2q98k6kqgji-n44_kqgj" mz="com_TaiDao">Misaki</string>
+  <string name="hn2q98k6kqgji-n40_kqgj" mz="com_XiuNv">Alana</string>
+  <string name="hn2q98k6kqgjm-n40_kqgj" mz="txt_Name">อาวุธของแม่มด</string>
+  <string name="y0luzhk8l38o1r-n6_l38o" mz="txt_MapName">Dreama</string>
+  <string name="y0luzhk8l38o1r-n13_l38o" mz="txt_RoomMember">ผู้เล่น [color=#02BD06]{num=3}[/color]/{maxnum=4}</string>
+  <string name="w5bj58pzhtd136-n5_l38o" mz="n5">เป้าหมายที่รายงาน</string>
+  <string name="w5bj58pzhtd136-n6_l38o" mz="n6">เหตุผลในการรายงาน</string>
+  <string name="w5bj58pzhtd136-n7_l38o" mz="n7">รายละเอียดเพิ่มเติม</string>
+  <string name="w5bj58pzhtd136-n12_l38o" mz="n12">แนบประวัติแชต Guild</string>
+  <string name="w5bj58pzhtd136-n18_l38o" mz="combobox_target">เลือกผู้เล่น/Guild</string>
+  <string name="w5bj58pzhtd136-n19_l38o" mz="combobox_reason">เลือกเหตุผล</string>
+  <string name="w5bj58pzhtd136-n13_l38o" mz="btn_OpenRecord">เปิดประวัติแชต</string>
+  <string name="w5bj58pzl38o3a-n3_l38o" mz="title">เลือกผู้เล่น/Guild</string>
+  <string name="w5bj58pzl38o38-n2_l38o" mz="title">สวัสดี</string>
+  <string name="w5bj58pzl38o3c-n2_l38o" mz="n2">เลือกข้อความแชตได้สูงสุดครั้งละ 10 ข้อความ</string>
+  <string name="w5bj58pzl38o3h-n17_l38o-prompt" mz="txt_ExpectExplanation">กรอกได้สูงสุด 300 ตัวอักษร</string>
+  <string name="gldisc01mnrq1h-n6_l38o" mz="n6">เหตุผลในการรายงาน</string>
+  <string name="gldisc01mnrq1h-n19_l38o" mz="combobox_reason">เลือกเหตุผล</string>
+  <string name="gldisc01mnrq1h-n7_l38o" mz="n7">รายละเอียดเพิ่มเติม</string>
+  <string name="gldisc01mnrq1o-n3_l38o" mz="title">เลือกผู้เล่น/Guild</string>
+  <string name="gldisc01mnrq1s-n2_l38o" mz="title">สวัสดี</string>
+  <string name="gldisc01mnrq1t-n17_l38o-prompt" mz="txt_ExpectExplanation">กรอกได้สูงสุด 300 ตัวอักษร</string>
+  <string name="24i5r2i07h6s0-n35_l38o" mz="txt_NotGuildMember">ไม่มีสมาชิก Guild ออนไลน์</string>
+  <string name="24i5r2i07h6s0-n36_l38o" mz="btn_ShareGuild">แชร์ไปยังช่อง Guild</string>
+  <string name="iy1joavto1n81c-n53_l38o" mz="com_refuseGuildInvite">บล็อกคำเชิญเข้าร่วม Guild</string>
+  <string name="iy1joavto1n81c-n54_l38o" mz="com_guildMsgPrompt">แจ้งเตือนข้อความในช่อง Guild</string>
+  <string name="y0luzhk8l38o1q-n0_g04j" mz="tips">2026/06/01 Name xxxxx เลื่อนตำแหน่ง xxxxx เป็นรองหัวหน้า Guild</string>
+  <string name="y0luzhk8x1udb-n49_l38o" mz="btn_tagGuild">Guild</string>
+  <string name="y0luzhk8x1udb-n50_l38o" mz="btn_tagFriend">เพื่อน</string>
+  <string name="y0luzhk8l38o1r-n8_l38o" mz="txt_MapModel">ชาเลนจ์ Co-op</string>
+  <string name="y0luzhk8l38o1r-n15_l38o" mz="n15">เต็ม</string>
+  <string name="y0luzhk8l38o1r-n14_l38o" mz="btn_Join">เข้าร่วมห้อง</string>
+  <string name="y0luzhk8l38o1n-n5_l38o" mz="title">Guild</string>
+  <string name="w5bj58pzhtd136-n0_htd1" mz="bottom">รายงาน</string>
+  <string name="w5bj58pzhtd136-n2_htd1" mz="btn_report">ยืนยัน</string>
+  <string name="w5bj58pzl38o3c-n4_l38o" mz="btn_sure">ยืนยัน</string>
+  <string name="w5bj58pzmnrq3j-n0_mnrq" mz="bottom">กฎ</string>
+  <string name="gldisc01mnrq1w-n1_g04j" mz="title">รายงาน</string>
+  <string name="gldisc01gd009-n46_mnrq" mz="btn_rule">กฎ</string>
+  <string name="gldisc01gd016-n22_mnrq" mz="btn_Refresh">รีเฟรช</string>
+  <string name="gldisc01mnrq1h-n0_htd1" mz="bottom">รายงาน</string>
+  <string name="gldisc01mnrq1h-n27_mnrq" mz="btn_report">ยืนยัน</string>
+  <string name="gldisc01mnrq1y-n0_mnrq" mz="bottom">กฎ</string>
+  <string name="24i5r2i07h6s0-n34_l38o" mz="btn_Guild">Guild</string>
+  <string name="vxuz3wboorg70-n54_mnrq" mz="btn_Sure">ยืนยัน</string>
+  <string name="iy1joavto1n81c-n52_l38o-cp-lable_title" mz="n52">ตั้งค่า Guild</string>
+  <string name="iy1joavto1n81c-n53_l38o-cp-title" mz="com_refuseGuildInvite">แนะนำการ์ด</string>
+  <string name="iy1joavto1n81c-n54_l38o-cp-title" mz="com_guildMsgPrompt">แนะนำการ์ด</string>
+<string name="begz6gfvok4t1m-n156_thbm" mz="n156">กำลังดำเนินการ</string>
+
+  <string name="fxejlqlfbqj63-n56_y0e5" mz="n56">รอบ</string>
+
+  <string name="6fn6dj8bq2ux0-n69_r26s" mz="n69">กำลังจับคู่...</string>
+
+  </resources>

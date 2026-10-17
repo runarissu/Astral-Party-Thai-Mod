@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  รองรับเวอร์ชั่น <strong>V3.2.0</strong> hot patch (INT) · Mod v1.3.2
+  รองรับเวอร์ชั่น <strong>V3.3.0</strong> (INT) · Mod v1.4.0
 </p>
 
 <p align="center">
@@ -47,7 +47,7 @@
 
 ### ข้อกำหนด
 
-- ติดตั้ง **Astral Party** บน Steam (เวอร์ชั่น INT)
+- ติดตั้ง **Astral Party V3.3.0** บน Steam (เวอร์ชั่น INT)
 - เคยเปิดเกมอย่างน้อย 1 ครั้ง
 - Windows 10/11
 
@@ -66,12 +66,22 @@
 
 | Step | งาน | รายละเอียด |
 |------|-----|-----------|
-| 1/6 | ตรวจสอบเกม | เช็คว่าเกมติดตั้งแล้วและมี cache อยู่ |
+| 1/6 | ตรวจสอบเกม | เช็คว่าเกมติดตั้งแล้วและค้นหา cache (เกม 3.3.0 ย้าย cache เข้าโฟลเดอร์เกม) |
 | 2/6 | ติดตั้งฟอนต์ | ติดตั้ง `Prompt-Regular.ttf` ลง Windows Fonts |
-| 3/6 | ติดตั้งคำแปล | คัดลอก `clean_thai.tsv` ไปยัง LocalLow |
-| 4/6 | ติดตั้ง DLL + Localization | แพตช์ DLL bundle (font redirect + cache) และ Thai XML |
-| 5/6 | Inject Thai fonts ใน cache | แทนที่ CDN-delivered font bundles ด้วย Thai clones |
+| 3/6 | ติดตั้งคำแปล | คัดลอก `clean_thai.tsv` + `localization_Thai.xml` ไปยัง LocalLow |
+| 4/6 | ติดตั้ง DLL + Localization | แพตช์ DLL bundle (font redirect + cache + FairyGUI hook) และ Thai XML |
+| 5/6 | Inject Thai fonts ใน cache | แทนที่ remote-catalog font bundles ด้วย Thai clones |
 | 6/6 | ติดตั้ง TMP font bundles | วาง Thai TMP fonts ใน StreamingAssets |
+
+## มีอะไรใหม่ใน v1.4.0
+
+- **รองรับเกม V3.3.0** — อัปเดตเกม 15 ตุลาคม 2026 (GetLocal methods 63 → 64, เพิ่ม `STRBuildLocalConfigure`)
+- **แปลข้อความใหม่ครบ** — STR เพิ่ม 611 ชุด (690 rows) รวม 7,997 entries + batch ใหม่ str_batch_39
+- **UI XML เพิ่ม 195 strings** — รวม 1,502 entries ครอบคลุมข้อความระบบและ UI ใหม่
+- **แปล FairyGUI ครบแล้ว** — hook `UIPackage.SetStringsSource` ให้อ่าน `localization_Thai.xml` ทำให้เมนู/Guild/Settings เป็นภาษาไทย (แก้ปัญหา UI ยังเป็นอังกฤษของเวอร์ชันก่อน)
+- **ปรับคำแปลเดิมตาม source ใหม่** — 22 STR + 6 UI ที่เกมเปลี่ยน เช่น Yume→Zhao, markup ของ Guild, placeholders ราคา
+- **รองรับ font delivery แบบใหม่** — เกม 3.3.0 ย้ายฟอนต์เป็น hash-named bundles (5 ไฟล์ local + 3 ไฟล์ remote cache)
+- **Installer ค้นหา cache อัตโนมัติ** — เกม 3.3.0 ย้าย Addressables cache เข้าโฟลเดอร์ติดตั้งเกม installer หาตำแหน่งใหม่ให้เอง
 
 ## มีอะไรใหม่ใน v1.3.2
 
@@ -108,32 +118,35 @@
 
 **Font Redirection** — font names ที่ลงท้ายด้วย `_TMP` คงไว้โหลด Thai TMP bundle ผ่าน Addressables ส่วน font names อื่น redirect ไป `"Prompt"` (OS font) เพื่อสร้าง DynamicFont ผ่าน `Font.CreateDynamicFontFromOSFont`
 
-**TMP Font Bundles** — clone Unity-built Static TMP_FontAsset (family Prompt) ออกเป็น 13 bundles สำหรับ fonts ของเกม แต่ละ bundle มี pre-baked SDF atlas + glyph-pair adjustments
+**TMP Font Bundles** — clone Unity-built Static TMP_FontAsset (family Prompt) ออกเป็น 8 bundles สำหรับ fonts ของเกม (5 local StreamingAssets + 3 remote cache) แต่ละ bundle มี pre-baked SDF atlas + glyph-pair adjustments
 
 **Pair Adjustments** — embed pair adjustment records เป็น static arrays ในทั้ง TMPFont และ DynamicFont ใช้ char-based linear search ปรับตำแหน่งวรรณยุกต์/สระลอยให้ถูกต้อง
 
-**Translation Cache** — แพตช์เมธอด `GetLocal()` ทั้ง 63 ตัว ให้อ่านคำแปลจาก `clean_thai.tsv` ผ่าน cache แบบ pre-parsed
+**Translation Cache** — แพตช์เมธอด `GetLocal()` ทั้ง 64 ตัว ให้อ่านคำแปลจาก `clean_thai.tsv` ผ่าน cache แบบ pre-parsed
+
+**FairyGUI Localization** — hook `UIPackage.SetStringsSource` ให้ใช้ `localization_Thai.xml` จาก persistentDataPath ครอบคลุมข้อความ UI ที่ไม่ผ่านระบบ GetLocal/TSV
 
 ## วิธีถอนการติดตั้ง
 
 1. **ลบ font**: Control Panel → Fonts → `Prompt Regular` → Delete
 2. **กู้คืนไฟล์เกม**: Steam → คลิกขวาเกม → Properties → Local Files → Verify integrity of game files
-3. **ลบ cache ม็อด** (ถ้ามี): ลบโฟลเดอร์ `AppData\LocalLow\feimo\AstralParty_INT\com.unity.addressables\AssetBundles` แล้วเปิดเกมใหม่เพื่อดาวน์โหลด cache ใหม่จากเซิร์ฟเวอร์
+3. **ลบ cache ม็อด** (ถ้ามี): ลบโฟลเดอร์ `<โฟลเดอร์เกม>\8vJXnINT\AstralParty_INT_Data\com.unity.addressables\AssetBundles` (เกม 3.3.0+) หรือ `AppData\LocalLow\feimo\AstralParty_INT\com.unity.addressables\AssetBundles` (เวอร์ชันเก่า) แล้วเปิดเกมใหม่เพื่อดาวน์โหลด cache ใหม่จากเซิร์ฟเวอร์
 
 ## โครงสร้างไฟล์ใน Release
 
 ```
 ├── install.bat              # One-click installer (Run as admin)
-├── install.ps1              # Installer script (v1.3.2)
+├── install.ps1              # Installer script (v1.4.0)
 ├── fonts/
 │   └── Prompt-Regular.ttf   # Thai font (OS font for DynamicFont)
 ├── data/
-│   └── clean_thai.tsv       # Translation table (7,723 entries)
+│   ├── clean_thai.tsv        # Translation table (7,996 entries)
+│   └── localization_Thai.xml # FairyGUI UI translations (1,502 entries)
 └── bundles/
-    ├── hotupdate_dll/       # Patched DLL (font redirect + cache + pair adjustments)
+    ├── hotupdate_dll/       # Patched DLL (font redirect + cache + pair adjustments + FairyGUI hook)
     ├── localization/        # Thai localization bundle (XML)
-    ├── font_cache/          # Thai font cache replacements (CDN injection)
-    └── tmp_fonts/           # 13 Thai TMP font bundles
+    ├── font_cache/          # Thai font cache replacements (remote catalog, 3 fonts)
+    └── tmp_fonts/           # Thai TMP font bundles (5 hash-named local bundles)
 ```
 
 ## Known Issues

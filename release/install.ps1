@@ -1,5 +1,7 @@
-# Astral Party Thai Mod v1.3.2 - One-Click Installer
+# Astral Party Thai Mod v1.4.0 - One-Click Installer
 # Usage: Double-click install.bat
+# Supports Astral Party 3.3.0+ (INT) — game 3.3.0 moved the Addressables
+# cache from LocalLow into the game installation folder.
 
 $ErrorActionPreference = "Stop"
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -14,23 +16,14 @@ if (-not $isAdmin) {
 
 Write-Host ""
 Write-Host "  ==========================================" -ForegroundColor Cyan
-Write-Host "   Astral Party Thai Mod v1.3.2 - Installer" -ForegroundColor Cyan
+Write-Host "   Astral Party Thai Mod v1.4.0 - Installer" -ForegroundColor Cyan
 Write-Host "  ==========================================" -ForegroundColor Cyan
 Write-Host ""
 
 # --- Detect game paths ---
 $localLow = Join-Path $env:USERPROFILE "AppData\LocalLow\feimo\AstralParty_INT"
-$gameCache = Join-Path $localLow "com.unity.addressables\AssetBundles"
 
-Write-Host "[1/6] Checking game installation..." -ForegroundColor Yellow
-if (-not (Test-Path $gameCache)) {
-    Write-Host "  ERROR: Game data not found." -ForegroundColor Red
-    Write-Host "  Make sure Astral Party is installed and has been run at least once." -ForegroundColor Red
-    exit 1
-}
-Write-Host "  OK" -ForegroundColor Green
-
-# Find game install dir (for TMP font bundles)
+# Find game install dir (Steam libraries)
 function Find-GameDir {
     $steamRoots = @()
     foreach ($envName in @("PROGRAMFILES(X86)", "PROGRAMFILES")) {
@@ -53,7 +46,26 @@ function Find-GameDir {
     return $null
 }
 
+Write-Host "[1/6] Checking game installation..." -ForegroundColor Yellow
 $gameDir = Find-GameDir
+
+# Game 3.3.0+ stores downloaded Addressables inside the game install;
+# older versions used LocalLow. Prefer the active in-game location.
+$gameCache = $null
+if ($gameDir) {
+    $candidate = Join-Path $gameDir "8vJXnINT\AstralParty_INT_Data\com.unity.addressables\AssetBundles"
+    if (Test-Path $candidate) { $gameCache = $candidate }
+}
+if (-not $gameCache) {
+    $candidate = Join-Path $localLow "com.unity.addressables\AssetBundles"
+    if (Test-Path $candidate) { $gameCache = $candidate }
+}
+if (-not $gameCache) {
+    Write-Host "  ERROR: Game data not found." -ForegroundColor Red
+    Write-Host "  Make sure Astral Party 3.3.0+ is installed and has been run at least once." -ForegroundColor Red
+    exit 1
+}
+Write-Host "  OK ($gameCache)" -ForegroundColor Green
 
 # --- [2/6] Install font ---
 Write-Host ""
@@ -74,7 +86,7 @@ if (Test-Path $fontDest) {
     Write-Host "  Done (font family: Prompt)" -ForegroundColor Green
 }
 
-# --- [3/6] Install TSV ---
+# --- [3/6] Install TSV + FairyGUI XML ---
 Write-Host ""
 Write-Host "[3/6] Installing translation data..." -ForegroundColor Yellow
 $tsvFile = Join-Path $scriptDir "data\clean_thai.tsv"
@@ -85,8 +97,20 @@ if (-not (Test-Path $tsvFile)) {
     exit 1
 }
 
+if (-not (Test-Path $localLow)) { New-Item -ItemType Directory -Path $localLow -Force | Out-Null }
 Copy-Item $tsvFile $tsvDest -Force
-Write-Host "  Done" -ForegroundColor Green
+Write-Host "  clean_thai.tsv: Done" -ForegroundColor Green
+
+# The patched runtime reads this XML from persistentDataPath for FairyGUI
+# (menu/guild/settings text) — required for full UI translation.
+$thaiXmlFile = Join-Path $scriptDir "data\localization_Thai.xml"
+$thaiXmlDest = Join-Path $localLow "localization_Thai.xml"
+if (-not (Test-Path $thaiXmlFile)) {
+    Write-Host "  ERROR: localization_Thai.xml missing" -ForegroundColor Red
+    exit 1
+}
+Copy-Item $thaiXmlFile $thaiXmlDest -Force
+Write-Host "  localization_Thai.xml: Done" -ForegroundColor Green
 
 # --- [4/6] Install modded bundles (DLL + localization) ---
 Write-Host ""
@@ -100,9 +124,7 @@ if (Test-Path $dllManifest) {
 } else {
     # Fallback to known paths
     $dllPaths = @(
-        "57a198703b66364d5420d39c0d251747\5574058c33a393c58a2d30108a7b0572",
-        "57a198703b66364d5420d39c0d251747\ff3e9df1d11d8ce42fbc742247cefac2",
-        "57a198703b66364d5420d39c0d251747\0b399499735aedaf7407a6231d28b0d8"
+        "57a198703b66364d5420d39c0d251747\8cc684d4b3b979e86b5788b7f1814132"
     )
 }
 $dllInstalled = 0
@@ -110,8 +132,17 @@ foreach ($relPath in $dllPaths) {
     $dllBundleSrc = Join-Path $scriptDir "bundles\hotupdate_dll\$relPath\__data"
     $dllBundleDst = Join-Path $gameCache "$relPath\__data"
     if (Test-Path $dllBundleSrc) {
-        $dllDstDir = Split-Path -Parent $dllBundleDst
-        if (-not (Test-Path $dllDstDir)) { New-Item -ItemType Directory -Path $dllDstDir -Force | Out-Null }
+        if (-not (Test-Path $dllBundleDst)) {
+            Write-Host "  ERROR: Game bundle not found: $relPath" -ForegroundColor Red
+            Write-Host "  Your game version may not match this mod (requires Astral Party 3.3.0)." -ForegroundColor Yellow
+            Write-Host "  Update the game on Steam, launch it once, then re-run the installer." -ForegroundColor Yellow
+            exit 1
+        }
+        # Backup original on first install
+        $origBackup = Join-Path (Split-Path -Parent $dllBundleDst) "__data.original.bak"
+        if (-not (Test-Path $origBackup)) {
+            Copy-Item $dllBundleDst $origBackup -Force
+        }
         Copy-Item $dllBundleSrc $dllBundleDst -Force
         $dllInstalled++
     }
@@ -120,6 +151,7 @@ if ($dllInstalled -gt 0) {
     Write-Host "  DLL bundle: Done ($dllInstalled paths)" -ForegroundColor Green
 } else {
     Write-Host "  ERROR: DLL bundle missing" -ForegroundColor Red
+    exit 1
 }
 
 # Localization bundle (Thai XML) - install to all available paths
@@ -129,21 +161,26 @@ $locInstalled = 0
 foreach ($f in $locFiles) {
     $relPath = $f.FullName.Substring($locBundleSrc.Length + 1)
     $locBundleDst = Join-Path $gameCache $relPath
-    $locDstDir = Split-Path -Parent $locBundleDst
-    if (-not (Test-Path $locDstDir)) { New-Item -ItemType Directory -Path $locDstDir -Force | Out-Null }
+    if (-not (Test-Path $locBundleDst)) {
+        Write-Host "  WARNING: Localization cache target not found: $relPath (skipped)" -ForegroundColor Yellow
+        continue
+    }
+    $origBackup = Join-Path (Split-Path -Parent $locBundleDst) "__data.original.bak"
+    if (-not (Test-Path $origBackup)) {
+        Copy-Item $locBundleDst $origBackup -Force
+    }
     Copy-Item $f.FullName $locBundleDst -Force
     $locInstalled++
 }
 if ($locInstalled -gt 0) {
     Write-Host "  Localization bundle: Done ($locInstalled paths)" -ForegroundColor Green
 } else {
-    Write-Host "  ERROR: Localization bundle missing" -ForegroundColor Red
+    Write-Host "  WARNING: No localization bundles installed" -ForegroundColor Yellow
 }
 
 # --- [5/6] Inject Thai fonts into Addressables cache ---
-# The game update moved 5 TMP fonts to CDN delivery (contentupdate_* bundles).
-# We pre-place our Thai font clones in the cache so the game loads them
-# instead of downloading the originals.
+# Game 3.3.0 delivers 3 TMP fonts via the remote catalog. We pre-place our
+# Thai clones in the cache so the game loads them instead of downloading.
 Write-Host ""
 Write-Host "[5/6] Injecting Thai fonts into Addressables cache..." -ForegroundColor Yellow
 
@@ -165,7 +202,7 @@ foreach ($f in $fontCacheFiles) {
 }
 Write-Host "  Injected $fontCacheInstalled Thai font cache entries" -ForegroundColor Green
 
-# --- [5/6] Install TMP font bundles ---
+# --- [6/6] Install local TMP font bundles (StreamingAssets) ---
 Write-Host ""
 Write-Host "[6/6] Installing Thai TMP font bundles..." -ForegroundColor Yellow
 
@@ -181,13 +218,19 @@ if (-not (Test-Path $tmpFontsSrc)) {
     if (-not (Test-Path $aaDir)) {
         Write-Host "  WARNING: StreamingAssets/aa/StandaloneWindows64 not found in: $gameDir" -ForegroundColor Red
     } else {
-        $fontBundles = Get-ChildItem $tmpFontsSrc -Filter "font_tmp_assets_*.bundle"
+        # Game 3.3.0 uses hash-named local bundles; install only where the
+        # original file exists so we never add stale files for other versions.
+        $fontBundles = Get-ChildItem $tmpFontsSrc -Filter "*.bundle"
         $installed = 0
         foreach ($b in $fontBundles) {
             $bundleDst = "$aaDir\$($b.Name)"
             $backup = "$bundleDst.original.bak"
+            if (-not (Test-Path $bundleDst)) {
+                Write-Host "  Skip (not in game): $($b.Name)" -ForegroundColor DarkGray
+                continue
+            }
             # Backup original on first install
-            if (-not (Test-Path $backup) -and (Test-Path $bundleDst)) {
+            if (-not (Test-Path $backup)) {
                 Copy-Item $bundleDst $backup -Force
             }
             Copy-Item $b.FullName $bundleDst -Force
