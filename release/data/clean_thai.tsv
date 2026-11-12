@@ -106,6 +106,7 @@ STRAchieveLocalConfigure	172600	Jiao แห่งหนองน้ำ
 STRAchieveLocalConfigure	172700	แอปเปิ้ลพิษ
 STRAchieveLocalConfigure	172800	กองกำลังเหนือธรรมชาติ
 STRAchieveLocalConfigure	172900	ตัวอ่อนอะบิส
+STRAchieveLocalConfigure	173000	ที่ปรึกษาเกล็ดทอง
 STRAchieveLocalConfigure	179400	เวทมนตร์: ลอยตัว
 STRAchieveLocalConfigure	179500	สาวน้อยพลังมหาศาล
 STRAchieveLocalConfigure	179600	เปลี่ยนชีวิต
@@ -141,6 +142,7 @@ STRAchieveLocalConfigure	182600	มังกรเหนือเมฆ
 STRAchieveLocalConfigure	182700	หัวรุนแรง
 STRAchieveLocalConfigure	182800	พละกำลังมหาศาล
 STRAchieveLocalConfigure	182900	จ้าวแห่งเหวลึก
+STRAchieveLocalConfigure	183000	ปลาคาร์ปทองแปลงมังกร
 STRAchieveLocalConfigure	189400	ชัยชนะของ Hanna Tono
 STRAchieveLocalConfigure	189500	ชัยชนะของ Sherry Tachibana
 STRAchieveLocalConfigure	189600	เซียนมิกซ์
@@ -463,6 +465,10 @@ STRActivityLocalConfigure	6101531	เจ้าหญิงพงไพรปี�
 STRActivityLocalConfigure	6101551	อัศวินแดนมายา
 STRActivityLocalConfigure	2609011	NoTranslate
 STRActivityLocalConfigure	6102900	ของขวัญจากภูตพราย
+STRActivityLocalConfigure	6111210	ประเดิมฝีมือ
+STRActivityLocalConfigure	6111220	ทดลองคอลแลบแบบจำกัดเวลา
+STRActivityLocalConfigure	6111240	บิงโกวันหยุด
+STRActivityLocalConfigure	6111250	7 วันแห่งของขวัญ
 STRBannerLocalConfigure	4040100	กิจกรรมมิตรภาพ!
 STRBannerLocalConfigure	4040101	รับ Space Badge!
 STRBannerLocalConfigure	4040110	อาวุธลิมิเต็ดวันเมษาโกหก
@@ -588,6 +594,7 @@ STRBannerLocalConfigure	6101501	พาสอรุณร้อนอบอ้า
 STRBannerLocalConfigure	6101601	เจ้าหญิงพงไพรปีกเหล็ก
 STRBannerLocalConfigure	6101602	เปิดจำกัดเวลา
 STRBannerLocalConfigure	6101603	กลับมาอีกครั้งแบบจำกัดเวลา
+STRBannerLocalConfigure	6111201	Pass เดินเล่นชมใบไม้ร่วง
 STRBattlePassLocalConfigure	120	ชนะรวม
 STRBattlePassLocalConfigure	150	เข้าเกมวันนี้
 STRBattlePassLocalConfigure	140	เกมที่เล่นรวม
@@ -668,6 +675,9 @@ STRBattlePassLocalConfigure	2026092	Red Hood Pass รุ่นพรีเมี
 STRBattlePassLocalConfigure	2026100	พาสอรุณร้อนอบอ้าว
 STRBattlePassLocalConfigure	2026101	พาสอรุณร้อนอบอ้าว
 STRBattlePassLocalConfigure	2026102	อัปเกรดพาสอรุณร้อนอบอ้าว
+STRBattlePassLocalConfigure	2026110	Pass เดินเล่นชมใบไม้ร่วง
+STRBattlePassLocalConfigure	2026111	Pass เดินเล่นชมใบไม้ร่วง
+STRBattlePassLocalConfigure	2026112	อัปเกรด Pass เดินเล่นชมใบไม้ร่วง
 STRBattlePassLocalConfigure	4060101	คูลซัมเมอร์ - Fanny
 STRBattlePassLocalConfigure	4060102	การ์ดโปรไฟล์ - คูลซัมเมอร์
 STRBattlePassLocalConfigure	4060103	x600
@@ -956,6 +966,19 @@ STRBattlePassLocalConfigure	6101713	การ์ด - อ่านหนัง�
 STRBattlePassLocalConfigure	6101714	การ์ดโปรไฟล์ - อรุณร้อนอบอ้าว
 STRBattlePassLocalConfigure	6101715	อีโมจิ - สาวกี่เพ้า 17 (เคลื่อนไหว)
 STRBattlePassLocalConfigure	6101716	อีโมจิ - สาวกี่เพ้า 19 (เคลื่อนไหว)
+STRBattlePassLocalConfigure	6111201	Pass เดินเล่นชมใบไม้ร่วง
+STRBattlePassLocalConfigure	6111202	การ์ดโปรไฟล์ - เดินเล่นชมใบไม้ร่วง
+STRBattlePassLocalConfigure	6111302	การ์ดโปรไฟล์ - เดินเล่นชมใบไม้ร่วง (แอนิเมชัน)
+STRBattlePassLocalConfigure	6111401	เดินเล่นชมใบไม้ร่วง - Teru
+STRBattlePassLocalConfigure	6111402	การ์ดโปรไฟล์ - เดินเล่นชมใบไม้ร่วง
+STRBattlePassLocalConfigure	6111409	Avatar - Shiyu-Shiyu ฤดูใบไม้ร่วง
+STRBattlePassLocalConfigure	6111410	อิโมจิ - เจ้าแห่ง Mikami 12
+STRBattlePassLocalConfigure	6111411	อิโมจิ - เจ้าแห่ง Mikami 14
+STRBattlePassLocalConfigure	6111412	การ์ด - เดินเล่นชมใบไม้ร่วง
+STRBattlePassLocalConfigure	6111413	การ์ด - ทานตะวัน (แอนิเมชัน)
+STRBattlePassLocalConfigure	6111414	การ์ดโปรไฟล์ - อรุณร้อนอบอ้าว
+STRBattlePassLocalConfigure	6111415	อิโมจิ - เจ้าแห่ง Mikami 13 (แอนิเมชัน)
+STRBattlePassLocalConfigure	6111416	อิโมจิ - เจ้าแห่ง Mikami 15 (แอนิเมชัน)
 STRBeginTipsLocalConfigure	10101	ถ้าไม่อยากให้คนอื่นเห็นผลงานของคุณ สามารถคลิกที่นามบัตรของตัวเองแล้วตั้งค่าเป็น "ไม่เปิดเผย" ได้
 STRBeginTipsLocalConfigure	10102	ร้าน Star Coin มีของฟรีให้รับทุกวัน
 STRBeginTipsLocalConfigure	10103	Star Blocks มีจำกัดเวลา
@@ -1005,6 +1028,11 @@ STRBuffLocalConfigure	100061	【ทำเครื่องหมาย】
 STRBuffLocalConfigure	100091	【โอเวอร์คล็อก】
 STRBuffLocalConfigure	100131	หลักฐาน
 STRBuffLocalConfigure	100141	พลังงาน
+STRBuffLocalConfigure	200001	ไร้เทียมทาน
+STRBuffLocalConfigure	200011	ปัดป้อง
+STRBuffLocalConfigure	200021	ทนทาน
+STRBuffLocalConfigure	200031	หลีกเลี่ยงการต่อสู้
+STRBuffLocalConfigure	200041	ก้าวหลบ
 STRBuffLocalConfigure	2600021	ไข่ปริศนา
 STRBuffLocalConfigure	11203011	การยึดเหนียว
 STRBuffLocalConfigure	11401011	ก้องกังวานแห่งโชคชะตา
@@ -1018,6 +1046,10 @@ STRBuffLocalConfigure	12802011	ทำลายเกราะ
 STRBuffLocalConfigure	12802021	สายฟ้าพันธนาการ
 STRBuffLocalConfigure	12901011	เสียงเรียกแห่งเหวลึก
 STRBuffLocalConfigure	12912021	ตรากร่อนแห่งเหวลึก
+STRBuffLocalConfigure	13012021	เกล็ดทอง
+STRBuffLocalConfigure	13012031	ปลาคาร์ปทองแปลงมังกร
+STRBuffLocalConfigure	13012051	สุราน้ำเต้า
+STRBuffLocalConfigure	13012071	สุราทิพย์
 STRBuffLocalConfigure	30501011	ลอยตัว
 STRBuffLocalConfigure	30512011	ปั้นตุ๊กตา
 STRBuffLocalConfigure	30512021	ตุ๊กตาสำเร็จ
@@ -1068,6 +1100,7 @@ STRBuffLocalConfigure	12612011	ตื่นรู้
 STRBuffLocalConfigure	30101021	KAngel มาทักทาย!
 STRBuffLocalConfigure	30211011	ความรัก
 STRBuffLocalConfigure	21010011	นักเรียนตัวปัญหา
+STRBuffLocalConfigure	50082011	หินลับมีด
 STRBuffLocalConfigure	50083011	วนซ้ำนิรันดร์
 STRBuffLocalConfigure	50084011	รีไซเคิลพลังงาน
 STRBuffLocalConfigure	50087021	ถุงมือช็อตไฟฟ้า
@@ -1113,6 +1146,7 @@ STRBuffLocalConfigure	21015011	ตื่นเต้น
 STRBuffLocalConfigure	30002011	รีบเร่ง
 STRBuffLocalConfigure	30006011	ไวรัสร้าย
 STRBuffLocalConfigure	30018011	กระเป๋ารั่ว
+STRBuffLocalConfigure	30020011	ความเท่าเทียม
 STRBuffLocalConfigure	30112021	สายสัมพันธ์
 STRBuffLocalConfigure	30202011	อุณหภูมิสูง
 STRBuffLocalConfigure	30214021	ใจเดียวกันสองร่าง
@@ -1137,11 +1171,16 @@ STRBuffLocalConfigure	50068011	หยกคู่รักนกเป็ดน�
 STRBuffLocalConfigure	50070021	ฆ้องยักษ์
 STRBuffLocalConfigure	50071011	สแต็กซองแดงเทศกาล
 STRBuffLocalConfigure	50071021	ซองแดง
+STRBuffLocalConfigure	50075011	แกนปรับตัว
+STRBuffLocalConfigure	50096021	พลังงานอัดแน่น
 STRBuffLocalConfigure	60151021	คำเตือนจากกรรมการ
 STRBuffLocalConfigure	60152021	บทลงโทษกรรมการ (ATK)
 STRBuffLocalConfigure	60152031	ใบแดง
 STRBuffLocalConfigure	60157021	กระบองส่งต่อ
-STRBuffLocalConfigure	70001011	เห็ดวิ่งฉิว
+STRBuffLocalConfigure	80000011	พรพิทักษ์แห่งดาบศักดิ์สิทธิ์
+STRBuffLocalConfigure	80000021	วีรชนแห่งดาบศักดิ์สิทธิ์
+STRBuffLocalConfigure	80001011	เห็ดวิ่งฉิว
+STRBuffLocalConfigure	80005011	มีหนาม
 STRBuffLocalConfigure	101311021	แชร์ชีวิต
 STRBuffLocalConfigure	101311031	บรรยากาศถึงจุดสูงสุด!
 STRBuffLocalConfigure	101412011	แชร์ชีวิต
@@ -1151,10 +1190,11 @@ STRBuffLocalConfigure	101701011	ลูกแก้วเทพารักษ์
 STRBuffLocalConfigure	101711011	บินสูง
 STRBuffLocalConfigure	105811011	กายแห่งมิติ
 STRBuffLocalConfigure	106401011	วิเคราะห์ข้อมูลแล้ว
-STRBuffLocalConfigure	107111021	พลังงานล้นเหลือ
+STRBuffLocalConfigure	107111021	พลังงานอัดแน่น
 STRBuffLocalConfigure	107111031	Gawu จ้องมอง
 STRBuffLocalConfigure	107211011	ระเบิดพลัง
 STRBuffLocalConfigure	107411011	นับถอยหลังครั้งสุดท้าย
+STRBuffLocalConfigure	107501011	ช่วยเหลือฉุกเฉิน
 STRBuffLocalConfigure	10000	10000
 STRBuffLocalConfigure	10002	หนักแน่นเหมือนมงกุฎบนศีรษะ
 STRBuffLocalConfigure	10004	ต้นเทิร์นฟื้นฟู HP ตามจำนวนชั้นการฟื้นฟู ปลายเทิร์นลดชั้นลงครึ่งหนึ่ง
@@ -1167,6 +1207,11 @@ STRBuffLocalConfigure	10011	เคลื่อนที่เข้าหาต�
 STRBuffLocalConfigure	10012	ความสามารถต้านมอนสเตอร์จักรกลอัจฉริยะ สร้างดาเมจเพิ่มเติมให้หน่วยเฉพาะทาง
 STRBuffLocalConfigure	10013	นี่เป็นหลักฐานว่าผิดจริงหรือ?\nเมื่อผู้เล่นถูก KO สูญเสีย【หลักฐานความผิด】 1 ชั้น
 STRBuffLocalConfigure	10014	พลังงานพลุ่งพล่าน\nสะสมได้สูงสุด 15 ชั้น
+STRBuffLocalConfigure	20000	ไม่ได้รับดาเมจและไม่ตกเป็นเป้าหมาย การเดินผ่านหรือถูกยูนิตอื่นเดินผ่านจะไม่ทำให้เกิดการต่อสู้
+STRBuffLocalConfigure	20001	เดินผ่านยูนิตอื่นแล้วไม่เกิดการต่อสู้และไม่ได้รับดาเมจ สถานะนี้หายไปหลังถูกท้าทาย
+STRBuffLocalConfigure	20002	ได้รับดาเมจจากการโจมตีแต่ละครั้งไม่เกิน 1 หน่วย
+STRBuffLocalConfigure	20003	การเดินผ่านหรือถูกหน่วยอื่นเดินผ่าน จะไม่ก่อการต่อสู้
+STRBuffLocalConfigure	20004	ในการต่อสู้จะเลือกหลบหลีกเสมอ
 STRBuffLocalConfigure	1031103	ATK +3
 STRBuffLocalConfigure	1041101	การ์ดเอฟเฟกต์
 STRBuffLocalConfigure	1041201	ดาเมจจากการ์ดเอฟเฟกต์เพิ่มขึ้น
@@ -1187,6 +1232,7 @@ STRBuffLocalConfigure	1150101	【ดาบกาศ】\nATK +1 ต่อสแ�
 STRBuffLocalConfigure	1171101	แต้มเคลื่อนที่สะสม
 STRBuffLocalConfigure	1181201	สกิลแฝง - นับการ์ด
 STRBuffLocalConfigure	1201202	ATK +2 และ DEF +2
+STRBuffLocalConfigure	1201302	ATK +2, DEF +2, ดาเมจที่ได้รับจากมอนสเตอร์ที่อยู่ห่างเกิน 2 ช่อง -1
 STRBuffLocalConfigure	1211201	จำนวนครั้งเพิ่มดาเมจ
 STRBuffLocalConfigure	1221201	หลังใช้ Railgun จั่วการ์ดต่อสู้ 1 ใบ และสร้างดาเมจเท่ากับค่าใช้จ่ายของการ์ดใบนั้น ให้เป้าหมายและมอนสเตอร์ที่อยู่ในระยะ 2 ช่องข้างเคียง
 STRBuffLocalConfigure	12212021	โจมตีแม่นยำ
@@ -1196,7 +1242,7 @@ STRBuffLocalConfigure	1230201	【พรแห่ง Bai Ze】\nHP ที่เ�
 STRBuffLocalConfigure	1240102	Teru - อัญเชิญเทพ
 STRBuffLocalConfigure	1240202	Teru - อัญเชิญเทพ
 STRBuffLocalConfigure	1241101	ไฟจิ้งจอก
-STRBuffLocalConfigure	1241201	แต่ละชั้นเพิ่ม ATK ของการโจมตีไล่ตาม +1
+STRBuffLocalConfigure	1241201	ขณะไล่ล่า แต่ละชั้นเพิ่ม ATK +1
 STRBuffLocalConfigure	1250101	ในการต่อสู้ครั้งถัดไป ลูกเต๋าโจมตีและป้องกันจะไม่เกิน 3
 STRBuffLocalConfigure	12501011	จุดอ่อน
 STRBuffLocalConfigure	1250201	เมื่อต่อสู้กับ Moses ลูกเต๋าโจมตีและป้องกันจะกลายเป็น 0
@@ -1217,6 +1263,10 @@ STRBuffLocalConfigure	1281102	+3 ความเร็วเคลื่อน�
 STRBuffLocalConfigure	1290101	-2 ความเร็วเคลื่อนที่ในครั้งถัดไป
 STRBuffLocalConfigure	1290201	-2 ความเร็วเคลื่อนที่ในครั้งถัดไป
 STRBuffLocalConfigure	1291202	รับดาเมจจาก Abyssal Tentacles และ Sykes เพิ่ม +1 ต่อสแต็ก
+STRBuffLocalConfigure	1301202	แต่ละชั้นเพิ่ม DEF +1\nสะสมได้สูงสุด 4 ชั้น
+STRBuffLocalConfigure	1301203	แต่ละชั้นของเกล็ดทองเพิ่ม ATK ของ Souri อีก +1 และทำให้สกิลใช้งานของ Souri วางสุราทิพย์แทนสุราน้ำเต้า
+STRBuffLocalConfigure	1301205	ATK +3
+STRBuffLocalConfigure	1301207	ATK +4
 STRBuffLocalConfigure	3010102	เมื่อโจมตี KAngel ATK -1
 STRBuffLocalConfigure	3021101	ต่อชั้น เพิ่ม ATK +1 และ DEF -1
 STRBuffLocalConfigure	3021402	แต่ละสแต็กเพิ่ม HP สูงสุด +1 และเพิ่มขีดจำกัดสแต็กของ【รัก】+1
@@ -1231,7 +1281,7 @@ STRBuffLocalConfigure	3051203	+3 ความเร็วเคลื่อน�
 STRBuffLocalConfigure	3051302	+3 ความเร็วเคลื่อนที่ในครั้งถัดไป
 STRBuffLocalConfigure	3061101	แต่ละชั้นเพิ่ม ATK +1 ปลายเทิร์นลด 1 ชั้น
 STRBuffLocalConfigure	3061201	แต่ละชั้นให้ ATK +1 ปลายเทิร์นลด 1 ชั้น
-STRBuffLocalConfigure	3081106	ขีดจำกัดค่าร่าย +3, ระยะเคลื่อนที่ +2, จำนวนการใช้การ์ด +1
+STRBuffLocalConfigure	3081101	จำนวนครั้งที่ใช้การ์ด +1
 STRBuffLocalConfigure	6010602	เมื่อถึง 5 สแต็ก จะแปลงร่างเป็น【ร่างมังกรแท้】
 STRBuffLocalConfigure	6010603	ในร่างมังกรแท้ ATK +4 และ Active Skill จะไม่มีข้อจำกัดด้านระยะ
 STRBuffLocalConfigure	6015102	-2 ความเร็วเคลื่อนที่ในครั้งถัดไป
@@ -1240,7 +1290,10 @@ STRBuffLocalConfigure	6015203	-2 DEF จะถูกลบหลังจาก 
 STRBuffLocalConfigure	6015204	+2 ATK เมื่อถูก KO จะคืนค่าสถานะที่ถูกขโมยของตัวละคร
 STRBuffLocalConfigure	6015205	+2 DEF เมื่อถูก KO จะคืนค่าสถานะที่ถูกขโมยของตัวละคร
 STRBuffLocalConfigure	6015702	เพิ่ม ATK, DEF และระยะเคลื่อนที่อย่างละ 2\nเมื่อจบรอบ ส่งต่อ Effect นี้ให้ผู้เล่นลำดับถัดไป
-STRBuffLocalConfigure	7000101	การทอยเพื่อเคลื่อนที่ครั้งถัดไปได้รับระยะเคลื่อนที่ +2
+STRBuffLocalConfigure	8000001	ATK +2, ดาเมจที่ได้รับ -2
+STRBuffLocalConfigure	8000002	เมื่อจบเทิร์น สร้างดาเมจใส่มอนสเตอร์ภายใน 4 ช่อง เท่ากับจำนวนสิ่งปลูกสร้างพืชบนกระดาน
+STRBuffLocalConfigure	8000101	การทอยเพื่อเคลื่อนที่ครั้งถัดไปได้รับระยะเคลื่อนที่ +2
+STRBuffLocalConfigure	8000501	การโจมตีครั้งถัดไปจะไม่สนค่า DEF ของฝ่ายป้องกัน (ผลการทอยเต๋ายังคงเป็นไปตามปกติ)
 STRBuffLocalConfigure	10081102	HP -1 ทุกเทิร์น
 STRBuffLocalConfigure	10091202	DEF -2
 STRBuffLocalConfigure	10131101	ATK +1 ต่อสแต็ก
@@ -1270,6 +1323,7 @@ STRBuffLocalConfigure	10711102	แต่ละชั้นเพิ่ม ATK +2
 STRBuffLocalConfigure	10711103	DEF -1, ระยะเคลื่อนที่ -1
 STRBuffLocalConfigure	10721101	แต่ละชั้นเพิ่ม ATK +1
 STRBuffLocalConfigure	10741101	แต่ละชั้นเพิ่ม ATK +1
+STRBuffLocalConfigure	10750101	ATK +2, DEF +2
 STRBuffLocalConfigure	20271101	ผู้เล่นได้รับ +1 ATK ทุกครั้งที่เก็บน้ำเต้า
 STRBuffLocalConfigure	1030101	ท้าทายไม่ได้และภูมิต้านกับดัก
 STRBuffLocalConfigure	1030201	ภูมิต้านกับดัก รับดาเมจไม่ได้ ท้าทายไม่ได้ และโต้กลับไม่ได้
@@ -1281,11 +1335,11 @@ STRBuffLocalConfigure	3040201	ATK +1
 STRBuffLocalConfigure	10131102	แชร์ HP กับ Ground Control
 STRBuffLocalConfigure	10131103	HP ลดได้ไม่ต่ำกว่า 188
 STRBuffLocalConfigure	10141201	แชร์ HP กับ Lion ก๊าว
-STRBuffLocalConfigure	10141301	การเดินผ่านหรือถูกหน่วยอื่นเดินผ่าน จะไม่ก่อการต่อสู้
+STRBuffLocalConfigure	10141301	การเดินผ่านหรือถูกเดินผ่านโดยหน่วยอื่น จะไม่ก่อการต่อสู้
 STRBuffLocalConfigure	10141401	HP จะลดได้ไม่ต่ำกว่า 188
 STRBuffLocalConfigure	10170101	DEF +9 หายเมื่อโดนดาเมจ
-STRBuffLocalConfigure	10171101	การเดินผ่านหรือถูกเดินผ่านโดยหน่วยอื่น จะไม่ก่อการต่อสู้
-STRBuffLocalConfigure	10581101	การเดินผ่านหน่วยอื่นหรือถูกหน่วยอื่นเดินผ่าน จะไม่ก่อการต่อสู้
+STRBuffLocalConfigure	10171101	การเดินผ่านหน่วยอื่นหรือถูกหน่วยอื่นเดินผ่าน จะไม่ก่อการต่อสู้
+STRBuffLocalConfigure	10581101	การเดินผ่านหรือถูกยูนิตอื่นเดินผ่านจะไม่ทำให้เกิดการต่อสู้
 STRBuffLocalConfigure	2000601	ฟื้นฟู HP 3 ทุกเทิร์น
 STRBuffLocalConfigure	2000701	เชื่อมผู้เล่นเป้าหมาย 2 คนเข้าด้วยกัน\nเมื่อคนหนึ่งได้รับดาเมจ อีกคนจะได้รับดาเมจเท่ากัน\nคงอยู่ 3 เทิร์น
 STRBuffLocalConfigure	2000801	ATK +3 ได้รับดาเมจ +1
@@ -1301,6 +1355,7 @@ STRBuffLocalConfigure	2102101	ร่วมมือกันเพื่อฝ�
 STRBuffLocalConfigure	3000201	ทอยลูกเต๋า 2 ลูกในการเคลื่อนที่ครั้งถัดไป ใช้ได้ครั้งเดียว ไม่สามารถสะสมได้
 STRBuffLocalConfigure	3000601	เริ่มรอบ รับดาเมจ 1
 STRBuffLocalConfigure	3001801	ทุกตัวละครหลังเคลื่อนที่ครั้งถัดไป จะทำ Star Coin ตกเท่ากับจำนวนช่องที่เคลื่อนที่
+STRBuffLocalConfigure	3002001	ดาเมจที่ได้รับจากการโจมตีครั้งถัดไป -10
 STRBuffLocalConfigure	3020201	ATK+5
 STRBuffLocalConfigure	4000301	ดาเมจที่รับครั้งถัดไป -2
 STRBuffLocalConfigure	4000401	ดาเมจที่รับครั้งถัดไป +2
@@ -1318,22 +1373,35 @@ STRBuffLocalConfigure	5006801	แต่ละสแต็ก +1 ATK, +1 DEF แ�
 STRBuffLocalConfigure	5007002	ได้รับ ATK +1 ลดดาเมจที่รับลง 1
 STRBuffLocalConfigure	5007101	ทุก 3 การ์ด Firecracker ที่เล่น ตัวละครทุกตัวจะได้รับพรปีใหม่สุ่มสูงสุด 3 ชนิด
 STRBuffLocalConfigure	5007102	+2 ATK และ +2 ความเร็วเคลื่อนที่
+STRBuffLocalConfigure	5007501	ดาเมจที่ได้รับ -1
+STRBuffLocalConfigure	5007502	ATK +2
+STRBuffLocalConfigure	5008201	ATK +4, ดาเมจที่ได้รับ -1
 STRBuffLocalConfigure	5008301	จำนวนเทิร์นที่เหลือก่อนรับ Chip
 STRBuffLocalConfigure	5008702	แต่ละชั้นเพิ่ม ATK +2
 STRBuffLocalConfigure	5008802	+2 ความเร็วเคลื่อนที่ในครั้งถัดไป
+STRBuffLocalConfigure	5009602	แต่ละชั้นเพิ่ม ATK +2 หลังถูกท้าสู้ สูญเสีย 1 ชั้น
 STRBuffLocalConfigure	201002	ATK +1
 STRBuffLocalConfigure	201102	ความเร็วเคลื่อนที่ +2
 STRBuffLocalConfigure	210102	การเคลื่อนที่ครั้งถัดไปได้รับระยะเคลื่อนที่ +2
 STRBuffLocalConfigure	260002	ไข่ลึกลับที่มีพลังของ Phoenix อยู่เล็กน้อย
 STRBuildLocalConfigure	101	พืช
+STRBuildLocalConfigure	102	อาวุธระดับตำนาน
+STRBuildLocalConfigure	30000	ดาบในศิลา
 STRBuildLocalConfigure	30001	เห็ดวิ่งฉิว
 STRBuildLocalConfigure	30002	มะเฟืองสวรรค์
 STRBuildLocalConfigure	30003	ลูกท้อหอมหวาน
 STRBuildLocalConfigure	30004	ต้นไม้นำโชค
+STRBuildLocalConfigure	30005	กระบองเพชรผลิบาน
+STRBuildLocalConfigure	30006	แดนดิไลออนไฟฟ้า
+STRBuildLocalConfigure	300001	ดาบศักดิ์สิทธิ์โบราณรอผู้คู่ควรมาครอบครอง ยิ่งมีสิ่งปลูกสร้างพืชบนกระดานมากเท่าไร ดาบก็ยิ่งปลุกพลังที่แท้จริงขึ้นมา
+STRBuildLocalConfigure	300002	เมื่อเริ่มแต่ละรอบ มอบพรพิทักษ์แห่งดาบศักดิ์สิทธิ์ให้ผู้เล่นที่มี HP ต่ำที่สุด: ATK +2 และดาเมจที่ได้รับ -2 เป็นเวลา 1 รอบ
+STRBuildLocalConfigure	300003	ผู้เล่นคนสุดท้ายที่ทำภารกิจนี้สำเร็จจะได้รับวีรชนแห่งดาบศักดิ์สิทธิ์: เมื่อจบเทิร์น สร้างดาเมจใส่มอนสเตอร์ทุกตัวภายใน 4 ช่อง เท่ากับจำนวนสิ่งปลูกสร้างพืชบนกระดาน
 STRBuildLocalConfigure	300011	เมื่อหยุดบนช่องนี้ การเคลื่อนที่ครั้งถัดไปได้รับระยะเคลื่อนที่ +3
 STRBuildLocalConfigure	300021	เมื่อหยุดบนช่องนี้ HP สูงสุด +1
 STRBuildLocalConfigure	300031	เมื่อเดินผ่าน ฟื้นฟู HP 2 และลบ【Gawu จ้องมอง】
 STRBuildLocalConfigure	300041	เมื่อเริ่มแต่ละรอบ ตัวละครทั้งหมดในระยะ 5 ช่องได้รับ Star Coin 3
+STRBuildLocalConfigure	300051	การโจมตีครั้งถัดไปจะไม่สนค่า DEF ของฝ่ายป้องกัน (ผลการทอยเต๋ายังคงเป็นไปตามปกติ) และได้รับสถานะโต้กลับ 1 ชั้น
+STRBuildLocalConfigure	300061	เมื่อเดินผ่านช่องนี้ ลดคูลดาวน์สกิลใช้งานลง 1 เทิร์น
 STRCampaignLocalConfigure	11	ทบทวนบทเรียน
 STRCampaignLocalConfigure	10	ชาเลนจ์พื้นฐาน
 STRCampaignLocalConfigure	20	PVP โหมดท้าทายพื้นฐาน
@@ -1427,6 +1495,8 @@ STRCardLocalConfigure	21026	เห็ดวิ่งฉิว
 STRCardLocalConfigure	21027	มะเฟืองสวรรค์
 STRCardLocalConfigure	21028	ลูกท้อหอมหวาน
 STRCardLocalConfigure	21029	ต้นไม้นำโชค
+STRCardLocalConfigure	21030	กระบองเพชรผลิบาน
+STRCardLocalConfigure	21031	แดนดิไลออนไฟฟ้า
 STRCardLocalConfigure	100010	CARD-001
 STRCardLocalConfigure	100020	CARD-004
 STRCardLocalConfigure	100030	CARD-002
@@ -1526,6 +1596,12 @@ STRCardLocalConfigure	210261	เลือกช่องที่วางสิ
 STRCardLocalConfigure	210271	เลือกช่องที่วางสิ่งปลูกสร้างได้ เปลี่ยนเป็นช่องจุดปลอดภัยและวาง【มะเฟืองสวรรค์】\nใช้การ์ดเพิ่มได้ 1 ใบในเทิร์นนี้
 STRCardLocalConfigure	210281	เลือกช่องที่วางสิ่งปลูกสร้างได้ และวาง【ลูกท้อหอมหวาน】\nใช้การ์ดเพิ่มได้ 1 ใบในเทิร์นนี้
 STRCardLocalConfigure	210291	เลือกช่องที่วางสิ่งปลูกสร้างได้ เปลี่ยนเป็นช่องร้านค้าและวาง【ต้นไม้นำโชค】\nใช้การ์ดเพิ่มได้ 1 ใบในเทิร์นนี้
+STRCardLocalConfigure	210301	เลือกช่องที่วางสิ่งปลูกสร้างได้ เปลี่ยนช่องนั้นให้เป็นช่องประตูจู่โจม แล้ววางสิ่งปลูกสร้าง “กระบองเพชรผลิบาน” ลงไป เทิร์นนี้ใช้การ์ดได้เพิ่ม 1 ครั้ง
+STRCardLocalConfigure	210311	เลือกช่องที่วางสิ่งปลูกสร้างได้ แล้ววางสิ่งปลูกสร้าง “แดนดิไลออนไฟฟ้า” ลงไป\nเทิร์นนี้ใช้การ์ดได้เพิ่ม 1 ครั้ง
+STRCardLocalConfigure	30000	ทั้งหมด
+STRCardLocalConfigure	30001	การ์ดภาพประกอบทางเลือก
+STRCardLocalConfigure	30002	ปลดล็อกการ์ดภาพประกอบทางเลือกแล้ว
+STRCardLocalConfigure	30003	การ์ดเฉพาะตัวละคร
 STRCardLocalConfigure	100012	ความกลัวทั้งหมดมาจากอาวุธที่ไม่พอ
 STRCardLocalConfigure	100022	คิระ~
 STRCardLocalConfigure	100032	เปลี่ยนโหมด!
@@ -1591,6 +1667,7 @@ STRCharacterLocalConfigure	1260	Mamushi
 STRCharacterLocalConfigure	1270	Bonnie
 STRCharacterLocalConfigure	1280	LingLing
 STRCharacterLocalConfigure	1290	Sykes
+STRCharacterLocalConfigure	1300	Souri
 STRCharacterLocalConfigure	3010	OMGKawaiiAngel
 STRCharacterLocalConfigure	3020	สาวนีดดี้
 STRCharacterLocalConfigure	3030	Jill Stingray
@@ -1677,6 +1754,7 @@ STRCharacterLocalConfigure	1261	Jiao แห่งหนองน้ำ
 STRCharacterLocalConfigure	1271	แอปเปิ้ลพิษ
 STRCharacterLocalConfigure	1281	พลังเหนือธรรมชาติ
 STRCharacterLocalConfigure	1291	ตัวอ่อนอะบิส
+STRCharacterLocalConfigure	1301	ที่ปรึกษาเกล็ดทอง
 STRCharacterLocalConfigure	3011	KAngel
 STRCharacterLocalConfigure	3021	Ame-chan
 STRCharacterLocalConfigure	3031	Jill
@@ -1768,8 +1846,9 @@ STRCharacterLocalConfigure	1243	Teru\nวันเกิด: 19/02\nอาหา
 STRCharacterLocalConfigure	1253	Seid Moses\nวันเกิด: 20/08\nอาหารที่ชอบ: ผักที่กินดิบได้\nนักบูรณะศิลปะพาร์ทไทม์ที่ Taishin Art Museum\nแม้เป็นงานพาร์ทไทม์ แต่เขาใช้เวลาที่นี่มากกว่าเสิร์ฟที่บาร์ Dispersion Prisms จน Kurala ตั้งฉายาว่า "พนักงานพาร์ทไทม์ผี" ความจริงแล้วเขาเป็นผู้เชี่ยวชาญเรื่อง "เหตุการณ์ผิดปกติ" และเป็นหนึ่งในนักรบระดับสูงของ Dispersion Prisms\nปัจจุบันยังคงเคลื่อนไหวระหว่างบาร์และพิพิธภัณฑ์ คอยรวบรวมข่าวกรองเรื่องคนหาย
 STRCharacterLocalConfigure	1263	Amakawa Mamushi\nวันเกิด: 21 สิงหาคม\nอาหารที่ชอบ: พุดดิ้ง\nสาขา Amakawa ของตระกูล Ryugasaki เป็นหนึ่งในตระกูลหลักของ Mikami ในฐานะบุตรีของหัวหน้าตระกูล Mamushi ขยันมากกว่าเด็กวัยเดียวกันทุกคน\nแต่ไม่ว่าสภาพแวดล้อมจะกดดันแค่ไหน ก็ไม่อาจปิดความอยากรู้อยากเห็นตามวัยได้ Mamushi เป็นเด็กที่เต็มไปด้วยความอยากรู้อยากเห็น\nปัจจุบันเป็นหัวหน้าตระกูล Amakawa อย่างเป็นทางการ ดูแลกิจการภายในและภายนอกทั้งหมด
 STRCharacterLocalConfigure	1273	Bonnie Molla Glenwood\nวันเกิด: 1 มกราคม\nอาหารที่ชอบ: พายแอปเปิ้ล\nจบจากคณะนิติศาสตร์ Central City University รุ่นเดียวกับ Fanny และมีปริญญาเอกเช่นกัน Bonnie มีนิสัยรุนแรงมาก เคยเผาหอพักทั้งหลังเพราะจะจับหนู แต่เธอฉลาดและคิดไว จนได้รับฉายา "Poison Apple"\nFanny และเธอเป็นนักสืบคู่บ้านของ Union City แต่นิสัยทั้งคู่กลับไม่ถูกกันเลย\nปัจจุบันกำลังสืบสวนเรื่องการหายตัวของ Fanny หวังจะได้พบเธอ
-STRCharacterLocalConfigure	1283	Jiao LingLing\nวันเกิด: 11 มีนาคม\nอาหารที่ชอบ: มันบด\nเพื่อนร่วมมหาวิทยาลัยและเพื่อนสนิทของ HaiQing และ Luga Pixie เป็นสาวแข็งแรงมหาศาลที่อาจจะเอาอะไรก็ได้ขึ้นมาตีคน เธอบอกว่าตอนเด็กเคยป่วยหนักจนอาจถูกสิง แต่นอกจากพลังมหาศาลและความสามารถควบคุมไฟฟ้าแล้ว ก็ไม่มีผลข้างเคียงอะไร เธอเลยไม่ได้สนใจ เป็นอดีตประธานชมรมคอสเพลย์หุ่นยนต์\nหลังจบมหาลัยเธอทำงานที่มหาลัยต่อ และมักไปเที่ยวกับ Luga และ HaiQing
+STRCharacterLocalConfigure	1283	Jiao LingLing\nวันเกิด: 11 มีนาคม\nอาหารโปรด: มันบด\n\nเธอเป็นเพื่อนร่วมชั้นมหาวิทยาลัยเก่าและเพื่อนสนิทของ HaiQing กับ Luga Pixie เป็นสาวค่อนข้างเพี้ยนที่มีพละกำลังมหาศาล เธอยกอะไรก็ได้ที่หยิบถึงมาใช้เป็นอาวุธได้ เธอบอกว่าตอนเด็กเคยป่วยหนักจนเหมือนถูกบางสิ่งเข้าสิง แต่โรคปริศนานั้นทิ้งผลข้างเคียงไว้เพียงพละกำลังเหนือมนุษย์และความสามารถควบคุมไฟฟ้า เธอจึงไม่ค่อยใส่ใจนัก เธอยังเคยเป็นประธานชมรมคนรักคอสเพลย์หุ่นยนต์ด้วย\n\nหลังเรียนจบ เธอยังคงทำงานอยู่ที่มหาวิทยาลัย และมักออกไปเที่ยวกับ Luga และ HaiQing
 STRCharacterLocalConfigure	1293	Sykes (No. 06)\nวันเกิด: 6 มิถุนายน\nอาหารที่ชอบ: แกนเวทมนตร์\nที่ปรึกษาด้านเทคนิคของ Ramsey Biotechnology ด้วยความสามารถฟื้นตัวที่ยอดเยี่ยม เธอจึงเป็นหนึ่งในวัตถุทดลองด้วย เช่นเดียวกับ Lulu เธอเป็นผลิตภัณฑ์ของ Ramsey Biotechnology มีชื่อรหัสว่า "Abyss"\nแต่ต่างจาก Lulu ตรงที่ร่างหลักของเธอเป็นมนุษย์สังเคราะห์ และจิตสำนึกของเธอตื่นขึ้นในคืน "Exorcism Night" ทำให้เธอมีความเชื่อมโยงกับสิ่งมีชีวิตเหนือธรรมชาติหลายอย่าง ร่างกายเธอมีความสามารถฟื้นตัวและเข้ากันได้กับเวทมนตร์เป็นอย่างดี\nภายนอกดูอ่อนโยน แต่จริงๆ แล้วเจ้าเล่ห์และคำนวณการณ์ได้ดี เหมือนย่ายายที่ซ่อนความคิดไว้ข้างใน เธอแทบไม่มีความก้าวร้าว แต่ไม่ได้แปลว่าเธอจะไม่เป็นฝ่ายโจมตีก่อน
+STRCharacterLocalConfigure	1303	Amakawa Souri\nวันเกิด: 19 พฤษภาคม\nอาหารโปรด: ดังโงะสาเกหวาน\n\nตระกูล Amakawa ซึ่งเป็นสาขาหนึ่งของตระกูล Ryugasaki เป็นหนึ่งในตระกูลผู้ทรงอิทธิพลใจกลาง Mikami มาช้านาน ในฐานะน้องสาวของหัวหน้าตระกูล Souri จึงไม่ต้องรับภาระงานของตระกูลมากนัก เธอเกิดมาพร้อมฐานะมั่งคั่ง แต่ไม่ได้เอาแต่ใจหรือฟุ่มเฟือย เธอใส่ใจการเลี้ยงดู Mamushi หลานสาวตัวน้อยเป็นพิเศษ และเป็นคุณป้าที่ตามใจหลานสุด ๆ\n\nยกเว้นวันหยุดสุดสัปดาห์ที่กลับไปคฤหาสน์ตระกูล Souri มักอาศัยอยู่ที่โรงเตี๊ยมเล็ก ๆ ของตัวเอง และบางครั้งก็ช่วยพี่ชายกับพี่สะใภ้ดูแล Mamushi
 STRCharacterLocalConfigure	3013	OMGkawaii Angel\nวันเกิด: 07/07\nอาหารที่ชอบ: ไม่ทราบ\n"เทพธิดาอินเทอร์เน็ต"\nอีกตัวตนของ Ame ตอนสตรีม\nแกล้งทำตัวน่ารักใสซื่อ\nชอบอ้อนพวกออตาคุตลอดเวลา
 STRCharacterLocalConfigure	3023	Ame-chan\nวันเกิด: 05/05\nอาหารที่ชอบ: ไม่ทราบ\nดูเงียบๆ แต่จริงๆ แล้วเอาแต่ใจ\nและมักจะลอยตัว\nนิสัยยุ่งยาก\nที่ต้องการการยอมรับจากคนอื่น
 STRCharacterLocalConfigure	3033	Jill Stingray\nวันเกิด: 27/06\nเครื่องดื่มที่ชอบ: เบียร์\nJill เป็นบาร์เทนเดอร์ที่ได้รับการรับรองจาก BTC ทำงานที่บาร์ VA-11 Hall-A (ชื่อเล่น: Valhalla)\nเป็นแม่เลี้ยงเดี่ยวของแมวดำตาสีฟ้าชื่อ Fore เวลาว่างของ Jill มักใช้ไปกับการเล่นเน็ต และพยายามต้านความอยากช้อปของไม่จำเป็น เพื่อไม่ให้เดือนหน้าจ่ายค่าเช่าไม่ได้ แม้ใช้ชีวิตเรียบง่าย แต่เรื่องประหลาดก็มักมาเสมอ เช่นข่าวลือว่ามีคนเห็น "ผีสาว"
@@ -1904,6 +1983,7 @@ STRCharacterLocalConfigure	1265	ฉันคือ Amakawa Mamushi จากส�
 STRCharacterLocalConfigure	1275	นักสืบอัจฉริยะมาเอง~\nเอ๊ะ? อะไรนะ? อยากให้ฉันช่วยแก้เคสเหรอ?\nมาถูกคนแล้วล่ะ!
 STRCharacterLocalConfigure	1285	เฮ้! มาวิ่งด้วยกันเหรอ? บอกไว้ก่อนเลยนะ! ถ้าตามเราไม่ทันเราจะไม่หยุดรอนะ!
 STRCharacterLocalConfigure	1295	ฉันเป็นรุ่นพี่นะ! อย่าทำตัวไร้มารยาทล่ะ~
+STRCharacterLocalConfigure	1305	เอ๋? เธอคือคู่หูคนใหม่ของฉันเหรอ~ ฉัน Amakawa Souri นะ~ มีเรื่องในตระกูลให้จัดการสารพัดเลย กินเวลาไม่น้อยเชียว~ เธอมาถูกเวลาพอดีเลย~
 STRChatLocalConfigure	10001	พร้อม!
 STRChatLocalConfigure	10002	รอแป๊บ
 STRChatLocalConfigure	10003	เริ่ม!
@@ -1973,6 +2053,8 @@ STRChatLocalConfigure	40015	โฟกัสทำภารกิจ {0} ก่�
 STRChatLocalConfigure	40016	ระวัง {1} ที่ความคืบหน้า {0}
 STRChatLocalConfigure	40019	ฉันมี {0} x {1}
 STRChatLocalConfigure	40020	กำลังเตรียมแจกการ์ดให้ {0}
+STRChatLocalConfigure	40021	{0} ใช้สกิลได้แล้ว!
+STRChatLocalConfigure	40022	{0} จะใช้สกิลได้ในอีก {1} เทิร์น
 STRChatLocalConfigure	50000	ขอบคุณ!
 STRChatLocalConfigure	50001	ขอบคุณ!
 STRChatLocalConfigure	50002	ขอบคุณ!
@@ -2557,9 +2639,9 @@ STRGachaLocalConfigure	602	ทุกครั้งที่สุ่มจะ�
 STRGachaLocalConfigure	604	อัตราได้ Skin: 0.08% (Skin ที่ซ้ำจะแปลงเป็น 5【ตั๋วทอง】)\nอัตราได้การ์ดโปรไฟล์ (อนิเมชั่น): 0.30% (การ์ดโปรไฟล์อนิเมชั่นที่ซ้ำจะแปลงเป็น 3【ตั๋วทอง】)\nอัตราได้การ์ดโปรไฟล์ (มาตรฐาน): 3.00% (การ์ดโปรไฟล์มาตรฐานที่ซ้ำจะแปลงเป็น 9 【ตั๋วแลกเปลี่ยน】)\nอัตราได้อิโมจิ (อนิเมชั่น): 1.00% (อิโมจิอนิเมชั่นที่ซ้ำจะแปลงเป็น 1【ตั๋วทอง】)\nอัตราได้อิโมจิ (มาตรฐาน): 5.00% (อิโมจิมาตรฐานที่ซ้ำจะแปลงเป็น 6 【ตั๋วแลกเปลี่ยน】)\nอัตราได้ด้านหลังการ์ดพิเศษ: 0.60% (ด้านหลังการ์ดพิเศษที่ซ้ำจะแปลงเป็น 1【ตั๋วทอง】)\nอัตราได้ด้านหลังการ์ดมาตรฐาน: 5.00% (ด้านหลังการ์ดมาตรฐานที่ซ้ำจะแปลงเป็น 5 【ตั๋วแลกเปลี่ยน】)\nอัตราได้อวตารมาตรฐาน: 25.00% (อวตารมาตรฐานที่ซ้ำจะแปลงเป็น 3 【ตั๋วแลกเปลี่ยน】)\n\nอัตราที่แสดงจะปัดเศษเป็นทศนิยม 2 ตำแหน่ง
 STRGachaLocalConfigure	605	อัตราได้ของขวัญ: 60.02% (สีม่วง - 5%, สีฟ้า - 55.02%)\nแสดงเฉพาะทศนิยม 2 ตำแหน่ง
 STRGachaLocalConfigure	701	Skin ซีซั่นรีรัน
-STRGachaLocalConfigure	702	ทุกครั้งที่สุ่มจะใช้ ลูกโลกหิมะดวงดาว หรือ ลูกโลกหิมะดวงดาว (จำกัดเวลา) โดยจะใช้ ลูกโลกหิมะดวงดาว (จำกัดเวลา) ก่อน\nทุกครั้งที่สุ่มจะเพิ่มความคืบหน้า ไปถึงเป้าหมายความคืบหน้าเพื่อรับรางวัล โปรดทราบว่าความคืบหน้าจะไม่สะสมระหว่างกิจกรรม และไม่แชร์ระหว่างกองรางวัลต่างๆ\nทุก 10 ครั้งการสุ่มติดต่อกัน รับการันตีอย่างน้อย 1 ไอเทมระดับสีม่วงขึ้นไป\nชุดที่ได้ซ้ำจะแปลงเป็น เหรียญโบราณ โดยอัตโนมัติ\nเหรียญโบราณ สามารถแลกไอเทมที่ผ่านมาในร้านค้า ซีซั่นที่ผ่านมา ได้
-STRGachaLocalConfigure	703	อัตราได้ Skin: 0.60% (UP! ปัจจุบันคิดเป็น 50%; ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 300 เหรียญ โดยอัตโนมัติ)\nอัตราได้การ์ดภาพประกอบ: 0.80% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 150 เหรียญ โดยอัตโนมัติ)\nอัตราได้การ์ดโปรไฟล์อนิเมชั่น: 1.50% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 50 เหรียญ โดยอัตโนมัติ)\nอัตราได้ด้านหลังการ์ดพิเศษ: 1.50% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 50 เหรียญ โดยอัตโนมัติ)\nอัตราได้อวตารพิเศษ: 2.50% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 20 เหรียญ โดยอัตโนมัติ)\nอัตราได้อิโมจิอนิเมชั่น: 3.00% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 20 เหรียญ โดยอัตโนมัติ)\nอัตราได้การ์ดโปรไฟล์แบบนิ่ง: 9.00% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 10 เหรียญ โดยอัตโนมัติ)\nอัตราได้หลังการ์ดธรรมดา: 3.80% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 10 เหรียญ โดยอัตโนมัติ)\nอัตราได้อวตารธรรมดา: 8.00% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 10 เหรียญ โดยอัตโนมัติ)\nอัตราได้อิโมจิแบบนิ่ง: 3.00% (ตัวซ้ำจะแปลงเป็น เหรียญโบราณ 10 เหรียญ โดยอัตโนมัติ)\nอัตราที่แสดงจะปัดเศษเป็นทศนิยม 2 ตำแหน่ง
-STRGachaLocalConfigure	704	อัตราได้ เหรียญโบราณ x30: 3.20%\nอัตราได้ เหรียญโบราณ x15: 15.00%\nอัตราได้ เหรียญโบราณ x8: 48.10%\nอัตราที่แสดงจะปัดเศษเป็นทศนิยม 2 ตำแหน่ง
+STRGachaLocalConfigure	702	ทุกครั้งที่สุ่มจะใช้ลูกโลกหิมะดวงดาวหรือลูกโลกหิมะดวงดาว (จำกัดเวลา) โดยจะใช้แบบจำกัดเวลาก่อน\nทุกครั้งที่สุ่มจะเพิ่มความคืบหน้า เมื่อถึงเป้าหมายแต่ละขั้นจะได้รับรางวัล โปรดทราบว่าความคืบหน้าไม่ส่งต่อระหว่างกิจกรรม และไม่ใช้ร่วมกันระหว่างตู้สุ่ม\nทุกการสุ่มต่อเนื่อง 10 ครั้ง รับประกันว่าจะได้ไอเทมระดับสีม่วงขึ้นไปอย่างน้อย 1 ชิ้น\nชุดที่ได้ซ้ำจะแปลงเป็นหนังสือเวทมนตร์โดยอัตโนมัติ\nหนังสือเวทมนตร์ใช้แลกไอเทมจากซีซันก่อน ๆ ได้ที่ร้าน Past Seasons
+STRGachaLocalConfigure	703	อัตราได้ Skin: 0.60% (ไอเทม UP! ปัจจุบันมีโอกาส 50%; ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 300 เล่ม)\nอัตราได้การ์ดภาพประกอบ: 0.80% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 150 เล่ม)\nอัตราได้การ์ดโปรไฟล์แอนิเมชัน: 1.50% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 50 เล่ม)\nอัตราได้ด้านหลังการ์ดพิเศษ: 1.50% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 50 เล่ม)\nอัตราได้อวตารพิเศษ: 2.50% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 20 เล่ม)\nอัตราได้อิโมจิแอนิเมชัน: 3.00% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 20 เล่ม)\nอัตราได้การ์ดโปรไฟล์แบบนิ่ง: 9.00% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 10 เล่ม)\nอัตราได้ด้านหลังการ์ดทั่วไป: 3.80% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 10 เล่ม)\nอัตราได้อวตารทั่วไป: 8.00% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 10 เล่ม)\nอัตราได้อิโมจิแบบนิ่ง: 3.00% (ของซ้ำจะแปลงเป็นหนังสือเวทมนตร์ 10 เล่ม)\nอัตราที่แสดงปัดเศษเป็นทศนิยม 2 ตำแหน่ง
+STRGachaLocalConfigure	704	อัตราได้หนังสือเวทมนตร์ x30: 3.20%\nอัตราได้หนังสือเวทมนตร์ x15: 15.00%\nอัตราได้หนังสือเวทมนตร์ x8: 48.10%\nอัตราที่แสดงปัดเศษเป็นทศนิยม 2 ตำแหน่ง
 STRGachaLocalConfigure	705	-รีรัน-
 STRGachaLocalConfigure	706	เพิ่มอัตรา ↑↑
 STRGachaLocalConfigure	20240529	เซียนดาบคาตานะ
@@ -2630,6 +2712,13 @@ STRGachaLocalConfigure	202609041	ชายหาดคลื่นร้อน[s
 STRGachaLocalConfigure	20261015	ไออุ่นฤดูหนาว
 STRGachaLocalConfigure	202610150	ไออุ่นฤดูหนาว - Rin
 STRGachaLocalConfigure	202610151	ไออุ่นฤดูหนาว[size=25]กลับมาอีกครั้ง[/size]
+STRGachaLocalConfigure	20261112	วอลซ์หมึกจีน
+STRGachaLocalConfigure	202611120	วอลซ์หมึกจีน - Misaki
+STRGachaLocalConfigure	202611121	วอลซ์หมึกจีน[size=25]รีรัน[/size]
+STRGachaLocalConfigure	20261113	ที่ปรึกษาเกล็ดทอง
+STRGachaLocalConfigure	20261117	เวทมนตร์ขนย้าย - Mimi
+STRGachaLocalConfigure	202611170	เวทมนตร์ขนย้าย
+STRGachaLocalConfigure	202611171	Mimi
 STRGameModeLocalConfigure	1	โหมดมาตรฐาน
 STRGameModeLocalConfigure	2	มือใหม่
 STRGameModeLocalConfigure	3	ศึกสุดเดือด
@@ -2642,6 +2731,7 @@ STRGameModeLocalConfigure	9	ฝึกซ้อม PVE
 STRGameModeLocalConfigure	10	กิจกรรมจำกัดเวลา
 STRGameModeLocalConfigure	11	ปะทะดาวนำโชค
 STRGameModeLocalConfigure	12	มอดูลสายพันธุ์
+STRGameModeLocalConfigure	13	ทดลองใช้ตัวละคร
 STRGameModeLocalConfigure	103	"ศึกสุดเดือด" ที่ตื่นเต้นเร้าใจมาแล้ว! ตัวละครทุกตัวมี Skill cooldown สั้นลง! จำนวนการ์ดในมือสูงขึ้น! เล่นการ์ดได้มากขึ้นต่อเทิร์น! ค่าใช้จ่ายในการต่อสู้มากขึ้น! ความรู้สึกของ "การต่อสู้ที่เร้าใจ" อย่างแท้จริง\nเนื้อหาที่น่าสนใจเพิ่มเติม มาร่วมสัมผัสกับ "ศึกสุดเดือด" ได้เลย!!
 STRGameModeLocalConfigure	10101	·ถือ <img src='ui://xuaw6o8jmmmw3x' width='50' height='50'/>15/30/50 เพื่อไปถึงจุดเริ่มต้น/Check Point และรับ <img src='ui://xuaw6o8jgfn1ao' width='50' height='50'/>\n·เป้าหมายคือได้รับ <img src='ui://xuaw6o8jgfn1ao' width='50' height='50'/> สามดวง!
 STRGameModeLocalConfigure	10301	·ถือ <img src='ui://xuaw6o8jmmmw3x' width='50' height='50'/>15/30/50 เพื่อไปถึงจุดเริ่มต้น/Check Point และรับ <img src='ui://xuaw6o8jgfn1ao' width='50' height='50'/>\n·เป้าหมายคือได้รับ <img src='ui://xuaw6o8jgfn1ao' width='50' height='50'/> สามดวง!
@@ -2798,6 +2888,7 @@ STRItemLocalConfigure	126	Mamushi
 STRItemLocalConfigure	127	Bonnie
 STRItemLocalConfigure	128	LingLing
 STRItemLocalConfigure	129	Sykes
+STRItemLocalConfigure	130	Souri
 STRItemLocalConfigure	301	KAngel
 STRItemLocalConfigure	302	Ame-chan
 STRItemLocalConfigure	303	Jill Stingray
@@ -2938,6 +3029,8 @@ STRItemLocalConfigure	70203	Avatar - Shiyu-Shiyu ชาว Guild
 STRItemLocalConfigure	70206	Avatar - Shiyu-Shiyu อยู่บ้าน
 STRItemLocalConfigure	70207	Avatar - Shiyu-Shiyu จอมซน
 STRItemLocalConfigure	70208	Avatar - Shiyu-Shiyu อัศวิน
+STRItemLocalConfigure	70209	Avatar - Shiyu-Shiyu ฤดูใบไม้ร่วง
+STRItemLocalConfigure	70210	Avatar - Gawu หัวหน้าแก๊งเด็กแสบพิกเซล
 STRItemLocalConfigure	70101	อวตาร - Shiyu-Shiyu Parunan
 STRItemLocalConfigure	70102	อวตาร - Shiyu-Shiyu Fanny
 STRItemLocalConfigure	70103	อวตาร - Shiyu-Shiyu Alana
@@ -2967,6 +3060,9 @@ STRItemLocalConfigure	70126	อวตาร - Mamushi Shiyu Shiyu
 STRItemLocalConfigure	70127	อวตาร - Bonnie Shiyu Shiyu
 STRItemLocalConfigure	70128	อวตาร - LingLing Shiyu-Shiyu
 STRItemLocalConfigure	70129	อวตาร - Sykes Shiyu-Shiyu
+STRItemLocalConfigure	70130	Avatar - Souri Shiyu-Shiyu
+STRItemLocalConfigure	70888	Avatar - ไดโนเสาร์ของเล่นพิกเซล
+STRItemLocalConfigure	70889	Avatar - กระต่ายกู้ชีพพิกเซล
 STRItemLocalConfigure	70890	อวตาร - Pixel Hanna Tono
 STRItemLocalConfigure	70891	อวตาร - Pixel Sherry Tachibana
 STRItemLocalConfigure	70892	อวตาร - กาน้ำชาผู้บาปพิกเซล
@@ -3130,6 +3226,7 @@ STRItemLocalConfigure	71126	การ์ดโปรไฟล์ - มังก�
 STRItemLocalConfigure	71127	การ์ดโปรไฟล์ - แอปเปิ้ลพิษ
 STRItemLocalConfigure	71128	การ์ดโปรไฟล์ - พลังเหนือธรรมชาติ
 STRItemLocalConfigure	71129	การ์ดโปรไฟล์ - ตัวอ่อนแห่งห้วงลึก
+STRItemLocalConfigure	71130	การ์ดโปรไฟล์ - ที่ปรึกษาเกล็ดทอง
 STRItemLocalConfigure	71201	การ์ดโปรไฟล์ - Parunan (สัญญา)
 STRItemLocalConfigure	71202	การ์ดโปรไฟล์ - Fanny (สัญญา)
 STRItemLocalConfigure	71203	การ์ดโปรไฟล์ - Alana (สัญญา)
@@ -3159,6 +3256,7 @@ STRItemLocalConfigure	71226	การ์ดโปรไฟล์ - Mamushi (ส�
 STRItemLocalConfigure	71227	การ์ดโปรไฟล์ - Bonnie (สัญญา)
 STRItemLocalConfigure	71228	การ์ดโปรไฟล์ - LingLing (สัญญา)
 STRItemLocalConfigure	71229	การ์ดโปรไฟล์ - Sykes (สัญญา)
+STRItemLocalConfigure	71230	การ์ดโปรไฟล์ - Souri (สายใย)
 STRItemLocalConfigure	71301	การ์ดโปรไฟล์ - ไอคอนแฟชั่น
 STRItemLocalConfigure	71302	การ์ดโปรไฟล์ - ญาณทิพย์
 STRItemLocalConfigure	71303	การ์ดโปรไฟล์ - สาวซุ่มซ่าม
@@ -3179,6 +3277,7 @@ STRItemLocalConfigure	71323	การ์ดโปรไฟล์ - พรแห�
 STRItemLocalConfigure	71324	การ์ดโปรไฟล์ - พยาบาลน้อย Teru
 STRItemLocalConfigure	71328	การ์ดโปรไฟล์ - เจ้าหน้าที่กู้ชีพ
 STRItemLocalConfigure	71402	การ์ดโปรไฟล์ - วันหยุดสบายๆ
+STRItemLocalConfigure	71404	การ์ดโปรไฟล์ - ภารกิจเก็บกวาดลับ
 STRItemLocalConfigure	71405	การ์ดโปรไฟล์ - ร้อนระอุ
 STRItemLocalConfigure	71407	การ์ดโปรไฟล์ - ภูติหิมะ
 STRItemLocalConfigure	71408	การ์ดโปรไฟล์ - สลัชชี่เอ็กซ์เพรส
@@ -3190,6 +3289,7 @@ STRItemLocalConfigure	71417	การ์ดโปรไฟล์ - เซิร�
 STRItemLocalConfigure	71420	การ์ดโปรไฟล์ - สาวรับใช้ Nancy Lu
 STRItemLocalConfigure	71421	การ์ดโปรไฟล์ - เปลวเพลิงนิรันดร์ (อนิเมชัน)
 STRItemLocalConfigure	71422	การ์ดโปรไฟล์ - มือปืนเวทมนตร์
+STRItemLocalConfigure	71423	การ์ดโปรไฟล์ - ลายพู่กันกระต่ายจันทรา
 STRItemLocalConfigure	71424	การ์ดโปรไฟล์ - นักร้องมนตร์เสน่ห์
 STRItemLocalConfigure	71427	การ์ดโปรไฟล์ - คำเชิญด่วน
 STRItemLocalConfigure	71503	การ์ดโปรไฟล์ - อาวุธแม่มด Alana
@@ -3201,6 +3301,8 @@ STRItemLocalConfigure	71600	การ์ดโปรไฟล์ - อรุณ�
 STRItemLocalConfigure	71601	การ์ดโปรไฟล์ - อรุณร้อนอบอ้าว (เคลื่อนไหว)
 STRItemLocalConfigure	71602	การ์ดโปรไฟล์ - อัศวินเกาลัด
 STRItemLocalConfigure	71603	การ์ดโปรไฟล์ - อัศวินเกาลัด (เคลื่อนไหว)
+STRItemLocalConfigure	71608	การ์ดโปรไฟล์ - เดินเล่นชมใบไม้ร่วง
+STRItemLocalConfigure	71609	การ์ดโปรไฟล์ - เดินเล่นชมใบไม้ร่วง (แอนิเมชัน)
 STRItemLocalConfigure	71987	การ์ดโปรไฟล์ - กิลด์
 STRItemLocalConfigure	71988	การ์ดโปรไฟล์ - กรรมการเอมี่
 STRItemLocalConfigure	71989	การ์ดโปรไฟล์ - ศึกแย่งดาวแห่งโชค
@@ -3273,6 +3375,7 @@ STRItemLocalConfigure	72126	ลูกเต๋าพุดดิ้ง
 STRItemLocalConfigure	72127	ลูกเต๋ากล้องโบราณ
 STRItemLocalConfigure	72128	ลูกเต๋ารถถนน
 STRItemLocalConfigure	72129	ลูกเต๋าทาโกยากิ
+STRItemLocalConfigure	72130	ลูกเต๋าเหล้าบ่ม
 STRItemLocalConfigure	73001	ท่าปิดฉาก - ค่าเริ่มต้น
 STRItemLocalConfigure	73002	ท่าปิดฉาก - Shiyu-Shiyu
 STRItemLocalConfigure	73003	ท่าปิดฉาก - แฟนตาซี
@@ -3366,6 +3469,8 @@ STRItemLocalConfigure	75078	การ์ด - นุ่มฟู
 STRItemLocalConfigure	75079	การ์ด - อ่านหนังสือก่อนนอน (เคลื่อนไหว)
 STRItemLocalConfigure	75080	การ์ด - ดาบในตำนาน
 STRItemLocalConfigure	75081	การ์ด - รื่นเริงหน้าร้อน
+STRItemLocalConfigure	75082	การ์ด - เดินเล่นชมใบไม้ร่วง
+STRItemLocalConfigure	75083	การ์ด - ทานตะวัน (แอนิเมชัน)
 STRItemLocalConfigure	76001	พื้นหลัง: Astral Party
 STRItemLocalConfigure	76002	พื้นหลัง: คอลแลบ Needy Streamer Overload
 STRItemLocalConfigure	76003	พื้นหลัง: Magical Girl Witch Trials Collaboration Part 1
@@ -3398,6 +3503,7 @@ STRItemLocalConfigure	76126	พื้นหลัง: งีบหลับ - Ma
 STRItemLocalConfigure	76127	พื้นหลัง: ยินดีต้อนรับสู่ Union City - Bonnie
 STRItemLocalConfigure	76128	พื้นหลัง: ออกกำลังเสร็จ - LingLing
 STRItemLocalConfigure	76129	พื้นหลัง - แบ่งปันด้วยกัน - Sykes
+STRItemLocalConfigure	76130	ฉากหลัง: จิบสุราใต้แสงจันทร์ - Souri
 STRItemLocalConfigure	77001	ช็อกโกแลต
 STRItemLocalConfigure	77002	สมาร์ทโฟน
 STRItemLocalConfigure	77003	เป็ด
@@ -3557,6 +3663,8 @@ STRItemLocalConfigure	91131	แพ็กภาพพิเศษการ์ด�
 STRItemLocalConfigure	91132	แพ็กเจ้าหญิงพงไพรปีกเหล็ก
 STRItemLocalConfigure	91133	ลูกแก้วหิมะหิ่งห้อย*20
 STRItemLocalConfigure	91134	ลูกแก้วหิมะหิ่งห้อย*5
+STRItemLocalConfigure	91135	แพ็กภารกิจเก็บกวาดลับ
+STRItemLocalConfigure	91136	แพ็กชุดลายพู่กันกระต่ายจันทรา - Zhao
 STRItemLocalConfigure	98001	อนิเมชันพิเศษ HaiQing
 STRItemLocalConfigure	99001	คูปอง Skin ลด 50%
 STRItemLocalConfigure	99002	คูปอง Skin ลด 70%
@@ -3605,6 +3713,7 @@ STRItemLocalConfigure	1000064	แว่นขยายของ Sherry
 STRItemLocalConfigure	1000065	เหรียญ Guild
 STRItemLocalConfigure	1000066	ลูกแก้วหิมะหิ่งห้อย
 STRItemLocalConfigure	1000067	ใบไม้ทองคำ
+STRItemLocalConfigure	1000071	กระบวยกระดาษตักปลาทอง
 STRItemLocalConfigure	100101001	Skin เริ่มต้น - Parunan
 STRItemLocalConfigure	100101002	Skin มิตรภาพ - Parunan
 STRItemLocalConfigure	100101003	ไอคอนแฟชั่น - Parunan
@@ -3624,6 +3733,7 @@ STRItemLocalConfigure	100104001	Skin เริ่มต้น - Komachi
 STRItemLocalConfigure	100104002	Skin มิตรภาพ - Komachi
 STRItemLocalConfigure	100104003	ทำไมต้องเป็นนินจา? - Komachi
 STRItemLocalConfigure	100104004	วิญญาณ Shadow - Komachi
+STRItemLocalConfigure	100104005	ภารกิจเก็บกวาดลับ - Komachi
 STRItemLocalConfigure	100105001	Skin เริ่มต้น - Padman
 STRItemLocalConfigure	100105002	Skin มิตรภาพ - Padman
 STRItemLocalConfigure	100105003	ร้อนระอุ - Padman
@@ -3711,10 +3821,12 @@ STRItemLocalConfigure	100123001	Skin เริ่มต้น - Zhao
 STRItemLocalConfigure	100123002	Skin มิตรภาพ - Zhao
 STRItemLocalConfigure	100123003	ความทรงจำริมชายฝั่ง - Zhao
 STRItemLocalConfigure	100123004	พรแห่งสิริมงคล - Zhao
+STRItemLocalConfigure	100123005	ลายพู่กันกระต่ายจันทรา - Zhao
 STRItemLocalConfigure	100124001	Skin เริ่มต้น - Teru
 STRItemLocalConfigure	100124002	Skin มิตรภาพ - Teru
 STRItemLocalConfigure	100124003	พยาบาลน้อย - Teru
 STRItemLocalConfigure	100124004	นักร้องมหัศจรรย์ - Teru
+STRItemLocalConfigure	100124005	เดินเล่นชมใบไม้ร่วง - Teru
 STRItemLocalConfigure	100125001	Skin เริ่มต้น - Moses
 STRItemLocalConfigure	100125002	Skin มิตรภาพ - Moses
 STRItemLocalConfigure	100125003	ภารกิจพิเศษ - Moses
@@ -3730,6 +3842,8 @@ STRItemLocalConfigure	100128002	Skin มิตรภาพ - LingLing
 STRItemLocalConfigure	100128003	เจ้าหน้าที่กู้ชีพ - LingLing
 STRItemLocalConfigure	100129001	Skin เริ่มต้น - Sykes
 STRItemLocalConfigure	100129002	Skin มิตรภาพ - Sykes
+STRItemLocalConfigure	100130001	สกินเริ่มต้น - Souri
+STRItemLocalConfigure	100130002	Skin มิตรภาพ - Souri
 STRItemLocalConfigure	100301001	Skin เริ่มต้น - Kaangel
 STRItemLocalConfigure	100301002	Skin เริ่มต้น - Ame-chan
 STRItemLocalConfigure	100301003	เทวทูตอินเทอร์เน็ต - KAngel
@@ -4059,6 +4173,10 @@ STRItemLocalConfigure	120124008	อิโมจิ - มาสเตอร์ Mi
 STRItemLocalConfigure	120124009	อิโมจิ - มาสเตอร์ Mikami 9
 STRItemLocalConfigure	120124010	อิโมจิ - มาสเตอร์ Mikami 10
 STRItemLocalConfigure	120124011	อิโมจิ - มาสเตอร์ Mikami 11
+STRItemLocalConfigure	120124012	อิโมจิ - เจ้าแห่ง Mikami 12
+STRItemLocalConfigure	120124013	อิโมจิ - เจ้าแห่ง Mikami 13 (แอนิเมชัน)
+STRItemLocalConfigure	120124014	อิโมจิ - เจ้าแห่ง Mikami 14
+STRItemLocalConfigure	120124015	อิโมจิ - เจ้าแห่ง Mikami 15 (แอนิเมชัน)
 STRItemLocalConfigure	120125001	อิโมจิ - Seid Moses 1
 STRItemLocalConfigure	120125002	อิโมจิ - Seid Moses 2
 STRItemLocalConfigure	120125003	อิโมจิ - Seid Moses 3
@@ -4114,6 +4232,14 @@ STRItemLocalConfigure	120129005	อิโมจิ - ตัวอ่อนอะ
 STRItemLocalConfigure	120129006	อิโมจิ - ตัวอ่อนอะบิส 6
 STRItemLocalConfigure	120129007	อิโมจิ - ตัวอ่อนอะบิส 7
 STRItemLocalConfigure	120129008	อิโมจิ - ตัวอ่อนอะบิส 8
+STRItemLocalConfigure	120130001	อิโมจิที่ปรึกษาเกล็ดทอง 1
+STRItemLocalConfigure	120130002	อิโมจิที่ปรึกษาเกล็ดทอง 2
+STRItemLocalConfigure	120130003	อิโมจิที่ปรึกษาเกล็ดทอง 3
+STRItemLocalConfigure	120130004	อิโมจิที่ปรึกษาเกล็ดทอง 4
+STRItemLocalConfigure	120130005	อิโมจิที่ปรึกษาเกล็ดทอง 5
+STRItemLocalConfigure	120130006	อิโมจิที่ปรึกษาเกล็ดทอง 6
+STRItemLocalConfigure	120130007	อิโมจิที่ปรึกษาเกล็ดทอง 7
+STRItemLocalConfigure	120130008	อิโมจิที่ปรึกษาเกล็ดทอง 8
 STRItemLocalConfigure	120301001	อิโมจิ - Kangel 1
 STRItemLocalConfigure	120301002	อิโมจิ - Kangel 2
 STRItemLocalConfigure	120301003	อิโมจิ - Kangel 3
@@ -4278,6 +4404,8 @@ STRItemLocalConfigure	702030	สมาชิก Guild ทั้งหลาย �
 STRItemLocalConfigure	702060	อยู่บ้านทั้งที แต่งตัวสบาย ๆ ดีกว่า!
 STRItemLocalConfigure	702070	อย่าไปแหย่เด็กแสบเชียวนะ
 STRItemLocalConfigure	702080	อัศวินผู้สง่างามปรากฏตัวแล้ว!
+STRItemLocalConfigure	702090	อย่าลืมทาครีมบำรุงผิวช่วงฤดูใบไม้ร่วงนะ!
+STRItemLocalConfigure	702100	ดูเหมือนว่าตอนเด็ก Masao จะไม่ซนขนาดนี้นะ!
 STRItemLocalConfigure	701010	ใช้ได้หลังจากระดับความผูกพันกับ Parunan ถึงเลเวล 4
 STRItemLocalConfigure	701020	ใช้ได้หลังจากระดับความผูกพันกับ Fanny ถึงเลเวล 4
 STRItemLocalConfigure	701030	ใช้ได้หลังจากระดับความผูกพันกับ Alana ถึงเลเวล 4
@@ -4307,7 +4435,10 @@ STRItemLocalConfigure	701260	ใช้ได้หลังจากระดั
 STRItemLocalConfigure	701270	ใช้ได้หลังจากระดับความผูกพันกับ Bonnie ถึงเลเวล 4
 STRItemLocalConfigure	701280	ใช้ได้หลังจากระดับความผูกพันกับ LingLing ถึงเลเวล 4
 STRItemLocalConfigure	701290	ใช้ได้หลังจากระดับความผูกพันกับ Sykes ถึงเลเวล 4
+STRItemLocalConfigure	701300	ปลดล็อกเมื่อมีสายใยกับ Souri ถึงเลเวล 4
 STRItemLocalConfigure	709900	รางวัลกิจกรรมเปิดเซิร์ฟ
+STRItemLocalConfigure	708880	แท่นตั้งโชว์ไดโนเสาร์พิกเซลตัวเล็ก
+STRItemLocalConfigure	708890	ใครก็ได้ช่วยฉันที!
 STRItemLocalConfigure	708900	รับจากอีเวนต์ Magical Girl Witch Trials
 STRItemLocalConfigure	708910	รับจากอีเวนต์ Magical Girl Witch Trials
 STRItemLocalConfigure	708920	รับจากอีเวนต์ Holiday Benefits
@@ -4400,6 +4531,7 @@ STRItemLocalConfigure	711260	ใช้ได้หลังจากระดั
 STRItemLocalConfigure	711270	ใช้ได้หลังจากระดับความผูกพันกับ Bonnie ถึงเลเวล 5
 STRItemLocalConfigure	711280	ใช้ได้หลังจากระดับความผูกพันกับ LingLing ถึงเลเวล 5
 STRItemLocalConfigure	711290	ใช้ได้หลังจากระดับความผูกพันกับ Sykes ถึงเลเวล 5
+STRItemLocalConfigure	711300	ปลดล็อกเมื่อมีสายใยกับ Souri ถึงเลเวล 5
 STRItemLocalConfigure	712010	ใช้ได้หลังจากสาบานพันธมิตรสำเร็จ
 STRItemLocalConfigure	713010	ปลดล็อกหลังจากซื้อ Skin
 STRItemLocalConfigure	713020	ยอดนักสืบ - สายตาลึกลับ
@@ -4472,6 +4604,7 @@ STRItemLocalConfigure	721260	นี่ไงอาหารที่เธอโ
 STRItemLocalConfigure	721270	ดูแลรักษาได้ดีมาก และยังใช้งานได้ปกติ
 STRItemLocalConfigure	721280	กฎคือ: ถ้ายกขึ้นได้ มันก็เป็นของนายแล้ว!
 STRItemLocalConfigure	721290	Sykes กินไม่ได้นะ! ปลาหมึกกินได้!
+STRItemLocalConfigure	721300	วางทิ้งไว้นานจนแยกไม่ออกแล้วว่าเป็นน้ำส้มหรือเหล้า
 STRItemLocalConfigure	730010	ธรรมดาไม่มีอะไรพิเศษ
 STRItemLocalConfigure	730020	หนูน้อยได้บินขึ้นฟ้าซักทีเหรอ?
 STRItemLocalConfigure	730030	แสงสีรุ้งไหลสู่ท้องฟ้า
@@ -4551,6 +4684,8 @@ STRItemLocalConfigure	750780	นุ่มฟูจนรู้สึกผ่อ
 STRItemLocalConfigure	750790	หนังสืออ่านก่อนนอนเป็นสิ่งที่ขาดไม่ได้
 STRItemLocalConfigure	750800	ดาบที่ดีที่สุดในป่านางฟ้าทั้งผืน!
 STRItemLocalConfigure	750810	ฤดูร้อนในวัยเด็กอาจเป็นช่วงที่มีความสุขที่สุดเลยก็ได้!
+STRItemLocalConfigure	750820	ดอกไม้ที่บานช้าก็น่ารักเหมือนกันนะ!
+STRItemLocalConfigure	750830	แสงแดดอาบทุ่งทานตะวันสีทอง!
 STRItemLocalConfigure	760010	ยินดีต้อนรับสู่ Astral Party!
 STRItemLocalConfigure	760020	คอลแลบกับ Needy Streamer Overload
 STRItemLocalConfigure	760030	ของจำกัดจากคอลแลบ Magical Girl Witch Trials
@@ -4583,6 +4718,7 @@ STRItemLocalConfigure	761260	หลับจริงๆ เหรอ?
 STRItemLocalConfigure	761270	มาสร้างความวุ่นวายกันเถอะ!""
 STRItemLocalConfigure	761280	ไม่มีอะไรสดชื่นไปกว่าการออกกำลังกายจนเหงื่อแตก!
 STRItemLocalConfigure	761290	น่ารักนะ~ อ้าปาก~ อา~
+STRItemLocalConfigure	761300	คืนนี้พระจันทร์สวยจังเลย~
 STRItemLocalConfigure	770010	ไอเทมเพิ่ม EXP มิตรภาพ\nบรรจุภัณฑ์ธรรมดา รสชาติก็พอใช้ แต่เหมาะจะมอบเป็นของขวัญ\nEXP มิตรภาพ +10
 STRItemLocalConfigure	770020	ไอเทมเพิ่ม EXP มิตรภาพ\nสมาร์ตโฟนธรรมดาที่พบได้ทั่วไป ตอบโจทย์การใช้งานประจำวัน\nEXP มิตรภาพ +10
 STRItemLocalConfigure	770030	ไอเทมเพิ่ม EXP มิตรภาพ\nเป็ดยางสีเหลืองที่มักพบในห้องน้ำ ชวนให้นึกถึงความทรงจำวัยเด็ก\nEXP มิตรภาพ +10
@@ -4693,6 +4829,7 @@ STRItemLocalConfigure	10000640	แว่นขยายที่ Sherry Tachiban
 STRItemLocalConfigure	10000650	เหรียญแลกเปลี่ยนพิเศษเฉพาะระบบ Guild
 STRItemLocalConfigure	10000660	อย่าลืมปล่อยหิ่งห้อยคืนสู่ธรรมชาติด้วยนะ!
 STRItemLocalConfigure	10000670	แม้จะส่องประกายเหมือนทองคำ แต่ไม่ใช่ทองแท้หรอก
+STRItemLocalConfigure	10000710	สกุลเงินเฉพาะกิจกรรม
 STRItemLocalConfigure	1001010010	Skin เริ่มต้น
 STRItemLocalConfigure	1001010020	ใช้งานได้หลังจากทำสัญญาสำเร็จ
 STRItemLocalConfigure	1001020030	Season Pass Skin
@@ -4721,6 +4858,7 @@ STRItemLocalConfigure	1001140060	ได้รับจาก Spring Picnic Pass
 STRItemLocalConfigure	1001250030	ได้รับจาก Special Assignment Pass
 STRItemLocalConfigure	1001060040	ได้รับจาก Summer Campout Pass
 STRItemLocalConfigure	1001080060	ได้รับจาก Team Manager Pass
+STRItemLocalConfigure	1001240050	รับได้จาก Pass เดินเล่นชมใบไม้ร่วง
 STRItemLocalConfigure	1001270040	รับจาก Red Hood Pass
 STRItemLocalConfigure	1001130060	ได้รับจากพาสอรุณร้อนอบอ้าว
 STRItemLocalConfigure	13020001	ลำแสงเลเซอร์ (ภาพพิเศษ)
@@ -4728,6 +4866,7 @@ STRItemLocalConfigure	13020002	เค้กช็อกโกแลต (Alt)
 STRItemLocalConfigure	13020013	อิฐ (ภาพพิเศษ)
 STRItemLocalConfigure	13020031	หน้ากระดาษมีชีวิต (Alt)
 STRItemLocalConfigure	13021002	ของที่นายมี กูก็มี (ภาพสำรอง)
+STRItemLocalConfigure	13021003	รีบเลย! รีบเลย! (ภาพทางเลือก)
 STRItemLocalConfigure	13021012	เลเซอร์ต้านมอนสเตอร์ (ภาพพิเศษ)
 STRItemLocalConfigure	13021013	อิฐต้านมอนสเตอร์ (ภาพพิเศษ)
 STRLandLocalConfigure	101	พัก
@@ -4765,6 +4904,7 @@ STRLandLocalConfigure	80024	ร้านชิป
 STRLandLocalConfigure	80025	เครื่องควบคุมกลไก
 STRLandLocalConfigure	80026	ตู้ลูกอมแปลกๆ
 STRLandLocalConfigure	80027	ฝึกสมอง
+STRLandLocalConfigure	80028	ร้านขายสิ่งปลูกสร้างพืช
 STRLandLocalConfigure	800010	ฟื้น 2 HP เมื่อหยุดที่จุดเริ่มต้น\nได้รับ 1 ดาวเมื่อมี Star Coin เพียงพอ
 STRLandLocalConfigure	800020	ฟื้น 2 HP เมื่อหยุดที่จุดตรวจ\nได้รับ 1 ดาวเมื่อมี Star Coin เพียงพอ
 STRLandLocalConfigure	800030	วาร์ปแบบสุ่มไปยังประตูวาร์ปอื่น
@@ -4792,6 +4932,7 @@ STRLandLocalConfigure	800240	ซื้อชิปได้บนช่องน
 STRLandLocalConfigure	800250	เครื่องควบคุมฉาก
 STRLandLocalConfigure	800260	ซื้อการ์ดลูกอมแบบสุ่มได้
 STRLandLocalConfigure	800270	คูลดาวน์ Active Skill -2 ได้รับ 1 สแต็ก【สติปัญญา】
+STRLandLocalConfigure	800280	เมื่อเดินผ่านหรือหยุดที่นี่ สามารถซื้อการ์ดสิ่งปลูกสร้างพืชแบบสุ่มได้ 1 ใบ
 STRLuckyStarBattleLocalConfigure	41001	คทา
 STRLuckyStarBattleLocalConfigure	41002	เชื่องช้า
 STRLuckyStarBattleLocalConfigure	41003	พละกำลัง
@@ -4973,6 +5114,9 @@ STRMapEventLocalConfigure	35062	ความคึกคักช่วงพั
 STRMapEventLocalConfigure	35063	ออกสนาม
 STRMapEventLocalConfigure	35064	ชนกันสุดตัว
 STRMapEventLocalConfigure	35071	ไม่ยอมแพ้
+STRMapEventLocalConfigure	36001	มอนสเตอร์ระลอกที่ 1
+STRMapEventLocalConfigure	36002	มอนสเตอร์ระลอกที่ 2
+STRMapEventLocalConfigure	36003	มอนสเตอร์ระลอกที่ 3
 STRMapEventLocalConfigure	2300001	น้ำเต้า
 STRMapEventLocalConfigure	3100401	ดังโงะเผ็ดร้อน
 STRMapEventLocalConfigure	3100402	ดังโงะโชคดี
@@ -5072,8 +5216,8 @@ STRMapEventLocalConfigure	321231	เกิดผู้เฝ้ายาม 1 �
 STRMapEventLocalConfigure	321241	เกิดผู้เฝ้ายาม 1 ตัว และพ่อมดเจลลี่ 2 ตัว มอนสเตอร์ทุกตัวได้ ATK +1 และ DEF +1
 STRMapEventLocalConfigure	321311	เรียกไดโนเสาร์ของเล่น 1 ตัว และนกฮูกนาฬิกา 3 ตัว
 STRMapEventLocalConfigure	321321	Gawu หัวหน้าแก๊งเด็กแสบปรากฏตัว เรียกกลุ่มหมีหาอาหาร 1 กลุ่ม และนกฮูกนาฬิกา 1 ตัว
-STRMapEventLocalConfigure	321331	เรียกกลุ่มหมีหาอาหาร 2 กลุ่ม และไดโนเสาร์ของเล่น 1 ตัว มอนสเตอร์ทั้งหมดได้รับ ATK +1 และ DEF +1
-STRMapEventLocalConfigure	321341	เรียกกลุ่มหมีหาอาหาร 2 กลุ่ม และไดโนเสาร์ของเล่น 2 ตัว มอนสเตอร์ทั้งหมดได้รับ ATK +1 และ DEF +1
+STRMapEventLocalConfigure	321331	สร้างกระต่ายกู้ชีพ 1 ตัว กลุ่มหมีหาอาหาร 1 กลุ่ม และไดโนเสาร์ของเล่น 1 ตัว มอนสเตอร์ทุกตัวได้รับ ATK +1 และ DEF +1
+STRMapEventLocalConfigure	321341	สร้างกระต่ายกู้ชีพ 1 ตัว กลุ่มหมีหาอาหาร 1 กลุ่ม และไดโนเสาร์ของเล่น 2 ตัว มอนสเตอร์ทุกตัวได้รับ ATK +1 และ DEF +1
 STRMapEventLocalConfigure	330011	สุ่มเกิดโจรสลัดชั้นสูง 1 ตัว และฉลามโจรสลัด 2 ตัวบนแผนที่
 STRMapEventLocalConfigure	330021	สุ่มเกิดโจรสลัดชั้นสูง 1 ตัวบนแผนที่
 STRMapEventLocalConfigure	340031	ทุกๆ รอบ จะสุ่มเกิดขโมย 1 ตัว
@@ -5103,6 +5247,9 @@ STRMapEventLocalConfigure	350621	เกิดผู้ตรวจสอบจ�
 STRMapEventLocalConfigure	350631	เกิดควอร์เตอร์แบ็กจักรกล 1 ตัว และผู้ตรวจสอบจักรกล 1 ตัว มอนสเตอร์ทุกตัวได้รับ ATK +1 และ DEF +1
 STRMapEventLocalConfigure	350641	เกิดควอร์เตอร์แบ็กจักรกล 1 ตัว และผู้ตรวจสอบจักรกล 2 ตัว
 STRMapEventLocalConfigure	350711	เหลือเชื่อ! ยังยืนอยู่ได้หลังจากเจอมาเยอะขนาดนั้น!
+STRMapEventLocalConfigure	360011	สร้างทหารปู 2 ตัว โจรสลัดชั้นสูง 1 ตัว และโจรขโมย 1 ตัว
+STRMapEventLocalConfigure	360021	ราชาก๊าวปรากฏตัว! สร้างโจรสลัดฉลาม 1 ตัว
+STRMapEventLocalConfigure	360031	สร้างโจรสลัดฉลาม 1 ตัวและโจรสลัดชั้นสูง 1 ตัว
 STRMapEventLocalConfigure	1000001	1
 STRMapEventLocalConfigure	1000002	1
 STRMapEventLocalConfigure	1000003	1
@@ -5322,6 +5469,7 @@ STRMessageLocalConfigure	1142	ซื้อเป็นแพ็กสกิน�
 STRMessageLocalConfigure	1143	รายการโปรดเต็มจำนวนแล้ว
 STRMessageLocalConfigure	1144	ส่งถี่เกินไป กรุณาลองใหม่ภายหลัง
 STRMessageLocalConfigure	1145	บันทึกรีเพลย์เต็มจำนวนสูงสุดแล้ว
+STRMessageLocalConfigure	1146	ปุ่มนี้ถูกตั้งให้กับ “{0}” แล้ว ต้องการสลับปุ่มของสองคำสั่งนี้หรือไม่?
 STRMessageLocalConfigure	10000	กำลังเชื่อมต่อใหม่…
 STRMessageLocalConfigure	10001	รอบที่ {0} เริ่ม!
 STRMessageLocalConfigure	10002	หมดเวลาคิดแล้ว ระบบจะเลือกให้คุณ
@@ -5384,6 +5532,7 @@ STRMessageLocalConfigure	11032	[size=52]{0}[/size] กำลังเลือ�
 STRMessageLocalConfigure	11033	เปิดโหมดติดตามแล้ว
 STRMessageLocalConfigure	11034	ปิดโหมดติดตามแล้ว
 STRMessageLocalConfigure	11035	รอบรับรางวัลถัดไปคือรอบที่ {0}\nเมื่อเริ่มรอบนั้น คาดว่าจะได้รับ {1} <img src='ui://xuaw6o8jmmmw3x' width='50' height='50'/> และการ์ด {2} ใบ <img src='ui://xuaw6o8jmmmw3w' width='50' height='50'/>
+STRMessageLocalConfigure	11036	ปลดล็อกแล้ว
 STRMessageLocalConfigure	20001	ระดับความผูกพัน Ⅰ
 STRMessageLocalConfigure	20002	ระดับความผูกพัน Ⅱ
 STRMessageLocalConfigure	20003	ระดับความผูกพัน Ⅲ
@@ -5438,6 +5587,11 @@ STRMessageLocalConfigure	100055	NoTranslate
 STRMessageLocalConfigure	100056	NoTranslate
 STRMessageLocalConfigure	100057	NoTranslate
 STRMessageLocalConfigure	100058	NoTranslate
+STRMessageLocalConfigure	2010101	Amakawa Souri เป็นตัวละครสายโจมตีที่สามารถ[color=#FFB300]โต้กลับ[/color]และยังช่วยสนับสนุนทีมได้ด้วย [color=#FFB300]สกิลใช้งาน[/color] ของเธอจะวาง[color=#FFB300]สุราน้ำเต้า[/color]ลงบนช่องที่เลือก และมอบสถานะ[color=#FFB300]โต้กลับ[/color]ให้ 1 ชั้น เมื่อผู้เล่นคนใดเดินผ่าน[color=#FFB300]สุราน้ำเต้า[/color] จะหยุดดื่ม ฟื้นฟู HP และได้รับโบนัส ATK เมื่อ[color=#FFB300]สุราน้ำเต้า[/color]ถูกใช้ Souri จะได้รับสถานะ[color=#FFB300]โต้กลับ[/color] 1 ชั้น
+STRMessageLocalConfigure	2010102	เมื่อ Souri [color=#FFB300]โต้กลับ[/color] เธอจะได้รับ [color=#FFB300]เกล็ดทอง[/color] 1 ชั้น\nแต่ละชั้นของ [color=#FFB300]เกล็ดทอง[/color] เพิ่ม [color=#FFB300]DEF +1[/color] ให้ Souri [color=#FFB300]สะสมได้สูงสุด 4 ชั้น[/color]
+STRMessageLocalConfigure	2010103	เมื่อ [color=#FFB300]เกล็ดทองครบ 4 ชั้น[/color] Souri จะได้รับ [color=#FFB300]ปลาคาร์ปทองแปลงมังกร[/color] ทันที\nขณะที่ [color=#FFB300]ปลาคาร์ปทองแปลงมังกร[/color] ทำงาน แต่ละชั้นของเกล็ดทองจะเพิ่ม [color=#FFB300]ATK +1[/color] ให้ Souri และสกิลใช้งานของ Souri จะวาง[color=#FFB300]สุราทิพย์[/color]แทน[color=#FFB300]สุราน้ำเต้า[/color]\n[color=#FFB300]สุราทิพย์[/color]ฟื้นฟู HP ได้มากกว่า มอบโบนัส ATK สูงกว่า และใช้[color=#FFB300]เร่งจังหวะ[/color]หลังเอฟเฟกต์ของช่อง[color=#FFB300]สุราทิพย์[/color]ทำงานเสร็จ
+STRMessageLocalConfigure	2010201	Souri ได้รับ [color=#FFB300]เกล็ดทอง[/color] 1 ชั้นจากการ[color=#FFB300]โต้กลับ[/color] แต่ละชั้นของ [color=#FFB300]เกล็ดทอง[/color] เพิ่ม [color=#FFB300]DEF +1[/color] ให้ Souri\nเมื่อ Souri ได้รับ [color=#FFB300]ปลาคาร์ปทองแปลงมังกร[/color] เมื่อสะสม [color=#FFB300]เกล็ดทอง[/color] ครบ [color=#FFB300]4 ชั้น[/color]
+STRMessageLocalConfigure	2010301	ตอนนี้ Souri มี [color=#FFB300]เกล็ดทอง 4 ชั้น[/color] และได้รับ [color=#FFB300]ปลาคาร์ปทองแปลงมังกร[/color]\nขณะที่ [color=#FFB300]ปลาคาร์ปทองแปลงมังกร[/color] ทำงาน แต่ละชั้นของเกล็ดทองจะเพิ่ม [color=#FFB300]ATK +1[/color] ให้ Souri และสกิลใช้งานของ Souri จะวาง[color=#FFB300]สุราทิพย์[/color]แทน[color=#FFB300]สุราน้ำเต้า[/color]\n[color=#FFB300]สุราทิพย์[/color]ฟื้นฟู HP ได้มากกว่า มอบโบนัส ATK สูงกว่า และใช้[color=#FFB300]เร่งจังหวะ[/color]หลังเอฟเฟกต์ของช่อง[color=#FFB300]สุราทิพย์[/color]ทำงานเสร็จ
 STRMessageLocalConfigure	8100701	ในศึกแย่งดาวแห่งโชค ผู้เล่นสี่คนจะแบ่งเป็นสองทีม ทีมแรกที่เก็บดาวแห่งโชคครบจะเป็นฝ่ายชนะ
 STRMessageLocalConfigure	8100702	ใช้ Star Coin เพื่อมอบดาวแห่งโชคให้ตัวละครฝ่ายเดียวกัน หรือเก็บได้จากการปราบตัวละครฝ่ายศัตรู
 STRMessageLocalConfigure	8100703	เมื่อเริ่มแต่ละแมตช์ จะมีการ์ดรางวัลพิเศษปรากฏขึ้น ผู้เล่นคนแรกที่ทำตามเงื่อนไขของการ์ดรางวัลจะได้รับดาวแห่งโชคเพิ่มให้ทีม
@@ -5455,7 +5609,7 @@ STRMessageLocalConfigure	8201302	เมื่อ Mamushi Amakawa เป็นบ
 STRMessageLocalConfigure	8201303	เมื่อ Souri Amakawa เป็นบอส เธอจะเรียกปลาทองที่พยายามหลบทุกการโจมตี และเพิ่ม ATK กับ DEF ทุกครั้งที่สวนกลับผู้เล่น\nทีมที่เน้นสร้างดาเมจนอกการต่อสู้เหมาะจะรับมือบอสนี้ หรือจะป้องกันไม่ให้เธอสวนกลับก็ช่วยได้เช่นกัน
 STRMessageLocalConfigure	8201401	ตรอกภูตผีมีกลไกสถานะเฉพาะแผนที่【โอเวอร์คล็อก】\nเมื่อจบเทิร์นและจำนวนชั้นของโอเวอร์คล็อกลดจาก 1 เหลือ 0 ผู้เล่นจะได้รับดาเมจเท่ากับ HP ปัจจุบัน\nลบสถานะนี้ได้ด้วยการ์ดลูกอมที่ซื้อจากช่องตู้ขายลูกอมประหลาด หรือได้รับจากการ KO ศัตรูบางชนิดและรางวัลภารกิจ
 STRMessageLocalConfigure	8201402	บอส Masao Tennostein จะฟื้นคืนชีพสิ่งประดิษฐ์ของเธอ ซึ่งก็คือ【สิ่งมีชีวิตสังเคราะห์】อยู่เรื่อย ๆ\nทุกครั้งที่ถูกชุบชีวิต พวกมันจะแข็งแกร่งขึ้น!\nต้องกำจัดสิ่งมีชีวิตสังเคราะห์ให้ครบ 3 ครั้ง จึงจะสร้างดาเมจให้ Masao Tennostein ได้
-STRMessageLocalConfigure	8201501	ใน Dragonstar Ascension ผู้เล่นต้องปราบร่างจำแลงพลัง Phoenix อย่างถ้วยนกยูงสำริดหรือถ้วยนกเป็ดน้ำสำริด เพื่อช่วย Fen ที่กำลังถูกควบคุม
+STRMessageLocalConfigure	8201501	ในกิจกรรมราชามังกรดาว ผู้เล่นต้องเอาชนะร่างจำแลงพลังของ Phoenix ได้แก่ถ้วยนกยูงทองแดงหรือถ้วยนกเป็ดน้ำทองแดง เพื่อช่วย Fen ที่ถูกควบคุมอยู่
 STRMessageLocalConfigure	8201502	บททดสอบแห่งการเยียวยาของนกยูง\nตัวละครหรือศัตรูจะได้รับสถานะ【นกยูงรำแพน】และ【เปลวไฟอุ่น】 การฟื้นฟู HP ให้เป้าหมายที่มีสถานะเหล่านี้จะช่วยเพิ่มค่าสถานะของเป้าหมาย
 STRMessageLocalConfigure	8201503	บททดสอบแห่งการเคลื่อนที่ของนกคู่รัก\nตัวละครจะได้รับ【รักเคียงคู่】ซึ่งลดความสามารถของผู้ติดสถานะ ต้องรีบไปสัมผัสตัวละครอื่นที่มีสถานะเดียวกันเพื่อปลด\nสถานะนี้
 STRMessageLocalConfigure	8201601	ผู้คุมใหญ่และผู้เฝ้ายามมาปรากฏ ณ ที่แห่งนี้ในนามแห่งการพิพากษา แล้วเปลี่ยนห้องสมุดทั้งหมดให้เป็นเรือนจำแห่งการพิพากษาความผิด\n
@@ -5464,6 +5618,7 @@ STRMessageLocalConfigure	8201603	【คำใบ้】จะสะสมที�
 STRMessageLocalConfigure	8201701	Gawu หัวหน้าแก๊งเด็กแสบ พา 'คณะผจญภัย' มาสู่ป่าลึกลับแห่งนี้เพื่อตามหาสมบัติที่เล่าขานกันในหมู่เด็ก ๆ
 STRMessageLocalConfigure	8201702	ยิ่ง【พลังงานล้นเหลือ】ของ Gawu สะสมมากขึ้น เธอก็ยิ่งอันตราย ท้าสู้เพื่อทำให้เธอสงบลงเถอะ แต่ Gawu เป็นคนเจ้าคิดเจ้าแค้น ผู้ที่ท้าสู้เธอควรรีบหนีให้ห่างเพื่อเลี่ยงการเอาคืน!
 STRMessageLocalConfigure	8201703	ระหว่างการเล่น ผู้เล่นจะได้รับการ์ดเฉพาะแผนที่【พงไพรมายาแห่งฤดูใบไม้ร่วง】ประเภทสิ่งปลูกสร้างจากพืช ใช้การ์ดเหล่านี้บนช่องที่มี 'แท่นปลูกพืชน้ำ' เพื่อสร้างสิ่งปลูกสร้างทรงพลัง พร้อมเปลี่ยนประเภทช่องเดิม
+STRMessageLocalConfigure	8201704	เมื่อพืชเติบโต ดาบในศิลาที่ปกป้องป่าจะค่อย ๆ ฟื้นพลังและมอบ Buff อันทรงพลังให้ผู้เล่น ใช้การ์ดสิ่งปลูกสร้างพืชให้เยอะ ๆ!
 STRMessageLocalConfigure	8300101	ยุค AI ทำให้ยักษ์ใหญ่ด้านเทคโนโลยีเร่งวิจัยหุ่นยนต์ บริษัทเหล่านี้พยายามพิสูจน์ว่ามนุษย์สามารถถูกแทนที่ได้ในยุคนี้ผ่านจุดเด่นของ AI จึงจัดงานกีฬาที่ดูเหมือนฝ่ายหนึ่งได้เปรียบอย่างเห็นได้ชัด
 STRMessageLocalConfigure	8300102	ปราบคู่แข่งในรอบคัดเลือกและรอบน็อคเอาท์ แล้วไปสู้กับกองทัพจักรกลในรอบชิงชนะเลิศ!
 STRMessageLocalConfigure	8300301	สนามรอบชิงการแข่งขันกีฬามีกลไกเฉพาะแผนที่คือ【จิตใจ】\nหุ่นยนต์ AI จะคอยวิเคราะห์และพราก【จิตใจ】ของตัวละครไปเรื่อย ๆ ระวังอย่าให้ถูกกัดกร่อนจนหมด เพราะเมื่อถูกวิเคราะห์โดยสมบูรณ์ จะไม่สามารถต่อกรกับหุ่นยนต์แบบตัวต่อตัวได้อีก
@@ -5559,6 +5714,9 @@ STRMissionLocalConfigure	7001	รวมวันที่เล่นในโ�
 STRMissionLocalConfigure	7100	จำนวนแมตช์ที่เล่นใน PVE
 STRMissionLocalConfigure	7101	เล่น {0} ≥{1} ครั้ง
 STRMissionLocalConfigure	7102	เข้าร่วม {0} ระดับ {1} ขึ้นไปอย่างน้อย {2} ครั้ง
+STRMissionLocalConfigure	7103	เล่นโหมด PVE สะสมครบ 3 วัน
+STRMissionLocalConfigure	7104	เล่นโหมด PVE สะสมครบ 7 วัน
+STRMissionLocalConfigure	7105	เล่นโหมด PVE สะสมครบ 10 วัน
 STRMissionLocalConfigure	7200	Jiao และ Koi
 STRMissionLocalConfigure	7201	ชนะ ≥{2} ครั้งใน {0} ระดับ {1} ขึ้นไปขณะช่วย Mamushi/Souri
 STRMissionLocalConfigure	7300	กดไลค์ให้ผู้เล่น
@@ -5585,6 +5743,9 @@ STRMissionLocalConfigure	7605	ทีมของคุณเอาชนะ {0} 
 STRMissionLocalConfigure	7606	เข้าร่วมแผนที่ Co-op Challenge กีฬาสีใด ๆ อย่างน้อย {0} ครั้ง
 STRMissionLocalConfigure	7607	ในฐานะทีม เอาชนะ {0} อย่างน้อย {1} ครั้งในท้าทาย Co-op กีฬาสี
 STRMissionLocalConfigure	7608	ชนะในรอบคัดเลือก รอบน็อคเอาท์ และรอบชิงชนะเลิศโดยใช้อย่างน้อย {0} ตัวละคร
+STRMissionLocalConfigure	7609	ร่วมมือกันเพิ่มความคืบหน้าการปลดล็อก “พรพิทักษ์แห่งดาบศักดิ์สิทธิ์” บนแผนที่ {0} จำนวน {1} ครั้ง
+STRMissionLocalConfigure	7610	ร่วมมือกันเพิ่มความคืบหน้าการปลดล็อก “วีรชนแห่งดาบศักดิ์สิทธิ์” บนแผนที่ {0} จำนวน {1} ครั้ง
+STRMissionLocalConfigure	7611	ซื้อสิ่งปลูกสร้างพืชจากร้านบนแผนที่ {0} จำนวน {1} ครั้ง
 STRMissionLocalConfigure	7701	ผ่าน【จิ้งโครงวาดฝัน】 ระดับง่าย
 STRMissionLocalConfigure	7702	ผ่าน【จิ้งโครงวาดฝัน】 ระดับยาก
 STRMissionLocalConfigure	7703	ผ่าน【Mamushi ผงาดมังกร】 ระดับง่าย
@@ -5630,6 +5791,8 @@ STRMissionLocalConfigure	7919	รับเหรียญรวม {0} เหร
 STRMissionLocalConfigure	7920	เปิดการ์ดครบ {0} ใบในอีเวนต์ Holiday Benefits
 STRMissionLocalConfigure	7921	สะสมคำใบ้ใน【ห้องสมุดปริศนา】 {0} ชิ้น
 STRMissionLocalConfigure	7922	ปลูกพืชสำเร็จ {1} ครั้งใน {0}
+STRMissionLocalConfigure	7923	ใช้ {0} ชนะด่านเพื่อรับรางวัล
+STRMissionLocalConfigure	7924	พลิกการ์ดในบิงโกวันหยุด {0} ใบ
 STRMissionLocalConfigure	12345	ภารกิจทดสอบ Douyin
 STRMissionLocalConfigure	8000	เข้าร่วมศึกแย่งดาวแห่งโชค {0} วัน
 STRMissionLocalConfigure	8001	ชนะรวม {0} ครั้งในศึกแย่งดาวแห่งโชค
@@ -5705,6 +5868,7 @@ STRMonsterLocalConfigure	10710	Gawu หัวหน้าแก๊งเด็�
 STRMonsterLocalConfigure	10720	ไดโนเสาร์ของเล่น
 STRMonsterLocalConfigure	10730	กลุ่มหมีหาอาหาร
 STRMonsterLocalConfigure	10740	นกฮูกนาฬิกา
+STRMonsterLocalConfigure	10750	กระต่ายกู้ชีพ
 STRMonsterLocalConfigure	20260	Amakawa Mamushi (ฝ่ายเรา)
 STRMonsterLocalConfigure	20270	Amakawa Souri (ฝ่ายเรา)
 STRMonsterLocalConfigure	10011	แรคคูน
@@ -5776,6 +5940,7 @@ STRMonsterLocalConfigure	10711	Masao Tennōji
 STRMonsterLocalConfigure	10721	ไดโนเสาร์ของเล่น
 STRMonsterLocalConfigure	10731	กลุ่มหมีหาอาหาร
 STRMonsterLocalConfigure	10741	นกฮูกนาฬิกา
+STRMonsterLocalConfigure	10751	กระต่ายกู้ชีพ
 STRMonsterLocalConfigure	20261	Amakawa Mamushi
 STRMonsterLocalConfigure	20271	Amakawa Souri
 STRMonsterLocalConfigure	1012	"ก็ไม่รู้เหมือนกันว่าซื้อของพวกนี้มาทำไม แต่ซื้อไปแล้วก็แล้วกัน"
@@ -5852,6 +6017,7 @@ STRMonsterLocalConfigure	10713	หนังสือเวทมนตร์ล�
 STRMonsterLocalConfigure	10723	หุ่นไดโนเสาร์พลาสติกใส่ถ่านที่โตขึ้นมหึมาในโลกหนังสือนิทาน น่าจะเป็นภาพจินตนาการวัยเด็กของ Masao ที่ปรากฏออกมาในโลกนั้น ส่วนของเล่นจริงยังวางอยู่บนตู้ที่บ้าน แม้ปัจจุบันจะเปิดไม่ติดและไม่มีเสียงแล้วก็ตาม
 STRMonsterLocalConfigure	10733	ทีมตุ๊กตาหมีขนนุ่มสองตัวออกตระเวนเก็บเห็ดน่ารัก ๆ ไปทั่ว รูปร่างอาจอ้างอิงจากตุ๊กตาหมีสมัยเด็กของ Masao ซึ่งว่ากันว่าตอนนี้ก็ยังวางอยู่บนโซฟาที่บ้าน แม้จะเก่าไปบ้างแล้ว
 STRMonsterLocalConfigure	10743	นาฬิการูปนกฮูกที่ Masao ชื่นชอบในวัยเด็ก ทุกชั่วโมงมันจะร้อง 'กุ๊กกู' อย่างน่ารัก แม้ปัจจุบันจะเปลี่ยนมาใช้นาฬิกาดิจิทัลแล้ว แต่เธอก็ยังเก็บเรือนนี้ไว้อย่างดีในกล่อง
+STRMonsterLocalConfigure	10753	หนึ่งในของเล่นวัยเด็กของ Masao เดิมเป็นส่วนหนึ่งของชุดของเล่นโรงพยาบาล แต่ตอนนี้เหลือเพียงตุ๊กตาตัวนี้เท่านั้น ถึงอย่างนั้นก็ยังเก็บรักษาไว้ในสภาพดีอย่างน่าประหลาด
 STRMonsterLocalConfigure	20263	Mamushi Amakawa\nในฐานะลูกสาวหัวหน้าตระกูลสาขาของ Misaki Ryugasaki เธอถูกเลี้ยงดูภายใต้กฎระเบียบอันเคร่งครัด และตั้งใจจะเติบโตเป็นผู้หญิงที่เข้มแข็งและพึ่งพาตนเองได้\nแต่ด้วยความที่ยังอายุน้อย บางครั้งความใจร้อนก็ทำให้เธอทำเรื่องเกินคาด แม้โดยพื้นฐานจะเป็นคนระมัดระวังและพิถีพิถัน\nคนที่สนิทที่สุดของเธอคือ Souri ผู้เป็นน้า ซึ่งเธอไว้ใจมาก แต่ระยะหลังไม่รู้ทำไมกลับคอยหลบหน้า เหมือนมีเรื่องบางอย่างเก็บงำอยู่ในใจ
 STRMonsterLocalConfigure	20273	Souri Amakawa\nเธอเป็นน้องสาวของหัวหน้าตระกูลสาขาของ Misaki Ryugasaki และเป็นน้าของ Mamushi แทบจะเป็นคนเลี้ยง Mamushi มาด้วยตนเอง จึงรักหลานสาวมาก\nต่างจากคนในตระกูล Amakawa ที่เคร่งขรึมตามประเพณี Souri กลับเป็นคนสบาย ๆ ไม่ค่อยยุ่งกับเรื่องภายในตระกูล หลังเรียนจบมหาวิทยาลัยและเปิดบาร์เล็ก ๆ ก็แทบไม่ได้เข้าไปข้องเกี่ยวอีก\nแต่เมื่อทราบว่า Mamushi ได้รับเลือกเป็นผู้สืบทอดตระกูลสาขา เธอก็ยื่นมือช่วยอย่างเต็มที่โดยไม่ลังเล
 STRMonsterLocalConfigure	10014	1. ไม่โจมตีก่อน\n2. ไม่สามารถสวนกลับได้\n3. เมื่อเดินผ่านผู้เล่น จะขโมย Star Coin 4\n4. Star Coin ที่ขโมยจะสะสมไว้กับหัวขโมย เมื่อถูก KO ผู้ที่จัดการมันจะได้รับ Star Coin ที่สะสมไว้ทั้งหมด\n5. เริ่มต้นพร้อม Star Coin 5
@@ -5922,6 +6088,7 @@ STRMonsterLocalConfigure	10714	1. โจมตีก่อน\n2. สามา�
 STRMonsterLocalConfigure	10724	1. โจมตีก่อน\n2. สามารถสวนกลับได้
 STRMonsterLocalConfigure	10734	1. โจมตีก่อน\n2. ไม่สามารถสวนกลับได้
 STRMonsterLocalConfigure	10744	1. โจมตีก่อน\n2. ไม่สามารถสวนกลับได้
+STRMonsterLocalConfigure	10754	1. โจมตี\n2. โต้กลับ
 STRMonsterLocalConfigure	20264	ถูกโจมตีไม่ได้
 STRMonsterLocalConfigure	20274	1. โจมตีก่อน\n2. ไม่สามารถถูกโจมตีได้
 STRMonthlyCardLocalConfigure	2300000	Monthly Pass
@@ -6019,6 +6186,9 @@ STRPVEMissionLocalConfigure	320880	ปราบ Fen
 STRPVEMissionLocalConfigure	321040	HP ของ {0} ต่ำกว่า 189 ก่อนรอบที่ 7
 STRPVEMissionLocalConfigure	350910	ก่อนมอนสเตอร์ลงมือในรอบที่ 7 ผู้เล่นคนใดมี 【จิตใจ】 5 สแต็กขึ้นไป
 STRPVEMissionLocalConfigure	321250	สร้างสิ่งปลูกสร้าง {0} แห่ง
+STRPVEMissionLocalConfigure	360010	เก็บสุราน้ำเต้าหรือสุราทิพย์ {0} ครั้ง
+STRPVEMissionLocalConfigure	360020	โต้กลับ {0} ครั้ง
+STRPVEMissionLocalConfigure	360030	ทำให้ปลาคาร์ปทองแปลงมังกรสำเร็จ
 STRPVEMissionLocalConfigure	3200201	ตัวละครทุกตัวได้รับชิปเสริมพลัง *1
 STRPVEMissionLocalConfigure	3200501	ตัวละครทุกตัวได้รับชิปเสริมพลัง *1
 STRPVEMissionLocalConfigure	3202101	ตัวละครทุกตัวได้รับชิปเสริมพลัง *1
@@ -6047,6 +6217,8 @@ STRPVEMissionLocalConfigure	3400201	ได้รับ 20 เหรียญ
 STRPVEMissionLocalConfigure	3400301	ได้รับ 30 เหรียญ
 STRPVEMissionLocalConfigure	3509101	ความคืบหน้า -1 และมอนสเตอร์ทั้งหมดข้ามการลงมือครั้งถัดไป
 STRPVEMissionLocalConfigure	3509102	* ล้มเหลว: ตัวละครทุกตัวเสีย 【จิตใจ】 1 สแต็ก
+STRPVEMissionLocalConfigure	3600101	ผู้เล่นทุกคนได้รับชิปเสริมพลัง 1 ชิ้นและเหรียญ 10 เหรียญ
+STRPVEMissionLocalConfigure	3600201	ได้รับเหรียญ 10 เหรียญ
 STRPVEMissionLocalConfigure	1000001	1
 STRPVEMissionLocalConfigure	1000002	1
 STRPVEMissionLocalConfigure	1000003	1
@@ -6163,7 +6335,7 @@ STRPVENurturanceLocalConfigure	106010	การใช้ สกิลใช้�
 STRPVENurturanceLocalConfigure	107010	เมื่อใส่โล่ Shiyu-Shiyu ให้ตัวละคร จะเพิ่มให้เป้าหมายได้รับ Counterattack [color=#91e1ff]1[/color] สแต็ก
 STRPVENurturanceLocalConfigure	108010	ทุก 25 การ์ดที่สะสม จะได้รับ [color=#91e1ff]1[/color] Chip
 STRPVENurturanceLocalConfigure	109010	ทุกครั้งที่ KO มอนสเตอร์ครบ 2 ตัว ATK จะเพิ่มถาวร [color=#94FF46]+1[/color]\nเมื่อ ATK ของตัวละครมากกว่า 6 จะท้าสู้มอนสเตอร์ที่ถูกดึงมาด้วย Active Skill ได้
-STRPVENurturanceLocalConfigure	110010	เมื่อกิน 'อาหาร' ได้รับ【สวนกลับ】 [color=#91e1ff]1[/color] ชั้น\nหากอาหารนั้นเป็นแฮมเบอร์เกอร์ HP สูงสุด [color=#94FF46]+2[/color]\nเมื่อสวนกลับ เพิ่ม ATK ตามดาเมจที่ได้รับในเทิร์นนี้\nเมื่อใช้ Active Skill จะยั่วยุมอนสเตอร์ทั้งหมดในระยะ 5 ช่องเป็นเวลา [color=#91e1ff]1[/color] เทิร์น
+STRPVENurturanceLocalConfigure	110010	เมื่อกิน “อาหาร” ได้รับสถานะโต้กลับ [color=#91e1ff]1[/color] ชั้น\nหากอาหารที่กินเป็นแฮมเบอร์เกอร์ จะได้รับ HP สูงสุด [color=#94FF46]+2[/color]\nเมื่อโต้กลับ เพิ่ม ATK เท่ากับดาเมจที่ได้รับจากการโจมตีที่ทำให้เกิดการโต้กลับ\nเมื่อใช้สกิลใช้งาน จะยั่วยุมอนสเตอร์ทุกตัวในระยะไม่เกิน 5 ช่องเป็นเวลา [color=#91e1ff]1[/color] เทิร์น
 STRPVENurturanceLocalConfigure	112010	สกิลใช้งาน ไม่มีขีดจำกัดระยะอีกต่อไป เมื่อใช้ สกิลใช้งาน มอนสเตอร์ทุกตัวในระยะ 4 ช่องของเป้าหมายที่เลือกจะได้รับ [color=#FF4646]-3[/color] ความเร็วเคลื่อนที่ในการเคลื่อนที่ครั้งถัดไป\nเมื่อจบเทิร์น ทุก 2 สแต็ก Heal ที่เสียไป จะสร้าง [color=#91e1ff]1[/color] 【สไลม์จิ๋ว】 ที่ตำแหน่งสุ่มในระยะ 3 ช่อง (สูงสุด [color=#91e1ff]2[/color] ตัวต่อครั้ง)\nเมื่อตัวละครเดินผ่าน 【สไลม์จิ๋ว】 จะกิน 【สไลม์จิ๋ว】 ฟื้น HP [color=#91e1ff]1[/color] จุด และได้รับ Heal [color=#91e1ff]1[/color] สแต็ก
 STRPVENurturanceLocalConfigure	113010	สะสม [Astral=Buff:1131201][/Astral] ได้สูงสุด [color=#91e1ff]5[/color] ชั้น\nเมื่อเดินผ่านมอนสเตอร์โดยไม่โจมตี ได้รับ [Astral=Buff:1131201][/Astral] [color=#91e1ff]2[/color] ชั้น\nเมื่อโจมตีขณะมี [Astral=Buff:1131201][/Astral] ครบ [color=#91e1ff]5[/color] ชั้น จะใช้เพิ่มอีก 2 ชั้น เพื่อสร้างดาเมจแก่ศัตรูในระยะ 2 ช่องเท่ากับ [color=#91e1ff]88%[/color] ของดาเมจจากการโจมตีครั้งนั้น
 STRPVENurturanceLocalConfigure	114010	เมื่อมอนสเตอร์ที่มี [Astral=Buff:1140102][/Astral] ถูก KO ตัวละครที่จัดการมันได้รับ [Astral=Card:20032][/Astral] [color=#91e1ff]1[/color] ใบ\nเมื่อใช้ Active Skill ให้เปลี่ยน [Astral=Card:20005][/Astral] ในมือเป็น [Astral=Card:20032][/Astral]
@@ -6349,6 +6521,9 @@ STRProductRecommendationLocalConfigure	6073010	สายอุปกรณ์ - 
 STRProductRecommendationLocalConfigure	6073020	ไลฟ์การ์ด - LingLing
 STRProductRecommendationLocalConfigure	6090300	หนูน้อยหมวกแดง - Bonnie
 STRProductRecommendationLocalConfigure	6101500	พาสอรุณร้อนอบอ้าว
+STRProductRecommendationLocalConfigure	6101510	ภารกิจเก็บกวาดลับ - Komachi
+STRProductRecommendationLocalConfigure	6101520	ลายพู่กันกระต่ายจันทรา - Zhao
+STRProductRecommendationLocalConfigure	6111200	Pass เดินเล่นชมใบไม้ร่วง
 STRRechargeStoreLocalConfigure	4	แฟชั่น
 STRRechargeStoreLocalConfigure	7	เติมเงิน
 STRRechargeStoreLocalConfigure	8	Star Disc
@@ -6437,6 +6612,9 @@ STRRelicLocalConfigure	300	ต้นเทิร์นฟื้นฟู HP ต�
 STRRelicLocalConfigure	301	เพิ่ม Star Coin ที่ได้รับจากรางวัลรอบเท่ากับจำนวนที่กำหนด
 STRRelicLocalConfigure	302	เป้าหมายที่ถูกทำเครื่องหมาย รับดาเมจ [color=#FF4646]+1[/color]
 STRRelicLocalConfigure	303	พลังงานพลุ่งพล่าน\nสะสมได้สูงสุด 15 ชั้น
+STRRelicLocalConfigure	400	ทั้งหมด
+STRRelicLocalConfigure	401	พื้นฐาน
+STRRelicLocalConfigure	402	เฉพาะแผนที่
 STRRelicLocalConfigure	50001	ถุงมือชกมวย - พื้นฐาน
 STRRelicLocalConfigure	50002	ถุงมือชกมวย - ค่อนข้างดี
 STRRelicLocalConfigure	50003	ถุงมือชกมวย - ยอดเยี่ยม
@@ -6530,6 +6708,9 @@ STRRelicLocalConfigure	50090	เครื่องจักรนิรันด
 STRRelicLocalConfigure	50091	ปืนแม่เหล็กไฟฟ้า
 STRRelicLocalConfigure	50092	แว่นขยาย
 STRRelicLocalConfigure	50093	ตุ๊กตา Hanna
+STRRelicLocalConfigure	50094	ตะกร้าเก็บเกี่ยว
+STRRelicLocalConfigure	50095	ปีกภูต
+STRRelicLocalConfigure	50096	กิ่งไม้สมบูรณ์แบบ
 STRRelicLocalConfigure	500010	ATK [color=#94FF46]+1[/color]
 STRRelicLocalConfigure	500020	ATK [color=#94FF46]+2[/color]
 STRRelicLocalConfigure	500030	ATK [color=#94FF46]+5[/color]
@@ -6622,7 +6803,10 @@ STRRelicLocalConfigure	500890	หลังใช้ Skill จำนวนเล�
 STRRelicLocalConfigure	500900	ระยะเคลื่อนที่ [color=#94FF46]+2[/color]\nเมื่อเริ่มเทิร์น หากมี <img src='ui://xuaw6o8jy4hks8r' width='32' height='32'/> น้อยกว่า 6 ชั้น ให้ปรับ <img src='ui://xuaw6o8jy4hks8r' width='32' height='32'/> เป็น [color=#91e1ff]6[/color] ชั้น
 STRRelicLocalConfigure	500910	ATK [color=#94FF46]+2[/color]\nหลังท้าสู้มอนสเตอร์ ใช้ <img src='ui://xuaw6o8jy4hks8r' width='32' height='32'/> [color=#91e1ff]4[/color] ชั้น เพื่อสร้างดาเมจ 50% ของ ATK ปัจจุบันแก่มอนสเตอร์ทุกตัวในช่องของเป้าหมาย
 STRRelicLocalConfigure	500920	ทุก 1 ชั้น【หลักฐาน】ที่มี ได้รับ ATK [color=#94FF46]+1[/color] และ DEF [color=#94FF46]+1[/color] สูงสุด 4 ชั้น
-STRRelicLocalConfigure	500930	หลังโอน Star Coin ได้รับ【หลักฐานความผิด】 [color=#91e1ff]1[/color] ชั้น\nเมื่อจบเทิร์น ได้รับ Star Coin เท่ากับ [color=#91e1ff]2[/color] เท่าของจำนวนชั้น【หลักฐานความผิด】\nSTRServer
+STRRelicLocalConfigure	500930	หลังโอน Star Coin ได้รับ【หลักฐานความผิด】 [color=#91e1ff]1[/color] ชั้น\nเมื่อจบเทิร์น ได้รับ Star Coin เท่ากับ [color=#91e1ff]2[/color] เท่าของจำนวนชั้น【หลักฐานความผิด】
+STRRelicLocalConfigure	500940	หลังใช้การ์ดสิ่งปลูกสร้าง ได้รับการ์ดสุ่ม [color=#91e1ff]1[/color] ใบและเหรียญ [color=#91e1ff]3[/color] เหรียญ
+STRRelicLocalConfigure	500950	ทุก ๆ 2 สิ่งปลูกสร้างพืชบนกระดาน เพิ่มระยะเคลื่อนที่ [color=#94FF46]+1[/color] (สูงสุด [color=#94FF46]+4[/color])
+STRRelicLocalConfigure	500960	เมื่อเริ่มเทิร์น ได้รับพลังงานอัดแน่น [color=#91e1ff]1[/color] ชั้น แต่ละชั้นเพิ่ม ATK [color=#94FF46]+2[/color] หลังถูกท้าสู้ สูญเสีย [color=#91e1ff]1[/color] ชั้น\nSTRServer
 STRServerLocalConfigure	1001	เซิร์ฟเวอร์ปิดให้บริการ
 STRServerLocalConfigure	1002	เซิร์ฟเวอร์ไม่ว่าง กรุณาลองอีกครั้งในภายหลัง
 STRServerLocalConfigure	1003	กำลังเข้าคิว....\nเวลารอโดยประมาณ: [color=#24FFFF]{0}[/color] นาที [color=#24FFFF]{1}[/color] วินาที
@@ -6827,6 +7011,26 @@ STRSettingsLocalConfigure	1603	สูง
 STRSettingsLocalConfigure	1604	สูงสุด
 STRSettingsLocalConfigure	1701	简体中文
 STRSettingsLocalConfigure	1702	日本語
+STRSettingsLocalConfigure	1801	การแสดงผล
+STRSettingsLocalConfigure	1802	เสียง
+STRSettingsLocalConfigure	1803	การตั้งค่า
+STRSettingsLocalConfigure	1804	ตั้งค่าปุ่มควบคุม
+STRSettingsLocalConfigure	1805	คะแนนความประพฤติ
+STRSettingsLocalConfigure	1806	ผู้ใช้
+STRSettingsLocalConfigure	1901	ยืนยัน
+STRSettingsLocalConfigure	1902	กล้องขึ้น
+STRSettingsLocalConfigure	1903	กล้องลง
+STRSettingsLocalConfigure	1904	กล้องซ้าย
+STRSettingsLocalConfigure	1905	กล้องขวา
+STRSettingsLocalConfigure	1906	เข้าสู่โหมดทำเครื่องหมาย
+STRSettingsLocalConfigure	1907	เข้าสู่โหมดวัดระยะ
+STRSettingsLocalConfigure	1908	ไปต่อในเนื้อเรื่อง
+STRSettingsLocalConfigure	1909	เล่น/หยุดรีเพลย์
+STRSettingsLocalConfigure	1910	ลดความเร็วรีเพลย์
+STRSettingsLocalConfigure	1911	เพิ่มความเร็วรีเพลย์
+STRSettingsLocalConfigure	1912	รีเฟรชรายชื่อห้อง
+STRSettingsLocalConfigure	1913	ใช้สกิล
+STRSettingsLocalConfigure	1914	เคลื่อนที่
 STRSignInLocalConfigure	50101	ครบรอบ 1 ปี
 STRSignInLocalConfigure	50102	ครบรอบ 1 ปี
 STRSignInLocalConfigure	50103	อีเวนต์เช็กอินจำกัดเวลา
@@ -6844,6 +7048,7 @@ STRSignInLocalConfigure	699981	เช็กอินผู้กลับมา�
 STRSignInLocalConfigure	609031	Magical Girl Night
 STRSignInLocalConfigure	609251	ชมจันทร์เทศกาลไหว้พระจันทร์
 STRSignInLocalConfigure	610151	ของขวัญฤดูใบไม้ร่วง
+STRSignInLocalConfigure	611121	7 วันแห่งของขวัญ
 STRSinglePlayerLocalConfigure	100	ทั่วไป
 STRSinglePlayerLocalConfigure	101	ความมั่งคั่ง
 STRSinglePlayerLocalConfigure	102	เลื่อนตำแหน่ง
@@ -6988,6 +7193,8 @@ STRSkillLocalConfigure	12801	พุ่งชนสกัดกั้น
 STRSkillLocalConfigure	12802	พุ่งชนสกัดกั้น
 STRSkillLocalConfigure	12901	แปลงเป็นดินแดนสีน้ำเงิน
 STRSkillLocalConfigure	12902	แปลงเป็นดินแดนสีน้ำเงิน
+STRSkillLocalConfigure	13001	ดื่มให้สำราญ
+STRSkillLocalConfigure	13002	ดื่มให้สำราญ
 STRSkillLocalConfigure	30101	เทพธิดาอินเทอร์เน็ต
 STRSkillLocalConfigure	30201	ความรักเกินขนาด
 STRSkillLocalConfigure	30301	ผสมเครื่องดื่ม
@@ -7048,6 +7255,7 @@ STRSkillLocalConfigure	107001	มือปราบล่องหน
 STRSkillLocalConfigure	107101	เรียกพวกพ้อง
 STRSkillLocalConfigure	107201	โจมตีด้วยเสียงรบกวน
 STRSkillLocalConfigure	107301	เห็ดกลิ่นประหลาด
+STRSkillLocalConfigure	107501	กู้ภัยฉุกเฉิน
 STRSkillLocalConfigure	202601	จูบของเจียว
 STRSkillLocalConfigure	202701	ไวน์ในน้ำอ้อย
 STRSkillLocalConfigure	101010	เปิดร้านการ์ดได้ทุกที่ โดยไม่สนว่าอยู่ช่องไหน
@@ -7106,6 +7314,8 @@ STRSkillLocalConfigure	128010	การเคลื่อนที่ครั�
 STRSkillLocalConfigure	128020	การเคลื่อนที่ครั้งถัดไปเปลี่ยนเป็นการพุ่งชน\nเลือกตัวเลข [color=#91e1ff]1–7[/color] เพื่อกำหนดระยะพุ่งชน\nระหว่างพุ่งชน จะรวบมอนสเตอร์ทุกตัวที่ผ่าน เมื่อหยุดแล้วเลือกท้าสู้แต่ละตัวได้\nหากผ่าน [Astral=Card:20033][/Astral] ระหว่างพุ่งชน มอนสเตอร์ที่ถูกรวบจะได้รับ DEF [color=#FF4646]-2[/color] และตนเองได้รับ ATK [color=#94FF46]+2[/color] เป็นเวลา [color=#91e1ff]2[/color] เทิร์น
 STRSkillLocalConfigure	129010	เลือกช่องในระยะ 4 ช่อง\nสร้างหนวดแห่งห้วงเหว [color=#91e1ff]1[/color] เส้น และเปลี่ยนทุกช่องรอบจุดนั้นในระยะ [color=#91e1ff]1[/color] ช่องให้เป็นเขตห้วงเหวชั่วคราว\nจากนั้นกระตุ้นหนวดแห่งห้วงเหวทั้งหมดภายในเขตห้วงเหว\nผู้เล่นฝ่ายศัตรูที่เข้าเขตห้วงเหวไม่ว่าด้วยวิธีใดจะได้รับระยะเคลื่อนที่ครั้งถัดไป [color=#FF4646]-2[/color]\nและเทิร์นละ 1 ครั้ง ผู้เล่นฝ่ายศัตรูที่เคลื่อนเข้าเขตห้วงเหวจะถูกหยุดการเคลื่อนที่\nเขตห้วงเหวจะหายไปเมื่อเริ่มเทิร์นถัดไปของ Sykes
 STRSkillLocalConfigure	129020	เลือกช่องในระยะ 4 ช่อง\nสร้างหนวดแห่งห้วงเหว [color=#91e1ff]1[/color] เส้น และเปลี่ยนทุกช่องรอบจุดนั้นในระยะ [color=#91e1ff]2[/color] ช่องให้เป็นเขตห้วงเหวชั่วคราว\nจากนั้นกระตุ้นหนวดแห่งห้วงเหวทั้งหมดภายในเขตห้วงเหว\nมอนสเตอร์ที่เข้าเขตห้วงเหวไม่ว่าด้วยวิธีใดจะได้รับระยะเคลื่อนที่ครั้งถัดไป [color=#FF4646]-2[/color]\nเขตห้วงเหวจะหายไปเมื่อเริ่มเทิร์นถัดไปของ Sykes
+STRSkillLocalConfigure	130010	วางสุราน้ำเต้า [color=#91e1ff]1[/color] หน่วยลงบนช่องภายในระยะ 5 ช่อง และได้รับสถานะโต้กลับ [color=#91e1ff]1[/color] ชั้น\nสุราน้ำเต้า: ผู้เล่นที่เดินผ่านจะหยุดที่ช่องนั้นและฟื้นฟู HP [color=#91e1ff]2[/color] หน่วย
+STRSkillLocalConfigure	130020	วาง [color=#91e1ff]1[/color] หน่วยของสุราน้ำเต้าลงบนช่องภายในระยะ 10 ช่อง และได้รับสถานะโต้กลับ [color=#91e1ff]1[/color] ชั้น\nสุราน้ำเต้า: ผู้เล่นที่เดินผ่านจะหยุดที่ช่องนั้น ฟื้นฟู HP [color=#91e1ff]2[/color] หน่วย และได้รับ Buff [Astral=Buff:1301205][/Astral] เป็นเวลา [color=#91e1ff]2[/color] เทิร์น
 STRSkillLocalConfigure	301010	ได้ Star Coin [color=#91e1ff]2[/color] เหรียญ เพิ่ม [color=#91e1ff]1[/color] เหรียญสำหรับแต่ละตัวละครหรือมอนสเตอร์ที่เป็น【แฟน】 (สูงสุด [color=#91e1ff]7[/color] เหรียญ) หาก【แฟน】≥[color=#91e1ff]3[/color] จะฟื้นฟู HP [color=#94FF46]3[/color] จุดเพิ่ม
 STRSkillLocalConfigure	301020	ได้ Star Coin [color=#91e1ff]1[/color] เหรียญ เพิ่ม [color=#91e1ff]1[/color] เหรียญสำหรับแต่ละมอนสเตอร์ที่เป็น【แฟน】 (สูงสุด [color=#91e1ff]7[/color] เหรียญ) หาก【แฟน】≥[color=#91e1ff]3[/color] จะฟื้นฟู HP [color=#94FF46]3[/color] จุดเพิ่ม
 STRSkillLocalConfigure	301030	ได้ Star Coin [color=#91e1ff]1[/color] เหรียญ เพิ่ม Star Coin [color=#91e1ff]1[/color] เหรียญสำหรับแต่ละสแต็กแฟน สูงสุด [color=#91e1ff]10[/color] เหรียญต่อการใช้ Skill หากมีแฟน 3 ตัวขึ้นไป ฟื้นฟู HP [color=#91e1ff]3[/color] จุดเพิ่ม หากมีแฟน 9 ตัวขึ้นไป ตัวละครฝ่ายเดียวกันอื่นๆ ได้ Star Coin [color=#91e1ff]3[/color] เหรียญ และแฟนทั้งหมดในสนามลด ATK [color=#ff4646]-1[/color] ถาวร (ไม่สามารถซ้อนทับได้)
@@ -7158,6 +7368,7 @@ STRSkillLocalConfigure	1070010	แย่ง Star Coin [color=#91e1ff]4[/color] �
 STRSkillLocalConfigure	1071010	เรียกกลุ่มหมีหาอาหาร [color=#91e1ff]1[/color] กลุ่ม
 STRSkillLocalConfigure	1072010	สร้างดาเมจ [color=#91e1ff]2[/color] แก่ผู้เล่นทุกคนในระยะ 2 ช่อง
 STRSkillLocalConfigure	1073010	เลือกผู้เล่นที่ใกล้ที่สุดในระยะ 5 ช่อง สร้างดาเมจ [color=#91e1ff]2[/color] และมอบ [Astral=Buff:10711103][/Astral] เป็นเวลา [color=#91e1ff]2[/color] เทิร์น
+STRSkillLocalConfigure	1075010	หาก HP ไม่เกิน 60% ให้ใช้ [Astral=Buff:10750101][/Astral] เป็นเวลา [color=#91e1ff]2[/color] เทิร์น จากนั้นฟื้นฟู HP [color=#91e1ff]6[/color] หน่วย ไม่ว่า HP ปัจจุบันจะเป็นเท่าใด\nหลังจากนั้น หาก HP ของตัวเองเต็ม ให้ใช้ผลข้างต้นกับ Boss ซ้ำอีกครั้ง
 STRSkillLocalConfigure	2026010	ให้ [Astral=Card:10011][/Astral] 1 ใบแก่ตัวละครที่ใกล้ที่สุด
 STRSkillLocalConfigure	2027010	วางน้ำเต้า [color=#91e1ff]2[/color] ลูกบนช่องสุ่ม
 STRSkillLocalConfigure	10111	พ่อค้าในตำนาน
@@ -7199,19 +7410,23 @@ STRSkillLocalConfigure	12511	ฝีมือประณีต
 STRSkillLocalConfigure	12512	ฝีมือประณีต
 STRSkillLocalConfigure	12611	ราชาหนองน้ำ
 STRSkillLocalConfigure	12612	ราชาหนองน้ำ
+STRSkillLocalConfigure	12613	ลูกไม้เล็ก ๆ
 STRSkillLocalConfigure	12711	เบาะแสสำคัญ
 STRSkillLocalConfigure	12712	เบาะแสสำคัญ
 STRSkillLocalConfigure	12811	ผู้ดักจับ
 STRSkillLocalConfigure	12812	ผู้ดักจับ
 STRSkillLocalConfigure	12911	เหวลึกหนวดส่าย
 STRSkillLocalConfigure	12912	เหวลึกหนวดส่าย
+STRSkillLocalConfigure	13011	ดื่มจนล้ม
+STRSkillLocalConfigure	13012	ดื่มจนล้ม
+STRSkillLocalConfigure	13013	ชิ้นนี้ให้คุณ
 STRSkillLocalConfigure	30111	KAngel มาทักทาย!
 STRSkillLocalConfigure	30113	ใจเดียวกันสองร่าง
 STRSkillLocalConfigure	30211	รักครอบคุม
 STRSkillLocalConfigure	30213	ใจเดียวกันสองร่าง
 STRSkillLocalConfigure	30311	เปลี่ยนชีวิต
 STRSkillLocalConfigure	30411	ผู้เจริญสังสรรค์
-STRSkillLocalConfigure	30511	สาวน้อยฝันกลางวัน
+STRSkillLocalConfigure	30511	คุณหนูช่างฝัน
 STRSkillLocalConfigure	30513	พรจากเพื่อนซี้
 STRSkillLocalConfigure	30611	นักสืบลงมือ
 STRSkillLocalConfigure	30613	เพื่อนซี้ผู้พิทักษ์
@@ -7318,12 +7533,16 @@ STRSkillLocalConfigure	125110	หลังหลบสำเร็จ ได้ 
 STRSkillLocalConfigure	125120	หลังหลบหลีกสำเร็จหรือโจมตีตอบโต้ ได้รับ 1 ชั้น [Astral=Buff:1251201][/Astral] สูงสุด 3 ชั้น
 STRSkillLocalConfigure	126110	เมื่อได้รับดาเมจ ได้ ATK [color=#94FF46]+1[/color] และลดดาเมจที่ได้รับ [color=#94FF46]1[/color] ในเทิร์นนี้
 STRSkillLocalConfigure	126120	เมื่อผู้เล่นอื่นจั่วการ์ด Mamushi ได้รับ [Astral=Buff:1261201][/Astral] [color=#91e1ff]1[/color] ชั้น\nเมื่อ [Astral=Buff:1261201][/Astral] สะสมถึง [color=#91e1ff]8[/color] ชั้น Mamushi ได้รับ [Astral=Buff:1261204][/Astral]\nขณะมี [Astral=Buff:1261204][/Astral] การ์ด [Astral=Card:10012][/Astral] ในมือและที่ได้รับหลังใช้สกิลจะเปลี่ยนเป็น [Astral=Card:10013][/Astral]
+STRSkillLocalConfigure	126130	เมื่อสกิลใช้งานของ Mamushi ทำให้ Souri ได้รับการ์ด Souri จะได้รับสถานะโต้กลับ [color=#91e1ff]1[/color] ชั้น
 STRSkillLocalConfigure	127110	เพิ่ม [Astral=EventCards:12701] สืบสวนลับ [/Astral] ลงในกองเหตุการณ์ของแผนที่\nเมื่อโจมตีศัตรูที่มี [Astral=Buff:10006][/Astral] ATK [color=#94FF46]+3[/color]\nเมื่อ KO ศัตรูที่มี [Astral=Buff:10006][/Astral] ได้รับการ์ดต่อสู้ [color=#91e1ff]1[/color] ใบ
 STRSkillLocalConfigure	127120	เพิ่ม [Astral=EventCards:12702|12703|12704|12705] สืบสวนลับ [/Astral] ลงในกองเหตุการณ์ของแผนที่\nเมื่อโจมตีมอนสเตอร์ที่มี [Astral=Buff:10006][/Astral] ATK [color=#94FF46]+3[/color]\nเมื่อ KO มอนสเตอร์ที่มี [Astral=Buff:10006][/Astral] ได้รับการ์ดต่อสู้ [color=#91e1ff]1[/color] ใบ
 STRSkillLocalConfigure	128110	ได้รับ [Astral=Card:20010][/Astral] เพิ่ม [color=#91e1ff]1[/color] ใบจากรางวัลรอบ หลังผ่าน [Astral=Card:20010][/Astral] Skill cooldown [color=#94FF46]-2[/color] และได้ความเร็วเคลื่อนที่ [color=#94FF46]+2[/color] ในการเคลื่อนที่ครั้งถัดไป
 STRSkillLocalConfigure	128120	[Astral=Card:20010][/Astral] ของคุณแปลงเป็น [Astral=Card:20033][/Astral] เมื่อเริ่มเกม ได้รับ [Astral=Card:20033][/Astral] เพิ่ม [color=#91e1ff]2[/color] ใบ หลังผ่าน [Astral=Card:20010][/Astral] ได้รับ [Astral=Card:20033][/Astral] [color=#91e1ff]1[/color] ใบ
 STRSkillLocalConfigure	129110	เมื่อเริ่มเกม สุ่มสร้างหนวดแห่งห้วงเหว [color=#91e1ff]5[/color] เส้นบนแผนที่\nเมื่อจบเทิร์น Sykes จะกระตุ้นหนวดแห่งห้วงเหวทั้งหมดในระยะ [color=#91e1ff]2[/color] ช่อง\nหนวดที่ถูกกระตุ้นจะสร้างดาเมจ [color=#ff4646]1[/color] แก่ศัตรูทุกตัวในระยะ [color=#91e1ff]1[/color] ช่อง\nหนวดแห่งห้วงเหวไม่สามารถถูกลบ และแต่ละช่องมีได้สูงสุด 1 เส้น
 STRSkillLocalConfigure	129120	เมื่อสร้างดาเมจ มอบ [Astral=Buff:1291202][/Astral] [color=#91e1ff]1[/color] ชั้นแก่เป้าหมายเป็นเวลา [color=#91e1ff]1[/color] เทิร์น\nเมื่อจบเทิร์น สร้างหนวดแห่งห้วงเหว [color=#91e1ff]1[/color] เส้นบนช่องของตน แล้วกระตุ้นหนวดทุกเส้นในระยะ [color=#91e1ff]3[/color] ช่อง\nหนวดที่ถูกกระตุ้นจะสร้างดาเมจ [color=#FF4646]1[/color] แก่มอนสเตอร์ทุกตัวในระยะ [color=#91e1ff]2[/color] ช่อง และมอบ [Astral=Buff:1291202][/Astral] [color=#91e1ff]1[/color] ชั้นเป็นเวลา [color=#91e1ff]1[/color] เทิร์นแก่ตัวที่ถูกลดระยะเคลื่อนที่\nหนวดแห่งห้วงเหวไม่สามารถถูกลบ และแต่ละช่องมีได้สูงสุด 1 เส้น
+STRSkillLocalConfigure	130110	เมื่อผู้เล่นคนใดใช้สุราน้ำเต้า Souri จะได้รับสถานะโต้กลับ [color=#91e1ff]1[/color] ชั้น
+STRSkillLocalConfigure	130120	Souri ได้รับ [color=#91e1ff]1[/color] ชั้นของ [Astral=Buff:1301202][/Astral] หลังโต้กลับ เมื่อผู้เล่นคนใดใช้สุราน้ำเต้าหรือสุราทิพย์ Souri จะได้รับสถานะโต้กลับ [color=#91e1ff]1[/color] ชั้น เมื่อ [Astral=Buff:1301202][/Astral] สะสมครบ 4 ชั้น Souri จะได้รับ [Astral=Buff:1301203][/Astral] ทันที\nขณะ [Astral=Buff:1301203][/Astral] ทำงาน แต่ละชั้นของ [Astral=Buff:1301202][/Astral] จะเพิ่ม ATK ให้ Souri อีก [color=#94FF46]+1[/color] และสกิลใช้งานของ Souri จะวางสุราทิพย์แทนสุราน้ำเต้า สุราทิพย์ฟื้นฟู HP [color=#91e1ff]3[/color] หน่วยและมอบ [Astral=Buff:1301207][/Astral] เป็นเวลา [color=#91e1ff]2[/color] เทิร์น ผู้เล่นที่หยุดบนสุราทิพย์จะได้รับเร่งจังหวะด้วย เอฟเฟกต์นี้ไม่ซ้อนกับช่องเร่งจังหวะ
+STRSkillLocalConfigure	130130	เมื่อ Mamushi ใช้สุราน้ำเต้าหรือสุราทิพย์ เธอจะได้รับ [color=#91e1ff]1[/color] ชั้นของ [Astral=Buff:1261201][/Astral]
 STRSkillLocalConfigure	301110	ตัวละครและมอนสเตอร์ที่โจมตี KAngel หรือถูกโจมตีโดย KAngel จะได้รับสถานะ【แฟน】 ผู้ที่มีสถานะ【แฟน】จะลด ATK [color=#FF4646]1[/color] เมื่อสู้กับ KAngel การเอาชนะ KAngel จะล้างสถานะ【แฟน】ทั้งหมด
 STRSkillLocalConfigure	301120	ตัวละครและมอนสเตอร์ที่โจมตี KAngel หรือถูกโจมตีโดย KAngel จะได้รับสถานะ【แฟน】 ผู้ที่มีสถานะ【แฟน】จะลด ATK [color=#FF4646]1[/color] เมื่อสู้กับ KAngel
 STRSkillLocalConfigure	301130	เมื่อจับคู่กับ Ame-chan จะมีเรื่องมหัศจรรย์เกิดขึ้น
@@ -7409,8 +7628,9 @@ STRSkillLocalConfigure	1068120	มุ่งไล่ล่าผู้เล่�
 STRSkillLocalConfigure	1069110	เริ่มต้นพร้อม [Astral=Buff:10013][/Astral] 1 ชั้น\nหลังท้าสู้ผู้เล่น หากเป้าหมายมี [Astral=Buff:10013][/Astral] จะลบ [Astral=Buff:10013][/Astral] ของเป้าหมาย 1 ชั้น และเพิ่ม [Astral=Buff:10013][/Astral] ให้ตนเอง 1 ชั้น\nแต่ละชั้นของ [Astral=Buff:10013][/Astral] จะเพิ่ม ATK +1 และ DEF +1
 STRSkillLocalConfigure	1069120	หลังถูกปราบ ผู้ที่ปราบจะได้รับ [Astral=Buff:10013][/Astral] ทั้งหมดของกาน้ำชาผู้บาป
 STRSkillLocalConfigure	1070110	เมื่อเดินผ่านผู้เล่น จะขโมย Star Coin [color=#91e1ff]4[/color]\nทุก ๆ Star Coin 4 ที่ขโมยสะสม จะเพิ่มระยะเคลื่อนที่ [color=#94FF46]+1[/color]\nเมื่อถูก KO จะมอบ Star Coin ทั้งหมดที่ขโมยให้ผู้ชนะ หากไม่เคยขโมยเลยหรือขโมยสะสมได้อย่างน้อย 12 จะมอบเพิ่มอีก [color=#91e1ff]6[/color]
-STRSkillLocalConfigure	1071110	เมื่อเริ่มเทิร์น ได้รับ [Astral=Buff:10711102][/Astral] [color=#91e1ff]1[/color] ชั้น และสร้างดาเมจ [color=#91e1ff]3[/color] แก่ผู้เล่นทุกคนในระยะ 5 ช่องที่มี [Astral=Buff:10711103][/Astral] จากนั้นลบสถานะ [Astral=Buff:10711103][/Astral] จากเป้าหมาย<br>หาก HP ปัจจุบันไม่เกิน [color=#91e1ff]60%[/color][Astral=Blood:1071*0.6][/Astral] ของ HP สูงสุด จะได้รับ [Astral=Buff:10711102][/Astral] เพิ่มอีก [color=#91e1ff]1[/color] ชั้นเมื่อเริ่มเทิร์น
+STRSkillLocalConfigure	1071110	เมื่อเริ่มเทิร์น ได้รับ [color=#91e1ff]1[/color] ชั้นของ [Astral=Buff:10711102][/Astral] และสร้างดาเมจ [color=#91e1ff]3[/color] หน่วยแก่ผู้เล่นทุกคนในระยะ 5 ช่องที่มี [Astral=Buff:10711103][/Astral] จากนั้นลบ [Astral=Buff:10711103][/Astral] ออกจากผู้เล่นเหล่านั้น\nหาก HP ปัจจุบันไม่เกิน 60%[Astral=Blood:1071*0.6][/Astral] ของ HP สูงสุด เมื่อเริ่มเทิร์นจะได้รับ [Astral=Buff:10711102][/Astral] เพิ่มอีก [color=#91e1ff]1[/color] ชั้น
 STRSkillLocalConfigure	1071120	เมื่อถูกผู้เล่นท้าสู้ จะลด [Astral=Buff:10711102][/Astral] [color=#FF4646]1[/color] ชั้น และมอบ [Astral=Buff:10711103][/Astral] แก่ผู้เล่นคนนั้นเป็นเวลา [color=#91e1ff]2[/color] เทิร์น<br>สามารถสวนกลับได้เมื่อ HP ปัจจุบันไม่เกิน [color=#91e1ff]60%[/color][Astral=Blood:1071*0.6][/Astral] ของ HP สูงสุด
+STRSkillLocalConfigure	1071130	เมื่อเริ่มเทิร์น ได้รับ [color=#91e1ff]1[/color] ชั้นของ [Astral=Buff:10711102][/Astral] และสร้างดาเมจ [color=#91e1ff]3[/color] หน่วยแก่ผู้เล่นทุกคนในระยะ 5 ช่องที่มี [Astral=Buff:10711103][/Astral] จากนั้นลบ [Astral=Buff:10711103][/Astral] ออกจากผู้เล่นเหล่านั้น\nหาก HP ปัจจุบันไม่เกิน 60%[Astral=Blood:1071*0.6][/Astral] ของ HP สูงสุด เมื่อเริ่มเทิร์นจะได้รับ [Astral=Buff:10711102][/Astral] เพิ่มอีก [color=#91e1ff]1[/color] ชั้น และเปลี่ยนเป็นสร้างดาเมจแก่ผู้เล่นทุกคนในระยะ ไม่ว่าจะมี [Astral=Buff:10711103][/Astral] หรือไม่ก็ตาม
 STRSkillLocalConfigure	1072110	Active Skill โดนผู้เล่นแต่ละคน จะเพิ่ม ATK ถาวร [color=#94FF46]+1[/color]
 STRSkillLocalConfigure	1073110	เมื่อถูก KO ผู้ชนะจะได้รับการ์ดสิ่งปลูกสร้างจากพืชแบบสุ่ม [color=#91e1ff]1[/color] ใบ
 STRSkillLocalConfigure	1074110	เมื่อเริ่มเทิร์น หาก HP ปัจจุบันไม่เกิน [color=#91e1ff]50%[/color][Astral=Blood:1074*0.5][/Astral] ของ HP สูงสุด จะเพิ่ม ATK ถาวร [color=#94FF46]+1[/color]
@@ -7426,6 +7646,7 @@ STRSkinLocalConfigure	100103003	"อย่า... อย่าวิ่งเร�
 STRSkinLocalConfigure	100103004	นักศึกษามหาวิทยาลัยใส่ชุดมัธยมในมหาวิทยาลัยค่อนข้างผิดปกติ—อย่างน้อยที่มหาวิทยาลัย Kōrei ก็เป็นแบบนั้น\nถึง Alana จะไม่สนใจเรื่องชุด แต่ชุดมัธยมทำให้เธอโดดเด่นในหมู่นักศึกษา ในฐานะนักศึกษาเธอแต่งตัวได้อิสระ จึงไม่มีปัญหาอะไร\nจะเพราะความสะดวก หรือเหตุผลอื่น Alana นานๆ เปลี่ยนชุดที\nเพื่อนร่วมห้องรู้จักเธอในฐานะนักศึกษาชุดมัธยมคนเดิม ที่หน้าคะมำอยู่ทั่วมหาวิทยาลัย
 STRSkinLocalConfigure	100104003	"อะไร? นักเรียนมัธยมเป็นนินจาไม่ได้? คุณเห็นน้อยไป\nKomachi เป็นทั้งนักเรียนและนินจา แบบนั้นหายาก แต่มีอยู่\nนินจาตันตระไม่เคยกำหนดว่านินจาต้องใส่อะไร\nKomachi คิดเหมือนกัน: ไม่ควรมีกฎตายตัว ขอให้คล่องตัวและซ่อนตัวตนได้ก็พอ\nในฐานะนักเรียนหญิง เธอคิดว่าชุดนักเรียนสมบูรณ์แบบ—ซ่อนตัวตนได้และเคลื่อนไหวอิสระ ไม่ต้องคิดทุกเช้า: สวมรองเท้าแล้วไป ถ้าหนาวก็ใส่ถุงเท้า ชุดนี้ใช้ได้ทุกที่\nน่ารักก็พอแล้ว—ใครจะว่าอะไรล่ะ
 STRSkinLocalConfigure	100104004	Strangle ตื่นเต้นที่สุดเมื่อไหร่? ไม่ต้องสงสัย—ตอนเทศกาลวิญญาณ\nเนื่องจาก Honnsou-in และ Asterism Monastery เป็นสถาบันการกุศล ทั้งสองมีความสัมพันธ์ใกล้ชิดเสมอ\nระหว่างเทศกาลวิญญาณ Alana พาเด็กกำพร้าจาก Asterism Monastery มาเยี่ยม Honnsou-in และจัดปาร์ตี้ชุดเล็กๆ เพื่อสานสัมพันธ์\nทุกครั้ง Komachi ในฐานะ'ผู้ประสานงาน'ของ Honnsou-in จะลำบากใจ เธอไม่ใช่คนใส่ชุดฉูดฉาดเพื่อเอาใจคนอื่น\nแต่ต่อหน้าเด็ก... จะปฏิเสธได้ไงเมื่อพวกเขามองด้วยตามุ่นหวัง?\nโชคดีที่ Strangle เป็นอาร์ทิแฟกต์เวทมนตร์ที่รอบรู้\nรู้ดีว่าเด็กชอบหน้าตาอะไร จึงรับภาระนี้อย่างเป็นธรรมชาติ\n"ดูสิ! เล็บปุยปุย!" เด็กคนหนึ่งตะโกนขณะ Strangle แปลงร่างเป็นอุ้งเท้าหมาป่ายักษ์\n"ว้าว! เจ๋งจัง! ให้จับหน่อย!"\n"เฮ้! อย่าเบียด! ฉันจะจับก่อน!" เด็กๆ กรูกันรอบผ้าพันคอ\n"ว้าา~ นุ่มจัง... อุ่นใจจัง..." เด็กหญิงเบาะร้องดีใจ กอดอุ้งเท้าหมาป่าแน่น\nเปลี่ยนรูปไม่หยุด Strangle ต้องคิดรูปใหม่ตลอดและดูแลไม่ให้เด็กเจ็บ—โกลาหลสุดๆ\nข้างๆ Alana พยายามคุมระเบียบ—สีหน้าตื่นตระหนกบอกทุกอย่าง\nแต่อย่างไรก็ตาม...\nขอให้เด็กยิ้ม Strangle ยอมเป็นอะไรก็ได้
+STRSkinLocalConfigure	100104005	สำหรับนินจาฝีมือดี การปลอมตัวถือเป็นทักษะพื้นฐาน ไม่ว่าจะปลอมเป็นแม่ค้าท่ามกลางฝูงชนหรือคุณหนูที่เข้าออกแวดวงชนชั้นสูง ในสายตา Komachi การปลอมตัวก็เป็นเพียง “วิธีทำภารกิจให้สำเร็จ” เท่านั้น\nเมดก็ไม่ต่างกัน เธอแค่สวมชุดเมดและใช้ตัวตนใหม่นี้เป็นฉากบังหน้าในการทำหน้าที่นินจา แม้จะดูเป็นเมดผู้น่ารักไร้ที่ติ แต่เบื้องหลังเธอกลับซ่อนอุปกรณ์นินจาไว้เต็มตัว ทั้งช่องลับในกระเป๋าเดินทาง สายรัดต้นขา ขอบถุงเท้ายาวเหนือเข่า... แม้แต่เครื่องประดับศีรษะอันบอบบางก็ยังซ่อนอุปกรณ์สารพัดไว้\nส่วนอุปกรณ์ทำความสะอาดน่ะ... เดี๋ยวก่อน หมายถึง “ทำความสะอาด” แบบไหนกันแน่?
 STRSkinLocalConfigure	100105003	"ข้างนอกเกือบสี่สิบองศา! รู้ไม่รู้? สี่! สิบ! องศา!"\n"อืม รู้ รู้" พนักงานตอบอย่างรำคาญ กำลังตรวจอุปกรณ์อยู่\nPadman ระดมร้องทุกข์ต่อ\n"ทั้งตัวฉันถูกห่อในนั่น! รู้สึกเหมือนถูกนึ่งทั้งเป็น!"\n"จอเปียกเหงื่อทั้งหมด! สีหน้าสลับไปมาเอง!"\n"อ๊าก ราวฝันร้าย! ฉันเกือบเทน้ำทั้งขวดใส่หน้าตัวเอง! โชคดีที่ฉันกันน้ำได้!"\nพนักงานบ่น "ก็ถ้าเทต่อไปเรื่อยๆ คงไม่ต้องมาติดกับเธอที่นี่"\n"พูดได้ไง?!" Padman ตะโกน "ขี้เกียจ นั่งอ่านหนังสือพิมพ์ตอนทำงาน! จะมาเทียบกับฉันที่ใส่ชุดมาสคอตใต้แดดจัดเกือบสี่สิบองศาได้ยังไง? ฉันคิดแต่ผลงานของบริษัทก่อนเสมอ!"\n"โอเค โอเค แล้วทำไมไม่คิดเรื่องที่เธอทำไปก่อนหน้านี้ล่ะ?" เจ้าหน้าที่รักษาความปลอดภัยแทรก ก้มหน้าตรวจอุปกรณ์สัญญาณ\n"เฮ้ย พวก! ฉันแค่ช่วยเขาออกจากชุดมาสคอต! ฉันไม่ได้ทำอะไรผิด! ถ้าไม่มีฉัน เขาคือต้มตายในนั้นแน่! ฉันทำเพื่อเขา!"\nเจ้าหน้าที่ไม่ยอมมอง Padman และไม่อยากตอบอีก เขาปิดสวิตช์ไมโครโฟน ทิ้งให้มันโบกส่ายอย่างบ้าคลั่งหลังกระจก\nมันไม่มีความทรงจำเรื่องความผิดของตัวเอง ราวกับไม่เคยเกิดขึ้นเลย
 STRSkinLocalConfigure	100106003	ชีวิตมัธยมของ Papara สมบูรณ์แบบมาก\nโรงเรียนสถาบันชนชั้นสูงมีกิจกรรมชมรมมากมาย—ขี่ม้า ยิงปืน ละคร วงดนตรี และอีกมาก\nPapara ไม่เพียงเข้าชมรมละคร ยังตั้งวงดนตรีเล็กกับเพื่อนๆ อีกด้วย\n\nอุปกรณ์ประกอบฉากของชมรมเป็นระดับพรีเมียม\nเช่นครั้งนี้เธอรับบททหารราชวงศ์ แล้วทางโรงเรียนมีดาบและชุดตัดเย็บพิเศษเฉพาะสำหรับละคร—หรูหรามาก\nก็... นี่คงเป็นแค่วันธรรมดาของโรงเรียนชนชั้นสูง
 STRSkinLocalConfigure	100106004	ทุกปี เมื่อใบไม้ผลัดฤดูจากใบไม้ผลิสู่ฤดูร้อน Papara เก็บของออกไปตั้งแคมป์ช่วงต้นฤดูร้อนเป็นประจำ\n\nธรรมเนียมนี้ย้อนไปสมัยมัธยม โรงเรียนมีสิ่งอำนวยความสะดวกครบครันอย่างน่าประหลาด เพราะมีภูเขาใหญ่กับลำธารอยู่ข้างหลัง ภูเขาแห่งนั้นเปิดให้นักเรียนใช้เท่านั้น Papara และเพื่อนมัธยมจึงมักใช้ฤดูร้อนต้นฤดูที่อากาศดีไปแคมป์\n\nเมื่อเวลาผ่าน การแคมป์ปีละครั้งกลายเป็นธรรมเนียม แม้โตแล้วก็ยังอยู่กับเธอ เธอเคยชวน A.L. Boss และ Ruby เพื่อนร่วมงาน แต่ Boss ยุ่ง เพื่อนร่วมงานปฏิเสธว่า "อยากไป แต่จะนอนบนภูเขาให้สบายได้ยังไง?!" Papara ผิดหวังนิดหน่อยตอนแรก แต่หลังไปคนเดียวหลายครั้ง ค่อยๆ พบความสุขของการแคมป์คนเดียว\n\nชงกาแฟเย็นจากน้ำแข็งที่เตรียมไป ทำอาหารสำเร็จรูปด้วยเตาแก๊สกระป๋องจนออกมาอร่อย ตั้งเก้าอี้ใต้แสงที่ลอดผ่านใบไม้เพื่ออ่านหนังสืออย่างสงบ ก่อนหลับไปกับเสียงแมลงหลังค่ำ มันเป็นความสุขเรียบง่ายในแบบของมันเอง\n\nทีละน้อย การตั้งแคมป์แบบนี้ก็กลายเป็นช่วงเวลาเงียบสงบที่เป็นของ Papara เพียงคนเดียว
@@ -7473,8 +7694,10 @@ STRSkinLocalConfigure	100122003	พอถึงฤดูกาลนี้ Megas
 STRSkinLocalConfigure	100122004	“นี่เธอทำอะไรเสียงโครมครามอยู่ในโรงรถทั้งบ่ายน่ะ?”\nMoses จิบเครื่องดื่มสูตรทดลองที่ Kurara เหลือไว้ พลางมอง Megas ในชุดหรูหราผิดปกติ\n“ลูกศิษย์ฉันกำลังตั้งคณะมายากล ฉันก็มีโชว์ด้วย เลยต้องซ้อมหน่อยน่ะ” Megas ตอบสบาย ๆ ถอดถุงมือแล้วนั่งลงที่บาร์\nKurara เลื่อนแก้วน้ำผลไม้ให้ Megas แล้วถอนหายใจ\n“ระวังของพวกนั้นด้วยนะ ถ้าพังขึ้นมาใครบางคนคงเสียใจแย่”\n“ไม่ต้องห่วง ฉันซ้อมกับด้ามไม้ถูพื้นที่ Nancy ทำพังจนต้องทิ้งก่อน น้ำหนักใกล้เคียงกัน ฉันไม่เอาของล้ำค่าขนาดนั้นมาลองเล่นตั้งแต่แรกหรอก”\nMegas เหลือบมอง Moses ก่อนหลบสายตาเหมือนกำลังกลั้นหัวเราะ\nMoses ขมวดคิ้ว “เดี๋ยวก่อนนะ คณะมายากล? ด้ามไม้ถูพื้น? แล้วของล้ำค่าอะไรที่ Kurara เป็นห่วงน่ะ?”\nMegas กระดกน้ำผลไม้หมดในสองอึก แล้วเดินกลับโรงรถโดยไม่ตอบอะไร ทิ้ง Moses ไว้กับความเงียบที่ชวนให้ใจคอไม่ดี\n“อ๋อ จริงสิ” Kurara นึกขึ้นได้ “Megas ฝากบอกว่าขอยืม 'ลูกรัก' สองชิ้นของนายไปก่อน ถือเป็นค่าชดเชยที่นายชอบแซวเธอไม่หยุด”\n“เธอทำอะไรรรร?!”\nในที่สุด Moses ก็เข้าใจทุกอย่าง\nแต่น่าเสียดาย...มันสายเกินไปแล้ว
 STRSkinLocalConfigure	100123003	“พี่มาแล้วเหรอคะ” Zhao เงยหน้าขึ้นจากใต้ปีกหมวกเมื่อเห็นพี่สาว\n\n“อืม เพิ่งคุยกับตาแก่เสร็จ เขาอยากให้พี่ไปไหว้บรรพบุรุษที่เขาวงกต”\nFen กางเก้าอี้สนามแล้วหยิบเหยื่อตกปลาจากกล่องมาเตรียมใส่เบ็ด\n\n“บางครั้งฉันก็คิดนะคะ...ถ้าเราเป็นแค่พี่น้องธรรมดา ๆ ก็คงดี”\nZhao จัดเตรียมคันเบ็ดอย่างชำนาญ\n“วันหยุดสุดสัปดาห์ก็มานั่งตกปลาสบาย ๆ ด้วยกัน หรือปิ้งบาร์บีคิวริมทะเล...คงมีความสุขดีนะคะ”\n\n“เรื่องของตระกูลพวกนั้น...สักวันก็ต้องตกมาถึงพวกเราอยู่ดี”\nFen วาดแขนเหวี่ยงเบ็ดออกไป\n\n“อ๊ะ! พี่คะ! เร็วเข้า ช่วยหน่อย!”\nจู่ ๆ คันเบ็ดในมือ Zhao ก็กระตุกอย่างรุนแรง\n\n“แรงเยอะจังเลย!”\nมือเธอเริ่มซีดเพราะกำคันเบ็ดแน่นเกินไป\n\n“มาแล้ว ๆ! เห็นแล้ว...โอ้โห ตัวใหญ่มาก!”\nปลาสีดำตัวมหึมาโผล่พ้นผิวน้ำ\n\n“วันนี้โชคเข้าข้างเรานะคะ” Zhao หันไปยิ้มให้พี่สาว\n\n“นั่นสิ...ท่าทางวันนี้จะได้ปลาเยอะเลย ช่างเถอะ! ฉันจะตกจนกว่าพระอาทิตย์ตกเลย!”\nFen กลับไปนั่งบนเก้าอี้ตัวเล็ก\n\n“อื้ม! ฉันจะอยู่เป็นเพื่อนค่ะ~”\n\nได้ใช้เวลาอย่างมีความสุขกับพี่สาวน้องสาวด้วยกัน นั่นแหละคือสิ่งสำคัญที่สุด\nส่วนเรื่องอื่น...เอาไว้ค่อยคิดหลังตกปลาเสร็จก็ได้
 STRSkinLocalConfigure	100123004	บุตรหลานตระกูล Ji จะค่อย ๆ ปลุกพลังเทพภายในตัวเมื่อเติบโตขึ้น พลังเหล่านี้มักเชื่อมโยงกับสัตว์ในตำนานหรือสิ่งมีชีวิตต่าง ๆ\nผู้ก่อตั้งตระกูลรุ่นแรก Lady Ji Tian ปลุกพลังของหงส์เพลิงขึ้นมา ทำให้หงส์เพลิงกลายเป็นสัญลักษณ์ทางจิตวิญญาณของตระกูล และอาจกล่าวได้ว่าการตื่นขึ้นของพลังนี้นำไปสู่การก่อตั้ง Phoenix Sky Club\n\nในยุคปัจจุบัน ตระกูล Ji มีบุตรสาวแสนน่ารักสองคน พี่สาว Fen เป็นเด็กซุกซน กระตือรือร้น เปี่ยมพลังและความอยากรู้อยากเห็น\nส่วนน้องสาว Zhao อ่อนโยน ใจดี สุภาพเรียบร้อย\nทว่าการปลุกพลังเทพไม่ได้ขึ้นอยู่กับอายุ บางคนมีพลังตั้งแต่เกิด ขณะที่บางคนต้องใช้เวลาเรียนรู้ตัวเองจนเป็นผู้ใหญ่กว่าจะปลุกพลังได้\n\nสองพี่น้องอยู่ในกลุ่มหลัง และกลับเป็น Zhao ผู้น้องที่ปลุกพลังได้ก่อน พลังของเธอคือ 'ไป๋เจ๋อ' (Bai Ze) สัตว์เทพมงคลที่เล่าขานกันว่ารอบรู้ทุกสรรพสิ่งและขับไล่สิ่งชั่วร้ายได้\nพลังอันอ่อนโยนนี้เข้ากับตัวตนของ Zhao อย่างยิ่ง จนหลายคนเชื่อว่าเป็นพลังที่เกิดมาเพื่อเธอโดยเฉพาะ\n\nเมื่อสวมอาภรณ์พิธีการที่ได้รับพรจาก Bai Ze เธอก็เปรียบเสมือนตัวแทนแห่ง 'ความเป็นสิริมงคล' อย่างแท้จริง
+STRSkinLocalConfigure	100123005	“พี่ Fen พี่ Fen มานี่เร็ว! อย่ามัวแต่จิบชาอยู่ตรงนั้นสิ พ่อบ้านให้เราเขียนกลอนคู่จีนผืนใหญ่ไปแขวนข้างนอกนะคะ!”\nกระดาษเซวียนผืนมหึมาถูกคลี่อยู่กลางลาน กว้างแทบจะเท่าลานทั้งลาน Fen ถือถ้วยชาอยู่ในมือ กำลังจะถามว่าเกิดอะไรขึ้น แต่น้องสาวที่แต่งตัวแปลกตาก็ร้องเรียกเธออย่างตื่นเต้นเสียก่อน\n“วันนี้เป็นเทศกาลเก็บเกี่ยว แถมยังเป็นวันชมจันทร์ด้วยนะคะ! ทุกคนแต่งตัวน่ารักกันหมด ฉันก็เตรียมชุดไว้ให้พี่ด้วยค่ะ!” เมื่อเห็นหูกระต่ายบนศีรษะน้องสาวกระดิกไปมา Fen ก็หันหลังเร่งฝีเท้าทันที เธอไม่มีทางยอมเป็นตุ๊กตาให้ Zhao จับแต่งตัวแน่\n“ไม่เอาล่ะ เดี๋ยวฉันมีประชุมกับฝ่ายการเงิน ระวังตอนแขวนกลอนด้วยนะ” Fen ตะโกนโดยไม่หันกลับมา\nZhao เริ่มลงมือไปแล้ว เธอจุ่มพู่กันจีนด้ามมหึมาลงในหมึก ก่อนตวัดไปมาบนกระดาษอย่างคล่องแคล่วจนน่าประหลาดใจ หลังเขียนตัวอักษรตัวใหญ่หลายตัวเสร็จ เธอก็ปักพู่กันยักษ์ลงกับพื้นเหมือนไม้เท้า แล้วตะโกนเรียกพี่สาวที่กำลังหนี\n“งั้นเดี๋ยวฉันเอาชุดไปให้พี่ทีหลังนะคะ! วันนี้ถึงตาพวกเราต้องไปเสิร์ฟอาหารแล้วนะคะ!”\nดูท่าว่าวันนี้ Fen คงหนีไม่พ้นจริง ๆ
 STRSkinLocalConfigure	100124003	“ท-ท่านผู้นำ...วันนี้จะออกไปในชุดนั้นจริง ๆ เหรอคะ?”\nRin มองภาพในกระจกด้วยน้ำเสียงสั่นเครือ\n“สบายใจได้ ๆ ไม่ต้องกลัว แค่ตามฉันมา วันนี้เธอเป็นพี่สาวของฉันนะ!” Teru หัวเราะแล้วโพสท่าหน้ากระจกอย่างถูกใจ\n“ต-แต่ว่าฉันแทบไม่เคยออกจากศาลเจ้าเลย จู่ ๆ จะให้ไปเทศกาลแบบนี้...”\n“ถ้าไปตาม Misaki กลับมาได้ ฉันจะปล่อยเธอไปทำอย่างอื่น แต่ถ้าทำไม่ได้ก็ต้องไปด้วยกัน”\nRin ทรุดนั่งกับพื้น น้ำตาแทบไหล\nวันนี้คือเทศกาลวิญญาณ ผู้คนทั่ว Union City พากันแต่งคอสเพลย์ Teru ผู้ชื่นชอบชุดกระโปรงหรูหราอยู่แล้วไม่มีทางพลาดงานนี้ แต่ Misaki ซึ่งปกติทำหน้าที่องครักษ์กลับลาหยุดอย่างไม่ทราบสาเหตุ Teru เลยลาก Rin ที่กำลังพักร้อนกลับมาเป็นบอดี้การ์ดแทน\n“พี่ Rin ที่น่ารักของฉัน~ วันนี้ช่วยไปเที่ยวงานด้วยกันได้ไหมจ๊ะ?”\nท่านผู้นำในชุดพยาบาลโน้มตัวเข้ามา ดวงตาข้างหนึ่งถูกปิดด้วยผ้าปิดตา รอยยิ้มชวนหลงใหลกลับทำให้ Rin ยิ่งขนลุก\n“ท-ท-ท่านผู้นำ...อี๊!!!”\nTeru กระซิบที่ข้างหูเธอ\n“วันนี้ฝากตัวด้วยนะ...พี่สาว~”\n“ค-ค่ะ...” Rin ตอบอย่างแทบจะร้องไห้
 STRSkinLocalConfigure	100124004	ในจินตนาการของ Ren คณะมายากลที่ดีต้องมีมากกว่ากลลวงธรรมดา ๆ ต้องผสมผสานการแสดงหลากหลายรูปแบบจึงจะดึงดูดผู้ชมและสร้างโชว์ที่ไม่มีวันลืม\nเธอมีความคิดหนึ่งที่รู้สึกว่าดีเกินกว่าจะปล่อยผ่าน\nหากชวน Teru ผู้มีชื่อเสียงโด่งดังมาร่วมคณะได้ก็คงสมบูรณ์แบบ ด้วยเสน่ห์ตามธรรมชาติและความคิดสร้างสรรค์ด้านท่าเต้น Teru ย่อมโดดเด่นบนเวทีและมอบการแสดงอันน่าตื่นตาตื่นใจ\nใครบ้างจะไม่อยากเห็นคนเก่งอย่าง Teru ร้องเพลงเต้นรำต่อหน้าผู้ชม?\n“แต่ว่า...จะเป็นไปได้จริง ๆ เหรอ?” Mimi มองรูปชุดที่เตรียมไว้\n“คนใหญ่คนโตระดับนั้นจะยอมรับคำเชิญจริง ๆ เหรอ?”\nRen คว้าภาพจากมือ Mimi ด้วยแววตาเปี่ยมความมั่นใจ\n“นั่นแหละถึงได้เตรียมชุดนี้ไว้ให้เธอโดยเฉพาะไง แล้วก็...” Ren เคาะรูปเบา ๆ พลางยิ้มอย่างรู้ทัน\n“ด้วยนิสัยของ Teru เธอไม่มีทางอดใจไหว ต้องตอบตกลงแน่นอน!”\nRen มั่นใจเต็มร้อย\nราวกับมองเห็นร่างเล็ก ๆ เปล่งประกายอยู่บนเวที ใช้เสียงร้องตรึงใจผู้ชมมากมายแล้ว
+STRSkinLocalConfigure	100124005	ในเมืองที่เต็มไปด้วยตึกสูงระฟ้า การหาที่ดินผืนใหญ่พอจะทำเป็นไร่นาไม่ใช่เรื่องง่าย ไม่มีใครจำได้แล้วว่าตอนแรกตั้งใจจะสร้างอะไรบนที่ดินผืนนี้ โครงการถูกระงับไปด้วยเหตุผลที่ไม่มีใครรู้ ทำให้พื้นที่กว้างใหญ่แห่งนี้กลายเป็นทุ่งชนบทกลางป่าคอนกรีต ทุกปีรัฐบาล Union City จะเปิดให้ประชาชนโหวตว่าจะปลูกพืชชนิดใด ปีที่แล้วดอกทานตะวันชนะการโหวต จึงเปลี่ยนพื้นที่แห่งนี้ให้กลายเป็นทะเลดอกไม้สีทอง\nTeru เป็นคนชอบบรรยากาศคึกคัก แต่เพราะงานทำให้ Misaki ต้องคอยรั้งเธอไว้ที่ศาลเจ้า Mikami อยู่เสมอ เธอจึงมีเวลาว่างเพียงน้อยนิดที่จะพา Misaki ไปชมทุ่งใกล้ ๆ และดื่มด่ำกับความงามของฤดูใบไม้ร่วง เมื่อมีดอกทานตะวันเล็ก ๆ ประดับผมและชุดสีขาวเรียบพลิ้วไหว เธอก็ดูเปล่งประกายอยู่ใต้แสงแดด Tennoji Masao และ Rin ที่ถูกลากมาด้วยเพื่อเป็นเพื่อนกลับดูไม่ผ่อนคลายนัก เพราะหน้าที่สำคัญที่สุดของพวกเธอคือคอยคุ้มกัน Teru ถึงอย่างนั้น โอกาสที่ทั้งสี่คนจะได้ใช้เวลาด้วยกันก็มีไม่บ่อยนัก พวกเธอจึงต้องขอบคุณทุ่งทานตะวันแห่งนี้จริง ๆ
 STRSkinLocalConfigure	100125003	“มองออกใช่ไหมว่าเป้าหมายเป็นใคร?” เสียง Kurara ดังผ่านหูฟัง\n“อืม ต่อให้กลายเป็นเถ้าก็ยังจำได้” Moses ตอบสบาย ๆ ก่อนยิ้มให้ 'เพื่อนร่วมงาน' ข้างตัว\n“ฮ่า ๆ ชุดนี้เหมาะกับนายดีนี่” Kurara หัวเราะคิก\n“งั้นเหรอ? ฉันว่ามันยังขาดความเจ้าชู้นิดหน่อยนะ” Moses ตอบ\n“แค่นี้ก็พอแล้ว ขืนเพิ่มอีกก็เว่อร์เกินไป!” Kurara ยังแซวไม่เลิก\n“เป้าหมายมาแล้ว ได้เวลาเริ่มงาน พ่อหนุ่มรูปหล่อ” เสียง Nancy Lu แทรกเข้ามาทางหูฟัง\n“เฮ้ย ๆ อย่าเรียกแบบนั้นสิ ยัยสาวติดบ้าน...”\n“พอได้แล้ว เลิกเถียงกันแล้วตั้งใจทำงาน” เสียงหัวหน้าตัดบท\n“รับทราบ” ทุกคนตอบพร้อมกัน\nวันนี้เป็นภารกิจพิเศษ เมื่อทำงานนี้เสร็จ ทุกคนจะได้พักยาวสักที\nความรู้สึกคล้ายทำงานวันศุกร์เสร็จแล้วเตรียมต้อนรับวันหยุดสุดสัปดาห์\nMoses จึงเริ่มภารกิจด้วยอารมณ์สดใสเป็นพิเศษ
 STRSkinLocalConfigure	100126003	“เธอเริ่มฝึกตั้งแต่เมื่อไรกันเนี่ย? สุดยอดไปเลย!” Teru ชมการแสดงของ Mamushi อย่างตื่นเต้นราวกับเด็กน้อย\n\n“ท่านผู้นำอาจไม่ทราบ เมื่อสองสามปีก่อนฉันยังขี้อายมากค่ะ แค่ปรากฏตัวต่อหน้าคนในตระกูลก็เกร็งแล้ว” Mamushi รับผ้าขนหนูจากน้าของตน “วันหนึ่งคุณน้าพาฉันแอบไปลานสเก็ตน้ำแข็งใกล้บ้าน พอเห็นผู้คนเต้นรำบนผิวน้ำแข็งก็อดหลงใหลไม่ได้ค่ะ”\n\n“ตอนนั้นฉันชวนกลับแล้วนะ แต่เธอขอดูอีกนิดไม่ยอมไป สุดท้ายฉันเลยหลุดปากว่า 'งั้นลองเล่นเองเลยไหมล่ะ?' เท่านั้นแหละ ฝึกมาตลอดจนถึงตอนนี้” Souri ยักไหล่อย่างปลง ๆ\n\n“แต่ฝึกมาตั้งนานก็ยังทำได้แค่กระโดดสองรอบเองค่ะ” Mamushi ถอนหายใจ Teru มองออกว่าเธอไม่ค่อยพอใจความก้าวหน้าของตัวเอง\n\n“คิดอะไรของเธอเนี่ย! เล่นเป็นงานอดิเรกแล้วยังทำได้ขนาดนี้ก็ดีมากแล้วนะ!” Souri พูดเสียงแข็งขณะรับผ้าขนหนูกลับ\n\n“นั่นสิ ฉันก็ว่าเก่งมากเลย ขอชมอีกสักหน่อยได้ไหม?” Teru รอการแสดงต่ออย่างใจจดใจจ่อ\n\nMamushi ถอนหายใจ “งั้นฉันจะลองอีกสักสองท่านะคะ หากดูไม่สวยงามก็ขออภัยด้วยค่ะ ท่านผู้นำ”\n\nขณะเฝ้าชม Teru นึกถึงคำบรรยายการแข่งขันสเก็ตลีลาที่เคยได้ยินในโทรทัศน์\n“พักตร์ผ่องดั่งหยก กายสง่าดั่งสน\nพลิ้วไหวดั่งหงส์ร่อน อ่อนช้อยดั่งมังกรเหิน”
 STRSkinLocalConfigure	100127003	“คุณนักสืบชักช้าเหลือเกินนะ~ อุตส่าห์ซื้อตั๋วหนังไว้ให้ แล้วยังจะเลี้ยงข้าวด้วย!” Bonnie บ่นผ่านโทรศัพท์ด้วยน้ำเสียงกึ่งหยอกล้อ\n“เธอเป็นบ้าอะไรเนี่ย?! ใครเขาจู่ ๆ ก็ซื้อตั๋วหนังเรียกคนออกไปกันแบบนี้?!” เสียง Fanny ดังลั่นจากปลายสายจน Bonnie ต้องยกมือถือออกห่างหู\n“ก็แค่ชวนดูหนังแล้วกินข้าวด้วยกัน ต้องอธิบายอะไรกันนักหนา?”\n“ไม่มีทางที่เธอจะชวนฉันออกไปโดยไม่มีเหตุผลหรอก ไม่เชื่อเด็ดขาด!” Fanny ยังซักไซ้ไม่เลิก\n“ก็นะ คุณนักสืบ วันนี้ฉันว่างพอดี เธอก็รู้ว่าฉันไม่ค่อยมีเพื่อน มีแต่คู่กัดกับศัตรูเต็มไปหมด”\n“ฉันไม่ใช่เพื่อนเธอย่ะ! บอกมานะว่ามีเรื่องอะไร!” Fanny เสียงดังขึ้นอีก\n“ไว้เธอมาถึงแล้วค่อยบอก...อ๊ะ ไม่สิ ไว้ดูหนังกับกินข้าวกับฉันเสร็จก่อนค่อยบอก!” Bonnie หัวเราะเจ้าเล่ห์\n“เหลวไหล! บอกมาเดี๋ยวนี้!”\n“งั้นตกลงนะ รออยู่หน้าโรงหนังล่ะ”\n“หา? เดี๋ยวสิ! บอกมาก่อน—” ตู๊ด ตู๊ด ตู๊ด...\n“ยัยบ๊องเอ๊ย จะถามอะไรนักหนา” Bonnie พึมพำแล้วยิ้มขณะวางสาย
@@ -7512,6 +7735,7 @@ STRSkinSellLocalConfigure	2025120	แพ็กเกจชุดลำลอง�
 STRSkinSellLocalConfigure	2026020	แพ็กเกจพิเศษฉลองครบรอบ
 STRSkinSellLocalConfigure	2026040	สาวเทรนดี้
 STRSkinSellLocalConfigure	2026070	แพ็กเกจกีฬาพลังเดือด
+STRSkinSellLocalConfigure	2026110	แพ็กซีรีส์จิตวิญญาณเมด
 STRSpectateLocalConfigure	1001	กรอกรหัสผู้รับชม
 STRSpectateLocalConfigure	1002	ไม่สามารถดูรายละเอียด Bot ได้
 STRSpectateLocalConfigure	1003	ยืนยันจะออกจากห้องนี้?

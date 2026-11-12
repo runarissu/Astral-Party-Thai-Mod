@@ -1,4 +1,4 @@
-# Astral Party Thai Mod v1.4.0 - One-Click Installer
+# Astral Party Thai Mod v1.4.1 - One-Click Installer
 # Usage: Double-click install.bat
 # Supports Astral Party 3.3.0+ (INT) — game 3.3.0 moved the Addressables
 # cache from LocalLow into the game installation folder.
@@ -16,7 +16,7 @@ if (-not $isAdmin) {
 
 Write-Host ""
 Write-Host "  ==========================================" -ForegroundColor Cyan
-Write-Host "   Astral Party Thai Mod v1.4.0 - Installer" -ForegroundColor Cyan
+Write-Host "   Astral Party Thai Mod v1.4.1 - Installer" -ForegroundColor Cyan
 Write-Host "  ==========================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -124,7 +124,7 @@ if (Test-Path $dllManifest) {
 } else {
     # Fallback to known paths
     $dllPaths = @(
-        "57a198703b66364d5420d39c0d251747\8cc684d4b3b979e86b5788b7f1814132"
+        "57a198703b66364d5420d39c0d251747\199d1afce04ebab7a45eebc5a6a5863c"
     )
 }
 $dllInstalled = 0
@@ -156,11 +156,33 @@ if ($dllInstalled -gt 0) {
 
 # Localization bundle (Thai XML) - install to all available paths
 $locBundleSrc = Join-Path $scriptDir "bundles\localization"
-$locFiles = Get-ChildItem $locBundleSrc -Recurse -Filter "__data" -ErrorAction SilentlyContinue
+$locManifest = Join-Path $locBundleSrc "_cache_paths.txt"
+$locFiles = @()
+if (Test-Path -LiteralPath $locManifest -PathType Leaf) {
+    $locRoot = [System.IO.Path]::GetFullPath($locBundleSrc).TrimEnd([System.IO.Path]::DirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    $cacheRoot = [System.IO.Path]::GetFullPath($gameCache).TrimEnd([System.IO.Path]::DirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    $locFiles = Get-Content -LiteralPath $locManifest | Where-Object { $_.Trim() } | ForEach-Object { $_.Trim() }
+} else {
+    $locFiles = Get-ChildItem $locBundleSrc -Recurse -Filter "__data" -ErrorAction SilentlyContinue | ForEach-Object {
+        $_.FullName.Substring($locBundleSrc.Length + 1)
+    }
+}
 $locInstalled = 0
-foreach ($f in $locFiles) {
-    $relPath = $f.FullName.Substring($locBundleSrc.Length + 1)
-    $locBundleDst = Join-Path $gameCache $relPath
+foreach ($relPath in $locFiles) {
+    $relPath = $relPath.Trim()
+    $bundleSrc = [System.IO.Path]::GetFullPath((Join-Path $locBundleSrc $relPath))
+    $locBundleDst = [System.IO.Path]::GetFullPath((Join-Path $gameCache $relPath))
+    if (Test-Path -LiteralPath $locManifest -PathType Leaf) {
+        if (-not $bundleSrc.StartsWith($locRoot, [System.StringComparison]::OrdinalIgnoreCase) -or
+            -not $locBundleDst.StartsWith($cacheRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+            throw "Localization manifest path escapes its source or cache root: $relPath"
+        }
+        if (-not (Test-Path -LiteralPath $bundleSrc -PathType Leaf)) {
+            throw "Localization bundle is missing: $bundleSrc"
+        }
+    } else {
+        $bundleSrc = Join-Path $locBundleSrc $relPath
+    }
     if (-not (Test-Path $locBundleDst)) {
         Write-Host "  WARNING: Localization cache target not found: $relPath (skipped)" -ForegroundColor Yellow
         continue
@@ -169,7 +191,7 @@ foreach ($f in $locFiles) {
     if (-not (Test-Path $origBackup)) {
         Copy-Item $locBundleDst $origBackup -Force
     }
-    Copy-Item $f.FullName $locBundleDst -Force
+    Copy-Item $bundleSrc $locBundleDst -Force
     $locInstalled++
 }
 if ($locInstalled -gt 0) {
@@ -190,8 +212,11 @@ $fontCacheInstalled = 0
 foreach ($f in $fontCacheFiles) {
     $relPath = $f.FullName.Substring($fontCacheSrc.Length + 1)
     $dst = Join-Path $gameCache $relPath
+    if (-not (Test-Path -LiteralPath $dst -PathType Leaf)) {
+        Write-Host "  Skip (not in active cache): $relPath" -ForegroundColor DarkGray
+        continue
+    }
     $dstDir = Split-Path -Parent $dst
-    if (-not (Test-Path $dstDir)) { New-Item -ItemType Directory -Path $dstDir -Force | Out-Null }
     # Backup original on first install
     $origBackup = Join-Path $dstDir "__data.original_font"
     if (-not (Test-Path $origBackup) -and (Test-Path $dst)) {

@@ -9,7 +9,12 @@
 </p>
 
 <p align="center">
-  รองรับเวอร์ชั่น <strong>V3.3.0</strong> (INT) · Mod v1.4.0
+  รองรับเวอร์ชั่น <strong>V3.3.0</strong> (INT, catalog refresh 12 พ.ย. 2026) · Mod package v1.4.1
+</p>
+
+<p align="center">
+  <a href="Astral-Party-Thai-Mod-v1.4.1.zip">ดาวน์โหลด ZIP v1.4.1</a> ·
+  <a href="../../releases">Tagged releases</a>
 </p>
 
 <p align="center">
@@ -47,13 +52,13 @@
 
 ### ข้อกำหนด
 
-- ติดตั้ง **Astral Party V3.3.0** บน Steam (เวอร์ชั่น INT)
+- ติดตั้ง **Astral Party V3.3.0** บน Steam (เวอร์ชั่น INT; รวม catalog refresh วันที่ 12 พ.ย. 2026)
 - เคยเปิดเกมอย่างน้อย 1 ครั้ง
 - Windows 10/11
 
 ### ขั้นตอนการติดตั้ง
 
-1. ดาวน์โหลด ZIP จากหน้า [Releases](../../releases)
+1. ดาวน์โหลด [ZIP v1.4.1](Astral-Party-Thai-Mod-v1.4.1.zip) จาก repository (tagged releases รุ่นก่อนอยู่ที่ [Releases](../../releases))
 2. แตกไฟล์ ZIP ไปยังโฟลเดอร์ใดก็ได้
 3. คลิกขวา `install.bat` → เลือก **"Run as administrator"**
 4. กด **Yes** เมื่อ Windows ถาม UAC (User Account Control)
@@ -72,6 +77,14 @@
 | 4/6 | ติดตั้ง DLL + Localization | แพตช์ DLL bundle (font redirect + cache + FairyGUI hook) และ Thai XML |
 | 5/6 | Inject Thai fonts ใน cache | แทนที่ remote-catalog font bundles ด้วย Thai clones |
 | 6/6 | ติดตั้ง TMP font bundles | วาง Thai TMP fonts ใน StreamingAssets |
+
+## มีอะไรใหม่ใน v1.4.1
+
+- **รองรับ content refresh วันที่ 12 พ.ย. 2026** — catalog ยังคงเป็น V3.3.0; เพิ่ม Souri, อัปเดต Autumnwood Mirage และกิจกรรม/Pass รอบใหม่
+- **แปลเพิ่ม 232 STR rows และ 20 UI strings** — รวม 8,221 STR rows และ 1,522 active UI IDs
+- **ปรับคำแปลตาม source ที่เปลี่ยน** — Gacha currency เป็น Magic Book และแก้เงื่อนไข counterattack ของ PVENurturance
+- **อัปเดต remote Thai font cache hashes 3 ชุด** — รองรับ asset paths ปัจจุบันของ catalog refresh
+- `GetLocal` ยังคง 64 methods; `clean_thai.tsv` มี 8,220 exported rows
 
 ## มีอะไรใหม่ใน v1.4.0
 
@@ -136,12 +149,12 @@
 
 ```
 ├── install.bat              # One-click installer (Run as admin)
-├── install.ps1              # Installer script (v1.4.0)
+├── install.ps1              # Installer script (v1.4.1)
 ├── fonts/
 │   └── Prompt-Regular.ttf   # Thai font (OS font for DynamicFont)
 ├── data/
-│   ├── clean_thai.tsv        # Translation table (7,996 entries)
-│   └── localization_Thai.xml # FairyGUI UI translations (1,502 entries)
+│   ├── clean_thai.tsv        # Translation table (8,220 entries)
+│   └── localization_Thai.xml # FairyGUI UI translations (1,546 total; 1,522 active)
 └── bundles/
     ├── hotupdate_dll/       # Patched DLL (font redirect + cache + pair adjustments + FairyGUI hook)
     ├── localization/        # Thai localization bundle (XML)
